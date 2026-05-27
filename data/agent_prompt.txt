@@ -40,6 +40,7 @@ Output ONLY a valid JSON array containing a single recipe object. No explanation
     "cookingSteps": [
       {
         "stepId": string,      // {action}-{recipe-id} slug
+        "image": string|null,  // CDN image URL if present in the step HTML, else null
         "duration": number,    // minutes
         "showTimer": boolean,
         "tags": [string],      // cooking technique hints
@@ -53,7 +54,7 @@ Output ONLY a valid JSON array containing a single recipe object. No explanation
 ]
 ```
 
-`newCookingSteps` contains a definition for every cookingStep. `newTldrSteps` contains a definition for every tldrStep. Both are always populated.
+`cookingSteps` and `tldrSteps` are always fully populated.
 
 ## FIELD RULES
 
@@ -125,7 +126,7 @@ For each tldr step:
 - minutes: estimated total time for that phase
 
 Always include every tldr stepId in `newTldrSteps` with:
-- translations.title: { "en": short imperative English phrase, "ua": Ukrainian translation }
+- translations.title: { "en": short imperative English phrase, "ua": Ukrainian translation (e.g. "Посмажити, Запікти, Змішати") }
 
 ### servings (preliminary step — do not output this field)
 Before mapping ingredients, determine how many servings the original recipe is for:
@@ -185,5 +186,6 @@ For each step:
   Do NOT add "no-heat" for prep or assembly steps — just use [].
 
 Always include every cookingStep with:
+- image: extract the `src` (or `data-src`) of any `<img>` tag found inside that step's HTML element; set to `null` if none is present
 - translations.title: { "en": short imperative English phrase (e.g. "Toast the bread"), "ua": Ukrainian translation }
 - translations.description: { "en": 1-3 sentences in second person, clear and actionable, "ua": Ukrainian translation }

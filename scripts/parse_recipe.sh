@@ -98,7 +98,7 @@ CATEGORY=$(htmlq '.hrecipe [itemprop="recipeCategory"]' --attribute content < "$
 
 INGREDIENTS=$(htmlq '.hrecipe [itemprop="recipeIngredient"]' --text < "$TMPHTML")
 
-STEPS=$(htmlq '.hrecipe [itemprop="recipeInstructions"] [itemprop="text"]' --text < "$TMPHTML")
+STEPS=$(htmlq '.hrecipe [itemprop="recipeInstructions"]' < "$TMPHTML")
 
 # Parse ISO 8601 duration → minutes (PT30M or PT1H30M)
 TIME_MINUTES=$(TIME_ISO="$TIME_RAW" python3 -c "
@@ -176,7 +176,7 @@ cat >> "$TMPPROMPT" << EOF
 **Ingredients (raw from page, one per line):**
 $INGREDIENTS
 
-**Cooking steps (raw from page, one per line):**
+**Cooking steps (raw HTML elements, may include step images):**
 $STEPS
 
 ---
