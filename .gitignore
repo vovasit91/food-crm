@@ -1,5 +1,6 @@
 .env
 .env.local
+for_import/
 .venv
 .DS_Store
 .next/
