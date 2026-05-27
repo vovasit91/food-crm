@@ -1,3 +1,6 @@
 .env
+.env.local
 .venv
 .DS_Store
+.next/
+node_modules/
