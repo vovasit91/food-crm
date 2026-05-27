@@ -1,0 +1,231 @@
+[
+  {
+    "id": "oatmeal-waffles",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyMC8zTlZBclEuanBlZw.webp",
+    "title": {
+      "en": "Oatmeal Waffles"
+    },
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "blender",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-batter-oatmeal-waffles",
+        "minutes": 10
+      },
+      {
+        "stepId": "whip-and-fold-egg-whites-oatmeal-waffles",
+        "minutes": 7
+      },
+      {
+        "stepId": "cook-waffles-oatmeal-waffles",
+        "minutes": 10
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "oats",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 25,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "honey",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "berries",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "powdered-sugar",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grind-oats-oatmeal-waffles",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-dry-ingredients-oatmeal-waffles",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-wet-ingredients-oatmeal-waffles",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "separate-eggs-add-yolks-oatmeal-waffles",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whip-egg-whites-oatmeal-waffles",
+        "duration": 4,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fold-egg-whites-oatmeal-waffles",
+        "duration": 3,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "preheat-waffle-iron-oatmeal-waffles",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cook-waffles-oatmeal-waffles",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "high-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grind-oats-oatmeal-waffles",
+        "en": {
+          "title": "Grind the oats",
+          "description": "Place the oatmeal flakes in a blender and grind them into flour, or leave some small pieces for texture, as you prefer."
+        }
+      },
+      {
+        "id": "mix-dry-ingredients-oatmeal-waffles",
+        "en": {
+          "title": "Mix dry ingredients",
+          "description": "Transfer the ground oats to a bowl. Add baking powder and salt, then stir to combine."
+        }
+      },
+      {
+        "id": "add-wet-ingredients-oatmeal-waffles",
+        "en": {
+          "title": "Add wet ingredients",
+          "description": "Pour in 1 tablespoon of sunflower oil, the milk, and the honey. Mix everything thoroughly."
+        }
+      },
+      {
+        "id": "separate-eggs-add-yolks-oatmeal-waffles",
+        "en": {
+          "title": "Separate eggs and add yolks",
+          "description": "Separate the egg yolks from the whites. Add the yolks to the batter and mix well."
+        }
+      },
+      {
+        "id": "whip-egg-whites-oatmeal-waffles",
+        "en": {
+          "title": "Whip the egg whites",
+          "description": "In a separate clean, dry bowl, whip the egg whites with a mixer until stiff peaks form."
+        }
+      },
+      {
+        "id": "fold-egg-whites-oatmeal-waffles",
+        "en": {
+          "title": "Fold in the egg whites",
+          "description": "Gradually add the whipped egg whites to the batter in small portions, gently folding with a motion from bottom to top until combined."
+        }
+      },
+      {
+        "id": "preheat-waffle-iron-oatmeal-waffles",
+        "en": {
+          "title": "Preheat the waffle iron",
+          "description": "Preheat your electric waffle iron and lightly grease the surface with the remaining oil."
+        }
+      },
+      {
+        "id": "cook-waffles-oatmeal-waffles",
+        "en": {
+          "title": "Cook the waffles",
+          "description": "Spoon some batter onto the preheated waffle iron, close the lid, and cook for 4–5 minutes until golden brown and crispy."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-batter-oatmeal-waffles",
+        "en": {
+          "title": "Prepare the batter"
+        }
+      },
+      {
+        "id": "whip-and-fold-egg-whites-oatmeal-waffles",
+        "en": {
+          "title": "Whip and fold egg whites"
+        }
+      },
+      {
+        "id": "cook-waffles-oatmeal-waffles",
+        "en": {
+          "title": "Cook waffles"
+        }
+      }
+    ]
+  }
+]

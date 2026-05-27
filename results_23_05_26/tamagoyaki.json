@@ -1,0 +1,197 @@
+[
+  {
+    "id": "tamagoyaki",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyNS80MmRDSkQuanBlZw.webp",
+    "title": {
+      "en": "Tamagoyaki"
+    },
+    "timeMinutes": 20,
+    "difficulty": "medium",
+    "tags": [
+      "pan-fried",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "frying-pan",
+      "stove"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-vegetables-tamagoyaki",
+        "minutes": 5
+      },
+      {
+        "stepId": "make-egg-mixture-tamagoyaki",
+        "minutes": 3
+      },
+      {
+        "stepId": "cook-omelette-layers-tamagoyaki",
+        "minutes": 12
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "eggs",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "carrots",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "green-onion",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "radish",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mirin",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grate-vegetables-tamagoyaki",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slice-green-onion-tamagoyaki",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "beat-egg-mixture-tamagoyaki",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-vegetables-with-eggs-tamagoyaki",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-in-pan-tamagoyaki",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-omelette-layers-tamagoyaki",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "dont-overcook"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grate-vegetables-tamagoyaki",
+        "en": {
+          "title": "Grate carrot and daikon",
+          "description": "Finely grate the carrot and daikon using a fine grater."
+        }
+      },
+      {
+        "id": "slice-green-onion-tamagoyaki",
+        "en": {
+          "title": "Slice green onion",
+          "description": "Slice the green onion into thin rings."
+        }
+      },
+      {
+        "id": "beat-egg-mixture-tamagoyaki",
+        "en": {
+          "title": "Beat eggs with seasonings",
+          "description": "Crack the eggs into a bowl. Add the black pepper, soy sauce, and mirin. Whisk until lightly frothy."
+        }
+      },
+      {
+        "id": "combine-vegetables-with-eggs-tamagoyaki",
+        "en": {
+          "title": "Combine vegetables with egg mixture",
+          "description": "Add the grated vegetables to the egg mixture and stir to combine evenly."
+        }
+      },
+      {
+        "id": "heat-oil-in-pan-tamagoyaki",
+        "en": {
+          "title": "Heat oil in pan",
+          "description": "Heat a non-stick pan over medium heat and brush with vegetable oil."
+        }
+      },
+      {
+        "id": "cook-omelette-layers-tamagoyaki",
+        "en": {
+          "title": "Cook and roll omelette layers",
+          "description": "Pour a thin layer of the egg mixture into the pan, tilting to spread evenly. When the egg sets, carefully roll it into a log using a spatula. Push the roll to the edge of the pan, brush the empty surface with oil, and pour another thin layer. When set, roll again. Repeat until all the mixture is used."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-vegetables-tamagoyaki",
+        "en": {
+          "title": "Prepare the vegetables"
+        }
+      },
+      {
+        "id": "make-egg-mixture-tamagoyaki",
+        "en": {
+          "title": "Make the egg mixture"
+        }
+      },
+      {
+        "id": "cook-omelette-layers-tamagoyaki",
+        "en": {
+          "title": "Cook the omelette layers"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,340 @@
+[
+  {
+    "id": "chicken-with-potatoes-tomatoes-eggplants",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDgxOS80Q01RWXUuanBlZw.webp",
+    "title": {
+      "en": "Chicken with Potatoes, Tomatoes and Eggplants"
+    },
+    "timeMinutes": 90,
+    "difficulty": "hard",
+    "tags": [
+      "hearty",
+      "one-pan",
+      "slow-cooked",
+      "gluten-free",
+      "meal-prep"
+    ],
+    "kitchen": [
+      "stove",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-ingredients-chicken-with-potatoes-tomatoes-eggplants",
+        "minutes": 17
+      },
+      {
+        "stepId": "layer-ingredients-chicken-with-potatoes-tomatoes-eggplants",
+        "minutes": 13
+      },
+      {
+        "stepId": "simmer-stew-chicken-with-potatoes-tomatoes-eggplants",
+        "minutes": 60
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "whole-chicken",
+        "quantity": 188,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "potatoes",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 113,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.125,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parsley",
+        "quantity": 7.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dill",
+        "quantity": 7.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "basil",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cilantro",
+        "quantity": 3.75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tarragon",
+        "quantity": 3.75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggplant",
+        "quantity": 105,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "cut-chicken-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slice-eggplant-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slice-onion-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dice-tomatoes-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-herbs-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cut-potatoes-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-chicken-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "season-chicken-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "layer-vegetables-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "layer-herbs-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-water-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cover-and-heat-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "reduce-heat-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 1,
+        "showTimer": false,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "simmer-chicken-with-potatoes-tomatoes-eggplants",
+        "duration": 60,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "cut-chicken-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Cut the chicken into pieces",
+          "description": "Cut the whole chicken at the joints into serving pieces."
+        }
+      },
+      {
+        "id": "slice-eggplant-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Slice the eggplants into rounds",
+          "description": "Slice the eggplants into rounds about 1 cm thick."
+        }
+      },
+      {
+        "id": "slice-onion-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Slice the onion into thin half-rings",
+          "description": "Peel and slice the onion into thin half-rings."
+        }
+      },
+      {
+        "id": "dice-tomatoes-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Dice the tomatoes",
+          "description": "Dice the tomatoes into small cubes."
+        }
+      },
+      {
+        "id": "chop-herbs-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Chop the fresh herbs",
+          "description": "Finely chop the parsley, dill, basil and cilantro."
+        }
+      },
+      {
+        "id": "cut-potatoes-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Cut the potatoes into wedges",
+          "description": "Peel and cut the potatoes into small wedges."
+        }
+      },
+      {
+        "id": "place-chicken-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Place the chicken in the pot",
+          "description": "Put the chicken pieces on the bottom of a large pot."
+        }
+      },
+      {
+        "id": "season-chicken-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Season the chicken",
+          "description": "Sprinkle the chicken with salt and black pepper."
+        }
+      },
+      {
+        "id": "layer-vegetables-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Layer the vegetables",
+          "description": "Arrange the onion, potatoes, eggplant and tomatoes in layers on top of the chicken."
+        }
+      },
+      {
+        "id": "layer-herbs-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Add the herb layer",
+          "description": "Spread the chopped herbs and tarragon over the vegetables."
+        }
+      },
+      {
+        "id": "add-water-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Add water",
+          "description": "Pour enough water into the pot to just cover the ingredients."
+        }
+      },
+      {
+        "id": "cover-and-heat-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Cover and bring to a boil",
+          "description": "Cover the pot with a lid and place it over medium heat. Bring the liquid to a boil."
+        }
+      },
+      {
+        "id": "reduce-heat-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Reduce heat to low",
+          "description": "Once the liquid is boiling, reduce the heat to the lowest setting."
+        }
+      },
+      {
+        "id": "simmer-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Simmer until tender",
+          "description": "Let the stew simmer gently for 1 hour, until the chicken is fully cooked and the vegetables are soft. Do not lift the lid unnecessarily."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-ingredients-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Prepare Ingredients"
+        }
+      },
+      {
+        "id": "layer-ingredients-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Layer Ingredients in Pot"
+        }
+      },
+      {
+        "id": "simmer-stew-chicken-with-potatoes-tomatoes-eggplants",
+        "en": {
+          "title": "Simmer the Stew"
+        }
+      }
+    ]
+  }
+]

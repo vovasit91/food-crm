@@ -1,0 +1,239 @@
+[
+  {
+    "id": "ryazhenka-pancakes",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyOC84ejRNTW8uanBlZw.webp",
+    "title": {
+      "en": "Ryazhenka Pancakes"
+    },
+    "timeMinutes": 60,
+    "difficulty": "medium",
+    "tags": [
+      "pan-fried",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "mix-wet-ingredients-ryazhenka-pancakes",
+        "minutes": 5
+      },
+      {
+        "stepId": "combine-dough-ryazhenka-pancakes",
+        "minutes": 5
+      },
+      {
+        "stepId": "rest-dough-ryazhenka-pancakes",
+        "minutes": 20
+      },
+      {
+        "stepId": "add-soda-and-rest-ryazhenka-pancakes",
+        "minutes": 10
+      },
+      {
+        "stepId": "fry-pancakes-ryazhenka-pancakes",
+        "minutes": 18
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "ryazhanka",
+        "quantity": 125,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 87.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 12.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla-sugar",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-soda",
+        "quantity": 0.625,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.625,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 8.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "beat-egg-sugar-ryazhenka-pancakes",
+        "duration": 3,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "add-ryazhenka-ryazhenka-pancakes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-dry-wet-ryazhenka-pancakes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rest-dough-first-ryazhenka-pancakes",
+        "duration": 20,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "add-baking-soda-ryazhenka-pancakes",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "heat-pan-ryazhenka-pancakes",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "fry-pancakes-ryazhenka-pancakes",
+        "duration": 15,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "beat-egg-sugar-ryazhenka-pancakes",
+        "en": {
+          "title": "Beat egg with sugar",
+          "description": "Break the egg into a bowl, add sugar. Beat with a mixer on medium speed for 2–3 minutes until light and fluffy."
+        }
+      },
+      {
+        "id": "add-ryazhenka-ryazhenka-pancakes",
+        "en": {
+          "title": "Add ryazhenka",
+          "description": "Continue beating while pouring in the ryazhenka. Mix until the mixture is smooth and homogeneous."
+        }
+      },
+      {
+        "id": "combine-dry-wet-ryazhenka-pancakes",
+        "en": {
+          "title": "Combine dry and wet ingredients",
+          "description": "Sift the flour into a clean bowl. Mix in the salt and baking powder. Pour the wet mixture into the dry ingredients and whisk until smooth."
+        }
+      },
+      {
+        "id": "rest-dough-first-ryazhenka-pancakes",
+        "en": {
+          "title": "Rest dough",
+          "description": "Cover the bowl with a clean cloth and let the dough rest in a warm place for 20 minutes."
+        }
+      },
+      {
+        "id": "add-baking-soda-ryazhenka-pancakes",
+        "en": {
+          "title": "Add baking soda and rest again",
+          "description": "Add the baking soda to the dough, stir well. Cover and let rest in a warm place for another 10 minutes."
+        }
+      },
+      {
+        "id": "heat-pan-ryazhenka-pancakes",
+        "en": {
+          "title": "Heat the pan",
+          "description": "Brush a frying pan with a small amount of oil and heat it over medium heat until hot."
+        }
+      },
+      {
+        "id": "fry-pancakes-ryazhenka-pancakes",
+        "en": {
+          "title": "Fry the pancakes",
+          "description": "Scoop portions of the batter onto the hot pan, forming round pancakes about 6–7 cm in diameter. Fry for 2–3 minutes per side until golden brown. Transfer cooked pancakes to a plate and repeat with remaining batter."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "mix-wet-ingredients-ryazhenka-pancakes",
+        "en": {
+          "title": "Mix wet ingredients"
+        }
+      },
+      {
+        "id": "combine-dough-ryazhenka-pancakes",
+        "en": {
+          "title": "Combine dough"
+        }
+      },
+      {
+        "id": "rest-dough-ryazhenka-pancakes",
+        "en": {
+          "title": "Rest dough"
+        }
+      },
+      {
+        "id": "add-soda-and-rest-ryazhenka-pancakes",
+        "en": {
+          "title": "Add soda and rest"
+        }
+      },
+      {
+        "id": "fry-pancakes-ryazhenka-pancakes",
+        "en": {
+          "title": "Fry pancakes"
+        }
+      }
+    ]
+  }
+]

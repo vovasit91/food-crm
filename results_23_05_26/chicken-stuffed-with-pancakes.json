@@ -1,0 +1,318 @@
+[
+  {
+    "id": "chicken-stuffed-with-pancakes",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDEwOC9wczM4VVguanBlZw.webp",
+    "title": {
+      "en": "Chicken Stuffed with Pancakes"
+    },
+    "timeMinutes": 100,
+    "difficulty": "hard",
+    "tags": [
+      "baked",
+      "hearty",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "frying-pan",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-skin-chicken-stuffed-with-pancakes",
+        "minutes": 10
+      },
+      {
+        "stepId": "cook-filling-chicken-stuffed-with-pancakes",
+        "minutes": 20
+      },
+      {
+        "stepId": "make-pancakes-chicken-stuffed-with-pancakes",
+        "minutes": 25
+      },
+      {
+        "stepId": "stuff-and-bake-chicken-stuffed-with-pancakes",
+        "minutes": 45
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "whole-chicken",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 32,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 75,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 0.08,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mushrooms",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 0.08,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.08,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dill",
+        "quantity": 0.08,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 0.5,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mustard",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pickled-mushrooms",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "remove-skin-chicken-stuffed-with-pancakes",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-marinade-chicken-stuffed-with-pancakes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prep-filling-chicken-stuffed-with-pancakes",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "saute-onion-mushrooms-chicken-stuffed-with-pancakes",
+        "duration": 12,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-chicken-chicken-stuffed-with-pancakes",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "make-pancake-batter-chicken-stuffed-with-pancakes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-pan-pour-batter-chicken-stuffed-with-pancakes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "cook-pancakes-chicken-stuffed-with-pancakes",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "fill-fold-pancakes-chicken-stuffed-with-pancakes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "stuff-bake-chicken-chicken-stuffed-with-pancakes",
+        "duration": 40,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "remove-skin-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Remove chicken skin",
+          "description": "Carefully run a knife between the skin and meat around the cavity, helping with the knife to peel off the skin in one piece, leaving only the wings and drumsticks attached."
+        }
+      },
+      {
+        "id": "prepare-marinade-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Prepare marinade and marinate skin",
+          "description": "Press the garlic through a press. Mix it with mayonnaise and mustard. Place the chicken skin with wings and legs into the marinade, coat all sides, and set aside until needed."
+        }
+      },
+      {
+        "id": "prep-filling-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Prepare filling ingredients",
+          "description": "Cut all bones from the chicken meat and dice the meat into small pieces. Slice mushrooms into thin strips and finely chop the onion."
+        }
+      },
+      {
+        "id": "saute-onion-mushrooms-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Sauté onion and mushrooms",
+          "description": "Heat a frying pan with 1 tbsp of sunflower oil. Add the onion and fry until pale golden. Add the mushrooms and fry together for about 10-12 minutes. Remove the onion and mushrooms from the pan."
+        }
+      },
+      {
+        "id": "cook-chicken-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Cook chicken and combine",
+          "description": "Add another 1 tsp of oil to the pan. Add the chicken pieces and fry for about 4-5 minutes, stirring regularly. Season with ⅔ tsp of salt, dried dill, and pepper. Return the onion and mushroom mixture to the pan, stir, and remove from heat."
+        }
+      },
+      {
+        "id": "make-pancake-batter-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Make pancake batter",
+          "description": "Pour milk into a deep bowl, crack in the eggs. Add sugar and remaining salt. While whisking, gradually sift in the flour and mix until you have a thin pancake batter."
+        }
+      },
+      {
+        "id": "heat-pan-pour-batter-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Heat pan and pour batter",
+          "description": "Heat a second frying pan over high heat and grease it with sunflower oil. Pour in 3-4 tbsp of batter and tilt the pan to spread the batter evenly."
+        }
+      },
+      {
+        "id": "cook-pancakes-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Cook pancakes",
+          "description": "Fry the pancake for 1-2 minutes, then flip and cook the other side for another minute. Repeat with the remaining batter to make all pancakes."
+        }
+      },
+      {
+        "id": "fill-fold-pancakes-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Fill and fold pancakes",
+          "description": "Spread the chicken, onion, and mushroom filling evenly over each pancake, then fold them into envelopes."
+        }
+      },
+      {
+        "id": "stuff-bake-chicken-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Stuff and bake chicken",
+          "description": "Remove the chicken skin from the marinade. Carefully place the filled pancakes inside the skin. Sew up any openings with kitchen twine. Transfer the chicken to a baking tray, seam-side down, and bake for 35-40 minutes."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-skin-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Remove and marinate the chicken skin"
+        }
+      },
+      {
+        "id": "cook-filling-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Cook the chicken and mushroom filling"
+        }
+      },
+      {
+        "id": "make-pancakes-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Make and fill the pancakes"
+        }
+      },
+      {
+        "id": "stuff-and-bake-chicken-stuffed-with-pancakes",
+        "en": {
+          "title": "Stuff the skin and bake the chicken"
+        }
+      }
+    ]
+  }
+]

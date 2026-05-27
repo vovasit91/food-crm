@@ -1,0 +1,191 @@
+[
+  {
+    "id": "tomato-olive-loaf",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTExMC9ObVllVFAuanBlZw.webp",
+    "title": {
+      "en": "Savory Loaf with Sun-Dried Tomatoes and Olives"
+    },
+    "timeMinutes": 60,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "hearty"
+    ],
+    "kitchen": [
+      "oven"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-batter-tomato-olive-loaf",
+        "minutes": 10
+      },
+      {
+        "stepId": "add-filling-tomato-olive-loaf",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-tomato-olive-loaf",
+        "minutes": 35
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 58,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 17,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 16,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.17,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olives",
+        "quantity": 17,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sun-dried-tomatoes",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parmesan",
+        "quantity": 13,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "italian-herbs",
+        "quantity": 0.17,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "combine-wet-ingredients-tomato-olive-loaf",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-dry-and-wet-tomato-olive-loaf",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-filling-and-mix-tomato-olive-loaf",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-tomato-olive-loaf",
+        "duration": 35,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "combine-wet-ingredients-tomato-olive-loaf",
+        "en": {
+          "title": "Combine wet ingredients",
+          "description": "Crack the eggs into a deep bowl. Add the Italian herbs, a pinch of salt, and some black pepper, then stir. Pour in the olive oil and milk, and stir again until well combined."
+        }
+      },
+      {
+        "id": "combine-dry-and-wet-tomato-olive-loaf",
+        "en": {
+          "title": "Mix dry ingredients into wet",
+          "description": "Add the baking powder to the flour and sift the mixture into the liquid ingredients in several additions. Mix until you have a thick batter that resembles sour cream."
+        }
+      },
+      {
+        "id": "prepare-filling-and-mix-tomato-olive-loaf",
+        "en": {
+          "title": "Prepare filling and mix into batter",
+          "description": "Slice the olives into rings. Grate the cheese on a coarse grater and set a little aside for garnish. Roughly chop the sun‑dried tomatoes. Add all the filling to the batter and mix thoroughly."
+        }
+      },
+      {
+        "id": "bake-tomato-olive-loaf",
+        "en": {
+          "title": "Bake the loaf",
+          "description": "Transfer the batter into a loaf pan, sprinkle with the reserved cheese, and bake in a preheated oven at 180 °C for 35 minutes."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-batter-tomato-olive-loaf",
+        "en": {
+          "title": "Prepare the batter"
+        }
+      },
+      {
+        "id": "add-filling-tomato-olive-loaf",
+        "en": {
+          "title": "Add the filling"
+        }
+      },
+      {
+        "id": "bake-tomato-olive-loaf",
+        "en": {
+          "title": "Bake the loaf"
+        }
+      }
+    ]
+  }
+]

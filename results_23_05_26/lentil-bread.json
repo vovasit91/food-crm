@@ -1,0 +1,205 @@
+[
+  {
+    "id": "lentil-bread",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDMxMy82cmJaaFMuanBlZw.webp",
+    "title": {
+      "en": "Lentil Bread"
+    },
+    "timeMinutes": 220,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "hearty"
+    ],
+    "kitchen": [
+      "oven",
+      "blender",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "soak-lentils-lentil-bread",
+        "minutes": 180
+      },
+      {
+        "stepId": "blend-dough-lentil-bread",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-bread-lentil-bread",
+        "minutes": 30
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "lentils",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yogurt",
+        "quantity": 0.75,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "whole-wheat-flour",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "seed-mix",
+        "quantity": 7.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "italian-herbs",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "soak-lentils-lentil-bread",
+        "duration": 180,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "drain-lentils-lentil-bread",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "blend-dough-lentil-bread",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-lentil-bread",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "prepare-form-lentil-bread",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-lentil-bread",
+        "duration": 27,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "soak-lentils-lentil-bread",
+        "en": {
+          "title": "Soak the lentils",
+          "description": "Place the lentils in a bowl, cover with water, and let soak for 3 hours. Then drain the water."
+        }
+      },
+      {
+        "id": "drain-lentils-lentil-bread",
+        "en": {
+          "title": "Drain the lentils",
+          "description": "Drain the soaked lentils in a colander and rinse briefly."
+        }
+      },
+      {
+        "id": "blend-dough-lentil-bread",
+        "en": {
+          "title": "Blend the dough",
+          "description": "Add the drained lentils to a blender along with eggs, yogurt, flour, salt, Italian herbs, baking powder, and olive oil. Blend until smooth and uniform."
+        }
+      },
+      {
+        "id": "preheat-oven-lentil-bread",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 180°C (350°F)."
+        }
+      },
+      {
+        "id": "prepare-form-lentil-bread",
+        "en": {
+          "title": "Prepare the baking form",
+          "description": "Line a baking loaf pan with parchment paper. Pour the lentil dough into the pan and sprinkle the seed mix evenly on top."
+        }
+      },
+      {
+        "id": "bake-lentil-bread",
+        "en": {
+          "title": "Bake the bread",
+          "description": "Bake the bread in the preheated oven for 25-30 minutes, until golden and a toothpick inserted comes out clean."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "soak-lentils-lentil-bread",
+        "en": {
+          "title": "Soak lentils"
+        }
+      },
+      {
+        "id": "blend-dough-lentil-bread",
+        "en": {
+          "title": "Blend the dough"
+        }
+      },
+      {
+        "id": "bake-bread-lentil-bread",
+        "en": {
+          "title": "Bake the bread"
+        }
+      }
+    ]
+  }
+]

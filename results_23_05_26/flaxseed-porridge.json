@@ -1,0 +1,203 @@
+[
+  {
+    "id": "flaxseed-porridge",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExOS80UHliYlguanBlZw.webp",
+    "title": {
+      "en": "Flaxseed Porridge"
+    },
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "creamy"
+    ],
+    "kitchen": [
+      "stove"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-ingredients-flaxseed-porridge",
+        "minutes": 4
+      },
+      {
+        "stepId": "heat-coconut-milk-flaxseed-porridge",
+        "minutes": 2
+      },
+      {
+        "stepId": "combine-and-serve-flaxseed-porridge",
+        "minutes": 4
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flax-seeds",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "coconut-milk",
+        "quantity": 60,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "prunes",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ginger",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "star-anise",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grind-flax-seeds-flaxseed-porridge",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cut-prunes-flaxseed-porridge",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-coconut-milk-flaxseed-porridge",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-coconut-milk-flaxseed-porridge",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "add-ground-flax-and-prunes-flaxseed-porridge",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-spices-flaxseed-porridge",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-and-transfer-flaxseed-porridge",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grind-flax-seeds-flaxseed-porridge",
+        "en": {
+          "title": "Grind the flax seeds",
+          "description": "Use a coffee grinder to grind the flax seeds until they become a coarse powder."
+        }
+      },
+      {
+        "id": "cut-prunes-flaxseed-porridge",
+        "en": {
+          "title": "Cut the prunes",
+          "description": "Cut the prunes into small pieces about 4–5 mm thick."
+        }
+      },
+      {
+        "id": "pour-coconut-milk-flaxseed-porridge",
+        "en": {
+          "title": "Pour the coconut milk",
+          "description": "Pour the coconut milk into a small saucepan."
+        }
+      },
+      {
+        "id": "heat-coconut-milk-flaxseed-porridge",
+        "en": {
+          "title": "Warm the coconut milk",
+          "description": "Heat the coconut milk over medium heat, stirring constantly, until it is warm to the touch. Remove from heat immediately."
+        }
+      },
+      {
+        "id": "add-ground-flax-and-prunes-flaxseed-porridge",
+        "en": {
+          "title": "Add ground flax and prunes",
+          "description": "Add the ground flax seeds and the chopped prunes to the warm coconut milk."
+        }
+      },
+      {
+        "id": "add-spices-flaxseed-porridge",
+        "en": {
+          "title": "Add the spices",
+          "description": "Add the ground cinnamon and ground ginger to the mixture."
+        }
+      },
+      {
+        "id": "mix-and-transfer-flaxseed-porridge",
+        "en": {
+          "title": "Mix and serve",
+          "description": "Stir everything thoroughly, then transfer the porridge to a serving bowl."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-ingredients-flaxseed-porridge",
+        "en": {
+          "title": "Prepare ingredients"
+        }
+      },
+      {
+        "id": "heat-coconut-milk-flaxseed-porridge",
+        "en": {
+          "title": "Warm coconut milk"
+        }
+      },
+      {
+        "id": "combine-and-serve-flaxseed-porridge",
+        "en": {
+          "title": "Combine and serve"
+        }
+      }
+    ]
+  }
+]

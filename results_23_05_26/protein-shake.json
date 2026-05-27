@@ -1,0 +1,154 @@
+[
+  {
+    "id": "protein-shake",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDMxOC9BUUNXNGcuanBlZw.webp",
+    "title": {
+      "en": "Protein Shake"
+    },
+    "timeMinutes": 5,
+    "difficulty": "easy",
+    "tags": [
+      "raw",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "blender"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-fruits-protein-shake",
+        "minutes": 1
+      },
+      {
+        "stepId": "blend-fruits-berries-protein-shake",
+        "minutes": 2
+      },
+      {
+        "stepId": "add-protein-and-blend-protein-shake",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flaxseed-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "protein-powder",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "kiwi",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "blueberries",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "banana",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chia-seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "chop-kiwi-banana-protein-shake",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "blend-fruits-protein-shake",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "blend-protein-shake-again-protein-shake",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "chop-kiwi-banana-protein-shake",
+        "en": {
+          "title": "Chop kiwi and banana",
+          "description": "Roughly chop the kiwi and banana into small pieces for easy blending."
+        }
+      },
+      {
+        "id": "blend-fruits-protein-shake",
+        "en": {
+          "title": "Blend fruits",
+          "description": "Place the blueberries and chopped fruits into a blender bowl. Blend until smooth."
+        }
+      },
+      {
+        "id": "blend-protein-shake-again-protein-shake",
+        "en": {
+          "title": "Blend again with protein",
+          "description": "Add water, flaxseed oil, chia seeds, cinnamon, and protein powder. Blend once more until everything is well combined."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-fruits-protein-shake",
+        "en": {
+          "title": "Prepare Fruits"
+        }
+      },
+      {
+        "id": "blend-fruits-berries-protein-shake",
+        "en": {
+          "title": "Blend Fruits and Berries"
+        }
+      },
+      {
+        "id": "add-protein-and-blend-protein-shake",
+        "en": {
+          "title": "Add Protein and Blend"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "cuban-sandwiches",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEyNi80TUZwU3AuanBlZw.webp",
+    "title": {
+      "en": "Cuban Sandwiches"
+    },
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "tags": [
+      "grilled",
+      "pan-fried",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-ingredients-cuban-sandwiches",
+        "minutes": 7
+      },
+      {
+        "stepId": "assemble-sandwiches-cuban-sandwiches",
+        "minutes": 3
+      },
+      {
+        "stepId": "grill-sandwiches-cuban-sandwiches",
+        "minutes": 7
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ham",
+        "quantity": 38,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pork-shoulder",
+        "quantity": 38,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pickles",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mustard",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.25,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mustard",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "cut-bread-cuban-sandwiches",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slice-fillings-cuban-sandwiches",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-mustard-cuban-sandwiches",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "layer-fillings-cuban-sandwiches",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-grill-pan-cuban-sandwiches",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-first-side-cuban-sandwiches",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "flip-cook-second-side-cuban-sandwiches",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "transfer-to-plate-cuban-sandwiches",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "cut-bread-cuban-sandwiches",
+        "en": {
+          "title": "Cut the bread",
+          "description": "Cut the ciabatta loaf crosswise into 4 equal pieces, then take one piece and cut it in half lengthwise."
+        }
+      },
+      {
+        "id": "slice-fillings-cuban-sandwiches",
+        "en": {
+          "title": "Slice the fillings",
+          "description": "Slice the ham, pork, cheese, and pickles into long strips about 3–4 mm thick."
+        }
+      },
+      {
+        "id": "spread-mustard-cuban-sandwiches",
+        "en": {
+          "title": "Spread the mustard",
+          "description": "Evenly spread the mustard sauce on the cut sides of the bread halves."
+        }
+      },
+      {
+        "id": "layer-fillings-cuban-sandwiches",
+        "en": {
+          "title": "Layer the fillings",
+          "description": "Place slices of ham, pork, cheese, and pickles on the bottom half of the bread, then close with the top half."
+        }
+      },
+      {
+        "id": "heat-grill-pan-cuban-sandwiches",
+        "en": {
+          "title": "Heat the grill pan",
+          "description": "Lightly oil a grill pan and heat it over medium heat."
+        }
+      },
+      {
+        "id": "cook-first-side-cuban-sandwiches",
+        "en": {
+          "title": "Cook the first side",
+          "description": "Place the assembled sandwich on the hot pan, press it down with a heavy skillet to flatten to one-third of its original thickness, and cook for 1–2 minutes until golden brown."
+        }
+      },
+      {
+        "id": "flip-cook-second-side-cuban-sandwiches",
+        "en": {
+          "title": "Flip and cook the second side",
+          "description": "Flip the sandwich, press again with the heavy skillet, and cook for another 1–2 minutes until the cheese is melted and the bread is golden."
+        }
+      },
+      {
+        "id": "transfer-to-plate-cuban-sandwiches",
+        "en": {
+          "title": "Transfer to plate",
+          "description": "Move the cooked sandwich to a plate and serve immediately."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-ingredients-cuban-sandwiches",
+        "en": {
+          "title": "Prepare the ingredients"
+        }
+      },
+      {
+        "id": "assemble-sandwiches-cuban-sandwiches",
+        "en": {
+          "title": "Assemble the sandwiches"
+        }
+      },
+      {
+        "id": "grill-sandwiches-cuban-sandwiches",
+        "en": {
+          "title": "Grill the sandwiches"
+        }
+      }
+    ]
+  }
+]

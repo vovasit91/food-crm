@@ -1,0 +1,292 @@
+[
+  {
+    "id": "cottage-cheese-waffles",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyMC8zRTVyRWMuanBlZw.webp",
+    "title": {
+      "en": "Cottage Cheese Waffles"
+    },
+    "timeMinutes": 35,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "hearty"
+    ],
+    "kitchen": [
+      "blender",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-cottage-cheese-mixture-cottage-cheese-waffles",
+        "minutes": 8
+      },
+      {
+        "stepId": "mix-dry-ingredients-cottage-cheese-waffles",
+        "minutes": 5
+      },
+      {
+        "stepId": "whip-and-fold-egg-whites-cottage-cheese-waffles",
+        "minutes": 8
+      },
+      {
+        "stepId": "cook-waffles-cottage-cheese-waffles",
+        "minutes": 14
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 12.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tvorog",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 45,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 8.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cornstarch",
+        "quantity": 7.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 3.75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla",
+        "quantity": 1.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pomegranate",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "blend-cottage-cheese-cottage-cheese-waffles",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-oil-and-vanilla-cottage-cheese-waffles",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-milk-cottage-cheese-waffles",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "separate-eggs-cottage-cheese-waffles",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-yolks-and-mix-cottage-cheese-waffles",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-dry-ingredients-cottage-cheese-waffles",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-wet-dry-mixtures-cottage-cheese-waffles",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whip-egg-whites-cottage-cheese-waffles",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fold-egg-whites-into-batter-cottage-cheese-waffles",
+        "duration": 3,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "preheat-waffle-iron-cottage-cheese-waffles",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cook-waffles-cottage-cheese-waffles",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "blend-cottage-cheese-cottage-cheese-waffles",
+        "en": {
+          "title": "Blend the cottage cheese",
+          "description": "Blend the cottage cheese with an immersion blender or food processor until completely smooth."
+        }
+      },
+      {
+        "id": "add-oil-and-vanilla-cottage-cheese-waffles",
+        "en": {
+          "title": "Add oil and vanilla",
+          "description": "Add the vegetable oil and vanilla essence to the blended cottage cheese and stir to combine."
+        }
+      },
+      {
+        "id": "pour-milk-cottage-cheese-waffles",
+        "en": {
+          "title": "Pour in the milk",
+          "description": "Pour the milk into the cottage cheese mixture and whisk until uniform."
+        }
+      },
+      {
+        "id": "separate-eggs-cottage-cheese-waffles",
+        "en": {
+          "title": "Separate the eggs",
+          "description": "Crack the eggs and carefully separate the yolks from the whites. Place the whites in a clean, grease‑free bowl."
+        }
+      },
+      {
+        "id": "add-yolks-and-mix-cottage-cheese-waffles",
+        "en": {
+          "title": "Add yolks and mix",
+          "description": "Add the egg yolks to the cottage cheese mixture and stir until well incorporated."
+        }
+      },
+      {
+        "id": "mix-dry-ingredients-cottage-cheese-waffles",
+        "en": {
+          "title": "Mix dry ingredients",
+          "description": "In a separate bowl, whisk together the flour, baking powder, sugar, cornstarch, and salt."
+        }
+      },
+      {
+        "id": "combine-wet-dry-mixtures-cottage-cheese-waffles",
+        "en": {
+          "title": "Combine wet and dry mixtures",
+          "description": "Gradually add the dry ingredients to the wet mixture, stirring gently to avoid lumps. Mix until just combined."
+        }
+      },
+      {
+        "id": "whip-egg-whites-cottage-cheese-waffles",
+        "en": {
+          "title": "Whip egg whites to soft peaks",
+          "description": "Using a mixer or whisk, beat the egg whites until soft peaks form. They should hold their shape but droop slightly when lifted."
+        }
+      },
+      {
+        "id": "fold-egg-whites-into-batter-cottage-cheese-waffles",
+        "en": {
+          "title": "Fold egg whites into batter",
+          "description": "Gently fold the whipped egg whites into the batter in small additions, using a spatula and lifting from the bottom to keep the mixture airy. Continue until no streaks remain."
+        }
+      },
+      {
+        "id": "preheat-waffle-iron-cottage-cheese-waffles",
+        "en": {
+          "title": "Preheat the waffle iron",
+          "description": "Turn on your waffle iron and let it heat up according to the manufacturer’s instructions. A hot iron ensures even cooking and a crisp exterior."
+        }
+      },
+      {
+        "id": "cook-waffles-cottage-cheese-waffles",
+        "en": {
+          "title": "Cook the waffles",
+          "description": "Spoon small portions of batter onto the preheated waffle iron, close the lid, and cook for 4–5 minutes until golden brown and fragrant. Repeat with remaining batter."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-cottage-cheese-mixture-cottage-cheese-waffles",
+        "en": {
+          "title": "Prepare the cottage cheese mixture"
+        }
+      },
+      {
+        "id": "mix-dry-ingredients-cottage-cheese-waffles",
+        "en": {
+          "title": "Mix dry ingredients and combine"
+        }
+      },
+      {
+        "id": "whip-and-fold-egg-whites-cottage-cheese-waffles",
+        "en": {
+          "title": "Whip and fold egg whites"
+        }
+      },
+      {
+        "id": "cook-waffles-cottage-cheese-waffles",
+        "en": {
+          "title": "Cook the waffles"
+        }
+      }
+    ]
+  }
+]

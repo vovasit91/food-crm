@@ -1,0 +1,183 @@
+[
+  {
+    "id": "chicken-in-air-fryer",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxMC8zQVNYYlMuanBlZw.webp",
+    "title": {
+      "en": "Air Fryer Chicken"
+    },
+    "timeMinutes": 120,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "marinated",
+      "one-pan"
+    ],
+    "kitchen": [
+      "air-fryer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-marinade-chicken-in-air-fryer",
+        "minutes": 10
+      },
+      {
+        "stepId": "marinate-chicken-in-air-fryer",
+        "minutes": 120
+      },
+      {
+        "stepId": "wrap-and-bake-chicken-in-air-fryer",
+        "minutes": 25
+      },
+      {
+        "stepId": "unwrap-and-finish-chicken-in-air-fryer",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "whole-chicken",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ketchup",
+        "quantity": 33,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "poultry-seasoning",
+        "quantity": 3,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "cut-chicken-in-air-fryer",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "season-marinade-chicken-in-air-fryer",
+        "duration": 120,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "wrap-chicken-in-foil-air-fryer",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "air-fry-covered-chicken-in-air-fryer",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "air-fry-partially-covered-chicken-in-air-fryer",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "air-fry-uncovered-chicken-in-air-fryer",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "cut-chicken-in-air-fryer",
+        "en": {
+          "title": "Cut the chicken into pieces",
+          "description": "Cut the chicken into pieces: legs, wings, thighs. Pierce the pieces with a knife."
+        }
+      },
+      {
+        "id": "season-marinade-chicken-in-air-fryer",
+        "en": {
+          "title": "Season and marinate the chicken",
+          "description": "Add poultry seasoning and mix. Then add ketchup, salt, and mix again. Leave to marinate for 2 hours."
+        }
+      },
+      {
+        "id": "wrap-chicken-in-foil-air-fryer",
+        "en": {
+          "title": "Wrap the chicken in foil",
+          "description": "Place the chicken on a thick sheet of foil. Top with sliced onion. Close the foil tightly around the chicken."
+        }
+      },
+      {
+        "id": "air-fry-covered-chicken-in-air-fryer",
+        "en": {
+          "title": "Air fry covered",
+          "description": "Place the foil packet in the air fryer. Set to chicken mode at 180°C. Cook for 15 minutes."
+        }
+      },
+      {
+        "id": "air-fry-partially-covered-chicken-in-air-fryer",
+        "en": {
+          "title": "Air fry partially covered",
+          "description": "Open the foil slightly to release steam. Continue air frying for 10 minutes."
+        }
+      },
+      {
+        "id": "air-fry-uncovered-chicken-in-air-fryer",
+        "en": {
+          "title": "Air fry uncovered",
+          "description": "Open the foil completely. Remove any foil pieces that might touch the heating element. Stir the chicken. Set the air fryer to 160°C and cook for 10-15 minutes until most of the liquid evaporates."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-marinade-chicken-in-air-fryer",
+        "en": {
+          "title": "Prepare the marinade and cut the chicken"
+        }
+      },
+      {
+        "id": "marinate-chicken-in-air-fryer",
+        "en": {
+          "title": "Marinate the chicken"
+        }
+      },
+      {
+        "id": "wrap-and-bake-chicken-in-air-fryer",
+        "en": {
+          "title": "Wrap and bake the chicken in foil"
+        }
+      },
+      {
+        "id": "unwrap-and-finish-chicken-in-air-fryer",
+        "en": {
+          "title": "Unwrap and finish cooking"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,335 @@
+[
+  {
+    "id": "doner-kebab",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MDkyOS9FcDZEOVIuanBlZw",
+    "title": {
+      "en": "Doner Kebab"
+    },
+    "timeMinutes": 90,
+    "difficulty": "medium",
+    "tags": [
+      "pan-fried",
+      "hearty",
+      "marinated",
+      "creamy"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "marinate-chicken-doner-kebab",
+        "minutes": 60
+      },
+      {
+        "stepId": "prepare-sauce-and-veggies-doner-kebab",
+        "minutes": 15
+      },
+      {
+        "stepId": "fry-chicken-doner-kebab",
+        "minutes": 6
+      },
+      {
+        "stepId": "assemble-and-fry-wrap-doner-kebab",
+        "minutes": 12
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "tortillas",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chicken-breast",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cucumber",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 90,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cardamom",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dried-garlic",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "paprika",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 1.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 1,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "coriander",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-marinade-doner-kebab",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rub-chicken-doner-kebab",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "let-chicken-marinate-doner-kebab",
+        "duration": 60,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "make-sauce-doner-kebab",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-in-pan-doner-kebab",
+        "duration": 1,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "fry-chicken-first-side-doner-kebab",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "flip-and-fry-second-side-doner-kebab",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "chop-vegetables-and-slice-chicken-doner-kebab",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-wrap-doner-kebab",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "roll-wrap-doner-kebab",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-wrap-doner-kebab",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-marinade-doner-kebab",
+        "en": {
+          "title": "Mix the marinade",
+          "description": "Combine 1 tablespoon of oil with the spices: black pepper, cumin, cardamom, turmeric, dried garlic, paprika, and salt. Stir well."
+        }
+      },
+      {
+        "id": "rub-chicken-doner-kebab",
+        "en": {
+          "title": "Rub the chicken with marinade",
+          "description": "Coat the chicken fillets thoroughly with the spice mixture on all sides."
+        }
+      },
+      {
+        "id": "let-chicken-marinate-doner-kebab",
+        "en": {
+          "title": "Let the chicken marinate",
+          "description": "Allow the chicken to marinate for at least 1 hour, or longer for deeper flavor."
+        }
+      },
+      {
+        "id": "make-sauce-doner-kebab",
+        "en": {
+          "title": "Make the sauce",
+          "description": "Press the garlic cloves into the mayonnaise, add black pepper, salt, and coriander. Mix well."
+        }
+      },
+      {
+        "id": "heat-oil-in-pan-doner-kebab",
+        "en": {
+          "title": "Heat oil in a pan",
+          "description": "Place a frying pan over medium heat and add 2 tablespoons of oil. Heat until shimmering."
+        }
+      },
+      {
+        "id": "fry-chicken-first-side-doner-kebab",
+        "en": {
+          "title": "Fry chicken first side",
+          "description": "Place the marinated chicken in the hot pan and cook for 3 minutes until golden brown. Do not move the chicken."
+        }
+      },
+      {
+        "id": "flip-and-fry-second-side-doner-kebab",
+        "en": {
+          "title": "Flip and fry second side",
+          "description": "Flip the chicken and cook for another 3 minutes until the other side is browned and the chicken is cooked through."
+        }
+      },
+      {
+        "id": "chop-vegetables-and-slice-chicken-doner-kebab",
+        "en": {
+          "title": "Chop vegetables and slice chicken",
+          "description": "Cut the cucumbers into strips, slice the tomatoes into rounds, and slice the onion into half rings. Slice the cooked chicken into thin strips."
+        }
+      },
+      {
+        "id": "assemble-wrap-doner-kebab",
+        "en": {
+          "title": "Assemble the wrap",
+          "description": "Lay the lavash flat. Arrange the chopped vegetables and sliced chicken on top, then drizzle with the prepared sauce."
+        }
+      },
+      {
+        "id": "roll-wrap-doner-kebab",
+        "en": {
+          "title": "Roll the wrap",
+          "description": "Fold the lavash over the filling, tucking in the sides to form a tight roll or envelope shape."
+        }
+      },
+      {
+        "id": "fry-wrap-doner-kebab",
+        "en": {
+          "title": "Fry the wrap",
+          "description": "Place the rolled wrap seam-side down in the pan and fry over medium heat for 2-3 minutes per side, until golden and crispy all over. Serve immediately."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "marinate-chicken-doner-kebab",
+        "en": {
+          "title": "Marinate the chicken"
+        }
+      },
+      {
+        "id": "prepare-sauce-and-veggies-doner-kebab",
+        "en": {
+          "title": "Prepare sauce and vegetables"
+        }
+      },
+      {
+        "id": "fry-chicken-doner-kebab",
+        "en": {
+          "title": "Fry the chicken"
+        }
+      },
+      {
+        "id": "assemble-and-fry-wrap-doner-kebab",
+        "en": {
+          "title": "Assemble and fry the wrap"
+        }
+      }
+    ]
+  }
+]

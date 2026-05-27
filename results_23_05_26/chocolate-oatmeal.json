@@ -1,0 +1,240 @@
+[
+  {
+    "id": "chocolate-oatmeal",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIxOS8zM2NNcHYuanBlZw.webp",
+    "title": {
+      "en": "Chocolate Oatmeal"
+    },
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "creamy"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "mash-banana-chocolate-oatmeal",
+        "minutes": 3
+      },
+      {
+        "stepId": "cook-oatmeal-chocolate-oatmeal",
+        "minutes": 8
+      },
+      {
+        "stepId": "add-flavors-chocolate-oatmeal",
+        "minutes": 6
+      },
+      {
+        "stepId": "fry-banana-chocolate-oatmeal",
+        "minutes": 3
+      },
+      {
+        "stepId": "serve-chocolate-oatmeal",
+        "minutes": 1
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "oats",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "banana",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cocoa-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cashews",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mint",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "prepare-banana-chocolate-oatmeal",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "boil-liquid-chocolate-oatmeal",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "cook-oats-chocolate-oatmeal",
+        "duration": 8,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "add-banana-cocoa-chocolate-oatmeal",
+        "duration": 1,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "finish-cooking-chocolate-oatmeal",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "fry-banana-chocolate-oatmeal",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "serve-chocolate-oatmeal",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "prepare-banana-chocolate-oatmeal",
+        "en": {
+          "title": "Prepare the banana",
+          "description": "Peel the banana and cut it in half crosswise. Using a fork, mash one half into a smooth puree. Set aside."
+        }
+      },
+      {
+        "id": "boil-liquid-chocolate-oatmeal",
+        "en": {
+          "title": "Boil water and milk",
+          "description": "Pour water and milk into a saucepan. Bring to a boil over high heat."
+        }
+      },
+      {
+        "id": "cook-oats-chocolate-oatmeal",
+        "en": {
+          "title": "Cook the oats",
+          "description": "Once the liquid boils, stir in the rolled oats. Reduce the heat to low and cook according to the package directions, stirring occasionally. About 5 minutes before the oatmeal is done, proceed to the next step."
+        }
+      },
+      {
+        "id": "add-banana-cocoa-chocolate-oatmeal",
+        "en": {
+          "title": "Add banana puree and cocoa",
+          "description": "Add the mashed banana and cocoa powder to the oatmeal. Stir thoroughly until the cocoa is fully dissolved and the mixture is a uniform chocolate color."
+        }
+      },
+      {
+        "id": "finish-cooking-chocolate-oatmeal",
+        "en": {
+          "title": "Finish cooking the oatmeal",
+          "description": "Continue cooking the oatmeal on low heat until it reaches your desired consistency, about 5 more minutes. Stir gently from time to time."
+        }
+      },
+      {
+        "id": "fry-banana-chocolate-oatmeal",
+        "en": {
+          "title": "Fry the banana slices",
+          "description": "Slice the remaining banana half lengthwise. Melt butter in a frying pan over medium heat. Place the banana slices cut-side down and fry for 1–2 minutes until golden caramelized. Flip and warm for another 30 seconds."
+        }
+      },
+      {
+        "id": "serve-chocolate-oatmeal",
+        "en": {
+          "title": "Serve the oatmeal",
+          "description": "Transfer the chocolate oatmeal to a bowl. Top with the fried banana slices, whole cashews, and fresh mint leaves."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "mash-banana-chocolate-oatmeal",
+        "en": {
+          "title": "Mash half the banana"
+        }
+      },
+      {
+        "id": "cook-oatmeal-chocolate-oatmeal",
+        "en": {
+          "title": "Cook the oatmeal"
+        }
+      },
+      {
+        "id": "add-flavors-chocolate-oatmeal",
+        "en": {
+          "title": "Add banana and cocoa"
+        }
+      },
+      {
+        "id": "fry-banana-chocolate-oatmeal",
+        "en": {
+          "title": "Fry the banana slices"
+        }
+      },
+      {
+        "id": "serve-chocolate-oatmeal",
+        "en": {
+          "title": "Serve with toppings"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "baked-eggs-bread-cheese",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTEwNC91eVlFN00uanBlZw.webp",
+    "title": {
+      "en": "Baked Eggs with Bread and Cheese"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "one-pan",
+      "hearty"
+    ],
+    "kitchen": [
+      "oven"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-baked-eggs-bread-cheese",
+        "minutes": 5
+      },
+      {
+        "stepId": "assemble-baked-eggs-bread-cheese",
+        "minutes": 5
+      },
+      {
+        "stepId": "bake-baked-eggs-bread-cheese",
+        "minutes": 18
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "mozzarella",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bread",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grate-cheese-baked-eggs-bread-cheese",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grease-dish-baked-eggs-bread-cheese",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-bread-baked-eggs-bread-cheese",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "sprinkle-half-cheese-baked-eggs-bread-cheese",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "crack-eggs-baked-eggs-bread-cheese",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "season-eggs-baked-eggs-bread-cheese",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "sprinkle-remaining-cheese-baked-eggs-bread-cheese",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-casserole-baked-eggs-bread-cheese",
+        "duration": 18,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grate-cheese-baked-eggs-bread-cheese",
+        "en": {
+          "title": "Grate the mozzarella",
+          "description": "Take the mozzarella and grate it on a coarse grater. Set the cheese aside."
+        }
+      },
+      {
+        "id": "grease-dish-baked-eggs-bread-cheese",
+        "en": {
+          "title": "Grease the baking dish",
+          "description": "Lightly grease a baking dish with vegetable oil. You can use a brush or a paper towel to spread the oil evenly."
+        }
+      },
+      {
+        "id": "place-bread-baked-eggs-bread-cheese",
+        "en": {
+          "title": "Place the bread slices",
+          "description": "Arrange the bread slices in the bottom of the greased dish. If they are too large, trim them to fit snugly."
+        }
+      },
+      {
+        "id": "sprinkle-half-cheese-baked-eggs-bread-cheese",
+        "en": {
+          "title": "Sprinkle half the cheese",
+          "description": "Sprinkle half of the grated mozzarella evenly over the bread slices."
+        }
+      },
+      {
+        "id": "crack-eggs-baked-eggs-bread-cheese",
+        "en": {
+          "title": "Crack the eggs on top",
+          "description": "Carefully crack the eggs directly onto the cheese layer, trying not to break the yolks. Spread them so they cover the bread."
+        }
+      },
+      {
+        "id": "season-eggs-baked-eggs-bread-cheese",
+        "en": {
+          "title": "Season the eggs",
+          "description": "Sprinkle salt and freshly ground black pepper over the eggs to taste."
+        }
+      },
+      {
+        "id": "sprinkle-remaining-cheese-baked-eggs-bread-cheese",
+        "en": {
+          "title": "Top with remaining cheese",
+          "description": "Sprinkle the rest of the grated mozzarella over the eggs."
+        }
+      },
+      {
+        "id": "bake-casserole-baked-eggs-bread-cheese",
+        "en": {
+          "title": "Bake the casserole",
+          "description": "Place the dish in an oven preheated to 180°C (350°F). Bake for 15–20 minutes, until the eggs are set and the cheese is melted and lightly golden."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-baked-eggs-bread-cheese",
+        "en": {
+          "title": "Prep the ingredients and dish"
+        }
+      },
+      {
+        "id": "assemble-baked-eggs-bread-cheese",
+        "en": {
+          "title": "Assemble the casserole"
+        }
+      },
+      {
+        "id": "bake-baked-eggs-bread-cheese",
+        "en": {
+          "title": "Bake until golden"
+        }
+      }
+    ]
+  }
+]

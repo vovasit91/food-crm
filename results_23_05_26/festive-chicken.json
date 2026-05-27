@@ -1,0 +1,238 @@
+[
+  {
+    "id": "festive-chicken",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDIzMTIwNy8zZ29HUGouanBlZw.webp",
+    "title": {
+      "en": "Festive Chicken"
+    },
+    "timeMinutes": 160,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "hearty"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-marinade-stuffing-festive-chicken",
+        "minutes": 15
+      },
+      {
+        "stepId": "stuff-coat-chicken-festive-chicken",
+        "minutes": 10
+      },
+      {
+        "stepId": "refrigerate-festive-chicken",
+        "minutes": 60
+      },
+      {
+        "stepId": "bake-in-bag-festive-chicken",
+        "minutes": 70
+      },
+      {
+        "stepId": "bake-uncovered-festive-chicken",
+        "minutes": 20
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "whole-chicken",
+        "quantity": 375,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mustard",
+        "quantity": 13,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chili-sauce",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "coriander",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 1,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 3,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "prepare-marinade-festive-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-vegetables-and-mix-festive-chicken",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "stuff-chicken-festive-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "coat-and-refrigerate-festive-chicken",
+        "duration": 65,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-festive-chicken",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "bake-in-bag-festive-chicken",
+        "duration": 60,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "increase-heat-bake-festive-chicken",
+        "duration": 20,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "prepare-marinade-festive-chicken",
+        "en": {
+          "title": "Prepare the marinade",
+          "description": "Press the garlic cloves. In a bowl, combine the pressed garlic, sour cream, mustard, chili ketchup, ground coriander, and salt. Mix well."
+        }
+      },
+      {
+        "id": "chop-vegetables-and-mix-festive-chicken",
+        "en": {
+          "title": "Chop vegetables and mix with half the marinade",
+          "description": "Chop the onion and bell pepper into medium-sized pieces. Place them in a bowl, add half of the prepared marinade, and stir to combine."
+        }
+      },
+      {
+        "id": "stuff-chicken-festive-chicken",
+        "en": {
+          "title": "Stuff the chicken",
+          "description": "Fill the cavity of the chicken with the vegetable mixture. Secure the skin with toothpicks or skewers. Tie the legs together to keep the stuffing inside."
+        }
+      },
+      {
+        "id": "coat-and-refrigerate-festive-chicken",
+        "en": {
+          "title": "Coat the chicken and refrigerate",
+          "description": "Brush the chicken all over with the remaining marinade. Place it in a roasting bag, tie the bag, and refrigerate for 1 hour to allow the flavors to meld."
+        }
+      },
+      {
+        "id": "preheat-oven-festive-chicken",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 150°C (300°F)."
+        }
+      },
+      {
+        "id": "bake-in-bag-festive-chicken",
+        "en": {
+          "title": "Bake the chicken in the bag",
+          "description": "Transfer the roasting bag with the chicken to a baking dish. Make 3-4 small slits in the top of the bag to allow steam to escape. Bake for 1 hour at 150°C."
+        }
+      },
+      {
+        "id": "increase-heat-bake-festive-chicken",
+        "en": {
+          "title": "Increase heat and bake uncovered",
+          "description": "Carefully cut open the roasting bag. Increase the oven temperature to 200°C (400°F). Continue baking for another 20 minutes until the skin is golden and crispy."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-marinade-stuffing-festive-chicken",
+        "en": {
+          "title": "Prepare marinade and stuffing"
+        }
+      },
+      {
+        "id": "stuff-coat-chicken-festive-chicken",
+        "en": {
+          "title": "Stuff and coat the chicken"
+        }
+      },
+      {
+        "id": "refrigerate-festive-chicken",
+        "en": {
+          "title": "Refrigerate the chicken"
+        }
+      },
+      {
+        "id": "bake-in-bag-festive-chicken",
+        "en": {
+          "title": "Bake in the bag"
+        }
+      },
+      {
+        "id": "bake-uncovered-festive-chicken",
+        "en": {
+          "title": "Bake uncovered"
+        }
+      }
+    ]
+  }
+]

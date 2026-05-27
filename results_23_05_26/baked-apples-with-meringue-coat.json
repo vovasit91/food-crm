@@ -1,0 +1,252 @@
+[
+  {
+    "id": "baked-apples-with-meringue-coat",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyMS80QWU0Qm0uanBlZw.webp",
+    "title": {
+      "en": "Baked Apples with Meringue Coat"
+    },
+    "timeMinutes": 35,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "baking-tray",
+      "pots",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-apples-baked-apples-with-meringue-coat",
+        "minutes": 10
+      },
+      {
+        "stepId": "assemble-and-top-baked-apples-with-meringue-coat",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-baked-apples-with-meringue-coat",
+        "minutes": 7
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "apple",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "egg-whites",
+        "quantity": 22,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 42,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "peel-apples-baked-apples-with-meringue-coat",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "core-apples-baked-apples-with-meringue-coat",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-apples-in-pot-baked-apples-with-meringue-coat",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-water-and-sugar-baked-apples-with-meringue-coat",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "boil-apples-baked-apples-with-meringue-coat",
+        "duration": 7,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "drain-apples-baked-apples-with-meringue-coat",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "transfer-to-baking-sheet-baked-apples-with-meringue-coat",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "sprinkle-half-sugar-and-cinnamon-baked-apples-with-meringue-coat",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "beat-egg-whites-baked-apples-with-meringue-coat",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "top-apples-with-meringue-baked-apples-with-meringue-coat",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "sprinkle-remaining-sugar-and-cinnamon-baked-apples-with-meringue-coat",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-baked-apples-with-meringue-coat",
+        "duration": 7,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "peel-apples-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Peel the apples",
+          "description": "Peel the apples using a vegetable peeler or a small knife."
+        }
+      },
+      {
+        "id": "core-apples-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Core the apples",
+          "description": "Remove the cores from the apples, keeping them whole."
+        }
+      },
+      {
+        "id": "place-apples-in-pot-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Place apples in a pot",
+          "description": "Put the cored apples into a saucepan and cover with water."
+        }
+      },
+      {
+        "id": "add-water-and-sugar-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Add water and sugar",
+          "description": "Pour in enough water to cover the apples and add 1 tablespoon of sugar."
+        }
+      },
+      {
+        "id": "boil-apples-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Boil the apples",
+          "description": "Bring the water to a boil, then simmer for 6–7 minutes. Do not overcook."
+        }
+      },
+      {
+        "id": "drain-apples-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Drain the apples",
+          "description": "Drain the apples in a colander and let all the moisture drip off."
+        }
+      },
+      {
+        "id": "transfer-to-baking-sheet-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Transfer to a baking sheet",
+          "description": "Place the drained apples on a baking sheet lined with parchment paper."
+        }
+      },
+      {
+        "id": "sprinkle-half-sugar-and-cinnamon-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Sprinkle half of the sugar and cinnamon",
+          "description": "Measure half of the remaining sugar and sprinkle it over the apples. Dust with half of the cinnamon."
+        }
+      },
+      {
+        "id": "beat-egg-whites-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Beat the egg whites",
+          "description": "Beat the egg whites with 1 tablespoon of sugar until stiff peaks form."
+        }
+      },
+      {
+        "id": "top-apples-with-meringue-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Top apples with meringue",
+          "description": "Spoon the whipped egg whites over each apple, creating a fluffy 'hat'."
+        }
+      },
+      {
+        "id": "sprinkle-remaining-sugar-and-cinnamon-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Sprinkle remaining sugar and cinnamon",
+          "description": "Sprinkle the remaining sugar and cinnamon over the meringue tops."
+        }
+      },
+      {
+        "id": "bake-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Bake the apples",
+          "description": "Preheat the oven to 180°C (350°F). Bake the apples for 5–7 minutes, until the meringue is lightly browned."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-apples-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Prepare the apples"
+        }
+      },
+      {
+        "id": "assemble-and-top-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Assemble and top the apples"
+        }
+      },
+      {
+        "id": "bake-baked-apples-with-meringue-coat",
+        "en": {
+          "title": "Bake until golden"
+        }
+      }
+    ]
+  }
+]

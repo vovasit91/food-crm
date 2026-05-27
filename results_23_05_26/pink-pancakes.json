@@ -1,0 +1,226 @@
+[
+  {
+    "id": "pink-pancakes",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEwNS9KNWZWV2ouanBlZw.webp",
+    "title": {
+      "en": "Pink Pancakes"
+    },
+    "timeMinutes": 60,
+    "difficulty": "medium",
+    "tags": [
+      "vegetarian",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-beets-pink-pancakes",
+        "minutes": 40
+      },
+      {
+        "stepId": "make-batter-pink-pancakes",
+        "minutes": 10
+      },
+      {
+        "stepId": "fry-pancakes-pink-pancakes",
+        "minutes": 10
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 8,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 75,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "beets",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "strawberry-jam",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "boil-beets-pink-pancakes",
+        "duration": 40,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "grate-and-squeeze-beets-pink-pancakes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "sift-flour-and-separate-eggs-pink-pancakes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "melt-butter-and-combine-wet-ingredients-pink-pancakes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whip-whites-and-fold-into-batter-pink-pancakes",
+        "duration": 7,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-salt-and-sugar-pink-pancakes",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-pancakes-pink-pancakes",
+        "duration": 15,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "boil-beets-pink-pancakes",
+        "en": {
+          "title": "Boil the beet",
+          "description": "Place the beet in cold water and bring to a boil. Simmer over low heat for 35–40 minutes until tender. Test with a skewer, then cool and peel."
+        }
+      },
+      {
+        "id": "grate-and-squeeze-beets-pink-pancakes",
+        "en": {
+          "title": "Grate and squeeze the beet juice",
+          "description": "Grate the peeled beet on the fine side of a grater. Press the grated beet through a sieve to extract the juice. Discard the pulp."
+        }
+      },
+      {
+        "id": "sift-flour-and-separate-eggs-pink-pancakes",
+        "en": {
+          "title": "Sift flour and separate eggs",
+          "description": "Sift the flour into a bowl. Separate the eggs, adding the yolks to the flour. Mix the yolks into the flour."
+        }
+      },
+      {
+        "id": "melt-butter-and-combine-wet-ingredients-pink-pancakes",
+        "en": {
+          "title": "Melt butter and combine wet ingredients",
+          "description": "Melt the butter in the microwave or on the stove. Add it to the flour-yolk mixture. While stirring, gradually pour in the milk and the beet juice."
+        }
+      },
+      {
+        "id": "whip-whites-and-fold-into-batter-pink-pancakes",
+        "en": {
+          "title": "Whip egg whites and fold into batter",
+          "description": "In a separate deep bowl, whip the egg whites with a mixer until stiff peaks form. Gently fold the whipped whites into the batter, mixing thoroughly to eliminate lumps."
+        }
+      },
+      {
+        "id": "add-salt-and-sugar-pink-pancakes",
+        "en": {
+          "title": "Add salt and sugar",
+          "description": "Season the batter with salt and sugar to taste. Stir until dissolved."
+        }
+      },
+      {
+        "id": "cook-pancakes-pink-pancakes",
+        "en": {
+          "title": "Cook the pancakes",
+          "description": "Heat a pancake pan over medium heat and grease it lightly with oil. Pour a ladleful of batter into the pan, tilting to spread evenly. Cook for 2 minutes on one side, then flip and cook for 1 minute on the other side. Repeat with remaining batter."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-beets-pink-pancakes",
+        "en": {
+          "title": "Boil, peel, and juice the beet"
+        }
+      },
+      {
+        "id": "make-batter-pink-pancakes",
+        "en": {
+          "title": "Make the pancake batter"
+        }
+      },
+      {
+        "id": "fry-pancakes-pink-pancakes",
+        "en": {
+          "title": "Fry the pancakes"
+        }
+      }
+    ]
+  }
+]

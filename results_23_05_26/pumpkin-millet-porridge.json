@@ -1,0 +1,210 @@
+[
+  {
+    "id": "pumpkin-millet-porridge",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyNS9qVVM2UlYuanBlZw.webp",
+    "title": {
+      "en": "Pumpkin Millet Porridge with Coconut Milk"
+    },
+    "timeMinutes": 55,
+    "difficulty": "easy",
+    "tags": [
+      "creamy",
+      "vegetarian",
+      "gluten-free",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "boil-millet-pumpkin-millet-porridge",
+        "minutes": 15
+      },
+      {
+        "stepId": "cook-pumpkin-pumpkin-millet-porridge",
+        "minutes": 10
+      },
+      {
+        "stepId": "simmer-coconut-pumpkin-millet-porridge",
+        "minutes": 30
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "pumpkin",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "millet",
+        "quantity": 32.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "coconut-milk",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "honey",
+        "quantity": 14,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "coconut-oil",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "place-millet-pumpkin-millet-porridge",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "boil-millet-pumpkin-millet-porridge",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "drain-millet-pumpkin-millet-porridge",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "reboil-millet-pumpkin-millet-porridge",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "dice-pumpkin-pumpkin-millet-porridge",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-pumpkin-pumpkin-millet-porridge",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "simmer-coconut-pumpkin-millet-porridge",
+        "duration": 30,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "place-millet-pumpkin-millet-porridge",
+        "en": {
+          "title": "Add millet and water to pot",
+          "description": "Put the millet in a saucepan and pour in 1 cup of water. This is the first step to cook the millet."
+        }
+      },
+      {
+        "id": "boil-millet-pumpkin-millet-porridge",
+        "en": {
+          "title": "Bring to a boil",
+          "description": "Place the saucepan over medium heat and bring the water to a boil."
+        }
+      },
+      {
+        "id": "drain-millet-pumpkin-millet-porridge",
+        "en": {
+          "title": "Drain and rinse millet",
+          "description": "Pour the millet into a sieve, rinse under cold running water, and return to the saucepan."
+        }
+      },
+      {
+        "id": "reboil-millet-pumpkin-millet-porridge",
+        "en": {
+          "title": "Add water and reboil",
+          "description": "Pour the remaining 0.5 cup of water into the saucepan. Bring to a boil over medium heat, stirring frequently."
+        }
+      },
+      {
+        "id": "dice-pumpkin-pumpkin-millet-porridge",
+        "en": {
+          "title": "Dice the pumpkin",
+          "description": "Cut the pumpkin into 1 cm cubes for even cooking."
+        }
+      },
+      {
+        "id": "cook-pumpkin-pumpkin-millet-porridge",
+        "en": {
+          "title": "Add pumpkin and cook",
+          "description": "Add the diced pumpkin to the millet, stir, cover, and cook for 10 minutes over medium heat."
+        }
+      },
+      {
+        "id": "simmer-coconut-pumpkin-millet-porridge",
+        "en": {
+          "title": "Finish with coconut milk and simmer",
+          "description": "When the pumpkin is soft and the millet is cooked, pour in the coconut milk. Add salt, coconut oil, and honey. Stir well, reduce heat to low, cover, and simmer for 30 minutes, stirring occasionally."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "boil-millet-pumpkin-millet-porridge",
+        "en": {
+          "title": "Boil the millet"
+        }
+      },
+      {
+        "id": "cook-pumpkin-pumpkin-millet-porridge",
+        "en": {
+          "title": "Cook the pumpkin"
+        }
+      },
+      {
+        "id": "simmer-coconut-pumpkin-millet-porridge",
+        "en": {
+          "title": "Simmer with coconut milk"
+        }
+      }
+    ]
+  }
+]

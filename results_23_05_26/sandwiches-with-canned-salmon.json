@@ -1,0 +1,221 @@
+[
+  {
+    "id": "sandwiches-with-canned-salmon",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTEyMS80SlZaSmouanBlZw.webp",
+    "title": {
+      "en": "Sandwiches with Canned Salmon"
+    },
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "creamy"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-fish-mixture-sandwiches-with-canned-salmon",
+        "minutes": 3
+      },
+      {
+        "stepId": "chop-and-mix-vegetables-sandwiches-with-canned-salmon",
+        "minutes": 3
+      },
+      {
+        "stepId": "toast-bread-sandwiches-with-canned-salmon",
+        "minutes": 6
+      },
+      {
+        "stepId": "assemble-sandwiches-sandwiches-with-canned-salmon",
+        "minutes": 3
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "quantity": 19,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salmon",
+        "quantity": 62.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "celery",
+        "quantity": 11,
+        "unit": "g",
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "green-onion",
+        "quantity": 2.5,
+        "unit": "g",
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lettuce",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "quantity": 9,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ginger",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "wasabi",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-filling-sandwiches-with-canned-salmon",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-vegetables-sandwiches-with-canned-salmon",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "make-wasabi-spread-sandwiches-with-canned-salmon",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "toast-bread-sandwiches-with-canned-salmon",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "assemble-sandwiches-sandwiches-with-canned-salmon",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-filling-sandwiches-with-canned-salmon",
+        "en": {
+          "title": "Mix the fish filling",
+          "description": "Place the canned salmon in a bowl and mash it with a fork. Squeeze the lemon juice over it. Add 2 tablespoons of mayonnaise, soy sauce, ginger, and sugar. Mix everything well."
+        }
+      },
+      {
+        "id": "chop-vegetables-sandwiches-with-canned-salmon",
+        "en": {
+          "title": "Chop the vegetables",
+          "description": "Finely chop the celery stalk and green onions. Add them to the fish mixture and stir again."
+        }
+      },
+      {
+        "id": "make-wasabi-spread-sandwiches-with-canned-salmon",
+        "en": {
+          "title": "Make the wasabi spread",
+          "description": "In a clean bowl, mix the remaining mayonnaise with the wasabi until smooth."
+        }
+      },
+      {
+        "id": "toast-bread-sandwiches-with-canned-salmon",
+        "en": {
+          "title": "Toast the bread",
+          "description": "Heat a dry frying pan over medium heat. Brush the bread slices with vegetable oil. Toast them for 1–2 minutes per side until golden brown. Remove from the pan."
+        }
+      },
+      {
+        "id": "assemble-sandwiches-sandwiches-with-canned-salmon",
+        "en": {
+          "title": "Assemble the sandwiches",
+          "description": "Spread the wasabi mayonnaise on one side of all bread slices. Place a lettuce leaf on 4 slices. Divide the fish mixture evenly among them. Cover with the remaining bread slices, spread side down."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-fish-mixture-sandwiches-with-canned-salmon",
+        "en": {
+          "title": "Prepare the fish mixture"
+        }
+      },
+      {
+        "id": "chop-and-mix-vegetables-sandwiches-with-canned-salmon",
+        "en": {
+          "title": "Chop and mix the vegetables with fish"
+        }
+      },
+      {
+        "id": "toast-bread-sandwiches-with-canned-salmon",
+        "en": {
+          "title": "Toast the bread"
+        }
+      },
+      {
+        "id": "assemble-sandwiches-sandwiches-with-canned-salmon",
+        "en": {
+          "title": "Assemble the sandwiches"
+        }
+      }
+    ]
+  }
+]

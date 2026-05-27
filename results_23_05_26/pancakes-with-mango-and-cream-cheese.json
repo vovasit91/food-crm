@@ -1,0 +1,246 @@
+[
+  {
+    "id": "pancakes-with-mango-and-cream-cheese",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAzMS8zSDk0Rm8uanBlZw.webp",
+    "title": {
+      "en": "Pancakes with Mango and Cream Cheese"
+    },
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "tags": [
+      "creamy",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "stove",
+      "microwave",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "cook-mango-confit-pancakes-with-mango-and-cream-cheese",
+        "minutes": 10
+      },
+      {
+        "stepId": "whip-cream-cheese-pancakes-with-mango-and-cream-cheese",
+        "minutes": 3
+      },
+      {
+        "stepId": "heat-and-assemble-pancakes-pancakes-with-mango-and-cream-cheese",
+        "minutes": 7
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "pancakes",
+        "quantity": 175,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mango",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 37.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cornstarch",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "light-cream",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "combine-mango-sugar-cornstarch-pancakes-with-mango-and-cream-cheese",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-mango-medium-heat-pancakes-with-mango-and-cream-cheese",
+        "duration": 4,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "dont-overcook"
+        ]
+      },
+      {
+        "stepId": "cook-mango-low-heat-pancakes-with-mango-and-cream-cheese",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "combine-cream-cheese-cream-pancakes-with-mango-and-cream-cheese",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "beat-cream-cheese-mixture-pancakes-with-mango-and-cream-cheese",
+        "duration": 2,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "arrange-pancakes-on-plate-pancakes-with-mango-and-cream-cheese",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "defrost-pancakes-microwave-pancakes-with-mango-and-cream-cheese",
+        "duration": 2,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "brush-pancakes-with-butter-pancakes-with-mango-and-cream-cheese",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-pancakes-microwave-pancakes-with-mango-and-cream-cheese",
+        "duration": 2,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-pancakes-with-filling-pancakes-with-mango-and-cream-cheese",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "combine-mango-sugar-cornstarch-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Combine mango, sugar, and cornstarch",
+          "description": "Place the mango cubes, sugar, and cornstarch in a saucepan. Shake the pan to mix the ingredients together."
+        }
+      },
+      {
+        "id": "cook-mango-medium-heat-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Cook mango mixture over medium heat",
+          "description": "Set the saucepan over medium heat and cook, stirring frequently, for 4–5 minutes until the mixture thickens slightly."
+        }
+      },
+      {
+        "id": "cook-mango-low-heat-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Simmer mango confit over low heat",
+          "description": "Reduce the heat to low and continue cooking for about 5 minutes, stirring occasionally, until the mango cubes are soft but still hold their shape. Remove from heat and let cool."
+        }
+      },
+      {
+        "id": "combine-cream-cheese-cream-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Combine cream cheese and cream",
+          "description": "In a clean bowl, place the cream cheese and pour in the light cream."
+        }
+      },
+      {
+        "id": "beat-cream-cheese-mixture-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Beat cream cheese mixture",
+          "description": "Using a mixer on medium speed, beat the cream cheese and cream for 2–3 minutes until smooth and creamy."
+        }
+      },
+      {
+        "id": "arrange-pancakes-on-plate-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Arrange pancakes on a plate",
+          "description": "Place a portion of the pancakes in a single layer on a flat microwave-safe plate."
+        }
+      },
+      {
+        "id": "defrost-pancakes-microwave-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Defrost pancakes in microwave",
+          "description": "Heat the pancakes in the microwave on the defrost setting for 2–3 minutes to thaw them."
+        }
+      },
+      {
+        "id": "brush-pancakes-with-butter-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Brush pancakes with butter",
+          "description": "Brush each pancake with a small amount of butter."
+        }
+      },
+      {
+        "id": "heat-pancakes-microwave-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Heat pancakes in microwave",
+          "description": "Return the plate to the microwave and heat on the standard setting for 2 minutes until warmed through."
+        }
+      },
+      {
+        "id": "assemble-pancakes-with-filling-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Assemble pancakes with filling",
+          "description": "Spread the whipped cream cheese and mango confit over each pancake, then fold them into triangles."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "cook-mango-confit-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Cook mango confit"
+        }
+      },
+      {
+        "id": "whip-cream-cheese-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Whip cream cheese mixture"
+        }
+      },
+      {
+        "id": "heat-and-assemble-pancakes-pancakes-with-mango-and-cream-cheese",
+        "en": {
+          "title": "Heat and assemble pancakes"
+        }
+      }
+    ]
+  }
+]

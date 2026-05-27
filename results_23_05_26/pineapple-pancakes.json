@@ -1,0 +1,180 @@
+[
+  {
+    "id": "pineapple-pancakes",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyNS8zR0NtVHQuanBlZw.webp",
+    "title": {
+      "en": "Pineapple Pancakes"
+    },
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "mix-and-rest-batter-pineapple-pancakes",
+        "minutes": 15
+      },
+      {
+        "stepId": "caramelize-pineapple-pineapple-pancakes",
+        "minutes": 10
+      },
+      {
+        "stepId": "fry-pancakes-pineapple-pancakes",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "protein-pancake-mix",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 75,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pineapple",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pineapple-juice",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "agave-syrup",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cocktail-cherries",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "prepare-batter-pineapple-pancakes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rest-batter-pineapple-pancakes",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cut-pineapple-pineapple-pancakes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "caramelize-pineapple-pineapple-pancakes",
+        "duration": 4,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-pancakes-pineapple-pancakes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-pancakes-pineapple-pancakes",
+        "duration": 6,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "prepare-batter-pineapple-pancakes",
+        "en": {
+          "title": "Prepare the batter",
+          "description": "In a bowl, mix the protein pancake mix with water (or milk) according to package instructions. Add 2 tablespoons of agave syrup and pineapple juice, then stir until smooth."
+        }
+      },
+      {
+        "id": "rest-batter-pineapple-pancakes",
+        "en": {
+          "title": "Let the batter rest",
+          "description": "Allow the batter to rest for 10 minutes. This helps the flavors meld and the texture improve."
+        }
+      },
+      {
+        "id": "cut-pineapple-pineapple-pancakes",
+        "en": {
+          "title": "Cut the pineapple into rings",
+          "description": "Slice the pineapple into rings about 1 cm thick. Remove the core from each ring."
+        }
+      },
+      {
+        "id": "caramelize-pineapple-pineapple-pancakes",
+        "en": {
+          "title": "Caramelize the pineapple rings",
+          "description": "Pour the remaining agave syrup into a hot frying pan. Add the pineapple rings and cook for 2 minutes on each side until they are golden and caramelized."
+        }
+      },
+      {
+        "id": "assemble-pancakes-pineapple-pancakes",
+        "en": {
+          "title": "Assemble the pancakes",
+          "description": "Place a cocktail cherry in the center of each caramelized pineapple ring. Carefully pour the batter over each ring, filling it completely."
+        }
+      },
+      {
+        "id": "fry-pancakes-pineapple-pancakes",
+        "en": {
+          "title": "Fry the pancakes",
+          "description": "Cook the pancakes over medium heat for about 3 minutes until bubbles form on the surface. Flip them and cook for another 2-3 minutes until the other side is golden brown. Serve hot."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "mix-and-rest-batter-pineapple-pancakes",
+        "en": {
+          "title": "Mix and rest the batter"
+        }
+      },
+      {
+        "id": "caramelize-pineapple-pineapple-pancakes",
+        "en": {
+          "title": "Caramelize the pineapple"
+        }
+      },
+      {
+        "id": "fry-pancakes-pineapple-pancakes",
+        "en": {
+          "title": "Fry the pancakes"
+        }
+      }
+    ]
+  }
+]

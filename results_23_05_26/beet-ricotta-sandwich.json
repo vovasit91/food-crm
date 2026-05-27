@@ -1,0 +1,168 @@
+[
+  {
+    "id": "beet-ricotta-sandwich",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDMxMy9rYlVOaUIuanBlZw.webp",
+    "title": {
+      "en": "Beet and Ricotta Sandwiches"
+    },
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "raw",
+      "creamy"
+    ],
+    "kitchen": [
+      "blender"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-vegetables-beet-ricotta-sandwich",
+        "minutes": 3
+      },
+      {
+        "stepId": "blend-spread-beet-ricotta-sandwich",
+        "minutes": 2
+      },
+      {
+        "stepId": "assemble-sandwich-beet-ricotta-sandwich",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "arugula",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ricotta",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "beets",
+        "quantity": 33,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 0.5,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grate-beet-and-garlic-beet-ricotta-sandwich",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "blend-ingredients-beet-ricotta-sandwich",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-mixture-on-bread-beet-ricotta-sandwich",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cover-and-cut-sandwich-beet-ricotta-sandwich",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grate-beet-and-garlic-beet-ricotta-sandwich",
+        "en": {
+          "title": "Grate the beet and garlic into a bowl.",
+          "description": "Coarsely grate the beet using a box grater. Press the garlic through a press. Place both into a mixing bowl."
+        }
+      },
+      {
+        "id": "blend-ingredients-beet-ricotta-sandwich",
+        "en": {
+          "title": "Blend the spread until smooth.",
+          "description": "Add the ricotta, water, olive oil, and salt to the bowl with the beet and garlic. Using an immersion blender, blend until the mixture is smooth and creamy."
+        }
+      },
+      {
+        "id": "spread-mixture-on-bread-beet-ricotta-sandwich",
+        "en": {
+          "title": "Spread the mixture on bread and top with arugula.",
+          "description": "Take two slices of bread and generously spread the beet-ricotta mixture on each. Sprinkle arugula over the spread."
+        }
+      },
+      {
+        "id": "cover-and-cut-sandwich-beet-ricotta-sandwich",
+        "en": {
+          "title": "Cover and cut the sandwich.",
+          "description": "Top each sandwich with the remaining slices of bread. Cut the sandwiches diagonally and serve."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-vegetables-beet-ricotta-sandwich",
+        "en": {
+          "title": "Prep vegetables"
+        }
+      },
+      {
+        "id": "blend-spread-beet-ricotta-sandwich",
+        "en": {
+          "title": "Blend spread"
+        }
+      },
+      {
+        "id": "assemble-sandwich-beet-ricotta-sandwich",
+        "en": {
+          "title": "Assemble sandwich"
+        }
+      }
+    ]
+  }
+]

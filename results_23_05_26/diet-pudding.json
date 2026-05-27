@@ -1,0 +1,255 @@
+[
+  {
+    "id": "diet-pudding",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDIwNi8zSnJrTmUuanBlZw.webp",
+    "title": {
+      "en": "Diet Pudding"
+    },
+    "timeMinutes": 50,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-batter-diet-pudding",
+        "minutes": 9
+      },
+      {
+        "stepId": "whip-egg-whites-diet-pudding",
+        "minutes": 5
+      },
+      {
+        "stepId": "fold-and-fill-diet-pudding",
+        "minutes": 7
+      },
+      {
+        "stepId": "bake-diet-pudding",
+        "minutes": 30
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "butter",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yogurt",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 12.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cardamom",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "strawberries",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "blueberries",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "powdered-sugar",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "separate-and-mix-yolks-diet-pudding",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-flour-cardamom-diet-pudding",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-sour-milk-diet-pudding",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whip-egg-whites-diet-pudding",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fold-whites-into-batter-diet-pudding",
+        "duration": 3,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "grease-molds-diet-pudding",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-batter-into-molds-diet-pudding",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-diet-pudding",
+        "duration": 30,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "separate-and-mix-yolks-diet-pudding",
+        "en": {
+          "title": "Separate yolks and mix with butter and sugar",
+          "description": "Separate the egg yolks from the whites. In a bowl, rub the yolks with the butter and sugar until smooth and well combined."
+        }
+      },
+      {
+        "id": "add-flour-cardamom-diet-pudding",
+        "en": {
+          "title": "Add flour and cardamom",
+          "description": "Add the flour and ground cardamom to the yolk mixture. Stir thoroughly until the dry ingredients are fully incorporated."
+        }
+      },
+      {
+        "id": "add-sour-milk-diet-pudding",
+        "en": {
+          "title": "Add sour milk",
+          "description": "Pour in the sour milk or yogurt. Mix well again until a smooth batter forms."
+        }
+      },
+      {
+        "id": "whip-egg-whites-diet-pudding",
+        "en": {
+          "title": "Whip egg whites with salt",
+          "description": "In a separate, clean bowl, whip the egg whites with the salt using a mixer. Beat until stiff peaks form and the mixture is fluffy."
+        }
+      },
+      {
+        "id": "fold-whites-into-batter-diet-pudding",
+        "en": {
+          "title": "Fold whites into batter",
+          "description": "Gently fold the whipped egg whites into the yolk batter using a spatula. Be careful not to deflate the whites; combine until just uniform."
+        }
+      },
+      {
+        "id": "grease-molds-diet-pudding",
+        "en": {
+          "title": "Grease baking molds",
+          "description": "Lightly grease the baking molds with vegetable oil. This will help the puddings release easily after baking."
+        }
+      },
+      {
+        "id": "pour-batter-into-molds-diet-pudding",
+        "en": {
+          "title": "Pour batter into molds",
+          "description": "Divide the batter evenly among the greased molds. Smooth the tops if needed."
+        }
+      },
+      {
+        "id": "bake-diet-pudding",
+        "en": {
+          "title": "Bake the puddings",
+          "description": "Place the filled molds in a preheated oven. Bake for 30 minutes until the puddings are golden brown and set in the center. A toothpick inserted should come out clean."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-batter-diet-pudding",
+        "en": {
+          "title": "Prepare the batter"
+        }
+      },
+      {
+        "id": "whip-egg-whites-diet-pudding",
+        "en": {
+          "title": "Whip egg whites"
+        }
+      },
+      {
+        "id": "fold-and-fill-diet-pudding",
+        "en": {
+          "title": "Fold whites and fill molds"
+        }
+      },
+      {
+        "id": "bake-diet-pudding",
+        "en": {
+          "title": "Bake the puddings"
+        }
+      }
+    ]
+  }
+]

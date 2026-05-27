@@ -1,0 +1,255 @@
+[
+  {
+    "id": "weird-sandwich",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyNi8zSkdZM3AuanBlZw.webp",
+    "title": {
+      "en": "Weird Sandwich"
+    },
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "baked",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "fry-toast-weird-sandwich",
+        "minutes": 5
+      },
+      {
+        "stepId": "assemble-sandwich-weird-sandwich",
+        "minutes": 3
+      },
+      {
+        "stepId": "bake-sandwich-weird-sandwich",
+        "minutes": 7
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ham",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 25,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "honey",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "cut-crusts-weird-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "beat-egg-weird-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dip-bread-weird-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-bread-weird-sandwich",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "pan-fried",
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "mix-mayo-honey-weird-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-mixture-weird-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-sandwiches-weird-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-egg-milk-weird-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "coat-sandwiches-weird-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-sandwiches-weird-sandwich",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "baked",
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "cut-crusts-weird-sandwich",
+        "en": {
+          "title": "Cut the crusts off the bread",
+          "description": "Use a sharp knife to cut off the crusts from all six slices of bread."
+        }
+      },
+      {
+        "id": "beat-egg-weird-sandwich",
+        "en": {
+          "title": "Beat the egg",
+          "description": "Crack one egg into a bowl and beat it with a fork until the yolk and white are fully combined. Do not whisk to a froth."
+        }
+      },
+      {
+        "id": "dip-bread-weird-sandwich",
+        "en": {
+          "title": "Dip bread slices in egg",
+          "description": "Take two slices of the bread and dip them into the beaten egg on both sides, ensuring they are fully coated. Reserve the remaining egg."
+        }
+      },
+      {
+        "id": "fry-bread-weird-sandwich",
+        "en": {
+          "title": "Fry the dipped bread",
+          "description": "Heat a non-stick pan over high heat and fry the egg-coated bread slices for about 1 minute per side until golden brown. Set aside."
+        }
+      },
+      {
+        "id": "mix-mayo-honey-weird-sandwich",
+        "en": {
+          "title": "Mix mayonnaise and honey",
+          "description": "In a clean bowl, combine one tablespoon of mayonnaise with one teaspoon of honey and stir until smooth."
+        }
+      },
+      {
+        "id": "spread-mixture-weird-sandwich",
+        "en": {
+          "title": "Spread the mixture on bread",
+          "description": "Spread the mayonnaise-honey mixture on one side of each of the remaining four bread slices."
+        }
+      },
+      {
+        "id": "assemble-sandwiches-weird-sandwich",
+        "en": {
+          "title": "Assemble the sandwiches",
+          "description": "Place two of the spread bread slices mayo-side up. Top each with two slices of ham, then place one fried bread slice on top of the ham. Add the remaining ham slices on the fried bread and cover with the remaining spread bread slices, mayo-side down."
+        }
+      },
+      {
+        "id": "mix-egg-milk-weird-sandwich",
+        "en": {
+          "title": "Mix leftover egg with milk",
+          "description": "Add the 50 ml of milk to the leftover beaten egg and whisk until combined."
+        }
+      },
+      {
+        "id": "coat-sandwiches-weird-sandwich",
+        "en": {
+          "title": "Coat the sandwiches",
+          "description": "Butter the top and bottom of each sandwich, then brush the buttered surfaces with the egg-milk mixture."
+        }
+      },
+      {
+        "id": "bake-sandwiches-weird-sandwich",
+        "en": {
+          "title": "Bake the sandwiches",
+          "description": "Place the sandwiches on a parchment-lined baking sheet, sprinkle with sugar, and bake in a preheated oven at 220°C for 5 minutes until golden and caramelized."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "fry-toast-weird-sandwich",
+        "en": {
+          "title": "Fry the toast"
+        }
+      },
+      {
+        "id": "assemble-sandwich-weird-sandwich",
+        "en": {
+          "title": "Assemble the sandwich"
+        }
+      },
+      {
+        "id": "bake-sandwich-weird-sandwich",
+        "en": {
+          "title": "Bake the sandwich"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "id": "tomato-oatmeal-with-egg",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTEyOS9NRVo0RkIuanBlZw.webp",
+    "title": {
+      "en": "Tomato Oatmeal with Egg"
+    },
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "creamy",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-vegetables-tomato-oatmeal-with-egg",
+        "minutes": 6
+      },
+      {
+        "stepId": "cook-oatmeal-tomato-oatmeal-with-egg",
+        "minutes": 6
+      },
+      {
+        "stepId": "poach-egg-tomato-oatmeal-with-egg",
+        "minutes": 3
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "oats",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 1,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dried-rosemary",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "paprika",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "dice-tomato-mince-garlic-tomato-oatmeal-with-egg",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-fry-garlic-tomato-oatmeal-with-egg",
+        "duration": 1,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "simmer-tomato-rosemary-tomato-oatmeal-with-egg",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "add-oats-and-cook-tomato-oatmeal-with-egg",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "add-cream-cheese-tomato-oatmeal-with-egg",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "crack-egg-tomato-oatmeal-with-egg",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bring-water-to-simmer-tomato-oatmeal-with-egg",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "poach-egg-tomato-oatmeal-with-egg",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "dont-overcook"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "dice-tomato-mince-garlic-tomato-oatmeal-with-egg",
+        "en": {
+          "title": "Dice tomato and mince garlic",
+          "description": "Dice the tomato into 1-1.5 cm cubes. Finely mince the garlic clove."
+        }
+      },
+      {
+        "id": "heat-oil-fry-garlic-tomato-oatmeal-with-egg",
+        "en": {
+          "title": "Heat oil and fry garlic",
+          "description": "Pour vegetable oil into a pot and heat over medium heat. Add the minced garlic and fry for about 1 minute until golden."
+        }
+      },
+      {
+        "id": "simmer-tomato-rosemary-tomato-oatmeal-with-egg",
+        "en": {
+          "title": "Simmer tomato and rosemary",
+          "description": "Add the diced tomato and a sprig of rosemary to the pot. Simmer for 4–5 minutes until the vegetables are soft."
+        }
+      },
+      {
+        "id": "add-oats-and-cook-tomato-oatmeal-with-egg",
+        "en": {
+          "title": "Add oats and cook",
+          "description": "Stir in the rolled oats and pour in 1 cup of water. Add salt and cook for 5–7 minutes, stirring occasionally, until the oats are tender."
+        }
+      },
+      {
+        "id": "add-cream-cheese-tomato-oatmeal-with-egg",
+        "en": {
+          "title": "Add cream cheese and finish",
+          "description": "Add the cream cheese, stir until smooth, then remove the pot from the heat."
+        }
+      },
+      {
+        "id": "crack-egg-tomato-oatmeal-with-egg",
+        "en": {
+          "title": "Crack egg into a bowl",
+          "description": "Carefully crack the egg into a clean bowl without breaking the yolk."
+        }
+      },
+      {
+        "id": "bring-water-to-simmer-tomato-oatmeal-with-egg",
+        "en": {
+          "title": "Bring water to a simmer",
+          "description": "Fill a second pot about two-thirds full with water. Heat over medium heat until the first bubbles appear."
+        }
+      },
+      {
+        "id": "poach-egg-tomato-oatmeal-with-egg",
+        "en": {
+          "title": "Poach the egg",
+          "description": "Stir the water in a circular motion to create a vortex, then gently pour in the egg. Cook for 3 minutes, then carefully remove with a slotted spoon."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-vegetables-tomato-oatmeal-with-egg",
+        "en": {
+          "title": "Prepare Vegetables and Aromatics"
+        }
+      },
+      {
+        "id": "cook-oatmeal-tomato-oatmeal-with-egg",
+        "en": {
+          "title": "Cook Oatmeal with Tomato"
+        }
+      },
+      {
+        "id": "poach-egg-tomato-oatmeal-with-egg",
+        "en": {
+          "title": "Poach the Egg"
+        }
+      }
+    ]
+  }
+]

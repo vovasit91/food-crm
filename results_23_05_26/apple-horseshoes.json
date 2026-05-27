@@ -1,0 +1,205 @@
+[
+  {
+    "id": "apple-horseshoes",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDMyNC8zN0JqWnYuanBlZw.webp",
+    "title": {
+      "en": "Apple Horseshoes"
+    },
+    "timeMinutes": 35,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "slice-apples-apple-horseshoes",
+        "minutes": 5
+      },
+      {
+        "stepId": "prepare-dough-apple-horseshoes",
+        "minutes": 5
+      },
+      {
+        "stepId": "wrap-apples-apple-horseshoes",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-apple-horseshoes",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "puff-pastry",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "apple",
+        "quantity": 110,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "slice-and-core-apples-apple-horseshoes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "roll-and-cut-dough-apple-horseshoes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "wrap-apple-slices-apple-horseshoes",
+        "duration": 8,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "apply-egg-wash-and-cinnamon-sugar-apple-horseshoes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "transfer-to-baking-sheet-apple-horseshoes",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-pastries-apple-horseshoes",
+        "duration": 20,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "cool-pastries-apple-horseshoes",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "slice-and-core-apples-apple-horseshoes",
+        "en": {
+          "title": "Slice and core the apples",
+          "description": "Slice the apples into circles about 1 cm thick. Remove the cores from each slice, then cut them in half to create small horseshoe shapes."
+        }
+      },
+      {
+        "id": "roll-and-cut-dough-apple-horseshoes",
+        "en": {
+          "title": "Roll and cut the dough",
+          "description": "Dust your work surface with flour. Roll out the puff pastry sheet to a thickness of 5 mm. Then cut the dough into strips about 1 cm wide."
+        }
+      },
+      {
+        "id": "wrap-apple-slices-apple-horseshoes",
+        "en": {
+          "title": "Wrap the apple slices with dough",
+          "description": "Take each apple half and wrap it with a strip of dough, overlapping the turns slightly so that each turn partially covers the previous one."
+        }
+      },
+      {
+        "id": "apply-egg-wash-and-cinnamon-sugar-apple-horseshoes",
+        "en": {
+          "title": "Apply egg wash and cinnamon sugar",
+          "description": "Crack an egg into a clean bowl and beat lightly with a fork. In another bowl, mix the sugar and cinnamon. Brush the wrapped apple pastries with the egg mixture and sprinkle them with the cinnamon sugar."
+        }
+      },
+      {
+        "id": "transfer-to-baking-sheet-apple-horseshoes",
+        "en": {
+          "title": "Transfer to baking sheet",
+          "description": "Place the prepared pastries onto a baking sheet lined with parchment paper if desired."
+        }
+      },
+      {
+        "id": "bake-pastries-apple-horseshoes",
+        "en": {
+          "title": "Bake the pastries",
+          "description": "Bake in a preheated oven at 180°C (350°F) for 15-20 minutes until golden brown and crispy."
+        }
+      },
+      {
+        "id": "cool-pastries-apple-horseshoes",
+        "en": {
+          "title": "Cool the pastries",
+          "description": "Remove the pastries from the oven and let them cool on a wire rack for 10 minutes before serving."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "slice-apples-apple-horseshoes",
+        "en": {
+          "title": "Slice the apples"
+        }
+      },
+      {
+        "id": "prepare-dough-apple-horseshoes",
+        "en": {
+          "title": "Prepare the dough"
+        }
+      },
+      {
+        "id": "wrap-apples-apple-horseshoes",
+        "en": {
+          "title": "Wrap the apples"
+        }
+      },
+      {
+        "id": "bake-apple-horseshoes",
+        "en": {
+          "title": "Bake the pastries"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "salmon-in-kataifi-dough",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIxOS9XcVFYUnkuanBlZw.webp",
+    "title": {
+      "en": "Salmon in Kataifi Dough"
+    },
+    "timeMinutes": 25,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "creamy",
+      "hearty"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-filling-salmon-in-kataifi-dough",
+        "minutes": 5
+      },
+      {
+        "stepId": "assemble-rolls-salmon-in-kataifi-dough",
+        "minutes": 5
+      },
+      {
+        "stepId": "wrap-and-bake-salmon-in-kataifi-dough",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "kataifi-dough",
+        "quantity": 65,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salmon",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "fresh-herbs",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cherry-tomatoes",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "chop-herbs-and-mix-filling-salmon-in-kataifi-dough",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "divide-filling-into-portions-salmon-in-kataifi-dough",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "lay-salmon-and-add-filling-salmon-in-kataifi-dough",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "roll-salmon-rolls-salmon-in-kataifi-dough",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "wrap-rolls-with-kataifi-dough-salmon-in-kataifi-dough",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-rolls-on-baking-sheet-salmon-in-kataifi-dough",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-rolls-salmon-in-kataifi-dough",
+        "duration": 15,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "chop-herbs-and-mix-filling-salmon-in-kataifi-dough",
+        "en": {
+          "title": "Chop herbs and mix filling",
+          "description": "Remove the herb leaves from stems and chop finely. Add to cream cheese and mix well."
+        }
+      },
+      {
+        "id": "divide-filling-into-portions-salmon-in-kataifi-dough",
+        "en": {
+          "title": "Divide filling into portions",
+          "description": "Divide the cream cheese mixture into 5 equal portions."
+        }
+      },
+      {
+        "id": "lay-salmon-and-add-filling-salmon-in-kataifi-dough",
+        "en": {
+          "title": "Lay salmon and add filling",
+          "description": "Lay out the salmon slices on a work surface. Place a portion of filling on each slice."
+        }
+      },
+      {
+        "id": "roll-salmon-rolls-salmon-in-kataifi-dough",
+        "en": {
+          "title": "Roll salmon rolls",
+          "description": "Roll each salmon slice into a tight roll."
+        }
+      },
+      {
+        "id": "wrap-rolls-with-kataifi-dough-salmon-in-kataifi-dough",
+        "en": {
+          "title": "Wrap rolls with kataifi dough",
+          "description": "Divide the kataifi dough into 5 parts. Wrap each roll completely with the dough."
+        }
+      },
+      {
+        "id": "place-rolls-on-baking-sheet-salmon-in-kataifi-dough",
+        "en": {
+          "title": "Place rolls on baking sheet",
+          "description": "Place the wrapped rolls on a baking sheet lined with parchment paper."
+        }
+      },
+      {
+        "id": "bake-rolls-salmon-in-kataifi-dough",
+        "en": {
+          "title": "Bake rolls",
+          "description": "Bake in a preheated oven at 200°C for 10–15 minutes, until golden and crispy."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-filling-salmon-in-kataifi-dough",
+        "en": {
+          "title": "Prepare filling"
+        }
+      },
+      {
+        "id": "assemble-rolls-salmon-in-kataifi-dough",
+        "en": {
+          "title": "Assemble rolls"
+        }
+      },
+      {
+        "id": "wrap-and-bake-salmon-in-kataifi-dough",
+        "en": {
+          "title": "Wrap and bake"
+        }
+      }
+    ]
+  }
+]

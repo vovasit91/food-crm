@@ -1,0 +1,248 @@
+[
+  {
+    "id": "kefir-omelette",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExMi8zenlzbWsuanBlZw.webp",
+    "title": {
+      "en": "Kefir Omelette"
+    },
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "pan-fried",
+      "hearty",
+      "one-pan"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-ingredients-kefir-omelette",
+        "minutes": 5
+      },
+      {
+        "stepId": "mix-batter-kefir-omelette",
+        "minutes": 3
+      },
+      {
+        "stepId": "cook-omelette-kefir-omelette",
+        "minutes": 10
+      },
+      {
+        "stepId": "serve-omelette-kefir-omelette",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "eggs",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parsley",
+        "quantity": 5,
+        "unit": "sprigs",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "kefir",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "microgreens",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "crack-eggs-kefir-omelette",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-flour-kefir-omelette",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-parsley-kefir-omelette",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grate-cheese-kefir-omelette",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-kefir-omelette",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-mixture-kefir-omelette",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "top-with-cheese-kefir-omelette",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-covered-kefir-omelette",
+        "duration": 7,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "crack-eggs-kefir-omelette",
+        "en": {
+          "title": "Crack eggs and whisk with kefir",
+          "description": "Crack the eggs into a bowl. Add salt, pepper, and kefir. Whisk until smooth and uniform."
+        }
+      },
+      {
+        "id": "add-flour-kefir-omelette",
+        "en": {
+          "title": "Add flour to the mixture",
+          "description": "Sift the flour into the egg mixture and stir thoroughly until no lumps remain."
+        }
+      },
+      {
+        "id": "chop-parsley-kefir-omelette",
+        "en": {
+          "title": "Chop parsley and add to batter",
+          "description": "Finely chop the parsley leaves and add them to the batter. Mix well to distribute."
+        }
+      },
+      {
+        "id": "grate-cheese-kefir-omelette",
+        "en": {
+          "title": "Grate the cheese",
+          "description": "Grate the hard cheese on a fine or medium grater into a separate plate. Set aside."
+        }
+      },
+      {
+        "id": "heat-oil-kefir-omelette",
+        "en": {
+          "title": "Heat oil in a pan",
+          "description": "Place a non-stick skillet over medium heat. Add the vegetable oil and let it heat up."
+        }
+      },
+      {
+        "id": "pour-mixture-kefir-omelette",
+        "en": {
+          "title": "Pour the omelette mixture into the pan",
+          "description": "Pour the prepared egg mixture into the hot skillet, spreading it evenly."
+        }
+      },
+      {
+        "id": "top-with-cheese-kefir-omelette",
+        "en": {
+          "title": "Top with grated cheese",
+          "description": "Sprinkle the grated cheese evenly over the top of the omelette."
+        }
+      },
+      {
+        "id": "cook-covered-kefir-omelette",
+        "en": {
+          "title": "Cover and cook on low heat",
+          "description": "Cover the skillet with a lid. Reduce the heat to low and cook for 5 to 7 minutes, until the omelette is fully set. Use a timer."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-ingredients-kefir-omelette",
+        "en": {
+          "title": "Prepare ingredients"
+        }
+      },
+      {
+        "id": "mix-batter-kefir-omelette",
+        "en": {
+          "title": "Mix the batter"
+        }
+      },
+      {
+        "id": "cook-omelette-kefir-omelette",
+        "en": {
+          "title": "Cook the omelette"
+        }
+      },
+      {
+        "id": "serve-omelette-kefir-omelette",
+        "en": {
+          "title": "Serve"
+        }
+      }
+    ]
+  }
+]

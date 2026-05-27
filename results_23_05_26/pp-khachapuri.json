@@ -1,0 +1,213 @@
+[
+  {
+    "id": "pp-khachapuri",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEwOS8zTWtMdEwuanBlZw.webp",
+    "title": {
+      "en": "PP Khachapuri (Healthy Khachapuri on a Skillet)"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "pan-fried",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "frying-pan",
+      "stove"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-batter-pp-khachapuri",
+        "minutes": 10
+      },
+      {
+        "stepId": "cook-first-side-pp-khachapuri",
+        "minutes": 6
+      },
+      {
+        "stepId": "cook-second-side-pp-khachapuri",
+        "minutes": 6
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "milk",
+        "quantity": 50,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "rice-flour",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "suluguni",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tvorog",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "fresh-herbs",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vegetables",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-eggs-milk-pp-khachapuri",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mash-tvorog-pp-khachapuri",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-flour-seasoning-pp-khachapuri",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-cheese-herbs-pp-khachapuri",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-first-side-pp-khachapuri",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "flip-and-cook-second-side-pp-khachapuri",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-eggs-milk-pp-khachapuri",
+        "en": {
+          "title": "Mix eggs and milk",
+          "description": "In a bowl, combine the eggs and milk and whisk until smooth. Do not overbeat."
+        }
+      },
+      {
+        "id": "mash-tvorog-pp-khachapuri",
+        "en": {
+          "title": "Mash tvorog",
+          "description": "Mash the tvorog with a fork and add to the egg-milk mixture. Mix well, breaking up any large curds."
+        }
+      },
+      {
+        "id": "add-flour-seasoning-pp-khachapuri",
+        "en": {
+          "title": "Add flour and seasonings",
+          "description": "Add the rice flour, salt, and pepper. Mix thoroughly."
+        }
+      },
+      {
+        "id": "add-cheese-herbs-pp-khachapuri",
+        "en": {
+          "title": "Add cheese and herbs",
+          "description": "Grate the suluguni on a fine grater and add to the batter. Chop fresh herbs and add as well."
+        }
+      },
+      {
+        "id": "cook-first-side-pp-khachapuri",
+        "en": {
+          "title": "Cook the first side",
+          "description": "Brush the skillet with oil and pour in the batter. Spread evenly with a spatula. Cover and cook over medium heat for 5–6 minutes until golden brown."
+        }
+      },
+      {
+        "id": "flip-and-cook-second-side-pp-khachapuri",
+        "en": {
+          "title": "Flip and cook the other side",
+          "description": "Carefully flip the flatbread and cook covered for another 5–6 minutes."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-batter-pp-khachapuri",
+        "en": {
+          "title": "Prepare the batter"
+        }
+      },
+      {
+        "id": "cook-first-side-pp-khachapuri",
+        "en": {
+          "title": "Cook the first side"
+        }
+      },
+      {
+        "id": "cook-second-side-pp-khachapuri",
+        "en": {
+          "title": "Cook the second side"
+        }
+      }
+    ]
+  }
+]

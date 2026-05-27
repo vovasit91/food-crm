@@ -1,0 +1,312 @@
+[
+  {
+    "id": "paella-with-seafood-and-chicken",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy9yZWNpcGVzLzIwNTYxL2NvdmVycy80NjI5OGMuanBn.webp",
+    "title": {
+      "en": "Paella with Seafood and Chicken"
+    },
+    "timeMinutes": 90,
+    "difficulty": "medium",
+    "tags": [
+      "hearty",
+      "one-pan",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-ingredients-paella-with-seafood-and-chicken",
+        "minutes": 10
+      },
+      {
+        "stepId": "cook-seafood-paella-with-seafood-and-chicken",
+        "minutes": 15
+      },
+      {
+        "stepId": "cook-chicken-and-vegetables-paella-with-seafood-and-chicken",
+        "minutes": 20
+      },
+      {
+        "stepId": "cook-paella-paella-with-seafood-and-chicken",
+        "minutes": 45
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "rice",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chicken-breast",
+        "quantity": 62.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "frozen-seafood-mix",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "quantity": 37.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 45,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "white-wine",
+        "quantity": 25,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 1,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 125,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "saffron",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olives",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "fry-seafood-paella-with-seafood-and-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-wine-simmer-seafood-paella-with-seafood-and-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-chicken-paella-with-seafood-and-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "transfer-chicken-paella-with-seafood-and-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-onion-garlic-paella-with-seafood-and-chicken",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-vegetables-paella-with-seafood-and-chicken",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "add-rice-paella-with-seafood-and-chicken",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "add-proteins-paella-with-seafood-and-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-water-season-paella-with-seafood-and-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "simmer-paella-with-seafood-and-chicken",
+        "duration": 20,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "fry-seafood-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Fry the seafood",
+          "description": "Heat the olive oil in a large skillet. Add the frozen seafood mixture and fry until the excess liquid evaporates, about 5 minutes."
+        }
+      },
+      {
+        "id": "add-wine-simmer-seafood-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Add white wine and simmer",
+          "description": "Pour the white wine over the seafood. Simmer until the wine has completely evaporated."
+        }
+      },
+      {
+        "id": "fry-chicken-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Fry the chicken",
+          "description": "In a separate skillet, heat oil and fry the chicken fillet until golden brown. Season with salt."
+        }
+      },
+      {
+        "id": "transfer-chicken-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Transfer the chicken",
+          "description": "Remove the chicken from the skillet and set it aside on a plate."
+        }
+      },
+      {
+        "id": "fry-onion-garlic-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Fry onion and garlic",
+          "description": "In the same skillet, fry the chopped onion and garlic until fragrant, about 2 minutes."
+        }
+      },
+      {
+        "id": "fry-vegetables-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Fry the vegetables",
+          "description": "Add the diced bell pepper and tomatoes to the skillet. Cook over medium heat, stirring occasionally, for 7–10 minutes until softened."
+        }
+      },
+      {
+        "id": "add-rice-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Add rice and fry",
+          "description": "Add the round-grain rice to the vegetables. Stir well and continue frying for 2–3 minutes to coat the rice with oil."
+        }
+      },
+      {
+        "id": "add-proteins-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Add the chicken and seafood",
+          "description": "Return the cooked chicken and seafood to the skillet, distributing them evenly among the rice."
+        }
+      },
+      {
+        "id": "add-water-season-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Add water and season",
+          "description": "Pour the water into the skillet. Season with salt, black pepper, and saffron. Stir gently to combine."
+        }
+      },
+      {
+        "id": "simmer-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Simmer until rice is tender",
+          "description": "Reduce the heat to medium and simmer the paella uncovered for 15–20 minutes, until the rice is cooked and the liquid is absorbed. Do not stir during cooking."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-ingredients-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Prep ingredients"
+        }
+      },
+      {
+        "id": "cook-seafood-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Cook seafood"
+        }
+      },
+      {
+        "id": "cook-chicken-and-vegetables-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Cook chicken and vegetables"
+        }
+      },
+      {
+        "id": "cook-paella-paella-with-seafood-and-chicken",
+        "en": {
+          "title": "Cook the paella"
+        }
+      }
+    ]
+  }
+]

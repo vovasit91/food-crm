@@ -1,0 +1,230 @@
+[
+  {
+    "id": "air-fryer-banana-donuts",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyNS9qbTRIOUUuanBlZw.webp",
+    "title": {
+      "en": "Air Fryer Banana Donuts"
+    },
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "tags": [
+      "gluten-free",
+      "vegan",
+      "baked"
+    ],
+    "kitchen": [
+      "air-fryer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-dough-air-fryer-banana-donuts",
+        "minutes": 15
+      },
+      {
+        "stepId": "shape-donuts-air-fryer-banana-donuts",
+        "minutes": 5
+      },
+      {
+        "stepId": "bake-donuts-air-fryer-banana-donuts",
+        "minutes": 10
+      },
+      {
+        "stepId": "coat-donuts-air-fryer-banana-donuts",
+        "minutes": 10
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "banana",
+        "quantity": 37.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "rice-flour",
+        "quantity": 37.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.25,
+        "unit": "pinch",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mash-banana-air-fryer-banana-donuts",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-dry-ingredients-air-fryer-banana-donuts",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-dough-air-fryer-banana-donuts",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rest-dough-air-fryer-banana-donuts",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "shape-dough-balls-air-fryer-banana-donuts",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-donuts-air-fryer-banana-donuts",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "brush-oil-air-fryer-banana-donuts",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "coat-donuts-air-fryer-banana-donuts",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mash-banana-air-fryer-banana-donuts",
+        "en": {
+          "title": "Mash the banana",
+          "description": "Take a ripe banana and mash it thoroughly with a fork until smooth puree."
+        }
+      },
+      {
+        "id": "combine-dry-ingredients-air-fryer-banana-donuts",
+        "en": {
+          "title": "Combine dry ingredients",
+          "description": "In a small bowl, mix the rice flour and baking powder together."
+        }
+      },
+      {
+        "id": "mix-dough-air-fryer-banana-donuts",
+        "en": {
+          "title": "Mix dough",
+          "description": "Add the combined dry ingredients to the banana puree and stir until the dough comes together."
+        }
+      },
+      {
+        "id": "rest-dough-air-fryer-banana-donuts",
+        "en": {
+          "title": "Rest the dough",
+          "description": "Cover the dough and let it rest for 10 minutes to allow the rice flour to hydrate."
+        }
+      },
+      {
+        "id": "shape-dough-balls-air-fryer-banana-donuts",
+        "en": {
+          "title": "Shape dough balls",
+          "description": "Divide the rested dough into 8 equal portions and roll each into a ball."
+        }
+      },
+      {
+        "id": "bake-donuts-air-fryer-banana-donuts",
+        "en": {
+          "title": "Bake in air fryer",
+          "description": "Place the dough balls on the air fryer rack. Set the temperature to 180°C and bake for 10 minutes."
+        }
+      },
+      {
+        "id": "brush-oil-air-fryer-banana-donuts",
+        "en": {
+          "title": "Brush with oil",
+          "description": "Using a pastry brush, lightly coat the baked donuts with vegetable oil."
+        }
+      },
+      {
+        "id": "coat-donuts-air-fryer-banana-donuts",
+        "en": {
+          "title": "Coat with sugar mixture",
+          "description": "Mix together the brown sugar, cinnamon, vanilla, and salt. Roll the oiled donuts in the mixture until evenly coated."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-dough-air-fryer-banana-donuts",
+        "en": {
+          "title": "Prepare the dough"
+        }
+      },
+      {
+        "id": "shape-donuts-air-fryer-banana-donuts",
+        "en": {
+          "title": "Shape the donuts"
+        }
+      },
+      {
+        "id": "bake-donuts-air-fryer-banana-donuts",
+        "en": {
+          "title": "Bake the donuts"
+        }
+      },
+      {
+        "id": "coat-donuts-air-fryer-banana-donuts",
+        "en": {
+          "title": "Coat the donuts"
+        }
+      }
+    ]
+  }
+]

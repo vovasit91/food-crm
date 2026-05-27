@@ -1,0 +1,172 @@
+[
+  {
+    "id": "curd-waffles-with-carrot",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEwNi8zcUR0MmIuanBlZw.webp",
+    "title": {
+      "en": "Curd Waffles with Carrot"
+    },
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "pan-fried"
+    ],
+    "kitchen": [],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-batter-curd-waffles-with-carrot",
+        "minutes": 10
+      },
+      {
+        "stepId": "heat-waffle-iron-curd-waffles-with-carrot",
+        "minutes": 5
+      },
+      {
+        "stepId": "cook-waffles-curd-waffles-with-carrot",
+        "minutes": 25
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "tvorog",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "carrots",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "honey",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grate-carrot-curd-waffles-with-carrot",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-batter-curd-waffles-with-carrot",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-and-grease-waffle-iron-curd-waffles-with-carrot",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cook-waffles-curd-waffles-with-carrot",
+        "duration": 25,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grate-carrot-curd-waffles-with-carrot",
+        "en": {
+          "title": "Grate the carrot",
+          "description": "Finely grate the carrot into a mixing bowl."
+        }
+      },
+      {
+        "id": "mix-batter-curd-waffles-with-carrot",
+        "en": {
+          "title": "Mix the batter",
+          "description": "Add the egg, soft curd cheese, flour, salt, and sugar to the grated carrot. Mix well until smooth and uniform."
+        }
+      },
+      {
+        "id": "preheat-and-grease-waffle-iron-curd-waffles-with-carrot",
+        "en": {
+          "title": "Preheat and grease the waffle iron",
+          "description": "Heat your waffle iron and brush its cooking surfaces with vegetable oil."
+        }
+      },
+      {
+        "id": "cook-waffles-curd-waffles-with-carrot",
+        "en": {
+          "title": "Cook the waffles",
+          "description": "Place a heaping tablespoon of batter onto each waffle section. Close the lid and cook for 3–4 minutes per batch, until golden and cooked through. Repeat with remaining batter."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-batter-curd-waffles-with-carrot",
+        "en": {
+          "title": "Prepare the batter"
+        }
+      },
+      {
+        "id": "heat-waffle-iron-curd-waffles-with-carrot",
+        "en": {
+          "title": "Heat the waffle iron"
+        }
+      },
+      {
+        "id": "cook-waffles-curd-waffles-with-carrot",
+        "en": {
+          "title": "Cook the waffles"
+        }
+      }
+    ]
+  }
+]

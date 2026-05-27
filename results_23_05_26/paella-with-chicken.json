@@ -1,0 +1,286 @@
+[
+  {
+    "id": "paella-with-chicken",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy9yZWNpcGVzLzIzNzgvY292ZXJzLzNuc2Zuby5qcGc.webp",
+    "title": {
+      "en": "Paella with Chicken"
+    },
+    "timeMinutes": 80,
+    "difficulty": "medium",
+    "tags": [
+      "hearty",
+      "pan-fried",
+      "one-pan"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-chicken-broth-paella-with-chicken",
+        "minutes": 30
+      },
+      {
+        "stepId": "fry-chicken-and-saute-vegetables-paella-with-chicken",
+        "minutes": 10
+      },
+      {
+        "stepId": "cook-rice-and-finish-paella-with-chicken",
+        "minutes": 25
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "chicken-thighs",
+        "quantity": 125,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "rice",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "peas",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "white-wine",
+        "quantity": 25,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "paprika",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chili-flakes",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 1,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 15,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parsley",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dill",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "boil-chicken-paella-with-chicken",
+        "duration": 30,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "remove-boiled-chicken-paella-with-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-chicken-paella-with-chicken",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "remove-fried-chicken-paella-with-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "saute-vegetables-paella-with-chicken",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "add-rice-paella-with-chicken",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "add-broth-and-simmer-paella-with-chicken",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "add-wine-and-simmer-paella-with-chicken",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "add-peas-paella-with-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "boil-chicken-paella-with-chicken",
+        "en": {
+          "title": "Boil the chicken",
+          "description": "Place the chicken in a pot, cover with salted water, and bring to a boil. Simmer until fully cooked, about 30 minutes, to create a flavorful broth."
+        }
+      },
+      {
+        "id": "remove-boiled-chicken-paella-with-chicken",
+        "en": {
+          "title": "Remove the chicken",
+          "description": "Take the cooked chicken out of the broth and set aside. If needed, remove the meat from the bones and discard bones."
+        }
+      },
+      {
+        "id": "fry-chicken-paella-with-chicken",
+        "en": {
+          "title": "Fry the chicken",
+          "description": "In a large frying pan over medium-high heat, heat a little olive oil. Fry the boiled chicken pieces until golden brown on all sides."
+        }
+      },
+      {
+        "id": "remove-fried-chicken-paella-with-chicken",
+        "en": {
+          "title": "Remove the fried chicken",
+          "description": "Transfer the golden chicken pieces to a separate bowl and set aside."
+        }
+      },
+      {
+        "id": "saute-vegetables-paella-with-chicken",
+        "en": {
+          "title": "Sauté the vegetables",
+          "description": "In the same pan, add a bit more oil if needed. Sauté the diced tomatoes, bell pepper, chopped garlic, onion, and paprika for 4-5 minutes until softened. Season with salt and pepper."
+        }
+      },
+      {
+        "id": "add-rice-paella-with-chicken",
+        "en": {
+          "title": "Add the rice",
+          "description": "Stir the rice into the vegetable mixture. Cook over medium heat for 3-5 minutes, stirring frequently, until the rice grains are lightly toasted."
+        }
+      },
+      {
+        "id": "add-broth-and-simmer-paella-with-chicken",
+        "en": {
+          "title": "Add broth and simmer",
+          "description": "Return the chicken to the pan. Pour in the chicken broth until the rice is just covered. Bring to a boil, then reduce heat to low and simmer uncovered for 10-15 minutes, until the rice is almost tender."
+        }
+      },
+      {
+        "id": "add-wine-and-simmer-paella-with-chicken",
+        "en": {
+          "title": "Add wine and simmer until evaporated",
+          "description": "Pour the white wine over the rice and continue to simmer until the liquid is fully absorbed and the rice is cooked through."
+        }
+      },
+      {
+        "id": "add-peas-paella-with-chicken",
+        "en": {
+          "title": "Add peas and serve",
+          "description": "Fold in the green peas, heat for a minute, then remove from heat. Serve the paella warm, garnished with lemon wedges, parsley, or dill if desired."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-chicken-broth-paella-with-chicken",
+        "en": {
+          "title": "Prepare chicken broth and cook chicken"
+        }
+      },
+      {
+        "id": "fry-chicken-and-saute-vegetables-paella-with-chicken",
+        "en": {
+          "title": "Fry chicken and sauté vegetables"
+        }
+      },
+      {
+        "id": "cook-rice-and-finish-paella-with-chicken",
+        "en": {
+          "title": "Cook rice, add wine, and finish paella"
+        }
+      }
+    ]
+  }
+]

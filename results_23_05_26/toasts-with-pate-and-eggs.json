@@ -1,0 +1,157 @@
+[
+  {
+    "id": "toasts-with-pate-and-eggs",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAyMC8zbmtyeDQuanBlZw.webp",
+    "title": {
+      "en": "Toasts with Pate and Eggs"
+    },
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "boil-eggs-toasts-with-pate-and-eggs",
+        "minutes": 10
+      },
+      {
+        "stepId": "fry-bread-toasts-with-pate-and-eggs",
+        "minutes": 5
+      },
+      {
+        "stepId": "prepare-and-assemble-toasts-with-pate-and-eggs",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 80,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pate",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dill",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "boil-eggs-toasts-with-pate-and-eggs",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "fry-bread-toasts-with-pate-and-eggs",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "prepare-egg-mixture-toasts-with-pate-and-eggs",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-toasts-with-pate-and-eggs",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "boil-eggs-toasts-with-pate-and-eggs",
+        "en": {
+          "title": "Boil the eggs",
+          "description": "Bring water to a boil in a pot. Gently lower the eggs using a spoon to prevent cracking. Boil for 10 minutes, then transfer to ice water to cool."
+        }
+      },
+      {
+        "id": "fry-bread-toasts-with-pate-and-eggs",
+        "en": {
+          "title": "Fry the bread",
+          "description": "Heat vegetable oil in a frying pan over medium heat. Fry the bread slices until golden and crispy on both sides."
+        }
+      },
+      {
+        "id": "prepare-egg-mixture-toasts-with-pate-and-eggs",
+        "en": {
+          "title": "Prepare the egg mixture",
+          "description": "Peel the cooled eggs and dice or grate them finely. Chop the dill and mix it with the eggs. Season with a pinch of salt."
+        }
+      },
+      {
+        "id": "assemble-toasts-with-pate-and-eggs",
+        "en": {
+          "title": "Assemble the toasts",
+          "description": "Spread the pate evenly on the toasted bread slices. Top with the egg and dill mixture."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "boil-eggs-toasts-with-pate-and-eggs",
+        "en": {
+          "title": "Boil eggs"
+        }
+      },
+      {
+        "id": "fry-bread-toasts-with-pate-and-eggs",
+        "en": {
+          "title": "Fry bread"
+        }
+      },
+      {
+        "id": "prepare-and-assemble-toasts-with-pate-and-eggs",
+        "en": {
+          "title": "Prepare and assemble toasts"
+        }
+      }
+    ]
+  }
+]

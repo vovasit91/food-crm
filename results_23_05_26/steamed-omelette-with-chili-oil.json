@@ -1,0 +1,312 @@
+[
+  {
+    "id": "steamed-omelette-with-chili-oil",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEwNS8zR1hlWjYuanBlZw.webp",
+    "title": {
+      "en": "Steamed Omelette with Chili Oil"
+    },
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "tags": [
+      "steamed",
+      "creamy",
+      "spicy"
+    ],
+    "kitchen": [
+      "stove",
+      "steamer",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "make-chili-oil-steamed-omelette-with-chili-oil",
+        "minutes": 15
+      },
+      {
+        "stepId": "prepare-egg-base-steamed-omelette-with-chili-oil",
+        "minutes": 10
+      },
+      {
+        "stepId": "steam-omelette-tldr-steamed-omelette-with-chili-oil",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 80,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chili-pepper",
+        "quantity": 3,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "shallot",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 0.67,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chili-flakes",
+        "quantity": 0.67,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "paprika",
+        "quantity": 0.33,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": 0.33,
+        "unit": "piece",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "quantity": 80,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "green-onion",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "slice-vegetables-steamed-omelette-with-chili-oil",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-with-spices-steamed-omelette-with-chili-oil",
+        "duration": 1,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-aromatics-in-oil-steamed-omelette-with-chili-oil",
+        "duration": 15,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "season-and-strain-oil-steamed-omelette-with-chili-oil",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-broth-steamed-omelette-with-chili-oil",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whisk-eggs-steamed-omelette-with-chili-oil",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-broth-and-eggs-steamed-omelette-with-chili-oil",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "add-chili-oil-to-mixture-steamed-omelette-with-chili-oil",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "strain-egg-mixture-steamed-omelette-with-chili-oil",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-into-molds-steamed-omelette-with-chili-oil",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "steam-omelette-steamed-omelette-with-chili-oil",
+        "duration": 15,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "steamed"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "slice-vegetables-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Slice the vegetables",
+          "description": "Slice the shallot and fresh chili into thin half-rings, and cut the garlic into thin slices."
+        }
+      },
+      {
+        "id": "heat-oil-with-spices-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Heat oil and bloom spices",
+          "description": "Heat the vegetable oil in a saucepan over medium heat. Add the chili flakes, smoked paprika, and cinnamon stick. Fry for 1 minute until fragrant."
+        }
+      },
+      {
+        "id": "cook-aromatics-in-oil-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Cook aromatics in oil",
+          "description": "Add the sliced shallot, garlic, and fresh chili to the oil. Reduce heat to low and cook for 10–15 minutes until the vegetables are golden. Stir occasionally."
+        }
+      },
+      {
+        "id": "season-and-strain-oil-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Season and strain the chili oil",
+          "description": "Remove the saucepan from heat. Add soy sauce and a pinch of sugar, then stir. Strain the oil through a fine sieve or cheesecloth to remove spices and fried pieces."
+        }
+      },
+      {
+        "id": "heat-broth-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Heat the broth",
+          "description": "Heat the chicken broth in a small saucepan until it just begins to boil."
+        }
+      },
+      {
+        "id": "whisk-eggs-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Whisk the eggs",
+          "description": "Crack the eggs into a bowl and whisk until homogeneous and smooth."
+        }
+      },
+      {
+        "id": "combine-broth-and-eggs-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Combine broth with eggs",
+          "description": "Slowly pour the hot broth into the whisked eggs in a thin stream while stirring continuously to prevent the eggs from curdling."
+        }
+      },
+      {
+        "id": "add-chili-oil-to-mixture-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Add chili oil to the mixture",
+          "description": "Add a portion of the prepared chili oil to the egg and broth mixture and stir gently."
+        }
+      },
+      {
+        "id": "strain-egg-mixture-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Strain the egg mixture",
+          "description": "Pass the mixture through a fine sieve to ensure a silky smooth texture."
+        }
+      },
+      {
+        "id": "pour-into-molds-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Pour into molds",
+          "description": "Divide the mixture among portion-sized molds, filling them about halfway."
+        }
+      },
+      {
+        "id": "steam-omelette-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Steam the omelette",
+          "description": "Place the molds in a steamer or on a rack over a pot of boiling water. Cover and steam over low heat for 12–15 minutes until the custard is set."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "make-chili-oil-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Make chili oil"
+        }
+      },
+      {
+        "id": "prepare-egg-base-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Prepare egg base"
+        }
+      },
+      {
+        "id": "steam-omelette-tldr-steamed-omelette-with-chili-oil",
+        "en": {
+          "title": "Steam omelette"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,404 @@
+[
+  {
+    "id": "cheeseburger-pizza",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExOC9qMzNuM0guanBlZw.webp",
+    "title": {
+      "en": "Cheeseburger Pizza"
+    },
+    "timeMinutes": 90,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "hearty",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "frying-pan",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-dough-cheeseburger-pizza",
+        "minutes": 50
+      },
+      {
+        "stepId": "prepare-toppings-cheeseburger-pizza",
+        "minutes": 15
+      },
+      {
+        "stepId": "assemble-and-bake-cheeseburger-pizza",
+        "minutes": 25
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 60,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yeast",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "millet-flour",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ground-beef",
+        "quantity": 125,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ketchup",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "processed-cheese",
+        "quantity": 36,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mozzarella",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pickles",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 45,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mustard",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "oregano",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "basil",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-dry-ingredients-cheeseburger-pizza",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "knead-dough-cheeseburger-pizza",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rest-dough-cheeseburger-pizza",
+        "duration": 30,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-vegetables-cheeseburger-pizza",
+        "duration": 8,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-cheeseburger-pizza",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "fry-beef-cheeseburger-pizza",
+        "duration": 8,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "season-beef-cheeseburger-pizza",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "shape-dough-and-rest-cheeseburger-pizza",
+        "duration": 22,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "roll-dough-cheeseburger-pizza",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "brush-oil-ketchup-cheeseburger-pizza",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-processed-cheese-cheeseburger-pizza",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-beef-and-onion-cheeseburger-pizza",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "top-with-mozzarella-veggies-cheeseburger-pizza",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-cheeseburger-pizza",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "bake-pizza-cheeseburger-pizza",
+        "duration": 9,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-dry-ingredients-cheeseburger-pizza",
+        "en": {
+          "title": "Mix dry ingredients",
+          "description": "In a bowl, combine half of the flour with sugar, salt, and yeast. Pour in warm water and 2 tablespoons of olive oil, then stir until well mixed."
+        }
+      },
+      {
+        "id": "knead-dough-cheeseburger-pizza",
+        "en": {
+          "title": "Knead the dough",
+          "description": "Gradually add the remaining flour and knead by hand until you have a smooth, soft, and non-sticky dough. This should take about 10 minutes."
+        }
+      },
+      {
+        "id": "rest-dough-cheeseburger-pizza",
+        "en": {
+          "title": "Let the dough rest",
+          "description": "Wrap the dough in plastic wrap and leave it in a warm place for 30 minutes to rise and relax."
+        }
+      },
+      {
+        "id": "prepare-vegetables-cheeseburger-pizza",
+        "en": {
+          "title": "Prepare the toppings",
+          "description": "Grate the mozzarella coarsely. Slice the onion into rings, and cut the tomato and pickles into thin rounds."
+        }
+      },
+      {
+        "id": "heat-oil-cheeseburger-pizza",
+        "en": {
+          "title": "Heat the oil",
+          "description": "Pour 2 tablespoons of olive oil into a frying pan and place over medium heat until shimmering."
+        }
+      },
+      {
+        "id": "fry-beef-cheeseburger-pizza",
+        "en": {
+          "title": "Fry the beef",
+          "description": "Add the ground beef to the hot pan and cook, breaking up any lumps with a spatula, until the meat is browned and cooked through. This should take about 8 minutes."
+        }
+      },
+      {
+        "id": "season-beef-cheeseburger-pizza",
+        "en": {
+          "title": "Season the beef",
+          "description": "Sprinkle the beef with salt, pepper, oregano, and mustard. Stir to combine, then remove the pan from the heat."
+        }
+      },
+      {
+        "id": "shape-dough-and-rest-cheeseburger-pizza",
+        "en": {
+          "title": "Shape and rest the dough",
+          "description": "Punch down the risen dough, shape it into a ball, and dust lightly with millet flour. Let it rest for another 20 minutes at room temperature."
+        }
+      },
+      {
+        "id": "roll-dough-cheeseburger-pizza",
+        "en": {
+          "title": "Roll out the dough",
+          "description": "On a floured surface, roll the dough into a round disc about 30 cm in diameter. Transfer it to a baking sheet lined with parchment paper."
+        }
+      },
+      {
+        "id": "brush-oil-ketchup-cheeseburger-pizza",
+        "en": {
+          "title": "Brush oil and spread ketchup",
+          "description": "Brush the surface of the dough with the remaining olive oil, then spread ketchup evenly over the oil."
+        }
+      },
+      {
+        "id": "add-processed-cheese-cheeseburger-pizza",
+        "en": {
+          "title": "Add processed cheese",
+          "description": "Tear the processed cheese slices into small pieces and scatter them over the ketchup layer."
+        }
+      },
+      {
+        "id": "add-beef-and-onion-cheeseburger-pizza",
+        "en": {
+          "title": "Add beef and onions",
+          "description": "Spread the cooked beef evenly over the cheese, then arrange the onion rings on top of the meat."
+        }
+      },
+      {
+        "id": "top-with-mozzarella-veggies-cheeseburger-pizza",
+        "en": {
+          "title": "Top with mozzarella and vegetables",
+          "description": "Sprinkle the grated mozzarella over the pizza, then place the cucumber rounds and tomato slices on top."
+        }
+      },
+      {
+        "id": "preheat-oven-cheeseburger-pizza",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Set your oven to 200°C (400°F) and allow it to fully preheat. This takes about 10 minutes."
+        }
+      },
+      {
+        "id": "bake-pizza-cheeseburger-pizza",
+        "en": {
+          "title": "Bake the pizza",
+          "description": "Place the pizza in the preheated oven and bake for 8–9 minutes, until the cheese is melted and bubbly and the crust is golden. Serve hot."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-dough-cheeseburger-pizza",
+        "en": {
+          "title": "Prepare the pizza dough"
+        }
+      },
+      {
+        "id": "prepare-toppings-cheeseburger-pizza",
+        "en": {
+          "title": "Prepare the toppings and cook the beef"
+        }
+      },
+      {
+        "id": "assemble-and-bake-cheeseburger-pizza",
+        "en": {
+          "title": "Assemble and bake the pizza"
+        }
+      }
+    ]
+  }
+]

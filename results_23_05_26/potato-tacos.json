@@ -1,0 +1,271 @@
+[
+  {
+    "id": "potato-tacos",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAyMC8zVldUcDYuanBlZw.webp",
+    "title": {
+      "en": "Potato Tacos"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "creamy",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-potato-base-potato-tacos",
+        "minutes": 20
+      },
+      {
+        "stepId": "make-yogurt-sauce-potato-tacos",
+        "minutes": 10
+      },
+      {
+        "stepId": "assemble-tacos-potato-tacos",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "potatoes",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "arugula",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 22.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salmon",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "avocado",
+        "quantity": 55,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yogurt",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cucumber",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 0.5,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dill",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon-zest",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "slice-and-arrange-potatoes-potato-tacos",
+        "duration": 8,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-potato-tacos",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "grate-cheese-and-sprinkle-potato-tacos",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-potatoes-potato-tacos",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "salt-cucumbers-and-rest-potato-tacos",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "squeeze-cucumber-potato-tacos",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "make-yogurt-sauce-potato-tacos",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-base-potato-tacos",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-toppings-potato-tacos",
+        "duration": 6,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "slice-and-arrange-potatoes-potato-tacos",
+        "en": {
+          "title": "Slice and arrange potatoes",
+          "description": "Slice the potatoes into thin rounds. Pat them dry with a paper towel, then arrange on a parchment-lined baking sheet in a single layer, slightly overlapping, to form two rectangular sheets."
+        }
+      },
+      {
+        "id": "preheat-oven-potato-tacos",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Set your oven to 200°C (400°F) and let it preheat completely."
+        }
+      },
+      {
+        "id": "grate-cheese-and-sprinkle-potato-tacos",
+        "en": {
+          "title": "Grate cheese and sprinkle over potatoes",
+          "description": "Coarsely grate the hard cheese and distribute it evenly over the potato slices."
+        }
+      },
+      {
+        "id": "bake-potatoes-potato-tacos",
+        "en": {
+          "title": "Bake the potato base",
+          "description": "Place the baking sheet in the preheated oven and bake for 15 minutes, until the potatoes are tender and the cheese is melted and golden."
+        }
+      },
+      {
+        "id": "salt-cucumbers-and-rest-potato-tacos",
+        "en": {
+          "title": "Salt cucumbers and let rest",
+          "description": "Grate the cucumber coarsely, sprinkle with salt, and let it sit for 5 minutes to draw out excess moisture."
+        }
+      },
+      {
+        "id": "squeeze-cucumber-potato-tacos",
+        "en": {
+          "title": "Squeeze cucumber dry",
+          "description": "After resting, squeeze the grated cucumber firmly to remove as much liquid as possible."
+        }
+      },
+      {
+        "id": "make-yogurt-sauce-potato-tacos",
+        "en": {
+          "title": "Make the yogurt sauce",
+          "description": "Press the garlic through a press and chop the dill. In a bowl, combine the yogurt, squeezed cucumber, garlic, dill, lemon juice, lemon zest, and salt. Mix well."
+        }
+      },
+      {
+        "id": "assemble-base-potato-tacos",
+        "en": {
+          "title": "Assemble the base",
+          "description": "Spread a thick layer of the yogurt sauce over one half of each baked potato sheet. Top the saucy half with arugula."
+        }
+      },
+      {
+        "id": "add-toppings-potato-tacos",
+        "en": {
+          "title": "Add toppings",
+          "description": "Slice the tomato into rounds and arrange over the arugula. Halve the avocado, remove the pit and skin, slice the flesh, and place on the tomatoes. Cut the salmon into strips and lay them on top."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-potato-base-potato-tacos",
+        "en": {
+          "title": "Prepare potato base"
+        }
+      },
+      {
+        "id": "make-yogurt-sauce-potato-tacos",
+        "en": {
+          "title": "Make yogurt sauce"
+        }
+      },
+      {
+        "id": "assemble-tacos-potato-tacos",
+        "en": {
+          "title": "Assemble tacos"
+        }
+      }
+    ]
+  }
+]

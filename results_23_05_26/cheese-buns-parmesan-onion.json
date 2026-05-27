@@ -1,0 +1,386 @@
+[
+  {
+    "id": "cheese-buns-parmesan-onion",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEyNC8zbmJKcE0uanBlZw.webp",
+    "title": {
+      "en": "Cheese Buns with Parmesan and Green Onion"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "mix-dry-ingredients-cheese-buns-parmesan-onion",
+        "minutes": 3
+      },
+      {
+        "stepId": "add-cheese-and-onion-cheese-buns-parmesan-onion",
+        "minutes": 3
+      },
+      {
+        "stepId": "knead-dough-cheese-buns-parmesan-onion",
+        "minutes": 4
+      },
+      {
+        "stepId": "shape-buns-cheese-buns-parmesan-onion",
+        "minutes": 5
+      },
+      {
+        "stepId": "bake-buns-cheese-buns-parmesan-onion",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parmesan",
+        "quantity": 16,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "maasdam",
+        "quantity": 12,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 6,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "green-onion",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 20,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 0.2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.2,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 0.1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "combine-dry-ingredients-cheese-buns-parmesan-onion",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "reserve-flour-cheese-buns-parmesan-onion",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rub-into-crumbs-cheese-buns-parmesan-onion",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-green-onion-cheese-buns-parmesan-onion",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grate-cheeses-cheese-buns-parmesan-onion",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-onion-and-cheese-cheese-buns-parmesan-onion",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-mixture-cheese-buns-parmesan-onion",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-milk-and-water-cheese-buns-parmesan-onion",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "knead-dough-cheese-buns-parmesan-onion",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dust-surface-cheese-buns-parmesan-onion",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-dough-cheese-buns-parmesan-onion",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "divide-dough-cheese-buns-parmesan-onion",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-cheese-buns-parmesan-onion",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-buns-on-sheet-cheese-buns-parmesan-onion",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grease-sheet-cheese-buns-parmesan-onion",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "sprinkle-parmesan-cheese-buns-parmesan-onion",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-buns-cheese-buns-parmesan-onion",
+        "duration": 15,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "cool-buns-cheese-buns-parmesan-onion",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "combine-dry-ingredients-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Combine dry ingredients",
+          "description": "In a bowl, combine the flour, baking powder, softened butter, sugar, and salt. Mix them together."
+        }
+      },
+      {
+        "id": "reserve-flour-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Reserve flour for dusting",
+          "description": "Set aside 2 tablespoons of the flour mixture to use later for dusting the work surface."
+        }
+      },
+      {
+        "id": "rub-into-crumbs-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Rub mixture into crumbs",
+          "description": "Use your hands to rub the mixture until it forms fine crumbs. This helps distribute the butter evenly."
+        }
+      },
+      {
+        "id": "chop-green-onion-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Chop green onion",
+          "description": "Finely chop the green onion. Set aside."
+        }
+      },
+      {
+        "id": "grate-cheeses-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Grate cheeses",
+          "description": "Coarsely grate the parmesan and maasdam cheeses. Use the large holes of a box grater."
+        }
+      },
+      {
+        "id": "add-onion-and-cheese-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Add onion and cheese to crumbs",
+          "description": "Add the chopped green onion, all of the maasdam, and half of the parmesan to the crumb mixture."
+        }
+      },
+      {
+        "id": "mix-mixture-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Mix well",
+          "description": "Stir everything together until the onion and cheese are evenly distributed throughout the crumbs."
+        }
+      },
+      {
+        "id": "add-milk-and-water-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Add milk and water",
+          "description": "Pour the milk and 125 ml of water into the dry ingredients. Start mixing with a spoon."
+        }
+      },
+      {
+        "id": "knead-dough-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Knead the dough",
+          "description": "Continue kneading the dough, first with a spoon and then with your hands, until it is soft and no longer sticks to your hands. The dough should be smooth and elastic."
+        }
+      },
+      {
+        "id": "dust-surface-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Dust work surface",
+          "description": "Sprinkle the reserved flour onto your work surface to prevent sticking."
+        }
+      },
+      {
+        "id": "place-dough-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Place dough on surface",
+          "description": "Transfer the kneaded dough onto the floured surface."
+        }
+      },
+      {
+        "id": "divide-dough-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Divide dough into portions",
+          "description": "Use a culinary ring or a wide-mouthed glass to divide the dough into 5 equal parts. Each piece will become a bun."
+        }
+      },
+      {
+        "id": "preheat-oven-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 180°C (350°F) so it is ready for baking."
+        }
+      },
+      {
+        "id": "place-buns-on-sheet-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Place buns on baking sheet",
+          "description": "Arrange the dough portions on a baking sheet, leaving some space between them."
+        }
+      },
+      {
+        "id": "grease-sheet-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Grease the baking sheet if needed",
+          "description": "If desired, lightly brush the baking sheet with olive oil to prevent sticking."
+        }
+      },
+      {
+        "id": "sprinkle-parmesan-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Sprinkle with remaining parmesan",
+          "description": "Sprinkle the remaining parmesan cheese over the tops of the buns."
+        }
+      },
+      {
+        "id": "bake-buns-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Bake the buns",
+          "description": "Place the baking sheet in the preheated oven and bake for 15 minutes, until the buns are golden and cooked through."
+        }
+      },
+      {
+        "id": "cool-buns-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Cool the buns",
+          "description": "Remove the buns from the oven and let them cool on a wire rack for 10–15 minutes before serving."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "mix-dry-ingredients-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Mix dry ingredients"
+        }
+      },
+      {
+        "id": "add-cheese-and-onion-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Add cheese and onion"
+        }
+      },
+      {
+        "id": "knead-dough-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Knead dough"
+        }
+      },
+      {
+        "id": "shape-buns-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Shape buns"
+        }
+      },
+      {
+        "id": "bake-buns-cheese-buns-parmesan-onion",
+        "en": {
+          "title": "Bake buns"
+        }
+      }
+    ]
+  }
+]

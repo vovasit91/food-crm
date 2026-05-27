@@ -1,0 +1,205 @@
+[
+  {
+    "id": "chickpea-frittata",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExOS8zdDY5anguanBlZw.webp",
+    "title": {
+      "en": "Chickpea Frittata"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten-free",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "mix-batter-chickpea-frittata",
+        "minutes": 20
+      },
+      {
+        "stepId": "prep-vegetables-chickpea-frittata",
+        "minutes": 5
+      },
+      {
+        "stepId": "cook-vegetables-chickpea-frittata",
+        "minutes": 6
+      },
+      {
+        "stepId": "cook-frittata-chickpea-frittata",
+        "minutes": 6
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "chickpea-flour",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 45,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 75,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "green-beans",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cumin",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parsley",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "basil",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-batter-chickpea-frittata",
+        "duration": 20,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "chop-vegetables-chickpea-frittata",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "saute-vegetables-chickpea-frittata",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-frittata-chickpea-frittata",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-batter-chickpea-frittata",
+        "en": {
+          "title": "Mix the batter",
+          "description": "In a bowl, combine chickpea flour, turmeric, cumin, salt, and black pepper. Pour in water, stir well, and let the mixture sit for 15–20 minutes."
+        }
+      },
+      {
+        "id": "chop-vegetables-chickpea-frittata",
+        "en": {
+          "title": "Chop the vegetables",
+          "description": "Cut the tomato into semicircular slices about 4–5 mm thick. Separate parsley leaves from stems and chop them coarsely."
+        }
+      },
+      {
+        "id": "saute-vegetables-chickpea-frittata",
+        "en": {
+          "title": "Sauté the vegetables",
+          "description": "Heat olive oil in a skillet over medium heat. Cook the green beans, stirring, for about 2–3 minutes. Add the tomato slices and cook together, stirring occasionally, for another 2–3 minutes until the vegetables are partially tender."
+        }
+      },
+      {
+        "id": "cook-frittata-chickpea-frittata",
+        "en": {
+          "title": "Cook the frittata",
+          "description": "Pour the chickpea batter into the skillet over the vegetables. Sprinkle the chopped parsley evenly on top. Cook for 2–3 minutes until the surface becomes matte. Flip the frittata and cook for another 2–3 minutes."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "mix-batter-chickpea-frittata",
+        "en": {
+          "title": "Mix and rest the batter"
+        }
+      },
+      {
+        "id": "prep-vegetables-chickpea-frittata",
+        "en": {
+          "title": "Prepare the vegetables"
+        }
+      },
+      {
+        "id": "cook-vegetables-chickpea-frittata",
+        "en": {
+          "title": "Sauté the vegetables"
+        }
+      },
+      {
+        "id": "cook-frittata-chickpea-frittata",
+        "en": {
+          "title": "Cook the frittata"
+        }
+      }
+    ]
+  }
+]

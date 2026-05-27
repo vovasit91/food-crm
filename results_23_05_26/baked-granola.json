@@ -1,0 +1,292 @@
+[
+  {
+    "id": "baked-granola",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTExNC83Skt5QmEuanBlZw",
+    "title": {
+      "en": "Baked Granola"
+    },
+    "timeMinutes": 60,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "gluten-free",
+      "meal-prep"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "first-bake-oats-baked-granola",
+        "minutes": 30
+      },
+      {
+        "stepId": "add-dry-ingredients-baked-granola",
+        "minutes": 5
+      },
+      {
+        "stepId": "add-honey-oil-baked-granola",
+        "minutes": 20
+      },
+      {
+        "stepId": "cool-granola-baked-granola",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "oats",
+        "quantity": 88,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "honey",
+        "quantity": 14,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 6,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dried-fruit-mix",
+        "quantity": 38,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-seeds",
+        "quantity": 7,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pumpkin-seeds",
+        "quantity": 6,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flax-seeds",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "preheat-oven-baked-granola",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "line-baking-tray-baked-granola",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-oats-baked-granola",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-oats-10min-baked-granola",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "stir-oats-baked-granola",
+        "duration": 0,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "bake-oats-15min-baked-granola",
+        "duration": 15,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "remove-and-increase-temp-baked-granola",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-dry-ingredients-baked-granola",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-5min-baked-granola",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "mix-honey-oil-pour-baked-granola",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "bake-20min-stirring-baked-granola",
+        "duration": 20,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "cool-granola-baked-granola",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "preheat-oven-baked-granola",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 150°C (300°F)."
+        }
+      },
+      {
+        "id": "line-baking-tray-baked-granola",
+        "en": {
+          "title": "Line the baking tray",
+          "description": "Line a baking tray with parchment paper or a silicone baking mat."
+        }
+      },
+      {
+        "id": "spread-oats-baked-granola",
+        "en": {
+          "title": "Spread oats on the tray",
+          "description": "Spread the rolled oats evenly on the prepared baking tray."
+        }
+      },
+      {
+        "id": "bake-oats-10min-baked-granola",
+        "en": {
+          "title": "Bake oats for 10 minutes",
+          "description": "Place the tray in the preheated oven and bake the oats for 10 minutes."
+        }
+      },
+      {
+        "id": "stir-oats-baked-granola",
+        "en": {
+          "title": "Stir the oats",
+          "description": "Remove the tray from the oven and stir the oats gently."
+        }
+      },
+      {
+        "id": "bake-oats-15min-baked-granola",
+        "en": {
+          "title": "Bake oats for another 15 minutes",
+          "description": "Return the tray to the oven and bake for 15 more minutes at 150°C."
+        }
+      },
+      {
+        "id": "remove-and-increase-temp-baked-granola",
+        "en": {
+          "title": "Remove and increase oven temperature",
+          "description": "Take the tray out of the oven and increase the oven temperature to 170°C (340°F)."
+        }
+      },
+      {
+        "id": "add-dry-ingredients-baked-granola",
+        "en": {
+          "title": "Add dried fruit and seeds",
+          "description": "Add the dried fruit mix, sunflower seeds, pumpkin seeds, and flax seeds to the oats. Stir to combine."
+        }
+      },
+      {
+        "id": "bake-5min-baked-granola",
+        "en": {
+          "title": "Bake for 5 minutes",
+          "description": "Return the tray to the oven and bake for 5 minutes at 170°C."
+        }
+      },
+      {
+        "id": "mix-honey-oil-pour-baked-granola",
+        "en": {
+          "title": "Mix honey and oil and pour over granola",
+          "description": "In a small bowl, whisk together the honey and vegetable oil. Pour the mixture over the granola and stir to coat evenly."
+        }
+      },
+      {
+        "id": "bake-20min-stirring-baked-granola",
+        "en": {
+          "title": "Bake for 20 minutes, stirring occasionally",
+          "description": "Bake the granola for 20 minutes at 170°C, stirring every 5–7 minutes to ensure even browning."
+        }
+      },
+      {
+        "id": "cool-granola-baked-granola",
+        "en": {
+          "title": "Cool the granola",
+          "description": "Turn off the oven and let the granola cool completely on the tray. It will become crisp as it cools."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "first-bake-oats-baked-granola",
+        "en": {
+          "title": "Bake oats"
+        }
+      },
+      {
+        "id": "add-dry-ingredients-baked-granola",
+        "en": {
+          "title": "Add dry ingredients and bake"
+        }
+      },
+      {
+        "id": "add-honey-oil-baked-granola",
+        "en": {
+          "title": "Add honey-oil mixture and bake"
+        }
+      },
+      {
+        "id": "cool-granola-baked-granola",
+        "en": {
+          "title": "Cool granola"
+        }
+      }
+    ]
+  }
+]

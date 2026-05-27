@@ -1,0 +1,235 @@
+[
+  {
+    "id": "sour-cream-semolina-cake",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIxMy80UG8zWDQuanBlZw.webp",
+    "title": {
+      "en": "Sour Cream Semolina Cake"
+    },
+    "timeMinutes": 70,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "creamy"
+    ],
+    "kitchen": [
+      "oven",
+      "mixer",
+      "microwave",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "soak-semolina-sour-cream-semolina-cake",
+        "minutes": 20
+      },
+      {
+        "stepId": "beat-eggs-sour-cream-semolina-cake",
+        "minutes": 3
+      },
+      {
+        "stepId": "mix-batter-sour-cream-semolina-cake",
+        "minutes": 2
+      },
+      {
+        "stepId": "bake-sour-cream-semolina-cake",
+        "minutes": 45
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "semolina",
+        "quantity": 38,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 33,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "condensed-milk",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 28,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-semolina-sour-cream-sour-cream-semolina-cake",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "soak-semolina-sour-cream-semolina-cake",
+        "duration": 20,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "melt-butter-sour-cream-semolina-cake",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-sour-cream-semolina-cake",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "beat-eggs-mixture-sour-cream-semolina-cake",
+        "duration": 3,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "combine-dough-sour-cream-semolina-cake",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-cake-sour-cream-semolina-cake",
+        "duration": 45,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cool-cake-sour-cream-semolina-cake",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-semolina-sour-cream-sour-cream-semolina-cake",
+        "en": {
+          "title": "Mix semolina with sour cream",
+          "description": "In a bowl, combine the semolina and sour cream. Stir well until fully incorporated."
+        }
+      },
+      {
+        "id": "soak-semolina-sour-cream-semolina-cake",
+        "en": {
+          "title": "Let the semolina soak",
+          "description": "Allow the semolina to sit in the sour cream for 15–20 minutes. During this time, the semolina will absorb the liquid and swell."
+        }
+      },
+      {
+        "id": "melt-butter-sour-cream-semolina-cake",
+        "en": {
+          "title": "Melt the butter",
+          "description": "Place the butter in a microwave-safe bowl. Melt it in the microwave in 2–3 intervals of 20–30 seconds each, until fully melted."
+        }
+      },
+      {
+        "id": "preheat-oven-sour-cream-semolina-cake",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Set your oven to preheat to 180°C (350°F). This ensures it is ready when you need to bake the cake."
+        }
+      },
+      {
+        "id": "beat-eggs-mixture-sour-cream-semolina-cake",
+        "en": {
+          "title": "Beat eggs with condensed milk and salt",
+          "description": "Crack the eggs into a deep bowl. Add the condensed milk and salt. Beat with a mixer on medium speed for 2–3 minutes until the mixture is fluffy and homogeneous."
+        }
+      },
+      {
+        "id": "combine-dough-sour-cream-semolina-cake",
+        "en": {
+          "title": "Combine all ingredients into a dough",
+          "description": "Add the flour and baking powder to the egg mixture. Then add the melted butter and the soaked semolina. Mix with a mixer until smooth and well combined."
+        }
+      },
+      {
+        "id": "bake-cake-sour-cream-semolina-cake",
+        "en": {
+          "title": "Bake the cake",
+          "description": "Pour the batter into a greased or parchment-lined baking pan. Smooth the top. Bake in the preheated oven at 180°C for 40–45 minutes until the top is caramel-brown and a toothpick inserted comes out clean."
+        }
+      },
+      {
+        "id": "cool-cake-sour-cream-semolina-cake",
+        "en": {
+          "title": "Cool and serve",
+          "description": "Let the cake cool in the pan for a few minutes, then carefully transfer it to a serving plate. Allow it to cool completely before slicing, or serve warm."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "soak-semolina-sour-cream-semolina-cake",
+        "en": {
+          "title": "Soak semolina in sour cream"
+        }
+      },
+      {
+        "id": "beat-eggs-sour-cream-semolina-cake",
+        "en": {
+          "title": "Beat eggs with condensed milk and salt"
+        }
+      },
+      {
+        "id": "mix-batter-sour-cream-semolina-cake",
+        "en": {
+          "title": "Combine all ingredients to form batter"
+        }
+      },
+      {
+        "id": "bake-sour-cream-semolina-cake",
+        "en": {
+          "title": "Bake the cake"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "chicken-with-prunes-in-creamy-sauce",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MDUxNi9LbkI3WEUuanBlZw.webp",
+    "title": {
+      "en": "Chicken with Prunes in Creamy Sauce"
+    },
+    "timeMinutes": 190,
+    "difficulty": "medium",
+    "tags": [
+      "creamy",
+      "hearty",
+      "marinated",
+      "one-pan",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "marinate-chicken-chicken-with-prunes-in-creamy-sauce",
+        "minutes": 120
+      },
+      {
+        "stepId": "fry-chicken-chicken-with-prunes-in-creamy-sauce",
+        "minutes": 10
+      },
+      {
+        "stepId": "saute-vegetables-and-braise-chicken-with-prunes-in-creamy-sauce",
+        "minutes": 35
+      },
+      {
+        "stepId": "add-cream-and-prunes-chicken-with-prunes-in-creamy-sauce",
+        "minutes": 25
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "chicken-thighs",
+        "quantity": 187.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "carrots",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 31.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 8.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "spices",
+        "quantity": 0.75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "prunes",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "potatoes",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "cut-and-season-chicken-chicken-with-prunes-in-creamy-sauce",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "marinate-chicken-chicken-with-prunes-in-creamy-sauce",
+        "duration": 120,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "fry-chicken-chicken-with-prunes-in-creamy-sauce",
+        "duration": 8,
+        "showTimer": true,
+        "tags": [
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "chop-onion-and-grate-carrot-chicken-with-prunes-in-creamy-sauce",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-for-vegetables-chicken-with-prunes-in-creamy-sauce",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "saute-vegetables-chicken-with-prunes-in-creamy-sauce",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "add-chicken-and-water-chicken-with-prunes-in-creamy-sauce",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "braise-chicken-with-vegetables-chicken-with-prunes-in-creamy-sauce",
+        "duration": 30,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "add-sour-cream-and-prunes-chicken-with-prunes-in-creamy-sauce",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "braise-with-cream-chicken-with-prunes-in-creamy-sauce",
+        "duration": 25,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "cut-and-season-chicken-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Cut and season the chicken",
+          "description": "Cut the chicken into serving pieces and place in a bowl. Sprinkle with salt and spices, then toss well to coat evenly."
+        }
+      },
+      {
+        "id": "marinate-chicken-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Marinate the chicken",
+          "description": "Let the chicken marinate at room temperature for 2–3 hours, or refrigerate for longer."
+        }
+      },
+      {
+        "id": "fry-chicken-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Fry the chicken",
+          "description": "Heat 1 tablespoon of vegetable oil in a deep skillet over high heat. Fry the chicken pieces for 3–4 minutes per side until golden brown, then transfer to a plate."
+        }
+      },
+      {
+        "id": "chop-onion-and-grate-carrot-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Chop onion and grate carrot",
+          "description": "Finely chop the onion. Peel and grate the carrot on a medium grater."
+        }
+      },
+      {
+        "id": "heat-oil-for-vegetables-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Heat oil for the vegetables",
+          "description": "Add another tablespoon of vegetable oil to the skillet and heat over medium heat."
+        }
+      },
+      {
+        "id": "saute-vegetables-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Sauté the vegetables",
+          "description": "Add the onion and carrot to the hot oil. Cook over medium heat for 5 minutes, stirring frequently, until softened."
+        }
+      },
+      {
+        "id": "add-chicken-and-water-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Add chicken and water",
+          "description": "Return the fried chicken to the skillet and stir to combine with the vegetables. Pour in the water and bring to a simmer."
+        }
+      },
+      {
+        "id": "braise-chicken-with-vegetables-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Braise the chicken with vegetables",
+          "description": "Cover the skillet with a lid and simmer over low heat for 30 minutes, until the chicken is tender."
+        }
+      },
+      {
+        "id": "add-sour-cream-and-prunes-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Add sour cream and prunes",
+          "description": "Add the sour cream and prunes to the skillet and stir well to combine with the sauce."
+        }
+      },
+      {
+        "id": "braise-with-cream-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Finish braising with cream",
+          "description": "Cover and continue cooking over low heat for 20–30 minutes, until the sauce thickens slightly and the flavors meld."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "marinate-chicken-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Marinate the chicken"
+        }
+      },
+      {
+        "id": "fry-chicken-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Fry the chicken until golden"
+        }
+      },
+      {
+        "id": "saute-vegetables-and-braise-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Sauté vegetables and braise the chicken"
+        }
+      },
+      {
+        "id": "add-cream-and-prunes-chicken-with-prunes-in-creamy-sauce",
+        "en": {
+          "title": "Add cream and prunes, finish cooking"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "vietnamese-egg-coffee",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIxMS9wenhWVHMuanBlZw.webp",
+    "title": {
+      "en": "Vietnamese Egg Coffee"
+    },
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "tags": [
+      "creamy",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "stove"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-egg-cream-vietnamese-egg-coffee",
+        "minutes": 3
+      },
+      {
+        "stepId": "brew-coffee-vietnamese-egg-coffee",
+        "minutes": 5
+      },
+      {
+        "stepId": "assemble-vietnamese-egg-coffee",
+        "minutes": 1
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "ground-coffee",
+        "quantity": 3,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "condensed-milk",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "whip-egg-yolk-vietnamese-egg-coffee",
+        "duration": 3,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "brew-coffee-vietnamese-egg-coffee",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "pour-coffee-and-top-vietnamese-egg-coffee",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "whip-egg-yolk-vietnamese-egg-coffee",
+        "en": {
+          "title": "Whip egg yolk with condensed milk",
+          "description": "Separate the egg yolk from the white. Discard or refrigerate the white. Add condensed milk to the yolk and whisk until light and fluffy, about 2–3 minutes."
+        }
+      },
+      {
+        "id": "brew-coffee-vietnamese-egg-coffee",
+        "en": {
+          "title": "Brew the coffee",
+          "description": "Brew a strong coffee using your preferred method — a Turkish cezve, French press, or drip filter. Use boiling water and about 3 teaspoons of ground coffee."
+        }
+      },
+      {
+        "id": "pour-coffee-and-top-vietnamese-egg-coffee",
+        "en": {
+          "title": "Assemble the drink",
+          "description": "Pour the hot brewed coffee into a cup. Gently spoon the whipped egg yolk mixture on top. Serve immediately."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-egg-cream-vietnamese-egg-coffee",
+        "en": {
+          "title": "Prepare egg cream"
+        }
+      },
+      {
+        "id": "brew-coffee-vietnamese-egg-coffee",
+        "en": {
+          "title": "Brew coffee"
+        }
+      },
+      {
+        "id": "assemble-vietnamese-egg-coffee",
+        "en": {
+          "title": "Assemble drink"
+        }
+      }
+    ]
+  }
+]

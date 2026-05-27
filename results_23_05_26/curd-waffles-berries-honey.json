@@ -1,0 +1,214 @@
+[
+  {
+    "id": "curd-waffles-berries-honey",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDMxMy8zUWp5MkwuanBlZw.webp",
+    "title": {
+      "en": "Cottage Cheese Waffles with Berries and Honey"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "vegetarian"
+    ],
+    "kitchen": [],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "beat-eggs-and-sugar-curd-waffles-berries-honey",
+        "minutes": 2
+      },
+      {
+        "stepId": "add-tvorog-and-butter-curd-waffles-berries-honey",
+        "minutes": 2
+      },
+      {
+        "stepId": "mix-dry-and-combine-curd-waffles-berries-honey",
+        "minutes": 3
+      },
+      {
+        "stepId": "cook-waffles-curd-waffles-berries-honey",
+        "minutes": 7
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "tvorog",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "rice-flour",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "beat-eggs-curd-waffles-berries-honey",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-tvorog-curd-waffles-berries-honey",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "melt-butter-curd-waffles-berries-honey",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-butter-curd-waffles-berries-honey",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-dry-ingredients-curd-waffles-berries-honey",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "incorporate-dry-into-wet-curd-waffles-berries-honey",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-waffles-curd-waffles-berries-honey",
+        "duration": 7,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "beat-eggs-curd-waffles-berries-honey",
+        "en": {
+          "title": "Beat eggs with sugar",
+          "description": "In a bowl, beat the eggs with sugar until the mixture becomes fluffy and light. This should take about 2 minutes."
+        }
+      },
+      {
+        "id": "add-tvorog-curd-waffles-berries-honey",
+        "en": {
+          "title": "Add tvorog",
+          "description": "Add the tvorog to the beaten eggs and mix well until combined."
+        }
+      },
+      {
+        "id": "melt-butter-curd-waffles-berries-honey",
+        "en": {
+          "title": "Melt butter",
+          "description": "Melt the butter in the microwave using short bursts. Let it cool slightly."
+        }
+      },
+      {
+        "id": "add-butter-curd-waffles-berries-honey",
+        "en": {
+          "title": "Add melted butter",
+          "description": "Pour the cooled melted butter into the tvorog mixture and stir again."
+        }
+      },
+      {
+        "id": "mix-dry-ingredients-curd-waffles-berries-honey",
+        "en": {
+          "title": "Mix dry ingredients",
+          "description": "In a separate bowl, mix the rice flour, baking powder, and salt."
+        }
+      },
+      {
+        "id": "incorporate-dry-into-wet-curd-waffles-berries-honey",
+        "en": {
+          "title": "Incorporate dry ingredients",
+          "description": "Gradually add the dry mixture to the wet mixture, stirring gently until no lumps remain and the batter is smooth."
+        }
+      },
+      {
+        "id": "cook-waffles-curd-waffles-berries-honey",
+        "en": {
+          "title": "Cook waffles",
+          "description": "Preheat your waffle iron. Lightly grease it with vegetable oil and pour in the batter. Cook for 6–7 minutes until golden and crisp."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "beat-eggs-and-sugar-curd-waffles-berries-honey",
+        "en": {
+          "title": "Beat eggs with sugar"
+        }
+      },
+      {
+        "id": "add-tvorog-and-butter-curd-waffles-berries-honey",
+        "en": {
+          "title": "Add tvorog and melted butter"
+        }
+      },
+      {
+        "id": "mix-dry-and-combine-curd-waffles-berries-honey",
+        "en": {
+          "title": "Mix dry ingredients and combine"
+        }
+      },
+      {
+        "id": "cook-waffles-curd-waffles-berries-honey",
+        "en": {
+          "title": "Cook waffles"
+        }
+      }
+    ]
+  }
+]

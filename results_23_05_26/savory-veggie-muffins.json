@@ -1,0 +1,236 @@
+[
+  {
+    "id": "savory-veggie-muffins",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTEyMS82U2lQUE0uanBlZw.webp",
+    "title": {
+      "en": "Savory Muffins with Frozen Vegetables"
+    },
+    "timeMinutes": 55,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "hearty",
+      "meal-prep"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "microwave",
+      "baking-tray",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "blanch-vegetables-savory-veggie-muffins",
+        "minutes": 8
+      },
+      {
+        "stepId": "make-dough-savory-veggie-muffins",
+        "minutes": 7
+      },
+      {
+        "stepId": "combine-vegetables-savory-veggie-muffins",
+        "minutes": 5
+      },
+      {
+        "stepId": "bake-muffins-savory-veggie-muffins",
+        "minutes": 35
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "frozen-vegetable-mix",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "kefir",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tvorog",
+        "quantity": 45,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "paprika",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "coriander",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.25,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "blanch-vegetables-savory-veggie-muffins",
+        "duration": 8,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "heat-kefir-savory-veggie-muffins",
+        "duration": 1,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "mix-dough-savory-veggie-muffins",
+        "duration": 4,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-vegetables-savory-veggie-muffins",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "preheat-oven-savory-veggie-muffins",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "bake-muffins-savory-veggie-muffins",
+        "duration": 35,
+        "showTimer": true,
+        "tags": [
+          "baked"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "blanch-vegetables-savory-veggie-muffins",
+        "en": {
+          "title": "Blanch the vegetables",
+          "description": "Bring 1-1.5 liters of water to a boil in a pot. Add half of the salt, then add the frozen vegetable mix. Boil for 2-3 minutes, then drain and rinse with cold water."
+        }
+      },
+      {
+        "id": "heat-kefir-savory-veggie-muffins",
+        "en": {
+          "title": "Heat the kefir",
+          "description": "Pour the kefir into a microwave-safe bowl and heat it for 40-50 seconds until warm."
+        }
+      },
+      {
+        "id": "mix-dough-savory-veggie-muffins",
+        "en": {
+          "title": "Mix the dough",
+          "description": "Add the remaining salt and baking powder to the warm kefir and whisk until frothy. In a separate bowl, mash the cottage cheese with the eggs. Pour in the kefir mixture and stir well. Add the flour and mix until a thick dough forms."
+        }
+      },
+      {
+        "id": "prepare-vegetables-savory-veggie-muffins",
+        "en": {
+          "title": "Prepare and combine the vegetables",
+          "description": "Pat the blanched vegetables dry with paper towels. Cut any large pieces into 1 cm cubes. Add the vegetables, smoked paprika, black pepper, and ground coriander to the dough. Gently mix until evenly combined."
+        }
+      },
+      {
+        "id": "preheat-oven-savory-veggie-muffins",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 180°C (350°F)."
+        }
+      },
+      {
+        "id": "bake-muffins-savory-veggie-muffins",
+        "en": {
+          "title": "Bake the muffins",
+          "description": "Grease muffin tins with vegetable oil. Divide the dough evenly among the tins. Bake for 30-35 minutes until golden and a toothpick inserted comes out clean."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "blanch-vegetables-savory-veggie-muffins",
+        "en": {
+          "title": "Blanch the frozen vegetables"
+        }
+      },
+      {
+        "id": "make-dough-savory-veggie-muffins",
+        "en": {
+          "title": "Make the dough"
+        }
+      },
+      {
+        "id": "combine-vegetables-savory-veggie-muffins",
+        "en": {
+          "title": "Combine vegetables with dough"
+        }
+      },
+      {
+        "id": "bake-muffins-savory-veggie-muffins",
+        "en": {
+          "title": "Bake the muffins"
+        }
+      }
+    ]
+  }
+]

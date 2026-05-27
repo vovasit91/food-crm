@@ -1,0 +1,320 @@
+[
+  {
+    "id": "breakfast-casserole-air-fryer",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExMC80MlhoY0wuanBlZw.webp",
+    "title": {
+      "en": "Breakfast Casserole in Air Fryer"
+    },
+    "timeMinutes": 640,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "meal-prep",
+      "creamy",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "air-fryer",
+      "blender",
+      "microwave"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-base-breakfast-casserole-air-fryer",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-casserole-breakfast-casserole-air-fryer",
+        "minutes": 25
+      },
+      {
+        "stepId": "cool-casserole-breakfast-casserole-air-fryer",
+        "minutes": 15
+      },
+      {
+        "stepId": "make-chocolate-cream-breakfast-casserole-air-fryer",
+        "minutes": 10
+      },
+      {
+        "stepId": "assemble-and-chill-breakfast-casserole-air-fryer",
+        "minutes": 580
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "tvorog",
+        "quantity": 175,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "banana",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cornstarch",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cocoa-powder",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla",
+        "quantity": 0.15,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dark-chocolate",
+        "quantity": 22.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yogurt",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "berries",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "almonds",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mash-cottage-cheese-breakfast-casserole-air-fryer",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "peel-bananas-breakfast-casserole-air-fryer",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-egg-and-dry-ingredients-breakfast-casserole-air-fryer",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "blend-mixture-breakfast-casserole-air-fryer",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-into-dish-breakfast-casserole-air-fryer",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-in-air-fryer-breakfast-casserole-air-fryer",
+        "duration": 25,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cool-casserole-breakfast-casserole-air-fryer",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "melt-chocolate-breakfast-casserole-air-fryer",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "dont-overcook"
+        ]
+      },
+      {
+        "stepId": "mix-chocolate-with-yogurt-breakfast-casserole-air-fryer",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-cream-on-casserole-breakfast-casserole-air-fryer",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chill-overnight-breakfast-casserole-air-fryer",
+        "duration": 600,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mash-cottage-cheese-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Mash the cottage cheese",
+          "description": "Mash the cottage cheese with a fork until smooth."
+        }
+      },
+      {
+        "id": "peel-bananas-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Peel and add bananas",
+          "description": "Peel the bananas and add them to the mashed cottage cheese."
+        }
+      },
+      {
+        "id": "add-egg-and-dry-ingredients-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Add egg and dry ingredients",
+          "description": "Crack the egg into the mixture, then add cornstarch, cocoa powder, vanilla, sugar, and baking powder."
+        }
+      },
+      {
+        "id": "blend-mixture-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Blend until smooth",
+          "description": "Use an immersion blender to process the mixture until it becomes a smooth, liquid batter."
+        }
+      },
+      {
+        "id": "pour-into-dish-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Pour into baking dish",
+          "description": "Grease a baking dish with oil, pour the batter in, and gently shake to evenly distribute."
+        }
+      },
+      {
+        "id": "bake-in-air-fryer-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Bake in air fryer",
+          "description": "Place the dish in the air fryer. Set the temperature to 160°C and bake for 25 minutes."
+        }
+      },
+      {
+        "id": "cool-casserole-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Cool the casserole",
+          "description": "Let the baked casserole cool completely before proceeding."
+        }
+      },
+      {
+        "id": "melt-chocolate-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Melt the chocolate",
+          "description": "Break the dark chocolate into pieces and microwave in short 10-15 second bursts, stirring in between, until completely melted."
+        }
+      },
+      {
+        "id": "mix-chocolate-with-yogurt-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Mix chocolate with yogurt",
+          "description": "Allow the melted chocolate to cool a bit, then stir in the Greek yogurt until the cream is smooth and well combined."
+        }
+      },
+      {
+        "id": "spread-cream-on-casserole-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Spread cream over casserole",
+          "description": "Generously spread the chocolate-yogurt cream over the top and sides of the cooled casserole."
+        }
+      },
+      {
+        "id": "chill-overnight-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Chill overnight",
+          "description": "Place the casserole in the refrigerator and let it set for several hours, preferably overnight, to allow the flavors to meld."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-base-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Prepare the base"
+        }
+      },
+      {
+        "id": "bake-casserole-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Bake the casserole"
+        }
+      },
+      {
+        "id": "cool-casserole-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Cool the casserole"
+        }
+      },
+      {
+        "id": "make-chocolate-cream-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Make the chocolate cream"
+        }
+      },
+      {
+        "id": "assemble-and-chill-breakfast-casserole-air-fryer",
+        "en": {
+          "title": "Assemble and chill"
+        }
+      }
+    ]
+  }
+]

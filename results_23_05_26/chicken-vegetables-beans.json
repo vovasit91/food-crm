@@ -1,0 +1,297 @@
+[
+  {
+    "id": "chicken-vegetables-beans",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxMS8zRHNtcnYuanBlZw.webp",
+    "title": {
+      "en": "Chicken with Vegetables and Beans"
+    },
+    "timeMinutes": 60,
+    "difficulty": "easy",
+    "tags": [
+      "hearty",
+      "one-pan",
+      "pan-fried",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-ingredients-chicken-vegetables-beans",
+        "minutes": 10
+      },
+      {
+        "stepId": "saute-vegetables-chicken-vegetables-beans",
+        "minutes": 10
+      },
+      {
+        "stepId": "sear-chicken-chicken-vegetables-beans",
+        "minutes": 15
+      },
+      {
+        "stepId": "simmer-stew-chicken-vegetables-beans",
+        "minutes": 25
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "whole-chicken",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "carrots",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "quantity": 37.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 13,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "potatoes",
+        "quantity": 90,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "canned-white-beans",
+        "quantity": 87.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "wash-and-season-chicken-chicken-vegetables-beans",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "peel-and-dice-onion-chicken-vegetables-beans",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cut-carrot-and-pepper-chicken-vegetables-beans",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "saute-vegetables-chicken-vegetables-beans",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "remove-vegetables-chicken-vegetables-beans",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "sear-chicken-chicken-vegetables-beans",
+        "duration": 15,
+        "showTimer": true,
+        "tags": [
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "return-vegetables-chicken-vegetables-beans",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-beans-chicken-vegetables-beans",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "peel-and-dice-potatoes-chicken-vegetables-beans",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-potatoes-chicken-vegetables-beans",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "season-and-add-garlic-chicken-vegetables-beans",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "simmer-stew-chicken-vegetables-beans",
+        "duration": 25,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "wash-and-season-chicken-chicken-vegetables-beans",
+        "en": {
+          "title": "Wash and season chicken",
+          "description": "Wash the chicken and pat it dry with paper towels. Season with salt and pepper, then set aside to marinate."
+        }
+      },
+      {
+        "id": "peel-and-dice-onion-chicken-vegetables-beans",
+        "en": {
+          "title": "Peel and dice onion",
+          "description": "Peel the onion and cut it into small cubes."
+        }
+      },
+      {
+        "id": "cut-carrot-and-pepper-chicken-vegetables-beans",
+        "en": {
+          "title": "Cut carrot and bell pepper",
+          "description": "Peel the carrot and remove seeds from the bell pepper. Wash them and cut into thin strips."
+        }
+      },
+      {
+        "id": "saute-vegetables-chicken-vegetables-beans",
+        "en": {
+          "title": "Sauté vegetables",
+          "description": "Heat vegetable oil in a pan over medium heat. Add the onion, carrot, and bell pepper. Sauté for 10 minutes, stirring occasionally, until softened."
+        }
+      },
+      {
+        "id": "remove-vegetables-chicken-vegetables-beans",
+        "en": {
+          "title": "Remove vegetables",
+          "description": "Transfer the sautéed vegetables to a plate and set aside."
+        }
+      },
+      {
+        "id": "sear-chicken-chicken-vegetables-beans",
+        "en": {
+          "title": "Sear chicken",
+          "description": "In the same pan over high heat, sear the chicken on both sides until golden brown, about 15 minutes."
+        }
+      },
+      {
+        "id": "return-vegetables-chicken-vegetables-beans",
+        "en": {
+          "title": "Return vegetables",
+          "description": "Place the sautéed vegetables back into the pan with the chicken."
+        }
+      },
+      {
+        "id": "add-beans-chicken-vegetables-beans",
+        "en": {
+          "title": "Add beans",
+          "description": "Open the can of white beans and add them along with the liquid to the pan."
+        }
+      },
+      {
+        "id": "peel-and-dice-potatoes-chicken-vegetables-beans",
+        "en": {
+          "title": "Peel and dice potatoes",
+          "description": "Peel the potatoes, wash them, and cut into small cubes."
+        }
+      },
+      {
+        "id": "add-potatoes-chicken-vegetables-beans",
+        "en": {
+          "title": "Add potatoes",
+          "description": "Add the diced potatoes to the pan with the chicken, vegetables, and beans."
+        }
+      },
+      {
+        "id": "season-and-add-garlic-chicken-vegetables-beans",
+        "en": {
+          "title": "Season and add garlic",
+          "description": "Season with salt and pepper. Crush a clove of garlic through a press and add it to the pan. Pour in a cup of boiling water."
+        }
+      },
+      {
+        "id": "simmer-stew-chicken-vegetables-beans",
+        "en": {
+          "title": "Simmer the stew",
+          "description": "Cover the pan with a lid and let it simmer over low heat for 25 minutes until the chicken is cooked through and the potatoes are tender."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-ingredients-chicken-vegetables-beans",
+        "en": {
+          "title": "Prepare ingredients"
+        }
+      },
+      {
+        "id": "saute-vegetables-chicken-vegetables-beans",
+        "en": {
+          "title": "Sauté vegetables"
+        }
+      },
+      {
+        "id": "sear-chicken-chicken-vegetables-beans",
+        "en": {
+          "title": "Sear chicken"
+        }
+      },
+      {
+        "id": "simmer-stew-chicken-vegetables-beans",
+        "en": {
+          "title": "Simmer stew"
+        }
+      }
+    ]
+  }
+]

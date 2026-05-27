@@ -1,0 +1,159 @@
+[
+  {
+    "id": "cream-cheese-fish-spread",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExOS80TFdZekguanBlZw.webp",
+    "title": {
+      "en": "Cream Cheese and Lightly Salted Fish Spread"
+    },
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "tags": [
+      "creamy",
+      "raw",
+      "gluten-free"
+    ],
+    "kitchen": [],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "chop-fish-cream-cheese-fish-spread",
+        "minutes": 4
+      },
+      {
+        "stepId": "mix-and-infuse-cheese-base-cream-cheese-fish-spread",
+        "minutes": 15
+      },
+      {
+        "stepId": "combine-and-store-cream-cheese-fish-spread",
+        "minutes": 1
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salmon",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dill",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "chop-fish-cream-cheese-fish-spread",
+        "duration": 4,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-cheese-base-cream-cheese-fish-spread",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "let-cheese-base-stand-cream-cheese-fish-spread",
+        "duration": 13,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "combine-and-transfer-cream-cheese-fish-spread",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "chop-fish-cream-cheese-fish-spread",
+        "en": {
+          "title": "Chop the fish",
+          "description": "Cut the lightly salted red fish into small cubes. Remove any bones beforehand."
+        }
+      },
+      {
+        "id": "mix-cheese-base-cream-cheese-fish-spread",
+        "en": {
+          "title": "Mix the cheese base",
+          "description": "In a separate bowl, combine the cream cheese, sour cream, and lemon juice. Stir until smooth."
+        }
+      },
+      {
+        "id": "let-cheese-base-stand-cream-cheese-fish-spread",
+        "en": {
+          "title": "Let the cheese base stand",
+          "description": "Add dried dill to the cheese mixture and let it stand for 13 minutes so the dill infuses its flavor."
+        }
+      },
+      {
+        "id": "combine-and-transfer-cream-cheese-fish-spread",
+        "en": {
+          "title": "Combine and store",
+          "description": "Add the chopped fish to the cheese mixture, season with a pinch of salt and black pepper. Mix well and transfer to a jar or container with a tight lid."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "chop-fish-cream-cheese-fish-spread",
+        "en": {
+          "title": "Chop the fish"
+        }
+      },
+      {
+        "id": "mix-and-infuse-cheese-base-cream-cheese-fish-spread",
+        "en": {
+          "title": "Mix and infuse the cheese base"
+        }
+      },
+      {
+        "id": "combine-and-store-cream-cheese-fish-spread",
+        "en": {
+          "title": "Combine and store the spread"
+        }
+      }
+    ]
+  }
+]

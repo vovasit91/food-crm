@@ -1,0 +1,330 @@
+[
+  {
+    "id": "tomato-galette",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTExNi80UVR1cTguanBlZw.webp",
+    "title": {
+      "en": "Tomato Galette"
+    },
+    "timeMinutes": 80,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray",
+      "blender"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-dough-tomato-galette",
+        "minutes": 15
+      },
+      {
+        "stepId": "bake-tomatoes-pastry-tomato-galette",
+        "minutes": 30
+      },
+      {
+        "stepId": "cool-and-prepare-filling-tomato-galette",
+        "minutes": 30
+      },
+      {
+        "stepId": "assemble-tomato-galette",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "puff-pastry",
+        "quantity": 62.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 22.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 37.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "basil",
+        "quantity": 1.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 22.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 37.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "thyme",
+        "quantity": 0.75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.44,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ricotta",
+        "quantity": 55,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 12.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "basil",
+        "quantity": 1.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.44,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "roll-pastry-tomato-galette",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "freeze-dough-tomato-galette",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-baking-tomatoes-tomato-galette",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-tomato-galette",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "bake-pastry-tomatoes-tomato-galette",
+        "duration": 20,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cool-pastry-tomato-galette",
+        "duration": 20,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "blend-ricotta-cream-tomato-galette",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "marinate-fresh-tomatoes-tomato-galette",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-galette-tomato-galette",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "roll-pastry-tomato-galette",
+        "en": {
+          "title": "Roll out the pastry",
+          "description": "Roll out the puff pastry into a thin sheet. Trim uneven edges. Line a baking tray with parchment. Fold the edges to form a small rim. Prick the pastry with a fork in several places to prevent puffing."
+        }
+      },
+      {
+        "id": "freeze-dough-tomato-galette",
+        "en": {
+          "title": "Freeze the dough with weights",
+          "description": "Cover the dough with another sheet of parchment. Pour dry beans or peas onto the paper to act as weights. Place the tray in the freezer for 15 minutes."
+        }
+      },
+      {
+        "id": "prepare-baking-tomatoes-tomato-galette",
+        "en": {
+          "title": "Prepare tomatoes for baking",
+          "description": "Slice the tomatoes intended for baking into 5 mm rounds. Arrange them on a second baking tray. Top with thyme sprigs. Crush garlic cloves with a knife and scatter over the tomatoes. Season with salt, pepper, and drizzle with olive oil."
+        }
+      },
+      {
+        "id": "preheat-oven-tomato-galette",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 200°C (400°F)."
+        }
+      },
+      {
+        "id": "bake-pastry-tomatoes-tomato-galette",
+        "en": {
+          "title": "Bake the pastry and tomatoes",
+          "description": "Place the tray with the pastry and the tray with the tomatoes in the oven. Bake for 20 minutes."
+        }
+      },
+      {
+        "id": "cool-pastry-tomato-galette",
+        "en": {
+          "title": "Cool the pastry and tomatoes",
+          "description": "Remove both trays from the oven and let them cool completely. Once cool, carefully remove the parchment with beans from the pastry."
+        }
+      },
+      {
+        "id": "blend-ricotta-cream-tomato-galette",
+        "en": {
+          "title": "Blend the ricotta cream",
+          "description": "In a blender, combine ricotta, sour cream, roasted garlic cloves, basil leaves, salt, and pepper. Blend until smooth."
+        }
+      },
+      {
+        "id": "marinate-fresh-tomatoes-tomato-galette",
+        "en": {
+          "title": "Marinate fresh tomatoes",
+          "description": "Slice the remaining fresh tomatoes into 5 mm rounds. Halve the cherry tomatoes. Place them in a bowl, season with salt and pepper, and let sit for 15 minutes to release juices. Then drain the liquid and pat the tomatoes dry with paper towels."
+        }
+      },
+      {
+        "id": "assemble-galette-tomato-galette",
+        "en": {
+          "title": "Assemble the galette",
+          "description": "Spread the ricotta cream over the cooled pastry base. First arrange the baked tomatoes on top, then the fresh tomatoes. Sprinkle with pepper. Garnish with thinly sliced basil leaves."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-dough-tomato-galette",
+        "en": {
+          "title": "Prepare and freeze the dough"
+        }
+      },
+      {
+        "id": "bake-tomatoes-pastry-tomato-galette",
+        "en": {
+          "title": "Bake the pastry and tomatoes"
+        }
+      },
+      {
+        "id": "cool-and-prepare-filling-tomato-galette",
+        "en": {
+          "title": "Cool and make the filling"
+        }
+      },
+      {
+        "id": "assemble-tomato-galette",
+        "en": {
+          "title": "Assemble the galette"
+        }
+      }
+    ]
+  }
+]

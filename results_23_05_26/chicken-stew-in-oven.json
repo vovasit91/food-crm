@@ -1,0 +1,229 @@
+[
+  {
+    "id": "chicken-stew-in-oven",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDgxOS8zYWJRVEMuanBlZw.webp",
+    "title": {
+      "en": "Chicken Stew in the Oven"
+    },
+    "timeMinutes": 230,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "slow-cooked",
+      "hearty",
+      "meal-prep"
+    ],
+    "kitchen": [
+      "oven",
+      "stove",
+      "frying-pan",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-chicken-chicken-stew-in-oven",
+        "minutes": 15
+      },
+      {
+        "stepId": "pack-jar-chicken-stew-in-oven",
+        "minutes": 5
+      },
+      {
+        "stepId": "slow-cook-chicken-stew-in-oven",
+        "minutes": 180
+      },
+      {
+        "stepId": "render-fat-chicken-stew-in-oven",
+        "minutes": 15
+      },
+      {
+        "stepId": "cool-store-chicken-stew-in-oven",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "whole-chicken",
+        "quantity": 700,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "turmeric",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "fresh-herbs",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "remove-meat-chicken-stew-in-oven",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "season-meat-chicken-stew-in-oven",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-spices-chicken-stew-in-oven",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pack-meat-chicken-stew-in-oven",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slow-cook-chicken-stew-in-oven",
+        "duration": 180,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "render-fat-chicken-stew-in-oven",
+        "duration": 10,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "seal-jar-chicken-stew-in-oven",
+        "duration": 30,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "remove-meat-chicken-stew-in-oven",
+        "en": {
+          "title": "Remove meat from bones",
+          "description": "Remove the chicken meat from the bones. You can leave some small bones. Cut off the fat and set it aside; you'll need it later."
+        }
+      },
+      {
+        "id": "season-meat-chicken-stew-in-oven",
+        "en": {
+          "title": "Season the meat",
+          "description": "Salt and pepper the meat, add turmeric, and mix well."
+        }
+      },
+      {
+        "id": "place-spices-chicken-stew-in-oven",
+        "en": {
+          "title": "Place spices in jar",
+          "description": "Place the bay leaf and peppercorns at the bottom of the jar."
+        }
+      },
+      {
+        "id": "pack-meat-chicken-stew-in-oven",
+        "en": {
+          "title": "Pack meat into jar",
+          "description": "Pack the meat tightly into the jar so that it reaches the neck."
+        }
+      },
+      {
+        "id": "slow-cook-chicken-stew-in-oven",
+        "en": {
+          "title": "Slow cook in oven",
+          "description": "Cover the jar with foil and poke a few holes with a fork. Place the jar in a baking dish and put it in a cold oven. Turn the oven on to 200°C. Watch for the contents to start boiling, then reduce the temperature to 110°C and let it simmer for 3 hours."
+        }
+      },
+      {
+        "id": "render-fat-chicken-stew-in-oven",
+        "en": {
+          "title": "Render chicken fat and pour over stew",
+          "description": "Place the reserved chicken fat in a dry skillet and render over medium heat. When the stewing time is up, pour the rendered fat into the jar."
+        }
+      },
+      {
+        "id": "seal-jar-chicken-stew-in-oven",
+        "en": {
+          "title": "Seal and cool the jar",
+          "description": "Screw the lid on the jar. Invert it, wrap in a towel, and let it cool completely. Once cool, store in a dark, cool place."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-chicken-chicken-stew-in-oven",
+        "en": {
+          "title": "Prepare the chicken"
+        }
+      },
+      {
+        "id": "pack-jar-chicken-stew-in-oven",
+        "en": {
+          "title": "Pack the jar"
+        }
+      },
+      {
+        "id": "slow-cook-chicken-stew-in-oven",
+        "en": {
+          "title": "Slow cook the stew"
+        }
+      },
+      {
+        "id": "render-fat-chicken-stew-in-oven",
+        "en": {
+          "title": "Render fat and seal"
+        }
+      },
+      {
+        "id": "cool-store-chicken-stew-in-oven",
+        "en": {
+          "title": "Cool and store"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "pancakes-with-chocolate-spread",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyOC9ONGJKSjMuanBlZw.webp",
+    "title": {
+      "en": "Pancakes with Chocolate Spread"
+    },
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "tags": [
+      "pan-fried",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "frying-pan",
+      "microwave",
+      "stove"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-chocolate-filling-pancakes-with-chocolate-spread",
+        "minutes": 5
+      },
+      {
+        "stepId": "prepare-batter-pancakes-with-chocolate-spread",
+        "minutes": 10
+      },
+      {
+        "stepId": "cook-pancakes-pancakes-with-chocolate-spread",
+        "minutes": 13
+      },
+      {
+        "stepId": "serve-pancakes-pancakes-with-chocolate-spread",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 110,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chocolate-spread",
+        "quantity": 5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla",
+        "quantity": 2,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "berries",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mint",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "transfer-chocolate-paste-pancakes-with-chocolate-spread",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "melt-butter-pancakes-with-chocolate-spread",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-sugar-and-egg-pancakes-with-chocolate-spread",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-milk-pancakes-with-chocolate-spread",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "make-batter-pancakes-with-chocolate-spread",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-pan-pancakes-with-chocolate-spread",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fill-and-fry-pancakes-pancakes-with-chocolate-spread",
+        "duration": 18,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "transfer-chocolate-paste-pancakes-with-chocolate-spread",
+        "en": {
+          "title": "Transfer chocolate paste to a piping bag",
+          "description": "Place the chocolate paste into a piping bag. Cut off the tip to make a small opening."
+        }
+      },
+      {
+        "id": "melt-butter-pancakes-with-chocolate-spread",
+        "en": {
+          "title": "Melt the butter",
+          "description": "Melt the butter in a microwave in short bursts of 10-15 seconds until fully melted."
+        }
+      },
+      {
+        "id": "add-sugar-and-egg-pancakes-with-chocolate-spread",
+        "en": {
+          "title": "Add vanilla sugar and egg",
+          "description": "Add the vanilla sugar and the egg to the melted butter. Mix until well combined."
+        }
+      },
+      {
+        "id": "add-milk-pancakes-with-chocolate-spread",
+        "en": {
+          "title": "Add milk",
+          "description": "Pour in the milk and stir until the mixture is smooth and homogeneous."
+        }
+      },
+      {
+        "id": "make-batter-pancakes-with-chocolate-spread",
+        "en": {
+          "title": "Make the pancake batter",
+          "description": "Combine the flour and baking powder, then sift them into the wet mixture. Mix until you get a thick but flowing batter that easily drips off the ladle."
+        }
+      },
+      {
+        "id": "heat-pan-pancakes-with-chocolate-spread",
+        "en": {
+          "title": "Heat the pan",
+          "description": "Place a non-stick pan over medium heat and let it warm up."
+        }
+      },
+      {
+        "id": "fill-and-fry-pancakes-pancakes-with-chocolate-spread",
+        "en": {
+          "title": "Fill and fry the pancakes",
+          "description": "Pour a ladle of batter into the center of the pan. Quickly pipe a small amount of chocolate paste onto the batter. Cover the paste with a thin layer of batter. Fry on low heat with the lid on for 3-4 minutes per side. Repeat with the remaining batter."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-chocolate-filling-pancakes-with-chocolate-spread",
+        "en": {
+          "title": "Prepare the chocolate filling"
+        }
+      },
+      {
+        "id": "prepare-batter-pancakes-with-chocolate-spread",
+        "en": {
+          "title": "Prepare the pancake batter"
+        }
+      },
+      {
+        "id": "cook-pancakes-pancakes-with-chocolate-spread",
+        "en": {
+          "title": "Cook the filled pancakes"
+        }
+      },
+      {
+        "id": "serve-pancakes-pancakes-with-chocolate-spread",
+        "en": {
+          "title": "Serve with berries and mint"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "prep-ingredients-banana-cranberry-smoothie",
+    "en": {
+      "title": "Prep ingredients"
+    }
+  },
+  {
+    "id": "blend-smoothie-banana-cranberry-smoothie",
+    "en": {
+      "title": "Blend smoothie"
+    }
+  },
+  {
+    "id": "serve-drink-banana-cranberry-smoothie",
+    "en": {
+      "title": "Serve and enjoy"
+    }
+  },
+  {
+    "id": "prepare-ingredients-green-omelette-in-oven",
+    "en": {
+      "title": "Prepare all ingredients"
+    }
+  },
+  {
+    "id": "combine-and-soak-green-omelette-in-oven",
+    "en": {
+      "title": "Combine egg mixture with bread and let soak"
+    }
+  },
+  {
+    "id": "bake-green-omelette-in-oven",
+    "en": {
+      "title": "Bake the omelette"
+    }
+  },
+  {
+    "id": "make-coffee-lazy-tiramisu-greek-yogurt",
+    "en": {
+      "title": "Make coffee mixture and dip ladyfingers"
+    }
+  },
+  {
+    "id": "mix-yogurt-lazy-tiramisu-greek-yogurt",
+    "en": {
+      "title": "Mix yogurt with remaining coffee"
+    }
+  },
+  {
+    "id": "assemble-lazy-tiramisu-greek-yogurt",
+    "en": {
+      "title": "Assemble the tiramisu in glasses"
+    }
+  },
+  {
+    "id": "chill-lazy-tiramisu-greek-yogurt",
+    "en": {
+      "title": "Refrigerate until set"
+    }
+  },
+  {
+    "id": "grate-and-mix-beets-sandwich-with-beets-ricotta-and-greens",
+    "en": {
+      "title": "Grate and mix beets with garlic"
+    }
+  },
+  {
+    "id": "blend-beet-mixture-sandwich-with-beets-ricotta-and-greens",
+    "en": {
+      "title": "Blend beet mixture"
+    }
+  },
+  {
+    "id": "assemble-sandwich-sandwich-with-beets-ricotta-and-greens",
+    "en": {
+      "title": "Assemble the sandwiches"
+    }
+  },
+  {
+    "id": "prepare-batter-strawberry-oat-pancake",
+    "en": {
+      "title": "Prepare the batter"
+    }
+  },
+  {
+    "id": "cook-first-side-strawberry-oat-pancake",
+    "en": {
+      "title": "Cook the first side"
+    }
+  },
+  {
+    "id": "cook-second-side-strawberry-oat-pancake",
+    "en": {
+      "title": "Cook the second side"
+    }
+  }
+]

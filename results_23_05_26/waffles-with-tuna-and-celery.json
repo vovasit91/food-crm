@@ -1,0 +1,232 @@
+[
+  {
+    "id": "waffles-with-tuna-and-celery",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyOS9rNHNNY0UuanBlZw.webp",
+    "title": {
+      "en": "Waffles with Tuna and Celery"
+    },
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "tags": [
+      "gluten-free",
+      "hearty",
+      "creamy"
+    ],
+    "kitchen": [],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "make-batter-waffles-with-tuna-and-celery",
+        "minutes": 5
+      },
+      {
+        "stepId": "bake-waffles-waffles-with-tuna-and-celery",
+        "minutes": 20
+      },
+      {
+        "stepId": "prepare-filling-waffles-with-tuna-and-celery",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "almond-flour",
+        "quantity": 22.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tuna",
+        "quantity": 37.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "celery",
+        "quantity": 11.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 9,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yogurt",
+        "quantity": 12.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "whisk-eggs-waffles-with-tuna-and-celery",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-batter-waffles-with-tuna-and-celery",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-waffle-iron-waffles-with-tuna-and-celery",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "bake-waffles-batch-waffles-with-tuna-and-celery",
+        "duration": 4,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cook-remaining-waffles-waffles-with-tuna-and-celery",
+        "duration": 12,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dice-vegetables-waffles-with-tuna-and-celery",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-tuna-filling-waffles-with-tuna-and-celery",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-dish-waffles-with-tuna-and-celery",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "whisk-eggs-waffles-with-tuna-and-celery",
+        "en": {
+          "title": "Whisk the eggs",
+          "description": "Break the eggs into a bowl, add salt, and whisk with a whisk until smooth."
+        }
+      },
+      {
+        "id": "mix-batter-waffles-with-tuna-and-celery",
+        "en": {
+          "title": "Mix the batter",
+          "description": "Finely grate the cheese into the eggs, add almond flour, and quickly mix into a thick batter."
+        }
+      },
+      {
+        "id": "preheat-waffle-iron-waffles-with-tuna-and-celery",
+        "en": {
+          "title": "Preheat the waffle iron",
+          "description": "Brush the waffle iron plates with vegetable oil and let the appliance heat up."
+        }
+      },
+      {
+        "id": "bake-waffles-batch-waffles-with-tuna-and-celery",
+        "en": {
+          "title": "Bake the first batch of waffles",
+          "description": "Pour 2-3 tablespoons of batter into each compartment, close the lid, and bake for 3-4 minutes."
+        }
+      },
+      {
+        "id": "cook-remaining-waffles-waffles-with-tuna-and-celery",
+        "en": {
+          "title": "Cook the remaining waffles",
+          "description": "Remove the cooked waffles and repeat the process with the remaining batter until all batter is used."
+        }
+      },
+      {
+        "id": "dice-vegetables-waffles-with-tuna-and-celery",
+        "en": {
+          "title": "Dice the vegetables",
+          "description": "Cut the red onion and celery into small cubes."
+        }
+      },
+      {
+        "id": "mix-tuna-filling-waffles-with-tuna-and-celery",
+        "en": {
+          "title": "Mix the tuna filling",
+          "description": "Place the tuna fillet in a bowl, flake it with a fork, then add the diced vegetables and Greek yogurt. Mix well."
+        }
+      },
+      {
+        "id": "assemble-dish-waffles-with-tuna-and-celery",
+        "en": {
+          "title": "Assemble the dish",
+          "description": "Arrange the waffles on a serving plate and top with the tuna mixture. Garnish with cherry tomatoes if desired."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "make-batter-waffles-with-tuna-and-celery",
+        "en": {
+          "title": "Make the waffle batter"
+        }
+      },
+      {
+        "id": "bake-waffles-waffles-with-tuna-and-celery",
+        "en": {
+          "title": "Bake the waffles"
+        }
+      },
+      {
+        "id": "prepare-filling-waffles-with-tuna-and-celery",
+        "en": {
+          "title": "Prepare the filling and serve"
+        }
+      }
+    ]
+  }
+]

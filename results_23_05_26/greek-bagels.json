@@ -1,0 +1,250 @@
+[
+  {
+    "id": "greek-bagels",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyNy9Ybk02OWIuanBlZw.webp",
+    "title": {
+      "en": "Greek Bagels"
+    },
+    "timeMinutes": 60,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "mixer",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-dough-greek-bagels",
+        "minutes": 20
+      },
+      {
+        "stepId": "shape-rings-greek-bagels",
+        "minutes": 15
+      },
+      {
+        "stepId": "bake-greek-bagels",
+        "minutes": 25
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "butter",
+        "quantity": 180,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 115,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-soda",
+        "quantity": 3,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 330,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "orange-juice",
+        "quantity": 60,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "beat-butter-sugar-greek-bagels",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "add-egg-and-dry-greek-bagels",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "knead-dough-greek-bagels",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "shape-dough-into-balls-and-roll-greek-bagels",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-greek-bagels",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "form-rings-greek-bagels",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "brush-and-sprinkle-greek-bagels",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-greek-bagels",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cool-on-rack-greek-bagels",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "beat-butter-sugar-greek-bagels",
+        "en": {
+          "title": "Beat butter and sugar",
+          "description": "Place the softened butter and sugar in a deep bowl. Beat with a mixer on medium speed until the mixture turns white and fluffy, about 4–5 minutes."
+        }
+      },
+      {
+        "id": "add-egg-and-dry-greek-bagels",
+        "en": {
+          "title": "Add egg, baking powder, and soda",
+          "description": "While beating, add the egg, then sift in the baking powder and baking soda. Continue beating until fully incorporated."
+        }
+      },
+      {
+        "id": "knead-dough-greek-bagels",
+        "en": {
+          "title": "Knead the dough with flour and orange juice",
+          "description": "Add 200 g of flour and beat briefly. Pour in the orange juice, then add the remaining flour. Knead the dough by hand until smooth and homogeneous."
+        }
+      },
+      {
+        "id": "shape-dough-into-balls-and-roll-greek-bagels",
+        "en": {
+          "title": "Shape dough into balls and roll into strips",
+          "description": "Roll the dough into walnut-sized balls. Dust your work surface with flour. Using both palms, roll each ball into a long rope about 15 cm long and 1 cm thick."
+        }
+      },
+      {
+        "id": "preheat-oven-greek-bagels",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 190°C (375°F). This should be done while you shape the rings."
+        }
+      },
+      {
+        "id": "form-rings-greek-bagels",
+        "en": {
+          "title": "Form the rings",
+          "description": "Bring the ends of each rope together to form a ring and pinch firmly to seal. Repeat with all the dough pieces."
+        }
+      },
+      {
+        "id": "brush-and-sprinkle-greek-bagels",
+        "en": {
+          "title": "Brush with egg and sprinkle toppings",
+          "description": "Arrange the rings on a baking sheet lined with parchment paper. Brush each ring with beaten egg, then sprinkle with sugar and sesame seeds."
+        }
+      },
+      {
+        "id": "bake-greek-bagels",
+        "en": {
+          "title": "Bake the bagels",
+          "description": "Bake the bagels in the preheated oven at 190°C for 15 minutes, until golden brown."
+        }
+      },
+      {
+        "id": "cool-on-rack-greek-bagels",
+        "en": {
+          "title": "Cool on a wire rack",
+          "description": "After baking, transfer the bagels to a wire rack and let them cool completely."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-dough-greek-bagels",
+        "en": {
+          "title": "Prepare the dough"
+        }
+      },
+      {
+        "id": "shape-rings-greek-bagels",
+        "en": {
+          "title": "Shape the rings"
+        }
+      },
+      {
+        "id": "bake-greek-bagels",
+        "en": {
+          "title": "Bake the bagels"
+        }
+      }
+    ]
+  }
+]

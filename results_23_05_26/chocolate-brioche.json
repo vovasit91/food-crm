@@ -1,0 +1,247 @@
+[
+  {
+    "id": "chocolate-brioche",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExNS80N2t1eDQuanBlZw.webp",
+    "title": {
+      "en": "Chocolate Brioche"
+    },
+    "timeMinutes": 270,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "mixer",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-dough-chocolate-brioche",
+        "minutes": 25
+      },
+      {
+        "stepId": "first-proofing-chocolate-brioche",
+        "minutes": 120
+      },
+      {
+        "stepId": "shaping-and-second-proofing-chocolate-brioche",
+        "minutes": 70
+      },
+      {
+        "stepId": "baking-chocolate-brioche",
+        "minutes": 40
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 43,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yeast",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 10,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "powdered-sugar",
+        "quantity": 7,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dark-chocolate",
+        "quantity": 8,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "berries",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "crumble-yeast-chocolate-brioche",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-flour-knead-chocolate-brioche",
+        "duration": 18,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "add-chocolate-chocolate-brioche",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "first-rise-chocolate-brioche",
+        "duration": 120,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "punch-and-shape-chocolate-brioche",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "second-rise-chocolate-brioche",
+        "duration": 60,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-chocolate-brioche",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "bake-chocolate-brioche",
+        "duration": 30,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "crumble-yeast-chocolate-brioche",
+        "en": {
+          "title": "Crumble the yeast",
+          "description": "Crumble fresh yeast into a deep bowl. Add milk, eggs, sour cream, and powdered sugar. Mix with a whisk or mixer until smooth."
+        }
+      },
+      {
+        "id": "add-flour-knead-chocolate-brioche",
+        "en": {
+          "title": "Knead the dough",
+          "description": "Add about two-thirds of the flour and start mixing with a spoon, then with your hands. After 2–3 minutes, add salt and gradually add the remaining flour. Transfer the dough to the work surface and knead for 15–20 minutes, stretching it away from you, folding back, and turning. The dough should be elastic and not sticky."
+        }
+      },
+      {
+        "id": "add-chocolate-chocolate-brioche",
+        "en": {
+          "title": "Fold in chocolate",
+          "description": "Add 80 g of chocolate pieces to the dough and knead briefly to distribute them evenly."
+        }
+      },
+      {
+        "id": "first-rise-chocolate-brioche",
+        "en": {
+          "title": "Let the dough rise",
+          "description": "Shape the dough into a ball, place it in a lightly oiled bowl, cover with a damp towel, and leave in a warm place for 1.5 to 3 hours, until doubled in volume."
+        }
+      },
+      {
+        "id": "punch-and-shape-chocolate-brioche",
+        "en": {
+          "title": "Punch down and shape",
+          "description": "Punch down the risen dough. Divide it into 12 equal pieces, shape each into a ball, and place them tightly in a greased baking pan."
+        }
+      },
+      {
+        "id": "second-rise-chocolate-brioche",
+        "en": {
+          "title": "Second proof",
+          "description": "Sprinkle the remaining chocolate pieces over the dough balls, gently pressing them in. Cover with a towel and let rise for 1 to 1.5 hours."
+        }
+      },
+      {
+        "id": "preheat-oven-chocolate-brioche",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 160°C (320°F)."
+        }
+      },
+      {
+        "id": "bake-chocolate-brioche",
+        "en": {
+          "title": "Bake the brioche",
+          "description": "Bake the brioche for 25–30 minutes, until golden brown and cooked through. Serve warm or at room temperature."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-dough-chocolate-brioche",
+        "en": {
+          "title": "Prepare the dough"
+        }
+      },
+      {
+        "id": "first-proofing-chocolate-brioche",
+        "en": {
+          "title": "First proofing"
+        }
+      },
+      {
+        "id": "shaping-and-second-proofing-chocolate-brioche",
+        "en": {
+          "title": "Shape and second proof"
+        }
+      },
+      {
+        "id": "baking-chocolate-brioche",
+        "en": {
+          "title": "Bake"
+        }
+      }
+    ]
+  }
+]

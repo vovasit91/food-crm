@@ -1,0 +1,247 @@
+[
+  {
+    "id": "buns-with-salmon-and-egg",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyOS8zYm9vS3AuanBlZw.webp",
+    "title": {
+      "en": "Buns with Salmon and Egg"
+    },
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "creamy",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "boil-eggs-phase-buns-with-salmon-and-egg",
+        "minutes": 10
+      },
+      {
+        "stepId": "prep-ingredients-phase-buns-with-salmon-and-egg",
+        "minutes": 5
+      },
+      {
+        "stepId": "toast-buns-phase-buns-with-salmon-and-egg",
+        "minutes": 3
+      },
+      {
+        "stepId": "assemble-phase-buns-with-salmon-and-egg",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "trout",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bread",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "capers",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "bring-water-to-boil-buns-with-salmon-and-egg",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "boil-eggs-buns-with-salmon-and-egg",
+        "duration": 8,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cool-and-peel-eggs-buns-with-salmon-and-egg",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slice-ingredients-buns-with-salmon-and-egg",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-in-pan-buns-with-salmon-and-egg",
+        "duration": 1,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "toast-buns-buns-with-salmon-and-egg",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "spread-cream-cheese-and-assemble-trout-buns-with-salmon-and-egg",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-egg-and-capers-buns-with-salmon-and-egg",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "bring-water-to-boil-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Bring water to a boil",
+          "description": "Place the eggs in a small pot and cover with water. Set over high heat and bring to a rolling boil."
+        }
+      },
+      {
+        "id": "boil-eggs-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Boil the eggs",
+          "description": "Reduce the heat to medium and let the eggs boil for 7-8 minutes to hard-cook them."
+        }
+      },
+      {
+        "id": "cool-and-peel-eggs-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Cool and peel the eggs",
+          "description": "Transfer the boiled eggs to a bowl of cold water. Once cool, peel off the shells."
+        }
+      },
+      {
+        "id": "slice-ingredients-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Slice the ingredients",
+          "description": "Cut the eggs lengthwise into 2-3 mm slices. Dice the shallot into small cubes, chop the capers finely, and slice the trout fillet into 3-4 mm pieces."
+        }
+      },
+      {
+        "id": "heat-oil-in-pan-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Heat oil in a pan",
+          "description": "Pour the olive oil into a frying pan and warm it over medium heat."
+        }
+      },
+      {
+        "id": "toast-buns-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Toast the buns",
+          "description": "Slice the burger buns in half. Place them cut-side down in the hot pan and toast for 1-2 minutes per side until golden and crispy. Transfer to a serving plate, cut-side up."
+        }
+      },
+      {
+        "id": "spread-cream-cheese-and-assemble-trout-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Spread cream cheese and add trout",
+          "description": "Spread cream cheese evenly over the toasted bun halves. Sprinkle with diced shallot, then arrange the trout slices on top, folding them slightly. Drizzle with lemon juice."
+        }
+      },
+      {
+        "id": "add-egg-and-capers-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Add egg and capers",
+          "description": "Place the egg slices over the trout. Lightly season with salt and sprinkle with chopped capers."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "boil-eggs-phase-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Boil the eggs"
+        }
+      },
+      {
+        "id": "prep-ingredients-phase-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Prepare the ingredients"
+        }
+      },
+      {
+        "id": "toast-buns-phase-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Toast the buns"
+        }
+      },
+      {
+        "id": "assemble-phase-buns-with-salmon-and-egg",
+        "en": {
+          "title": "Assemble the buns"
+        }
+      }
+    ]
+  }
+]

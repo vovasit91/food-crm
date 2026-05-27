@@ -1,0 +1,162 @@
+[
+  {
+    "id": "homestyle-stewed-chicken",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDkyNi8zZkhqa0suanBlZw.webp",
+    "title": {
+      "en": "Homestyle Stewed Chicken"
+    },
+    "timeMinutes": 80,
+    "difficulty": "easy",
+    "tags": [
+      "hearty",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "season-and-sear-homestyle-stewed-chicken",
+        "minutes": 10
+      },
+      {
+        "stepId": "transfer-and-boil-homestyle-stewed-chicken",
+        "minutes": 5
+      },
+      {
+        "stepId": "simmer-and-turn-homestyle-stewed-chicken",
+        "minutes": 60
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "whole-chicken",
+        "quantity": 187.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chicken-seasoning",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 25,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream-sauce",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "rub-chicken-homestyle-stewed-chicken",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "sear-chicken-homestyle-stewed-chicken",
+        "duration": 8,
+        "showTimer": true,
+        "tags": [
+          "high-heat",
+          "pan-fried"
+        ]
+      },
+      {
+        "stepId": "transfer-and-bring-to-boil-homestyle-stewed-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "simmer-chicken-homestyle-stewed-chicken",
+        "duration": 60,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "rub-chicken-homestyle-stewed-chicken",
+        "en": {
+          "title": "Rub the chicken with salt and seasoning",
+          "description": "Take the whole chicken and rub it thoroughly on all sides with salt and chicken seasoning. Make sure it's evenly coated."
+        }
+      },
+      {
+        "id": "sear-chicken-homestyle-stewed-chicken",
+        "en": {
+          "title": "Sear the chicken",
+          "description": "Heat vegetable oil in a large skillet over high heat. Place the whole chicken in the skillet and fry for 3-4 minutes on each side until a golden brown crust forms. This seals in the juices."
+        }
+      },
+      {
+        "id": "transfer-and-bring-to-boil-homestyle-stewed-chicken",
+        "en": {
+          "title": "Transfer and bring to a boil",
+          "description": "Transfer the seared chicken to a pot. Pour hot water over it and place the pot over medium heat. Bring the liquid to a boil."
+        }
+      },
+      {
+        "id": "simmer-chicken-homestyle-stewed-chicken",
+        "en": {
+          "title": "Simmer the chicken",
+          "description": "Reduce the heat to low. Cover the pot and let the chicken simmer for 1 hour. Every 15 minutes, turn the chicken to ensure even cooking."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "season-and-sear-homestyle-stewed-chicken",
+        "en": {
+          "title": "Season and sear the chicken"
+        }
+      },
+      {
+        "id": "transfer-and-boil-homestyle-stewed-chicken",
+        "en": {
+          "title": "Transfer and bring to a boil"
+        }
+      },
+      {
+        "id": "simmer-and-turn-homestyle-stewed-chicken",
+        "en": {
+          "title": "Simmer and turn the chicken"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "sandwich-with-tuna-and-spinach",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEyNC9LU2hFUXcuanBlZw.webp",
+    "title": {
+      "en": "Sandwich with Tuna and Spinach"
+    },
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "hearty",
+      "creamy"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-filling-sandwich-with-tuna-and-spinach",
+        "minutes": 10
+      },
+      {
+        "stepId": "assemble-sandwiches-sandwich-with-tuna-and-spinach",
+        "minutes": 5
+      },
+      {
+        "stepId": "fry-sandwiches-sandwich-with-tuna-and-spinach",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tuna",
+        "quantity": 62.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yogurt",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mustard",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "spinach",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 7.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "green-onion",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dried-garlic",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 35,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "saute-spinach-sandwich-with-tuna-and-spinach",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "dont-overcook"
+        ]
+      },
+      {
+        "stepId": "prepare-tuna-and-cheese-sandwich-with-tuna-and-spinach",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-filling-sandwich-with-tuna-and-spinach",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-sandwich-sandwich-with-tuna-and-spinach",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-sandwich-sandwich-with-tuna-and-spinach",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "pan-fried"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "saute-spinach-sandwich-with-tuna-and-spinach",
+        "en": {
+          "title": "Sauté the spinach",
+          "description": "Heat 1 tsp of butter in a skillet over medium heat. Add the spinach and sauté for 2-3 minutes until wilted. Season with salt and let cool slightly."
+        }
+      },
+      {
+        "id": "prepare-tuna-and-cheese-sandwich-with-tuna-and-spinach",
+        "en": {
+          "title": "Prepare the tuna, cheese, and onion",
+          "description": "In a bowl, mash the tuna with a fork. Grate the semi-hard cheese coarsely. Finely chop the green onion."
+        }
+      },
+      {
+        "id": "mix-filling-sandwich-with-tuna-and-spinach",
+        "en": {
+          "title": "Mix the filling",
+          "description": "Add the sautéed spinach, cream cheese, mustard, yogurt, chopped green onion, salt, and dried garlic to the tuna. Mix until well combined."
+        }
+      },
+      {
+        "id": "assemble-sandwich-sandwich-with-tuna-and-spinach",
+        "en": {
+          "title": "Assemble the sandwiches",
+          "description": "Place the grated cheese on two slices of bread. Top each with a generous spoonful of the tuna-spinach filling. Cover with the remaining bread slices and press lightly."
+        }
+      },
+      {
+        "id": "fry-sandwich-sandwich-with-tuna-and-spinach",
+        "en": {
+          "title": "Fry the sandwiches",
+          "description": "Heat the remaining butter in the skillet over medium heat. Fry the sandwiches on both sides until golden and crispy, about 2-3 minutes total."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-filling-sandwich-with-tuna-and-spinach",
+        "en": {
+          "title": "Prepare the filling"
+        }
+      },
+      {
+        "id": "assemble-sandwiches-sandwich-with-tuna-and-spinach",
+        "en": {
+          "title": "Assemble the sandwiches"
+        }
+      },
+      {
+        "id": "fry-sandwiches-sandwich-with-tuna-and-spinach",
+        "en": {
+          "title": "Fry the sandwiches"
+        }
+      }
+    ]
+  }
+]

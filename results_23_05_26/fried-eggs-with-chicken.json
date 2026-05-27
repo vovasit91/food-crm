@@ -1,0 +1,172 @@
+[
+  {
+    "id": "fried-eggs-with-chicken",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEwOS9tcXlVejguanBlZw.webp",
+    "title": {
+      "en": "Fried Eggs with Chicken"
+    },
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "one-pan",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "cook-chicken-fried-eggs-with-chicken",
+        "minutes": 4
+      },
+      {
+        "stepId": "crack-eggs-and-season-fried-eggs-with-chicken",
+        "minutes": 1
+      },
+      {
+        "stepId": "fry-eggs-fried-eggs-with-chicken",
+        "minutes": 3
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "chicken-breast",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 3,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parsley",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bread",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cheese-sauce",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "fry-chicken-fried-eggs-with-chicken",
+        "duration": 4,
+        "showTimer": true,
+        "tags": [
+          "pan-fried",
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "make-wells-and-add-eggs-fried-eggs-with-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "fry-eggs-fried-eggs-with-chicken",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "dont-overcook",
+          "pan-fried"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "fry-chicken-fried-eggs-with-chicken",
+        "en": {
+          "title": "Fry the chicken",
+          "description": "Cut the chicken breast into small cubes. Heat oil in a frying pan over high heat. Add the chicken and stir-fry for 3-4 minutes until cooked through."
+        }
+      },
+      {
+        "id": "make-wells-and-add-eggs-fried-eggs-with-chicken",
+        "en": {
+          "title": "Make wells and add eggs",
+          "description": "Make small wells in the chicken pieces. Crack the eggs into the wells. Season with salt and pepper. Reduce the heat to low and cover the pan."
+        }
+      },
+      {
+        "id": "fry-eggs-fried-eggs-with-chicken",
+        "en": {
+          "title": "Fry the eggs",
+          "description": "Cook the eggs for 2-3 minutes on low heat, covered. Watch the yolks carefully to avoid overcooking. They should remain runny if desired."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "cook-chicken-fried-eggs-with-chicken",
+        "en": {
+          "title": "Cook the chicken"
+        }
+      },
+      {
+        "id": "crack-eggs-and-season-fried-eggs-with-chicken",
+        "en": {
+          "title": "Crack eggs and season"
+        }
+      },
+      {
+        "id": "fry-eggs-fried-eggs-with-chicken",
+        "en": {
+          "title": "Fry the eggs"
+        }
+      }
+    ]
+  }
+]

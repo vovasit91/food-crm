@@ -1,0 +1,225 @@
+[
+  {
+    "id": "egg-cheese-toasts-air-fryer",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAyMi84VkR3dzIuanBlZw.webp",
+    "title": {
+      "en": "Egg Toasts with Cheese in Air Fryer"
+    },
+    "timeMinutes": 20,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "spicy"
+    ],
+    "kitchen": [
+      "air-fryer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-ingredients-egg-cheese-toasts-air-fryer",
+        "minutes": 5
+      },
+      {
+        "stepId": "make-egg-mixture-egg-cheese-toasts-air-fryer",
+        "minutes": 3
+      },
+      {
+        "stepId": "assemble-and-bake-egg-cheese-toasts-air-fryer",
+        "minutes": 12
+      },
+      {
+        "stepId": "serve-egg-cheese-toasts-air-fryer",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "quantity": 37.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "green-onion",
+        "quantity": 2.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chili-flakes",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ham",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "prep-vegetables-egg-cheese-toasts-air-fryer",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whisk-eggs-egg-cheese-toasts-air-fryer",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-filling-egg-cheese-toasts-air-fryer",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "make-indentations-egg-cheese-toasts-air-fryer",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fill-bread-egg-cheese-toasts-air-fryer",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-egg-cheese-toasts-air-fryer",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "baked"
+        ]
+      },
+      {
+        "stepId": "cool-and-serve-egg-cheese-toasts-air-fryer",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "prep-vegetables-egg-cheese-toasts-air-fryer",
+        "en": {
+          "title": "Prepare the vegetables, cheese, and ham",
+          "description": "Dice the bell pepper into 5–6 mm cubes. Finely chop the green onion. Grate the cheese on the large holes of a grater. Cut the ham into strips about 3–4 mm thick."
+        }
+      },
+      {
+        "id": "whisk-eggs-egg-cheese-toasts-air-fryer",
+        "en": {
+          "title": "Whisk the eggs with spices",
+          "description": "Crack the eggs into a bowl. Add the salt, black pepper, and chili flakes. Whisk everything together well with a whisk."
+        }
+      },
+      {
+        "id": "mix-filling-egg-cheese-toasts-air-fryer",
+        "en": {
+          "title": "Mix the filling",
+          "description": "Add the chopped green onion, bell pepper, ham, and grated cheese to the egg mixture. Stir everything together thoroughly with a spatula."
+        }
+      },
+      {
+        "id": "make-indentations-egg-cheese-toasts-air-fryer",
+        "en": {
+          "title": "Make indentations in the bread",
+          "description": "Use the bottom of a glass to press small wells into each slice of bread."
+        }
+      },
+      {
+        "id": "fill-bread-egg-cheese-toasts-air-fryer",
+        "en": {
+          "title": "Fill the bread indentations",
+          "description": "Spoon the egg-cheese mixture into the indentations, distributing it evenly."
+        }
+      },
+      {
+        "id": "bake-egg-cheese-toasts-air-fryer",
+        "en": {
+          "title": "Bake in the air fryer",
+          "description": "Place the filled bread slices on parchment paper in the air fryer basket. Set the air fryer to 180°C and bake for 10 minutes."
+        }
+      },
+      {
+        "id": "cool-and-serve-egg-cheese-toasts-air-fryer",
+        "en": {
+          "title": "Cool and serve",
+          "description": "Let the egg toasts cool slightly, then transfer them to a serving plate."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-ingredients-egg-cheese-toasts-air-fryer",
+        "en": {
+          "title": "Prepare the ingredients"
+        }
+      },
+      {
+        "id": "make-egg-mixture-egg-cheese-toasts-air-fryer",
+        "en": {
+          "title": "Make the egg mixture"
+        }
+      },
+      {
+        "id": "assemble-and-bake-egg-cheese-toasts-air-fryer",
+        "en": {
+          "title": "Assemble and bake the toasts"
+        }
+      },
+      {
+        "id": "serve-egg-cheese-toasts-air-fryer",
+        "en": {
+          "title": "Serve the toasts"
+        }
+      }
+    ]
+  }
+]

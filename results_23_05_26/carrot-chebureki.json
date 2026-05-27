@@ -1,0 +1,325 @@
+[
+  {
+    "id": "carrot-chebureki",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyNy9oalVCdGYuanBlZw.webp",
+    "title": {
+      "en": "Carrot Chebureki"
+    },
+    "timeMinutes": 50,
+    "difficulty": "medium",
+    "tags": [
+      "deep-fried",
+      "vegetarian",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-dough-carrot-chebureki",
+        "minutes": 25
+      },
+      {
+        "stepId": "prepare-filling-carrot-chebureki",
+        "minutes": 10
+      },
+      {
+        "stepId": "assemble-chebureki-carrot-chebureki",
+        "minutes": 10
+      },
+      {
+        "stepId": "fry-chebureki-carrot-chebureki",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 90,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 50,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "quantity": 19,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "carrots",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 0.5,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "coriander",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mustard-seeds",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "quantity": 0.75,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cilantro",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cheese-sauce",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "boil-water-carrot-chebureki",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-dough-carrot-chebureki",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "knead-dough-carrot-chebureki",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rest-dough-carrot-chebureki",
+        "duration": 20,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "grind-spices-carrot-chebureki",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-filling-carrot-chebureki",
+        "duration": 4,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-herbs-and-soy-carrot-chebureki",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-sesame-oil-carrot-chebureki",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "divide-and-roll-carrot-chebureki",
+        "duration": 6,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-chebureki-carrot-chebureki",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-frying-oil-carrot-chebureki",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "fry-chebureki-carrot-chebureki",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "deep-fried"
+        ]
+      },
+      {
+        "stepId": "drain-carrot-chebureki",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "boil-water-carrot-chebureki",
+        "en": {
+          "title": "Boil water",
+          "description": "Bring a kettle of water to a rolling boil. This will be used to make the dough."
+        }
+      },
+      {
+        "id": "mix-dough-carrot-chebureki",
+        "en": {
+          "title": "Mix dough liquid and combine with flour",
+          "description": "In a small bowl, combine the boiled water with 3 tablespoons of soy sauce and 2 tablespoons of vegetable oil. Make a well in the flour, pour in the liquid mixture, and stir until a shaggy dough forms."
+        }
+      },
+      {
+        "id": "knead-dough-carrot-chebureki",
+        "en": {
+          "title": "Knead dough",
+          "description": "Turn the dough out onto a lightly floured surface and knead for about 5 minutes until smooth and elastic. The dough should be soft and pliable."
+        }
+      },
+      {
+        "id": "rest-dough-carrot-chebureki",
+        "en": {
+          "title": "Let dough rest",
+          "description": "Wrap the dough in plastic wrap and let it rest at room temperature for 20 minutes. This allows the gluten to relax, making it easier to roll out."
+        }
+      },
+      {
+        "id": "grind-spices-carrot-chebureki",
+        "en": {
+          "title": "Grind spices",
+          "description": "Using a mortar and pestle or a spice grinder, grind the coriander seeds and mustard seeds until they become a coarse powder. This releases their aroma."
+        }
+      },
+      {
+        "id": "prepare-filling-carrot-chebureki",
+        "en": {
+          "title": "Grate carrots and mix with spices and garlic",
+          "description": "Peel and grate the carrots. Place them in a bowl, add the ground spices, and press the garlic cloves through a press into the mixture. Stir well to combine."
+        }
+      },
+      {
+        "id": "add-herbs-and-soy-carrot-chebureki",
+        "en": {
+          "title": "Add remaining soy sauce and fresh herbs",
+          "description": "Add the remaining 2 tablespoons of soy sauce to the carrot mixture. Finely chop the fresh cilantro (or other fresh herbs) and stir it in. Mix until evenly distributed."
+        }
+      },
+      {
+        "id": "heat-sesame-oil-carrot-chebureki",
+        "en": {
+          "title": "Heat sesame oil until smoking",
+          "description": "Pour the sesame oil into a small pan and heat over high heat until it starts to shimmer and just begins to smoke. Be careful not to burn it."
+        }
+      },
+      {
+        "id": "divide-and-roll-carrot-chebureki",
+        "en": {
+          "title": "Divide dough and roll into circles",
+          "description": "Divide the rested dough into equal portions (about 4-6 pieces, depending on desired size). Also divide the filling into the same number of portions. On a lightly floured surface, roll each dough piece into a thin round disc, about 2-3 mm thick."
+        }
+      },
+      {
+        "id": "assemble-chebureki-carrot-chebureki",
+        "en": {
+          "title": "Fill and seal chebureki",
+          "description": "Place a portion of filling on one half of each dough circle, leaving a 1 cm border. Moisten the edges with water, then fold the other half over the filling. Press the edges firmly to seal. Trim any uneven edges with a knife or pastry wheel for a neat shape."
+        }
+      },
+      {
+        "id": "heat-frying-oil-carrot-chebureki",
+        "en": {
+          "title": "Heat oil for frying",
+          "description": "Pour enough vegetable oil into a deep skillet to reach about 1 cm depth. Heat over medium-high heat until the oil is hot and shimmering (about 170-180°C)."
+        }
+      },
+      {
+        "id": "fry-chebureki-carrot-chebureki",
+        "en": {
+          "title": "Fry chebureki until golden",
+          "description": "Carefully place the chebureki into the hot oil, working in batches if needed. Fry for 2-3 minutes per side, until deep golden brown and crispy. Use a slotted spoon to turn them."
+        }
+      },
+      {
+        "id": "drain-carrot-chebureki",
+        "en": {
+          "title": "Drain on paper towels",
+          "description": "Transfer the fried chebureki to a plate lined with paper towels. Let them sit for a minute to absorb excess oil before serving."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-dough-carrot-chebureki",
+        "en": {
+          "title": "Prepare and rest dough"
+        }
+      },
+      {
+        "id": "prepare-filling-carrot-chebureki",
+        "en": {
+          "title": "Prepare the carrot filling"
+        }
+      },
+      {
+        "id": "assemble-chebureki-carrot-chebureki",
+        "en": {
+          "title": "Assemble the chebureki"
+        }
+      },
+      {
+        "id": "fry-chebureki-carrot-chebureki",
+        "en": {
+          "title": "Fry the chebureki"
+        }
+      }
+    ]
+  }
+]

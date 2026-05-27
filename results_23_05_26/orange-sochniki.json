@@ -1,0 +1,295 @@
+[
+  {
+    "id": "orange-sochniki",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEyOC9NU3V3M0ouanBlZw.webp",
+    "title": {
+      "en": "Orange Sochniki"
+    },
+    "timeMinutes": 50,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-filling-orange-sochniki",
+        "minutes": 5
+      },
+      {
+        "stepId": "make-dough-orange-sochniki",
+        "minutes": 10
+      },
+      {
+        "stepId": "shape-pastries-orange-sochniki",
+        "minutes": 15
+      },
+      {
+        "stepId": "bake-pastries-orange-sochniki",
+        "minutes": 20
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 32.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 12.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "powdered-sugar",
+        "quantity": 6.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.125,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.3125,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.125,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tvorog",
+        "quantity": 22.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 6.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 2.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "orange-zest",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "egg-yolk",
+        "quantity": 1.0625,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "egg-yolk",
+        "quantity": 1.0625,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 0.625,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-filling-orange-sochniki",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cream-butter-and-sugar-orange-sochniki",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-egg-orange-sochniki",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-dry-ingredients-orange-sochniki",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "knead-dough-orange-sochniki",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "divide-dough-orange-sochniki",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "roll-fill-and-shape-pastries-orange-sochniki",
+        "duration": 15,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-orange-sochniki",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "make-egg-wash-and-brush-orange-sochniki",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-sochniki-orange-sochniki",
+        "duration": 25,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-filling-orange-sochniki",
+        "en": {
+          "title": "Mix the filling",
+          "description": "In a bowl, combine tvorog, sugar, sour cream, orange zest, and one egg yolk. Stir until smooth and homogeneous."
+        }
+      },
+      {
+        "id": "cream-butter-and-sugar-orange-sochniki",
+        "en": {
+          "title": "Cream butter and powdered sugar",
+          "description": "In another bowl, rub the softened butter with the powdered sugar until light and fluffy."
+        }
+      },
+      {
+        "id": "add-egg-orange-sochniki",
+        "en": {
+          "title": "Add the egg",
+          "description": "Add the whole egg to the butter mixture and mix well."
+        }
+      },
+      {
+        "id": "add-dry-ingredients-orange-sochniki",
+        "en": {
+          "title": "Add dry ingredients",
+          "description": "Sift together the flour and baking powder, then add to the butter mixture along with a pinch of salt. Mix briefly."
+        }
+      },
+      {
+        "id": "knead-dough-orange-sochniki",
+        "en": {
+          "title": "Knead the dough",
+          "description": "Knead the mixture until a smooth, uniform dough forms. Do not overwork it."
+        }
+      },
+      {
+        "id": "divide-dough-orange-sochniki",
+        "en": {
+          "title": "Divide the dough",
+          "description": "Divide the dough into 8 equal pieces and shape each into a ball."
+        }
+      },
+      {
+        "id": "roll-fill-and-shape-pastries-orange-sochniki",
+        "en": {
+          "title": "Roll, fill, and shape the pastries",
+          "description": "On a lightly floured surface, roll each dough ball into a circle about 3–4 mm thick. Place one-eighth of the filling on one half of the circle, then fold the other half over to form a half‑moon. Press the edges to seal. Repeat with remaining dough and filling. Transfer the shaped pastries to a parchment‑lined baking tray."
+        }
+      },
+      {
+        "id": "preheat-oven-orange-sochniki",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 200°C (400°F)."
+        }
+      },
+      {
+        "id": "make-egg-wash-and-brush-orange-sochniki",
+        "en": {
+          "title": "Make egg wash and brush the pastries",
+          "description": "Whisk the remaining egg yolk with the water. Using a pastry brush, lightly coat the tops of the pastries with the egg wash."
+        }
+      },
+      {
+        "id": "bake-sochniki-orange-sochniki",
+        "en": {
+          "title": "Bake the sochniki",
+          "description": "Bake the pastries in the preheated oven for 20–25 minutes until golden brown. Remove from the oven and let cool slightly before serving."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-filling-orange-sochniki",
+        "en": {
+          "title": "Prepare the filling"
+        }
+      },
+      {
+        "id": "make-dough-orange-sochniki",
+        "en": {
+          "title": "Make the dough"
+        }
+      },
+      {
+        "id": "shape-pastries-orange-sochniki",
+        "en": {
+          "title": "Shape the pastries"
+        }
+      },
+      {
+        "id": "bake-pastries-orange-sochniki",
+        "en": {
+          "title": "Bake the pastries"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "ricotta-pancakes-berry-butter",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyNS80S2FxVUQuanBlZw.webp",
+    "title": {
+      "en": "Ricotta Pancakes with Berry Butter"
+    },
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "tags": [
+      "pan-fried",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "microwave"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-batter-ricotta-pancakes-berry-butter",
+        "minutes": 15
+      },
+      {
+        "stepId": "cook-pancakes-ricotta-pancakes-berry-butter",
+        "minutes": 10
+      },
+      {
+        "stepId": "make-berry-butter-ricotta-pancakes-berry-butter",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 65,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ricotta",
+        "quantity": 90,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "blueberry-jam",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-dry-ingredients-ricotta-pancakes-berry-butter",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "melt-butter-ricotta-pancakes-berry-butter",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "beat-eggs-sugar-ricotta-pancakes-berry-butter",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-wet-ingredients-ricotta-pancakes-berry-butter",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-batter-ricotta-pancakes-berry-butter",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rest-batter-ricotta-pancakes-berry-butter",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "heat-pan-ricotta-pancakes-berry-butter",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-first-side-ricotta-pancakes-berry-butter",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "flip-cook-second-side-ricotta-pancakes-berry-butter",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "make-berry-butter-ricotta-pancakes-berry-butter",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-dry-ingredients-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Mix dry ingredients",
+          "description": "In a bowl, whisk together the flour, baking powder, and salt."
+        }
+      },
+      {
+        "id": "melt-butter-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Melt butter in microwave",
+          "description": "Place 10 g of butter in a microwave-safe bowl. Melt it in short 10-second bursts until just melted, then let it cool slightly."
+        }
+      },
+      {
+        "id": "beat-eggs-sugar-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Beat eggs with sugar",
+          "description": "In a separate bowl, beat the eggs with sugar until light and frothy."
+        }
+      },
+      {
+        "id": "add-wet-ingredients-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Add wet ingredients to eggs",
+          "description": "Add the vanilla extract, cooled melted butter, milk, and ricotta to the egg mixture. Stir until well combined."
+        }
+      },
+      {
+        "id": "combine-batter-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Combine dry and wet mixtures",
+          "description": "Pour the dry ingredients into the egg mixture and mix until a thick batter forms. The batter should resemble thick sour cream."
+        }
+      },
+      {
+        "id": "rest-batter-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Rest the batter",
+          "description": "Let the batter rest for 10 minutes. This allows the baking powder to activate and results in fluffier pancakes."
+        }
+      },
+      {
+        "id": "heat-pan-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Heat the pan",
+          "description": "Place a frying pan over medium heat and grease the bottom lightly with a little vegetable oil."
+        }
+      },
+      {
+        "id": "cook-first-side-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Cook first side of pancakes",
+          "description": "Scoop about 2 tablespoons of batter per pancake onto the hot pan. Cook for 2 minutes until bubbles appear on the surface."
+        }
+      },
+      {
+        "id": "flip-cook-second-side-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Flip and cook second side",
+          "description": "Carefully flip the pancakes and cook for another 2 minutes until golden brown and cooked through."
+        }
+      },
+      {
+        "id": "make-berry-butter-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Make berry butter",
+          "description": "In a clean bowl, beat the softened 50 g butter with the blueberry jam until smooth and evenly combined."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-batter-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Prepare batter"
+        }
+      },
+      {
+        "id": "cook-pancakes-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Cook pancakes"
+        }
+      },
+      {
+        "id": "make-berry-butter-ricotta-pancakes-berry-butter",
+        "en": {
+          "title": "Make berry butter"
+        }
+      }
+    ]
+  }
+]

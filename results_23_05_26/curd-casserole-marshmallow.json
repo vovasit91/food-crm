@@ -1,0 +1,233 @@
+[
+  {
+    "id": "curd-casserole-marshmallow",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDMwNS9HZjZWcFIuanBlZw.webp",
+    "title": {
+      "en": "Curd Casserole with Marshmallow"
+    },
+    "timeMinutes": 60,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "creamy",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "oven",
+      "mixer",
+      "blender"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-curd-mixture-curd-casserole-marshmallow",
+        "minutes": 15
+      },
+      {
+        "stepId": "whip-egg-whites-curd-casserole-marshmallow",
+        "minutes": 5
+      },
+      {
+        "stepId": "assemble-and-bake-curd-casserole-marshmallow",
+        "minutes": 45
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "tvorog",
+        "quantity": 125,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "marshmallow",
+        "quantity": 11,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pears",
+        "quantity": 34,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "powdered-sugar",
+        "quantity": 2.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "separate-eggs-curd-casserole-marshmallow",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whisk-yolks-milk-curd-casserole-marshmallow",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "blend-curd-curd-casserole-marshmallow",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-pear-marshmallow-curd-casserole-marshmallow",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "grease-dish-curd-casserole-marshmallow",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-curd-casserole-marshmallow",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "whip-egg-whites-curd-casserole-marshmallow",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-whites-curd-casserole-marshmallow",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-curd-casserole-marshmallow",
+        "duration": 40,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "separate-eggs-curd-casserole-marshmallow",
+        "en": {
+          "title": "Separate the eggs and chill the whites",
+          "description": "Carefully separate the egg whites from the yolks. Place the whites in the refrigerator to chill — cold whites whip better."
+        }
+      },
+      {
+        "id": "whisk-yolks-milk-curd-casserole-marshmallow",
+        "en": {
+          "title": "Whisk the yolks with milk",
+          "description": "In a small bowl, lightly whisk the egg yolks together with the milk until smooth and combined."
+        }
+      },
+      {
+        "id": "blend-curd-curd-casserole-marshmallow",
+        "en": {
+          "title": "Blend the curd into the yolk mixture",
+          "description": "Add the cottage cheese (tvorog) to the yolk mixture and use an immersion blender to blend until completely smooth."
+        }
+      },
+      {
+        "id": "chop-pear-marshmallow-curd-casserole-marshmallow",
+        "en": {
+          "title": "Chop pear and marshmallow and fold in",
+          "description": "Cut the pear and marshmallow into small cubes. Gently fold them into the curd mixture, taking care not to break up the marshmallow pieces."
+        }
+      },
+      {
+        "id": "grease-dish-curd-casserole-marshmallow",
+        "en": {
+          "title": "Grease the baking dish and transfer the mixture",
+          "description": "Grease a baking dish with vegetable oil. Transfer the curd mixture into the dish and smooth the surface."
+        }
+      },
+      {
+        "id": "preheat-oven-curd-casserole-marshmallow",
+        "en": {
+          "title": "Preheat the oven to 170°C",
+          "description": "Preheat your oven to 170°C (340°F) so it is ready for baking."
+        }
+      },
+      {
+        "id": "whip-egg-whites-curd-casserole-marshmallow",
+        "en": {
+          "title": "Whip the egg whites with sugar",
+          "description": "Take the chilled egg whites from the refrigerator, add the powdered sugar, and whip with a mixer until stiff peaks form."
+        }
+      },
+      {
+        "id": "spread-whites-curd-casserole-marshmallow",
+        "en": {
+          "title": "Spread the whipped whites over the casserole",
+          "description": "Gently spread the whipped egg whites evenly over the curd mixture in the dish, smoothing the top."
+        }
+      },
+      {
+        "id": "bake-curd-casserole-marshmallow",
+        "en": {
+          "title": "Bake for 40 minutes",
+          "description": "Place the dish in the preheated oven and bake at 170°C for 40 minutes, until the top is golden and the casserole is set."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-curd-mixture-curd-casserole-marshmallow",
+        "en": {
+          "title": "Prepare the curd mixture"
+        }
+      },
+      {
+        "id": "whip-egg-whites-curd-casserole-marshmallow",
+        "en": {
+          "title": "Whip the egg whites"
+        }
+      },
+      {
+        "id": "assemble-and-bake-curd-casserole-marshmallow",
+        "en": {
+          "title": "Assemble and bake the casserole"
+        }
+      }
+    ]
+  }
+]

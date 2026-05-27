@@ -1,0 +1,255 @@
+[
+  {
+    "id": "turkish-cake",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDIxMi9WRXhKNjMuanBlZw.webp",
+    "title": {
+      "en": "Turkish Cake"
+    },
+    "timeMinutes": 90,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-dry-mix-turkish-cake",
+        "minutes": 5
+      },
+      {
+        "stepId": "prep-wet-mix-turkish-cake",
+        "minutes": 15
+      },
+      {
+        "stepId": "combine-batter-turkish-cake",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-cake-turkish-cake",
+        "minutes": 60
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "eggs",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 21,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yogurt",
+        "quantity": 33,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "raisins",
+        "quantity": 32,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 54,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "quantity": 7,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "orange-zest",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "powdered-sugar",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-dry-ingredients-turkish-cake",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cream-butter-sugar-turkish-cake",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "beat-egg-yolks-turkish-cake",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-wet-and-flour-turkish-cake",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "beat-egg-whites-turkish-cake",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fold-egg-whites-turkish-cake",
+        "duration": 3,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "prepare-pan-and-preheat-turkish-cake",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "bake-cake-turkish-cake",
+        "duration": 60,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-dry-ingredients-turkish-cake",
+        "en": {
+          "title": "Mix dry ingredients",
+          "description": "In a bowl, combine flour, baking powder, orange zest, and raisins. Stir until evenly distributed."
+        }
+      },
+      {
+        "id": "cream-butter-sugar-turkish-cake",
+        "en": {
+          "title": "Cream butter and sugar",
+          "description": "In a separate bowl, beat the softened butter with half of the sugar until light and fluffy."
+        }
+      },
+      {
+        "id": "beat-egg-yolks-turkish-cake",
+        "en": {
+          "title": "Beat egg yolks with sugar",
+          "description": "Separate the eggs. Beat the yolks with the remaining sugar until thick and pale."
+        }
+      },
+      {
+        "id": "combine-wet-and-flour-turkish-cake",
+        "en": {
+          "title": "Combine wet and dry mixtures",
+          "description": "Add the yogurt and the butter mixture to the beaten yolks. Mix well, then gradually add the flour mixture, stirring until a smooth batter forms."
+        }
+      },
+      {
+        "id": "beat-egg-whites-turkish-cake",
+        "en": {
+          "title": "Beat egg whites to stiff peaks",
+          "description": "In a clean bowl, beat the egg whites with lemon juice using a mixer until stiff peaks form."
+        }
+      },
+      {
+        "id": "fold-egg-whites-turkish-cake",
+        "en": {
+          "title": "Fold in egg whites",
+          "description": "Gently fold the beaten egg whites into the batter using a spatula until just combined. Be careful not to deflate the mixture."
+        }
+      },
+      {
+        "id": "prepare-pan-and-preheat-turkish-cake",
+        "en": {
+          "title": "Prepare pan and preheat oven",
+          "description": "Preheat the oven to 180°C (350°F). Grease a cake pan with butter and sprinkle sesame seeds evenly over the inside to coat."
+        }
+      },
+      {
+        "id": "bake-cake-turkish-cake",
+        "en": {
+          "title": "Bake the cake",
+          "description": "Pour the batter into the prepared pan and smooth the top. Bake at 180°C for 15 minutes, then reduce the temperature to 160°C (325°F) and bake for another 45 minutes, until a toothpick inserted in the center comes out clean."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-dry-mix-turkish-cake",
+        "en": {
+          "title": "Prepare dry mix"
+        }
+      },
+      {
+        "id": "prep-wet-mix-turkish-cake",
+        "en": {
+          "title": "Prepare wet mix"
+        }
+      },
+      {
+        "id": "combine-batter-turkish-cake",
+        "en": {
+          "title": "Combine batter"
+        }
+      },
+      {
+        "id": "bake-cake-turkish-cake",
+        "en": {
+          "title": "Bake the cake"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "id": "persimmon-tvorog-honey",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEyMi92WWNvcHUuanBlZw.webp",
+    "title": {
+      "en": "Persimmon with Cottage Cheese and Honey"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "creamy",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "microwave"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-honey-persimmon-tvorog-honey",
+        "minutes": 5
+      },
+      {
+        "stepId": "prepare-tvorog-mixture-persimmon-tvorog-honey",
+        "minutes": 10
+      },
+      {
+        "stepId": "caramelize-persimmon-persimmon-tvorog-honey",
+        "minutes": 14
+      },
+      {
+        "stepId": "assemble-dessert-persimmon-tvorog-honey",
+        "minutes": 1
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "persimmon",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tvorog",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "honey",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "berries",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "warm-honey-persimmon-tvorog-honey",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cool-honey-persimmon-tvorog-honey",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "strain-tvorog-persimmon-tvorog-honey",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-tvorog-persimmon-tvorog-honey",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "divide-tvorog-persimmon-tvorog-honey",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "refrigerate-tvorog-persimmon-tvorog-honey",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cut-persimmon-persimmon-tvorog-honey",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "melt-sugar-persimmon-tvorog-honey",
+        "duration": 3,
+        "showTimer": false,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "caramelize-persimmon-persimmon-tvorog-honey",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "cool-persimmon-persimmon-tvorog-honey",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-dessert-persimmon-tvorog-honey",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "warm-honey-persimmon-tvorog-honey",
+        "en": {
+          "title": "Warm honey in microwave",
+          "description": "Heat the honey in the microwave in short 10-second bursts, stirring in between. Do not let it boil; just melt it. Then set aside to cool."
+        }
+      },
+      {
+        "id": "cool-honey-persimmon-tvorog-honey",
+        "en": {
+          "title": "Let honey cool",
+          "description": "Allow the warmed honey to cool down completely before using."
+        }
+      },
+      {
+        "id": "strain-tvorog-persimmon-tvorog-honey",
+        "en": {
+          "title": "Strain the tvorog",
+          "description": "Press the tvorog through a fine sieve to make it smooth and creamy."
+        }
+      },
+      {
+        "id": "mix-tvorog-persimmon-tvorog-honey",
+        "en": {
+          "title": "Mix tvorog with sugar and sour cream",
+          "description": "Combine the strained tvorog with 2 tablespoons of sugar and the sour cream. Stir until homogeneous."
+        }
+      },
+      {
+        "id": "divide-tvorog-persimmon-tvorog-honey",
+        "en": {
+          "title": "Divide mixture into bowls",
+          "description": "Spoon the tvorog mixture into individual serving bowls or ramekins."
+        }
+      },
+      {
+        "id": "refrigerate-tvorog-persimmon-tvorog-honey",
+        "en": {
+          "title": "Chill the tvorog mixture",
+          "description": "Place the bowls in the refrigerator to chill for at least 5 minutes."
+        }
+      },
+      {
+        "id": "cut-persimmon-persimmon-tvorog-honey",
+        "en": {
+          "title": "Cut persimmon into wedges",
+          "description": "Slice the persimmon into small wedges and remove any seeds."
+        }
+      },
+      {
+        "id": "melt-sugar-persimmon-tvorog-honey",
+        "en": {
+          "title": "Melt sugar in pan",
+          "description": "Sprinkle the remaining 2 tablespoons of sugar into a non‑stick frying pan and set over low heat. Wait until the sugar melts into a golden liquid, without stirring too much."
+        }
+      },
+      {
+        "id": "caramelize-persimmon-persimmon-tvorog-honey",
+        "en": {
+          "title": "Caramelize persimmon wedges",
+          "description": "Add the persimmon wedges to the melted sugar. Fry over low heat, turning occasionally, until they are lightly caramelized. Transfer to a plate and let cool."
+        }
+      },
+      {
+        "id": "cool-persimmon-persimmon-tvorog-honey",
+        "en": {
+          "title": "Cool caramelized persimmon",
+          "description": "Allow the persimmon wedges to cool completely so they firm up."
+        }
+      },
+      {
+        "id": "assemble-dessert-persimmon-tvorog-honey",
+        "en": {
+          "title": "Assemble the dessert",
+          "description": "Place the caramelized persimmon on top of the chilled tvorog mixture and drizzle with the cooled honey."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-honey-persimmon-tvorog-honey",
+        "en": {
+          "title": "Prepare the honey"
+        }
+      },
+      {
+        "id": "prepare-tvorog-mixture-persimmon-tvorog-honey",
+        "en": {
+          "title": "Prepare the tvorog mixture"
+        }
+      },
+      {
+        "id": "caramelize-persimmon-persimmon-tvorog-honey",
+        "en": {
+          "title": "Caramelize the persimmon"
+        }
+      },
+      {
+        "id": "assemble-dessert-persimmon-tvorog-honey",
+        "en": {
+          "title": "Assemble the dessert"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "id": "tavuk-gogsu",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTExOC8zOGRIbTguanBlZw.webp",
+    "title": {
+      "en": "Tavuk Göğsü"
+    },
+    "timeMinutes": 100,
+    "difficulty": "medium",
+    "tags": [
+      "creamy",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "stove",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "boil-chicken-tavuk-gogsu",
+        "minutes": 25
+      },
+      {
+        "stepId": "shred-and-wash-chicken-tavuk-gogsu",
+        "minutes": 30
+      },
+      {
+        "stepId": "make-pudding-base-tavuk-gogsu",
+        "minutes": 10
+      },
+      {
+        "stepId": "combine-and-cook-pudding-tavuk-gogsu",
+        "minutes": 5
+      },
+      {
+        "stepId": "chill-pudding-tavuk-gogsu",
+        "minutes": 30
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "chicken-breast",
+        "quantity": 38,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "rice-flour",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cornstarch",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 250,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "boil-chicken-tavuk-gogsu",
+        "duration": 25,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "shred-chicken-tavuk-gogsu",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "wash-and-soak-chicken-tavuk-gogsu",
+        "duration": 30,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "whisk-dry-mixture-tavuk-gogsu",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-milk-and-add-mixture-tavuk-gogsu",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-pudding-base-tavuk-gogsu",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "combine-chicken-with-milk-tavuk-gogsu",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-chicken-into-pudding-tavuk-gogsu",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-sugar-and-cook-tavuk-gogsu",
+        "duration": 1,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "add-vanilla-tavuk-gogsu",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chill-pudding-tavuk-gogsu",
+        "duration": 60,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "boil-chicken-tavuk-gogsu",
+        "en": {
+          "title": "Boil the chicken",
+          "description": "Place the chicken breast in a pot, cover with water, bring to a boil, then reduce heat to medium and cook for 20–25 minutes until tender."
+        }
+      },
+      {
+        "id": "shred-chicken-tavuk-gogsu",
+        "en": {
+          "title": "Shred the chicken",
+          "description": "Let the cooked chicken cool, then shred it into very fine fibers using your hands or a fork."
+        }
+      },
+      {
+        "id": "wash-and-soak-chicken-tavuk-gogsu",
+        "en": {
+          "title": "Wash and soak the chicken",
+          "description": "Rinse the shredded chicken well, squeeze out excess liquid, then cover with cold water and let it soak for 10 minutes. Repeat this process three times, squeezing the chicken dry after each soak."
+        }
+      },
+      {
+        "id": "whisk-dry-mixture-tavuk-gogsu",
+        "en": {
+          "title": "Whisk dry mixture",
+          "description": "In a bowl, whisk together the rice flour, cornstarch, and 100 ml of milk until smooth and lump-free."
+        }
+      },
+      {
+        "id": "heat-milk-and-add-mixture-tavuk-gogsu",
+        "en": {
+          "title": "Heat milk and add mixture",
+          "description": "Pour the remaining milk into a small saucepan and heat over medium heat until it begins to boil. Gradually whisk in the flour mixture."
+        }
+      },
+      {
+        "id": "cook-pudding-base-tavuk-gogsu",
+        "en": {
+          "title": "Cook the pudding base",
+          "description": "Reduce heat to low and cook the milk mixture for 5–10 minutes, stirring constantly, until it thickens into a smooth pudding."
+        }
+      },
+      {
+        "id": "combine-chicken-with-milk-tavuk-gogsu",
+        "en": {
+          "title": "Combine chicken with hot milk",
+          "description": "Take 3–4 tablespoons of the hot milk pudding and mix it with the prepared shredded chicken."
+        }
+      },
+      {
+        "id": "mix-chicken-into-pudding-tavuk-gogsu",
+        "en": {
+          "title": "Mix chicken into pudding",
+          "description": "Transfer the chicken mixture back into the saucepan with the remaining pudding and whisk everything together until fully incorporated."
+        }
+      },
+      {
+        "id": "add-sugar-and-cook-tavuk-gogsu",
+        "en": {
+          "title": "Add sugar and cook",
+          "description": "Stir in the sugar and continue cooking over low heat for 1 minute, until the sugar is completely dissolved."
+        }
+      },
+      {
+        "id": "add-vanilla-tavuk-gogsu",
+        "en": {
+          "title": "Add vanilla",
+          "description": "Remove the pan from the heat and stir in the vanilla extract until evenly distributed."
+        }
+      },
+      {
+        "id": "chill-pudding-tavuk-gogsu",
+        "en": {
+          "title": "Chill the pudding",
+          "description": "Lightly spray a rectangular dish with water, pour the pudding into it, and refrigerate for at least 1 hour until set."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "boil-chicken-tavuk-gogsu",
+        "en": {
+          "title": "Boil chicken"
+        }
+      },
+      {
+        "id": "shred-and-wash-chicken-tavuk-gogsu",
+        "en": {
+          "title": "Shred and wash chicken"
+        }
+      },
+      {
+        "id": "make-pudding-base-tavuk-gogsu",
+        "en": {
+          "title": "Make pudding base"
+        }
+      },
+      {
+        "id": "combine-and-cook-pudding-tavuk-gogsu",
+        "en": {
+          "title": "Combine and cook pudding"
+        }
+      },
+      {
+        "id": "chill-pudding-tavuk-gogsu",
+        "en": {
+          "title": "Chill pudding"
+        }
+      }
+    ]
+  }
+]

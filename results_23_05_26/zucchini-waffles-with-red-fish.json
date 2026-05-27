@@ -1,0 +1,206 @@
+[
+  {
+    "id": "zucchini-waffles-with-red-fish",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAxMy8zZ2hCUTMuanBlZw.webp",
+    "title": {
+      "en": "Zucchini Waffles with Red Fish"
+    },
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "tags": [
+      "gluten-free",
+      "hearty"
+    ],
+    "kitchen": [],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-zucchini-zucchini-waffles-with-red-fish",
+        "minutes": 15
+      },
+      {
+        "stepId": "make-batter-zucchini-waffles-with-red-fish",
+        "minutes": 5
+      },
+      {
+        "stepId": "cook-waffles-zucchini-waffles-with-red-fish",
+        "minutes": 8
+      },
+      {
+        "stepId": "serve-zucchini-waffles-with-red-fish",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "zucchini",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "rice-flour",
+        "quantity": 55,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salmon",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grate-zucchini-zucchini-waffles-with-red-fish",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "salt-zucchini-zucchini-waffles-with-red-fish",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rest-zucchini-zucchini-waffles-with-red-fish",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "beat-sour-cream-egg-zucchini-waffles-with-red-fish",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "squeeze-and-add-zucchini-zucchini-waffles-with-red-fish",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-flour-and-mix-zucchini-waffles-with-red-fish",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-waffles-zucchini-waffles-with-red-fish",
+        "duration": 8,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "plate-and-top-with-fish-zucchini-waffles-with-red-fish",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grate-zucchini-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Grate the zucchini",
+          "description": "Peel the zucchini and grate it on a coarse grater."
+        }
+      },
+      {
+        "id": "salt-zucchini-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Salt the zucchini",
+          "description": "Sprinkle salt over the grated zucchini, mix well."
+        }
+      },
+      {
+        "id": "rest-zucchini-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Let the zucchini rest",
+          "description": "Leave the salted zucchini for 15 minutes to release liquid."
+        }
+      },
+      {
+        "id": "beat-sour-cream-egg-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Beat sour cream and egg",
+          "description": "In a clean bowl, whisk together the sour cream and egg until smooth."
+        }
+      },
+      {
+        "id": "squeeze-and-add-zucchini-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Squeeze and add zucchini",
+          "description": "Squeeze the excess liquid from the zucchini, then add the zucchini pulp to the egg mixture."
+        }
+      },
+      {
+        "id": "add-flour-and-mix-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Add flour and mix dough",
+          "description": "Add the rice flour to the mixture and stir until a uniform batter forms."
+        }
+      },
+      {
+        "id": "cook-waffles-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Cook the waffles",
+          "description": "Preheat the waffle iron, distribute the batter evenly, and cook until golden brown."
+        }
+      },
+      {
+        "id": "plate-and-top-with-fish-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Plate and top with fish",
+          "description": "Transfer the cooked waffles to a serving plate and arrange slices of salted red fish on top."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-zucchini-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Prepare the zucchini"
+        }
+      },
+      {
+        "id": "make-batter-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Make the batter"
+        }
+      },
+      {
+        "id": "cook-waffles-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Cook the waffles"
+        }
+      },
+      {
+        "id": "serve-zucchini-waffles-with-red-fish",
+        "en": {
+          "title": "Serve the waffles"
+        }
+      }
+    ]
+  }
+]

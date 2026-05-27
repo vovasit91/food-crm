@@ -1,0 +1,247 @@
+[
+  {
+    "id": "stewed-cabbage-with-chicken",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTEwOS8zWHpyUTIuanBlZw.webp",
+    "title": {
+      "en": "Stewed Cabbage with Chicken"
+    },
+    "timeMinutes": 50,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "hearty",
+      "one-pan"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "saute-chicken-onion-stewed-cabbage-with-chicken",
+        "minutes": 5
+      },
+      {
+        "stepId": "stew-mushroom-tomato-apple-stewed-cabbage-with-chicken",
+        "minutes": 7
+      },
+      {
+        "stepId": "fry-cabbage-stewed-cabbage-with-chicken",
+        "minutes": 5
+      },
+      {
+        "stepId": "simmer-with-sauce-stewed-cabbage-with-chicken",
+        "minutes": 33
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "chicken-breast",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cabbage",
+        "quantity": 222.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mushrooms",
+        "quantity": 48,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 45,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "apple",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 25,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "cut-chicken-and-onion-stewed-cabbage-with-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-chicken-and-onion-stewed-cabbage-with-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "prep-tomato-mushroom-apple-stewed-cabbage-with-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "stew-vegetables-stewed-cabbage-with-chicken",
+        "duration": 7,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "add-cabbage-and-fry-stewed-cabbage-with-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "mix-tomato-paste-with-milk-stewed-cabbage-with-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "simmer-covered-stewed-cabbage-with-chicken",
+        "duration": 22,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "cut-chicken-and-onion-stewed-cabbage-with-chicken",
+        "en": {
+          "title": "Cut chicken and onion",
+          "description": "Cut the chicken into small pieces. Slice the onion into half rings."
+        }
+      },
+      {
+        "id": "fry-chicken-and-onion-stewed-cabbage-with-chicken",
+        "en": {
+          "title": "Fry chicken and onion",
+          "description": "Heat vegetable oil in a skillet over medium heat. Add the chicken and onion and fry, stirring occasionally, until lightly browned."
+        }
+      },
+      {
+        "id": "prep-tomato-mushroom-apple-stewed-cabbage-with-chicken",
+        "en": {
+          "title": "Prep tomato, mushrooms, and apple",
+          "description": "Finely chop the tomatoes and mushrooms. Peel the apple and grate it on a coarse grater."
+        }
+      },
+      {
+        "id": "stew-vegetables-stewed-cabbage-with-chicken",
+        "en": {
+          "title": "Stew vegetables",
+          "description": "Add the prepared tomato, mushrooms, and apple to the skillet. Reduce heat to low and stew for 5-7 minutes, stirring occasionally."
+        }
+      },
+      {
+        "id": "add-cabbage-and-fry-stewed-cabbage-with-chicken",
+        "en": {
+          "title": "Add cabbage and fry",
+          "description": "Shred the cabbage and add it to the skillet. Season with salt and black pepper, mix well, and continue frying without a lid over medium heat."
+        }
+      },
+      {
+        "id": "mix-tomato-paste-with-milk-stewed-cabbage-with-chicken",
+        "en": {
+          "title": "Mix tomato paste with milk",
+          "description": "In a small bowl, dilute the tomato paste with milk and stir until smooth."
+        }
+      },
+      {
+        "id": "simmer-covered-stewed-cabbage-with-chicken",
+        "en": {
+          "title": "Simmer covered",
+          "description": "Pour the tomato-milk mixture into the skillet over the vegetables and chicken. Cover with a lid and simmer on low heat until all ingredients are tender, about 20-25 minutes."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "saute-chicken-onion-stewed-cabbage-with-chicken",
+        "en": {
+          "title": "Sauté chicken and onion"
+        }
+      },
+      {
+        "id": "stew-mushroom-tomato-apple-stewed-cabbage-with-chicken",
+        "en": {
+          "title": "Stew mushrooms, tomato, and apple"
+        }
+      },
+      {
+        "id": "fry-cabbage-stewed-cabbage-with-chicken",
+        "en": {
+          "title": "Fry cabbage"
+        }
+      },
+      {
+        "id": "simmer-with-sauce-stewed-cabbage-with-chicken",
+        "en": {
+          "title": "Simmer with tomato-milk sauce"
+        }
+      }
+    ]
+  }
+]

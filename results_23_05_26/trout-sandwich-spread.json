@@ -1,0 +1,126 @@
+[
+  {
+    "id": "trout-sandwich-spread",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAyNS8zMkVlNnUuanBlZw.webp",
+    "title": {
+      "en": "Lightly Salted Trout Spread"
+    },
+    "timeMinutes": 7,
+    "difficulty": "easy",
+    "tags": [
+      "creamy"
+    ],
+    "kitchen": [
+      "blender",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "make-fish-paste-trout-sandwich-spread",
+        "minutes": 3
+      },
+      {
+        "stepId": "toast-bread-phase-trout-sandwich-spread",
+        "minutes": 3
+      },
+      {
+        "stepId": "assemble-sandwiches-trout-sandwich-spread",
+        "minutes": 1
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "trout",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "horseradish",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bread",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "prepare-fish-trout-sandwich-spread",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "blend-ingredients-trout-sandwich-spread",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "toast-bread-trout-sandwich-spread",
+        "duration": 3,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "prepare-fish-trout-sandwich-spread",
+        "en": {
+          "title": "Prepare the fish",
+          "description": "Remove the skin from the fish, cut the fillet into arbitrary pieces, and place them in a blender bowl."
+        }
+      },
+      {
+        "id": "blend-ingredients-trout-sandwich-spread",
+        "en": {
+          "title": "Blend the ingredients",
+          "description": "Add the horseradish and sour cream to the fish. Blend until smooth."
+        }
+      },
+      {
+        "id": "toast-bread-trout-sandwich-spread",
+        "en": {
+          "title": "Toast the bread",
+          "description": "Toast the bread on a dry frying pan or in a toaster until golden."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "make-fish-paste-trout-sandwich-spread",
+        "en": {
+          "title": "Make the fish paste"
+        }
+      },
+      {
+        "id": "toast-bread-phase-trout-sandwich-spread",
+        "en": {
+          "title": "Toast the bread"
+        }
+      },
+      {
+        "id": "assemble-sandwiches-trout-sandwich-spread",
+        "en": {
+          "title": "Assemble the sandwiches"
+        }
+      }
+    ]
+  }
+]

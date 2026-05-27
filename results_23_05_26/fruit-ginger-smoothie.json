@@ -1,0 +1,154 @@
+[
+  {
+    "id": "fruit-ginger-smoothie",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExOC8zWDJlbW4uanBlZw.webp",
+    "title": {
+      "en": "Fruit and Ginger Smoothie"
+    },
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "tags": [
+      "raw",
+      "vegan",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "blender"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-fruit-fruit-ginger-smoothie",
+        "minutes": 4
+      },
+      {
+        "stepId": "blend-fruit-ginger-smoothie",
+        "minutes": 3
+      },
+      {
+        "stepId": "serve-fruit-ginger-smoothie",
+        "minutes": 3
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "orange",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "banana",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ginger",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "honey",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mint",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "peel-oranges-fruit-ginger-smoothie",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "peel-bananas-fruit-ginger-smoothie",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "blend-ingredients-fruit-ginger-smoothie",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dilute-and-serve-fruit-ginger-smoothie",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "peel-oranges-fruit-ginger-smoothie",
+        "en": {
+          "title": "Peel the oranges",
+          "description": "Peel the oranges, separate them into segments, remove any seeds and white pith. Place the citrus flesh into the blender jar."
+        }
+      },
+      {
+        "id": "peel-bananas-fruit-ginger-smoothie",
+        "en": {
+          "title": "Peel and slice the bananas",
+          "description": "Peel the bananas, cut them into thick rounds, and add them to the blender with the oranges."
+        }
+      },
+      {
+        "id": "blend-ingredients-fruit-ginger-smoothie",
+        "en": {
+          "title": "Blend with ginger and honey",
+          "description": "Slice the ginger into thin pieces. Add it to the blender along with the honey. Blend everything until smooth and creamy."
+        }
+      },
+      {
+        "id": "dilute-and-serve-fruit-ginger-smoothie",
+        "en": {
+          "title": "Dilute and serve",
+          "description": "Add water to the blended mixture, adjusting to your preferred consistency. Pour into glasses and serve immediately, garnishing with mint if desired."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-fruit-fruit-ginger-smoothie",
+        "en": {
+          "title": "Prepare the fruit"
+        }
+      },
+      {
+        "id": "blend-fruit-ginger-smoothie",
+        "en": {
+          "title": "Blend the ingredients"
+        }
+      },
+      {
+        "id": "serve-fruit-ginger-smoothie",
+        "en": {
+          "title": "Dilute and serve"
+        }
+      }
+    ]
+  }
+]

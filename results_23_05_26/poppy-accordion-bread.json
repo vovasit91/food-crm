@@ -1,0 +1,294 @@
+[
+  {
+    "id": "poppy-accordion-bread",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAyMC8zWDRYV1UuanBlZw.webp",
+    "title": {
+      "en": "Accordion Bread with Poppy Seeds and Cream Cheese"
+    },
+    "timeMinutes": 220,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "stove",
+      "oven"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-dough-poppy-accordion-bread",
+        "minutes": 105
+      },
+      {
+        "stepId": "prepare-filling-poppy-accordion-bread",
+        "minutes": 10
+      },
+      {
+        "stepId": "shape-poppy-accordion-bread",
+        "minutes": 20
+      },
+      {
+        "stepId": "proof-and-bake-poppy-accordion-bread",
+        "minutes": 85
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "milk",
+        "quantity": 35,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yeast",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 22,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 7,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 8,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.3,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "poppy-seeds",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 28,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "orange-zest",
+        "quantity": 0.3,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "activate-yeast-poppy-accordion-bread",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "mix-dough-poppy-accordion-bread",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "knead-dough-poppy-accordion-bread",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "first-rise-poppy-accordion-bread",
+        "duration": 90,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "heat-poppy-seeds-poppy-accordion-bread",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "punch-down-dough-poppy-accordion-bread",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "make-filling-poppy-accordion-bread",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "roll-and-fill-dough-poppy-accordion-bread",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cut-and-arrange-dough-poppy-accordion-bread",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "second-rise-and-preheat-poppy-accordion-bread",
+        "duration": 40,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "bake-bread-poppy-accordion-bread",
+        "duration": 40,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "activate-yeast-poppy-accordion-bread",
+        "en": {
+          "title": "Activate the yeast",
+          "description": "Warm 35 ml of milk in a microwave-safe bowl for about 1 minute until lukewarm. Stir in 1 g of yeast, 8 g of sugar, and 20 g of flour. Mix well and let sit for 5–10 minutes until frothy."
+        }
+      },
+      {
+        "id": "mix-dough-poppy-accordion-bread",
+        "en": {
+          "title": "Mix the dough",
+          "description": "Crack the egg into the yeast mixture, add the remaining 14 g of sugar, water, and softened butter. Stir thoroughly until combined."
+        }
+      },
+      {
+        "id": "knead-dough-poppy-accordion-bread",
+        "en": {
+          "title": "Knead the dough",
+          "description": "Add salt and the remaining 40 g of flour little by little while mixing. Knead into a smooth, soft dough."
+        }
+      },
+      {
+        "id": "first-rise-poppy-accordion-bread",
+        "en": {
+          "title": "Let the dough rise",
+          "description": "Cover the dough with a clean towel and leave it in a warm place for 1–1.5 hours, or until it has doubled in volume."
+        }
+      },
+      {
+        "id": "heat-poppy-seeds-poppy-accordion-bread",
+        "en": {
+          "title": "Heat the poppy seeds",
+          "description": "Place 2 g of poppy seeds in a small heatproof bowl or saucepan, add 5 ml of milk, stir, and heat over low heat for 2–3 minutes. Remove from heat, cover, and let cool."
+        }
+      },
+      {
+        "id": "punch-down-dough-poppy-accordion-bread",
+        "en": {
+          "title": "Punch down the dough",
+          "description": "Punch the risen dough down to release air, then let it rest in a warm place for 15 minutes."
+        }
+      },
+      {
+        "id": "make-filling-poppy-accordion-bread",
+        "en": {
+          "title": "Make the filling",
+          "description": "In a clean bowl, combine the second egg, 28 g of cream cheese, 14 g of sugar, and orange zest. Whisk until smooth. Fold in the cooled poppy seeds and mix well."
+        }
+      },
+      {
+        "id": "roll-and-fill-dough-poppy-accordion-bread",
+        "en": {
+          "title": "Roll and fill the dough",
+          "description": "Dust your work surface with a little flour. Roll the dough into a 40x30 cm rectangle. Spread the poppy-cream cheese filling evenly over the surface, leaving a small border."
+        }
+      },
+      {
+        "id": "cut-and-arrange-dough-poppy-accordion-bread",
+        "en": {
+          "title": "Cut and arrange the dough",
+          "description": "Cut the filled dough into equal squares. Stand the squares vertically in a baking pan, packing them tightly from one short side to the other."
+        }
+      },
+      {
+        "id": "second-rise-and-preheat-poppy-accordion-bread",
+        "en": {
+          "title": "Let the bread rise and preheat the oven",
+          "description": "Cover the pan with a towel and let the dough rise for 40 minutes. Meanwhile, preheat your oven to 180°C."
+        }
+      },
+      {
+        "id": "bake-bread-poppy-accordion-bread",
+        "en": {
+          "title": "Bake the bread",
+          "description": "Place the pan in the preheated oven and bake for 35–40 minutes, until golden brown. If the bread browns too quickly, cover it loosely with foil."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-dough-poppy-accordion-bread",
+        "en": {
+          "title": "Prepare the dough"
+        }
+      },
+      {
+        "id": "prepare-filling-poppy-accordion-bread",
+        "en": {
+          "title": "Prepare the filling"
+        }
+      },
+      {
+        "id": "shape-poppy-accordion-bread",
+        "en": {
+          "title": "Shape the bread"
+        }
+      },
+      {
+        "id": "proof-and-bake-poppy-accordion-bread",
+        "en": {
+          "title": "Proof and bake"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "herb-butter-chicken-roll-sandwich",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyNy80Tmh0Qk0uanBlZw.webp",
+    "title": {
+      "en": "Ciabatta Sandwiches with Herb Butter and Chicken Roll"
+    },
+    "timeMinutes": 55,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "hearty"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "preheat-and-mix-butter-herb-butter-chicken-roll-sandwich",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-ciabatta-herb-butter-chicken-roll-sandwich",
+        "minutes": 12
+      },
+      {
+        "stepId": "cool-ciabatta-herb-butter-chicken-roll-sandwich",
+        "minutes": 5
+      },
+      {
+        "stepId": "slice-veggies-herb-butter-chicken-roll-sandwich",
+        "minutes": 5
+      },
+      {
+        "stepId": "assemble-sandwich-herb-butter-chicken-roll-sandwich",
+        "minutes": 3
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 0.5,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dill",
+        "quantity": 0.5,
+        "unit": "bunch",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lettuce",
+        "quantity": 1,
+        "unit": "leaf",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "avocado",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chicken-roll",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "preheat-oven-herb-butter-chicken-roll-sandwich",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "mix-herb-butter-herb-butter-chicken-roll-sandwich",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cut-and-spread-ciabatta-herb-butter-chicken-roll-sandwich",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-ciabatta-herb-butter-chicken-roll-sandwich",
+        "duration": 12,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cool-ciabatta-herb-butter-chicken-roll-sandwich",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-avocado-and-tomato-herb-butter-chicken-roll-sandwich",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-bottom-layer-herb-butter-chicken-roll-sandwich",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-chicken-roll-and-top-herb-butter-chicken-roll-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "preheat-oven-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Set your oven to preheat to 180°C. This will take about 10 minutes."
+        }
+      },
+      {
+        "id": "mix-herb-butter-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Make the herb butter",
+          "description": "In a bowl, combine soft butter with pressed garlic and finely chopped dill. Mix until smooth and well combined."
+        }
+      },
+      {
+        "id": "cut-and-spread-ciabatta-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Cut and spread the ciabatta",
+          "description": "Slice the ciabatta in half lengthwise. Spread the herb butter evenly on the cut sides of both halves."
+        }
+      },
+      {
+        "id": "bake-ciabatta-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Bake the ciabatta",
+          "description": "Place the ciabatta halves on a baking tray, buttered side up. Bake at 180°C for 10–12 minutes, until the edges are golden and crispy."
+        }
+      },
+      {
+        "id": "cool-ciabatta-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Cool the ciabatta slightly",
+          "description": "Remove the baked ciabatta from the oven and let it cool for a few minutes so it's easier to handle."
+        }
+      },
+      {
+        "id": "prepare-avocado-and-tomato-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Prepare the avocado and tomato",
+          "description": "Peel and pit the avocado, then slice it into 3–4 mm thick pieces. Slice the tomato into rounds of the same thickness."
+        }
+      },
+      {
+        "id": "assemble-bottom-layer-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Assemble the bottom layer",
+          "description": "On the bottom half of the ciabatta, place the lettuce leaves. Top with the tomato slices, then arrange the avocado slices on top."
+        }
+      },
+      {
+        "id": "add-chicken-roll-and-top-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Add chicken roll and top",
+          "description": "Place slices of chicken roll over the avocado. Cover with the top half of the ciabatta and press down gently."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "preheat-and-mix-butter-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Preheat oven and make herb butter"
+        }
+      },
+      {
+        "id": "bake-ciabatta-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Bake the ciabatta"
+        }
+      },
+      {
+        "id": "cool-ciabatta-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Cool the ciabatta"
+        }
+      },
+      {
+        "id": "slice-veggies-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Slice avocado and tomato"
+        }
+      },
+      {
+        "id": "assemble-sandwich-herb-butter-chicken-roll-sandwich",
+        "en": {
+          "title": "Assemble the sandwich"
+        }
+      }
+    ]
+  }
+]

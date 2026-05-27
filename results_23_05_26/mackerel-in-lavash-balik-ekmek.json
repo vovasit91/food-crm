@@ -1,0 +1,286 @@
+[
+  {
+    "id": "mackerel-in-lavash-balik-ekmek",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEyNS8zM0ptcWQuanBlZw.webp",
+    "title": {
+      "en": "Mackerel in Lavash a la Balik Ekmek"
+    },
+    "timeMinutes": 60,
+    "difficulty": "medium",
+    "tags": [
+      "grilled",
+      "marinated",
+      "pan-fried",
+      "hearty",
+      "one-pan"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "clean-and-marinate-fish-mackerel-in-lavash-balik-ekmek",
+        "minutes": 15
+      },
+      {
+        "stepId": "grill-fish-and-prep-veg-mackerel-in-lavash-balik-ekmek",
+        "minutes": 11
+      },
+      {
+        "stepId": "assemble-and-grill-wraps-mackerel-in-lavash-balik-ekmek",
+        "minutes": 9
+      },
+      {
+        "stepId": "make-yogurt-sauce-mackerel-in-lavash-balik-ekmek",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "mackerel",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lavash",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mustard",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yogurt",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 0.5,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "prepare-fish-mackerel-in-lavash-balik-ekmek",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-marinade-mackerel-in-lavash-balik-ekmek",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "marinate-fish-mackerel-in-lavash-balik-ekmek",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-grill-pan-mackerel-in-lavash-balik-ekmek",
+        "duration": 2,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "grill-fish-mackerel-in-lavash-balik-ekmek",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "assemble-wraps-mackerel-in-lavash-balik-ekmek",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grill-wraps-mackerel-in-lavash-balik-ekmek",
+        "duration": 4,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "make-yogurt-sauce-mackerel-in-lavash-balik-ekmek",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "prepare-fish-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Prepare the mackerel",
+          "description": "Remove the head and tail from the fish. Remove the thin membrane from the body. Cut open the belly along the length, remove the innards and large bones. You should get two large fillets. Rinse them and pat dry with paper towels."
+        }
+      },
+      {
+        "id": "prepare-marinade-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Prepare the marinade",
+          "description": "In a small bowl, mix together olive oil, soy sauce, lemon juice, and mustard. Set aside half of the marinade for later."
+        }
+      },
+      {
+        "id": "marinate-fish-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Marinate the fish",
+          "description": "Brush the mackerel fillets with half of the marinade. Season with salt, black pepper, and dried thyme. Let the fish marinate for 10 minutes."
+        }
+      },
+      {
+        "id": "preheat-grill-pan-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Preheat the grill pan",
+          "description": "Place a grill pan over medium heat and let it get hot."
+        }
+      },
+      {
+        "id": "grill-fish-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Grill the mackerel fillets",
+          "description": "Place the marinated fillets on the hot grill pan. Cook for 3 minutes on each side, until golden and cooked through."
+        }
+      },
+      {
+        "id": "assemble-wraps-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Assemble the wraps",
+          "description": "Slice the red onion into half-rings and the tomatoes into rounds. Cut the lavash sheet in half. Brush each half with the reserved marinade. Layer the tomatoes, then the onions, and finally one grilled fish fillet on each lavash half."
+        }
+      },
+      {
+        "id": "grill-wraps-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Grill the wraps",
+          "description": "Fold the edges of the lavash inward and roll it up tightly. Place the wraps seam-side down on the grill pan. Cook over medium heat for 1–2 minutes on each side, until the lavash is lightly golden and crisp."
+        }
+      },
+      {
+        "id": "make-yogurt-sauce-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Make the yogurt sauce",
+          "description": "Press the garlic clove through a press. Mix it with yogurt, salt, and black pepper. Serve the sauce alongside the wraps."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "clean-and-marinate-fish-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Clean and marinate the fish"
+        }
+      },
+      {
+        "id": "grill-fish-and-prep-veg-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Grill fish and prepare vegetables"
+        }
+      },
+      {
+        "id": "assemble-and-grill-wraps-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Assemble and grill the wraps"
+        }
+      },
+      {
+        "id": "make-yogurt-sauce-mackerel-in-lavash-balik-ekmek",
+        "en": {
+          "title": "Make the yogurt sauce"
+        }
+      }
+    ]
+  }
+]

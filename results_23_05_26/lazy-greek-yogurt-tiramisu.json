@@ -1,0 +1,186 @@
+[
+  {
+    "id": "lazy-greek-yogurt-tiramisu",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyOC8zTDVZR0suanBlZw.webp",
+    "title": {
+      "en": "Lazy Greek Yogurt Tiramisu"
+    },
+    "timeMinutes": 190,
+    "difficulty": "easy",
+    "tags": [
+      "creamy",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "stove",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "make-coffee-and-soak-biscuits-lazy-greek-yogurt-tiramisu",
+        "minutes": 5
+      },
+      {
+        "stepId": "mix-yogurt-and-divide-lazy-greek-yogurt-tiramisu",
+        "minutes": 3
+      },
+      {
+        "stepId": "assemble-and-chill-lazy-greek-yogurt-tiramisu",
+        "minutes": 182
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "yogurt",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "savoiardi-biscuits",
+        "quantity": 3,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "instant-coffee",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cocoa-powder",
+        "quantity": 0.25,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "boil-water-lazy-greek-yogurt-tiramisu",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dissolve-coffee-lazy-greek-yogurt-tiramisu",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "break-and-dip-biscuits-lazy-greek-yogurt-tiramisu",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-coffee-into-yogurt-lazy-greek-yogurt-tiramisu",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "divide-yogurt-mixture-lazy-greek-yogurt-tiramisu",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "insert-biscuits-into-yogurt-lazy-greek-yogurt-tiramisu",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "refrigerate-lazy-greek-yogurt-tiramisu",
+        "duration": 180,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "boil-water-lazy-greek-yogurt-tiramisu",
+        "en": {
+          "title": "Boil water",
+          "description": "Bring water to a boil in a small pot or kettle."
+        }
+      },
+      {
+        "id": "dissolve-coffee-lazy-greek-yogurt-tiramisu",
+        "en": {
+          "title": "Dissolve instant coffee",
+          "description": "Pour the boiling water over the instant coffee and stir until completely dissolved."
+        }
+      },
+      {
+        "id": "break-and-dip-biscuits-lazy-greek-yogurt-tiramisu",
+        "en": {
+          "title": "Break and dip biscuits",
+          "description": "Break the savoiardi biscuits into 3–4 cm pieces and quickly dip each piece into the coffee, then set aside."
+        }
+      },
+      {
+        "id": "mix-coffee-into-yogurt-lazy-greek-yogurt-tiramisu",
+        "en": {
+          "title": "Mix coffee into yogurt",
+          "description": "Pour the remaining coffee into the Greek yogurt and stir until smooth and uniform."
+        }
+      },
+      {
+        "id": "divide-yogurt-mixture-lazy-greek-yogurt-tiramisu",
+        "en": {
+          "title": "Divide into glasses",
+          "description": "Divide the yogurt mixture evenly between two serving glasses."
+        }
+      },
+      {
+        "id": "insert-biscuits-into-yogurt-lazy-greek-yogurt-tiramisu",
+        "en": {
+          "title": "Insert biscuits into yogurt",
+          "description": "Gently press the coffee-dipped biscuit pieces into the yogurt. They may stick out slightly; that is fine."
+        }
+      },
+      {
+        "id": "refrigerate-lazy-greek-yogurt-tiramisu",
+        "en": {
+          "title": "Refrigerate",
+          "description": "Place the glasses in the refrigerator for at least 3 hours, preferably overnight, to allow the biscuits to soften and the dessert to set."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "make-coffee-and-soak-biscuits-lazy-greek-yogurt-tiramisu",
+        "en": {
+          "title": "Make coffee and soak biscuits"
+        }
+      },
+      {
+        "id": "mix-yogurt-and-divide-lazy-greek-yogurt-tiramisu",
+        "en": {
+          "title": "Mix yogurt and divide"
+        }
+      },
+      {
+        "id": "assemble-and-chill-lazy-greek-yogurt-tiramisu",
+        "en": {
+          "title": "Assemble and chill"
+        }
+      }
+    ]
+  }
+]

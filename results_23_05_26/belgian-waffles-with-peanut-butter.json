@@ -1,0 +1,223 @@
+[
+  {
+    "id": "belgian-waffles-with-peanut-butter",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyMC83Um1Db0suanBlZw.webp",
+    "title": {
+      "en": "Belgian Waffles with Peanut Butter"
+    },
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "tags": [
+      "grilled",
+      "vegetarian",
+      "creamy"
+    ],
+    "kitchen": [
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "mix-wet-ingredients-belgian-waffles-with-peanut-butter",
+        "minutes": 6
+      },
+      {
+        "stepId": "incorporate-dry-ingredients-belgian-waffles-with-peanut-butter",
+        "minutes": 4
+      },
+      {
+        "stepId": "cook-waffles-belgian-waffles-with-peanut-butter",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 65,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "peanut-butter",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 75,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cornstarch",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 17,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chocolate-syrup",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "beat-butter-sugar-belgian-waffles-with-peanut-butter",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-peanut-butter-belgian-waffles-with-peanut-butter",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-eggs-belgian-waffles-with-peanut-butter",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-milk-belgian-waffles-with-peanut-butter",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-cornstarch-belgian-waffles-with-peanut-butter",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-flour-mixture-belgian-waffles-with-peanut-butter",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-waffles-belgian-waffles-with-peanut-butter",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "high-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "beat-butter-sugar-belgian-waffles-with-peanut-butter",
+        "en": {
+          "title": "Beat butter and sugar",
+          "description": "Take the butter and sugar in a bowl. Beat them together until the mixture is creamy and homogeneous."
+        }
+      },
+      {
+        "id": "mix-peanut-butter-belgian-waffles-with-peanut-butter",
+        "en": {
+          "title": "Mix in peanut butter",
+          "description": "Add the peanut butter to the butter-sugar mixture and stir until well combined."
+        }
+      },
+      {
+        "id": "add-eggs-belgian-waffles-with-peanut-butter",
+        "en": {
+          "title": "Add eggs",
+          "description": "Crack the eggs into the mixture and mix thoroughly."
+        }
+      },
+      {
+        "id": "add-milk-belgian-waffles-with-peanut-butter",
+        "en": {
+          "title": "Add milk",
+          "description": "Pour in the milk and stir until the batter is smooth."
+        }
+      },
+      {
+        "id": "add-cornstarch-belgian-waffles-with-peanut-butter",
+        "en": {
+          "title": "Add cornstarch",
+          "description": "Sprinkle the cornstarch over the batter and mix until fully incorporated."
+        }
+      },
+      {
+        "id": "add-flour-mixture-belgian-waffles-with-peanut-butter",
+        "en": {
+          "title": "Add flour mixture gradually",
+          "description": "In a separate bowl, combine the flour and baking powder. Gradually add this dry mixture to the wet batter in small portions, stirring well after each addition to avoid lumps."
+        }
+      },
+      {
+        "id": "cook-waffles-belgian-waffles-with-peanut-butter",
+        "en": {
+          "title": "Cook the waffles",
+          "description": "Preheat your waffle iron and lightly grease its surface with vegetable oil. Pour the batter onto the iron, close the lid, and cook for 4 to 5 minutes until the waffles are golden brown."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "mix-wet-ingredients-belgian-waffles-with-peanut-butter",
+        "en": {
+          "title": "Mix the wet ingredients"
+        }
+      },
+      {
+        "id": "incorporate-dry-ingredients-belgian-waffles-with-peanut-butter",
+        "en": {
+          "title": "Incorporate the dry ingredients"
+        }
+      },
+      {
+        "id": "cook-waffles-belgian-waffles-with-peanut-butter",
+        "en": {
+          "title": "Cook the waffles"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "id": "syrniki-with-boiled-condensed-milk",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIxMC9lTWlYVkEuanBlZw",
+    "title": {
+      "en": "Syrniki with Boiled Condensed Milk"
+    },
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "tags": [
+      "pan-fried",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "mix-dough-syrniki-with-boiled-condensed-milk",
+        "minutes": 5
+      },
+      {
+        "stepId": "form-syrniki-with-boiled-condensed-milk",
+        "minutes": 10
+      },
+      {
+        "stepId": "fry-syrniki-with-boiled-condensed-milk",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "tvorog",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "semolina",
+        "quantity": 32,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 12.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "boiled-condensed-milk",
+        "quantity": 22.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 7.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 8.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-dough-syrniki-with-boiled-condensed-milk",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "divide-and-flatten-syrniki-with-boiled-condensed-milk",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fill-and-shape-syrniki-with-boiled-condensed-milk",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "coat-syrniki-with-boiled-condensed-milk",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-syrniki-with-boiled-condensed-milk",
+        "duration": 1,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "fry-syrniki-with-boiled-condensed-milk",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-dough-syrniki-with-boiled-condensed-milk",
+        "en": {
+          "title": "Mix the dough",
+          "description": "Place the tvorog in a bowl. Add semolina and sugar. Mix thoroughly until homogeneous and slightly sticky."
+        }
+      },
+      {
+        "id": "divide-and-flatten-syrniki-with-boiled-condensed-milk",
+        "en": {
+          "title": "Divide and flatten the dough",
+          "description": "Divide the dough into equal portions. Flatten each portion into a patty."
+        }
+      },
+      {
+        "id": "fill-and-shape-syrniki-with-boiled-condensed-milk",
+        "en": {
+          "title": "Fill and shape the syrniki",
+          "description": "Place a teaspoon of boiled condensed milk in the center of each patty. Seal the edges and form into a disk shape."
+        }
+      },
+      {
+        "id": "coat-syrniki-with-boiled-condensed-milk",
+        "en": {
+          "title": "Coat the syrniki in flour",
+          "description": "Pour flour into a clean bowl. Coat each syrnik on all sides."
+        }
+      },
+      {
+        "id": "heat-oil-syrniki-with-boiled-condensed-milk",
+        "en": {
+          "title": "Heat the oil",
+          "description": "Pour sunflower oil into a frying pan and heat over medium heat."
+        }
+      },
+      {
+        "id": "fry-syrniki-with-boiled-condensed-milk",
+        "en": {
+          "title": "Fry the syrniki",
+          "description": "Fry the syrniki for 2-3 minutes per side until golden brown and firm."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "mix-dough-syrniki-with-boiled-condensed-milk",
+        "en": {
+          "title": "Mix the dough"
+        }
+      },
+      {
+        "id": "form-syrniki-with-boiled-condensed-milk",
+        "en": {
+          "title": "Form the syrniki"
+        }
+      },
+      {
+        "id": "fry-syrniki-with-boiled-condensed-milk",
+        "en": {
+          "title": "Fry the syrniki"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "air-fryer-pizza",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEwNy8zbXRjd1YuanBlZw.webp",
+    "title": {
+      "en": "Air Fryer Pizza"
+    },
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "hearty"
+    ],
+    "kitchen": [
+      "air-fryer",
+      "blender"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-air-fryer-pizza",
+        "minutes": 15
+      },
+      {
+        "stepId": "assemble-air-fryer-pizza",
+        "minutes": 5
+      },
+      {
+        "stepId": "bake-air-fryer-pizza",
+        "minutes": 20
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "oats",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tvorog",
+        "quantity": 180,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chicken-breast",
+        "quantity": 80,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mozzarella",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mushrooms",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 6,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ketchup",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olives",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grind-oats-air-fryer-pizza",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "blend-dough-air-fryer-pizza",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cut-chicken-air-fryer-pizza",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slice-vegetables-air-fryer-pizza",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-dough-air-fryer-pizza",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-toppings-air-fryer-pizza",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-mozzarella-air-fryer-pizza",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-air-fryer-pizza",
+        "duration": 20,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grind-oats-air-fryer-pizza",
+        "en": {
+          "title": "Grind oats into flour",
+          "description": "Pour the rolled oats into a blender and grind until they become a fine flour."
+        }
+      },
+      {
+        "id": "blend-dough-air-fryer-pizza",
+        "en": {
+          "title": "Blend dough until smooth",
+          "description": "Add the tvorog, egg, and salt to the oat flour. Blend again until the mixture is smooth and sticky, similar to pancake batter."
+        }
+      },
+      {
+        "id": "cut-chicken-air-fryer-pizza",
+        "en": {
+          "title": "Cut and season the chicken",
+          "description": "Dice the chicken breast into small cubes. Season with salt and pepper, then mix well."
+        }
+      },
+      {
+        "id": "slice-vegetables-air-fryer-pizza",
+        "en": {
+          "title": "Slice the vegetables",
+          "description": "Cut the bell pepper into thin strips, the red onion into half-rings, and slice the mushrooms thinly."
+        }
+      },
+      {
+        "id": "spread-dough-air-fryer-pizza",
+        "en": {
+          "title": "Spread the dough on parchment",
+          "description": "Place the sticky dough on a sheet of parchment paper and spread it into a thin, even circle."
+        }
+      },
+      {
+        "id": "add-toppings-air-fryer-pizza",
+        "en": {
+          "title": "Add ketchup and toppings",
+          "description": "Spread a layer of ketchup over the dough. Arrange the chicken, mushrooms, bell pepper, onion, and whole cherry tomatoes on top."
+        }
+      },
+      {
+        "id": "add-mozzarella-air-fryer-pizza",
+        "en": {
+          "title": "Add mozzarella slices",
+          "description": "Slice the mozzarella and distribute the slices evenly over the toppings."
+        }
+      },
+      {
+        "id": "bake-air-fryer-pizza",
+        "en": {
+          "title": "Bake in the air fryer",
+          "description": "Place the parchment with the pizza into the air fryer basket. Bake at 150°C for 20 minutes until the crust is golden and the cheese is melted."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-air-fryer-pizza",
+        "en": {
+          "title": "Prepare the dough and toppings"
+        }
+      },
+      {
+        "id": "assemble-air-fryer-pizza",
+        "en": {
+          "title": "Assemble the pizza"
+        }
+      },
+      {
+        "id": "bake-air-fryer-pizza",
+        "en": {
+          "title": "Bake the pizza"
+        }
+      }
+    ]
+  }
+]

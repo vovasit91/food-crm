@@ -1,0 +1,319 @@
+[
+  {
+    "id": "orange-juice-muffins",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIxMC9qaE5meWouanBlZw.webp",
+    "title": {
+      "en": "Orange Juice Muffins"
+    },
+    "timeMinutes": 75,
+    "difficulty": "hard",
+    "tags": [
+      "baked",
+      "creamy",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "preheat-and-prepare-forms-orange-juice-muffins",
+        "minutes": 15
+      },
+      {
+        "stepId": "make-batter-orange-juice-muffins",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-and-cool-orange-juice-muffins",
+        "minutes": 30
+      },
+      {
+        "stepId": "make-cream-orange-juice-muffins",
+        "minutes": 15
+      },
+      {
+        "stepId": "assemble-orange-juice-muffins",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 22,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yogurt",
+        "quantity": 21,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cornstarch",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 9,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 13,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.17,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "orange",
+        "quantity": 21,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla",
+        "quantity": 0.17,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.8,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.17,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "condensed-milk",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "preheat-oven-orange-juice-muffins",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "line-muffin-tin-orange-juice-muffins",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "squeeze-orange-orange-juice-muffins",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-wet-ingredients-orange-juice-muffins",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-dry-and-wet-orange-juice-muffins",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fill-forms-orange-juice-muffins",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-muffins-orange-juice-muffins",
+        "duration": 20,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cool-and-transfer-orange-juice-muffins",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cream-butter-and-condensed-milk-orange-juice-muffins",
+        "duration": 3,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "add-cream-cheese-and-zest-orange-juice-muffins",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "pipe-cream-orange-juice-muffins",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "preheat-oven-orange-juice-muffins",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat the oven to 180°C. While it heats, prepare the muffin tin."
+        }
+      },
+      {
+        "id": "line-muffin-tin-orange-juice-muffins",
+        "en": {
+          "title": "Line the muffin tin",
+          "description": "Place paper liners in the wells of a muffin tin."
+        }
+      },
+      {
+        "id": "squeeze-orange-orange-juice-muffins",
+        "en": {
+          "title": "Squeeze orange and grate zest",
+          "description": "Squeeze the juice from the orange and grate the zest. Set aside."
+        }
+      },
+      {
+        "id": "mix-wet-ingredients-orange-juice-muffins",
+        "en": {
+          "title": "Mix wet ingredients",
+          "description": "In a bowl, crack the egg. Add the orange juice, vegetable oil, and yogurt. Beat with a mixer on medium speed until smooth."
+        }
+      },
+      {
+        "id": "combine-dry-and-wet-orange-juice-muffins",
+        "en": {
+          "title": "Combine dry and wet ingredients",
+          "description": "In a separate bowl, mix the flour, baking powder, sugar, salt, cornstarch, and vanilla. Gradually add the dry mixture to the wet mixture, stirring until no lumps remain."
+        }
+      },
+      {
+        "id": "fill-forms-orange-juice-muffins",
+        "en": {
+          "title": "Fill the forms",
+          "description": "Divide the batter evenly among the paper liners."
+        }
+      },
+      {
+        "id": "bake-muffins-orange-juice-muffins",
+        "en": {
+          "title": "Bake the muffins",
+          "description": "Bake the muffins for 20 minutes at 180°C, until a toothpick comes out clean."
+        }
+      },
+      {
+        "id": "cool-and-transfer-orange-juice-muffins",
+        "en": {
+          "title": "Cool and transfer",
+          "description": "Let the muffins cool slightly in the pan, then transfer to a serving plate."
+        }
+      },
+      {
+        "id": "cream-butter-and-condensed-milk-orange-juice-muffins",
+        "en": {
+          "title": "Cream butter and condensed milk",
+          "description": "In a clean bowl, beat the softened butter on medium speed for 2-3 minutes until creamy. Add the condensed milk and beat again until well combined."
+        }
+      },
+      {
+        "id": "add-cream-cheese-and-zest-orange-juice-muffins",
+        "en": {
+          "title": "Add cream cheese and zest",
+          "description": "Add the cream cheese and beat on low speed until incorporated. Fold in the orange zest gently with a spatula."
+        }
+      },
+      {
+        "id": "pipe-cream-orange-juice-muffins",
+        "en": {
+          "title": "Pipe cream onto muffins",
+          "description": "Transfer the cream to a piping bag and pipe onto the cooled muffins."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "preheat-and-prepare-forms-orange-juice-muffins",
+        "en": {
+          "title": "Preheat oven and prepare forms"
+        }
+      },
+      {
+        "id": "make-batter-orange-juice-muffins",
+        "en": {
+          "title": "Make the batter"
+        }
+      },
+      {
+        "id": "bake-and-cool-orange-juice-muffins",
+        "en": {
+          "title": "Bake and cool the muffins"
+        }
+      },
+      {
+        "id": "make-cream-orange-juice-muffins",
+        "en": {
+          "title": "Make the cream"
+        }
+      },
+      {
+        "id": "assemble-orange-juice-muffins",
+        "en": {
+          "title": "Assemble the muffins"
+        }
+      }
+    ]
+  }
+]

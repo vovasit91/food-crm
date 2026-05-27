@@ -1,0 +1,408 @@
+[
+  {
+    "id": "chicken-stuffed-pancakes",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDIzMTIwMi83Wnp2RUsuanBlZw.webp",
+    "title": {
+      "en": "Chicken Stuffed with Pancakes"
+    },
+    "timeMinutes": 120,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "frying-pan",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "make-pancakes-chicken-stuffed-pancakes",
+        "minutes": 30
+      },
+      {
+        "stepId": "prepare-stuffing-chicken-stuffed-pancakes",
+        "minutes": 40
+      },
+      {
+        "stepId": "assemble-and-bake-chicken-stuffed-pancakes",
+        "minutes": 50
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "whole-chicken",
+        "quantity": 750,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-soda",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mushrooms",
+        "quantity": 125,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "carrots",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "hard-cheese",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "quantity": 2.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lettuce",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "whisk-eggs-chicken-stuffed-pancakes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-flour-and-soda-chicken-stuffed-pancakes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "warm-milk-and-add-chicken-stuffed-pancakes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-oil-and-rest-batter-chicken-stuffed-pancakes",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "fry-pancakes-chicken-stuffed-pancakes",
+        "duration": 20,
+        "showTimer": false,
+        "tags": [
+          "pan-fried"
+        ]
+      },
+      {
+        "stepId": "remove-chicken-skin-chicken-stuffed-pancakes",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "season-chicken-skin-chicken-stuffed-pancakes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "debone-and-grind-chicken-chicken-stuffed-pancakes",
+        "duration": 15,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-onion-chicken-stuffed-pancakes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "shred-carrots-chicken-stuffed-pancakes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dice-mushrooms-chicken-stuffed-pancakes",
+        "duration": 4,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "saute-vegetables-chicken-stuffed-pancakes",
+        "duration": 8,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "grate-cheese-chicken-stuffed-pancakes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-filling-chicken-stuffed-pancakes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fill-and-roll-pancakes-chicken-stuffed-pancakes",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "stuff-chicken-skin-chicken-stuffed-pancakes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-stuffed-chicken-chicken-stuffed-pancakes",
+        "duration": 60,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "whisk-eggs-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Whisk eggs with salt",
+          "description": "Crack the eggs into a deep bowl, add salt, and whisk them with a fork until combined."
+        }
+      },
+      {
+        "id": "add-flour-and-soda-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Add flour and baking soda",
+          "description": "Gradually sift the flour and baking soda into the egg mixture while stirring continuously."
+        }
+      },
+      {
+        "id": "warm-milk-and-add-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Warm milk and add to batter",
+          "description": "Heat the milk until it's warm (not boiling), then pour it into the bowl with the batter and mix well."
+        }
+      },
+      {
+        "id": "mix-oil-and-rest-batter-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Add oil and rest the batter",
+          "description": "Add vegetable oil to the batter and stir until smooth. Let the batter rest for 5-10 minutes; it should have the consistency of thin sour cream."
+        }
+      },
+      {
+        "id": "fry-pancakes-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Fry the pancakes",
+          "description": "Heat a non-stick frying pan. Ladle in the batter and cook each pancake on both sides until golden. Brush them with melted butter and stack on a plate."
+        }
+      },
+      {
+        "id": "remove-chicken-skin-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Remove chicken skin carefully",
+          "description": "Place the whole chicken breast-side up on a cutting board. Carefully peel off the skin, keeping it intact. Leave the legs and wings attached to the skin."
+        }
+      },
+      {
+        "id": "season-chicken-skin-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Season the chicken skin",
+          "description": "Rub the removed skin generously with salt and pepper. Also season the legs and wings."
+        }
+      },
+      {
+        "id": "debone-and-grind-chicken-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Debone and grind the chicken",
+          "description": "Separate all the meat from the bones. Discard the bones (you can use them for soup later). Pass the meat through a meat grinder."
+        }
+      },
+      {
+        "id": "chop-onion-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Chop the onion finely",
+          "description": "Peel the onion and cut it into small dice."
+        }
+      },
+      {
+        "id": "shred-carrots-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Shred the carrots",
+          "description": "Peel the carrots and cut them into small thin slices or shred them on a grater."
+        }
+      },
+      {
+        "id": "dice-mushrooms-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Dice the mushrooms",
+          "description": "Clean the mushrooms and cut them into small cubes."
+        }
+      },
+      {
+        "id": "saute-vegetables-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Sauté the vegetables",
+          "description": "Heat vegetable oil in a frying pan. Fry the onion until golden, then add the carrots and mushrooms. Cook over medium heat for about 5 minutes, stirring occasionally."
+        }
+      },
+      {
+        "id": "grate-cheese-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Grate the cheese",
+          "description": "Grate the hard cheese on a coarse or medium grater."
+        }
+      },
+      {
+        "id": "mix-filling-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Mix the filling",
+          "description": "In a large bowl, combine the sautéed vegetables, ground chicken, and grated cheese. Add 2 tablespoons of mayonnaise, salt, and pepper to taste. Mix everything thoroughly."
+        }
+      },
+      {
+        "id": "fill-and-roll-pancakes-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Fill and roll the pancakes",
+          "description": "Place a portion of the filling onto each pancake and roll it up tightly into a log. Repeat with all pancakes."
+        }
+      },
+      {
+        "id": "stuff-chicken-skin-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Stuff the chicken skin with pancake rolls",
+          "description": "Place the pancake rolls inside the chicken skin. Secure the open end with toothpicks to keep everything in place."
+        }
+      },
+      {
+        "id": "bake-stuffed-chicken-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Bake the stuffed chicken",
+          "description": "Line a baking dish with parchment paper. Place the stuffed chicken on it, brush the top with the remaining mayonnaise, and bake in a preheated oven for 1 hour."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "make-pancakes-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Make pancakes"
+        }
+      },
+      {
+        "id": "prepare-stuffing-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Prepare stuffing"
+        }
+      },
+      {
+        "id": "assemble-and-bake-chicken-stuffed-pancakes",
+        "en": {
+          "title": "Assemble and bake"
+        }
+      }
+    ]
+  }
+]

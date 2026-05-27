@@ -1,0 +1,214 @@
+[
+  {
+    "id": "overnight-oatmeal-pistachios",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEwNS80WFdjbWYuanBlZw.webp",
+    "title": {
+      "en": "Overnight Oatmeal with Pistachios"
+    },
+    "timeMinutes": 610,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "meal-prep",
+      "raw"
+    ],
+    "kitchen": [],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "combine-dry-overnight-oatmeal-pistachios",
+        "minutes": 2
+      },
+      {
+        "stepId": "combine-wet-overnight-oatmeal-pistachios",
+        "minutes": 2
+      },
+      {
+        "stepId": "chop-nuts-overnight-oatmeal-pistachios",
+        "minutes": 3
+      },
+      {
+        "stepId": "assemble-and-chill-overnight-oatmeal-pistachios",
+        "minutes": 3
+      },
+      {
+        "stepId": "refrigerate-overnight-oatmeal-pistachios",
+        "minutes": 600
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "oats",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cardamom",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon-zest",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "orange-zest",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "oat-milk",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "nut-paste",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "maple-syrup",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pistachios",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "walnuts",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "combine-dry-overnight-oatmeal-pistachios",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-wet-overnight-oatmeal-pistachios",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-nuts-overnight-oatmeal-pistachios",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-layers-overnight-oatmeal-pistachios",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "refrigerate-overnight-oatmeal-pistachios",
+        "duration": 600,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "combine-dry-overnight-oatmeal-pistachios",
+        "en": {
+          "title": "Combine dry ingredients",
+          "description": "In a bowl, mix the rolled oats, ground cinnamon, ground cardamom, lemon zest, and orange zest. Stir well to combine."
+        }
+      },
+      {
+        "id": "add-wet-overnight-oatmeal-pistachios",
+        "en": {
+          "title": "Add wet ingredients",
+          "description": "Pour oat milk into the dry mixture. Add nut paste and maple syrup. Stir until everything is evenly combined and smooth."
+        }
+      },
+      {
+        "id": "chop-nuts-overnight-oatmeal-pistachios",
+        "en": {
+          "title": "Chop nuts",
+          "description": "Using a knife or rolling pin, coarsely chop the pistachios and walnuts. Set aside."
+        }
+      },
+      {
+        "id": "assemble-layers-overnight-oatmeal-pistachios",
+        "en": {
+          "title": "Assemble layers",
+          "description": "Divide half of the oatmeal mixture into jars. Sprinkle half of the chopped nuts over the mixture. Top with the remaining oatmeal mixture and then with the rest of the nuts."
+        }
+      },
+      {
+        "id": "refrigerate-overnight-oatmeal-pistachios",
+        "en": {
+          "title": "Refrigerate overnight",
+          "description": "Seal the jars and place them in the refrigerator. Let them chill for at least 6 hours, preferably overnight, until the oats are soft and the flavors meld."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "combine-dry-overnight-oatmeal-pistachios",
+        "en": {
+          "title": "Combine dry ingredients"
+        }
+      },
+      {
+        "id": "combine-wet-overnight-oatmeal-pistachios",
+        "en": {
+          "title": "Combine wet ingredients"
+        }
+      },
+      {
+        "id": "chop-nuts-overnight-oatmeal-pistachios",
+        "en": {
+          "title": "Chop nuts"
+        }
+      },
+      {
+        "id": "assemble-and-chill-overnight-oatmeal-pistachios",
+        "en": {
+          "title": "Assemble and chill"
+        }
+      },
+      {
+        "id": "refrigerate-overnight-oatmeal-pistachios",
+        "en": {
+          "title": "Refrigerate overnight"
+        }
+      }
+    ]
+  }
+]

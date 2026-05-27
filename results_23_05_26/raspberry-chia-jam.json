@@ -1,0 +1,148 @@
+[
+  {
+    "id": "raspberry-chia-jam",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAyMC8zbVdlQ2guanBlZw.webp",
+    "title": {
+      "en": "Raspberry Chia Jam"
+    },
+    "timeMinutes": 120,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "gluten-free",
+      "raw",
+      "meal-prep"
+    ],
+    "kitchen": [
+      "blender"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "make-puree-raspberry-chia-jam",
+        "minutes": 5
+      },
+      {
+        "stepId": "mix-ingredients-raspberry-chia-jam",
+        "minutes": 5
+      },
+      {
+        "stepId": "refrigerate-raspberry-chia-jam",
+        "minutes": 120
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "raspberries",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chia-seeds",
+        "quantity": 9,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "honey",
+        "quantity": 14,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 9,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "quantity": 4.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mash-raspberries-raspberry-chia-jam",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-honey-lemon-raspberry-chia-jam",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-chia-seeds-raspberry-chia-jam",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "refrigerate-raspberry-chia-jam",
+        "duration": 120,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mash-raspberries-raspberry-chia-jam",
+        "en": {
+          "title": "Mash the raspberries",
+          "description": "Mash the raspberries into a puree using a potato masher or a blender. If using a blender, pulse a few times until smooth."
+        }
+      },
+      {
+        "id": "add-honey-lemon-raspberry-chia-jam",
+        "en": {
+          "title": "Add honey and lemon juice",
+          "description": "Add the honey and lemon juice to the raspberry puree. Stir until well combined."
+        }
+      },
+      {
+        "id": "add-chia-seeds-raspberry-chia-jam",
+        "en": {
+          "title": "Add chia seeds and mix",
+          "description": "Add the chia seeds to the puree mixture. Stir thoroughly to distribute the seeds evenly."
+        }
+      },
+      {
+        "id": "refrigerate-raspberry-chia-jam",
+        "en": {
+          "title": "Refrigerate the jam",
+          "description": "Transfer the mixture to a jar or container. Refrigerate for at least 2 hours, or overnight, to allow the chia seeds to swell and thicken the jam."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "make-puree-raspberry-chia-jam",
+        "en": {
+          "title": "Make the raspberry puree"
+        }
+      },
+      {
+        "id": "mix-ingredients-raspberry-chia-jam",
+        "en": {
+          "title": "Mix in honey, lemon, and chia seeds"
+        }
+      },
+      {
+        "id": "refrigerate-raspberry-chia-jam",
+        "en": {
+          "title": "Refrigerate until set"
+        }
+      }
+    ]
+  }
+]

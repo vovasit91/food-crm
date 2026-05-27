@@ -1,0 +1,181 @@
+[
+  {
+    "id": "apple-banana-green-tea-smoothie",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEyNC8zalRvTTIuanBlZw.webp",
+    "title": {
+      "en": "Apple-Banana Smoothie with Green Tea"
+    },
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "blender",
+      "stove"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "brew-tea-apple-banana-green-tea-smoothie",
+        "minutes": 12
+      },
+      {
+        "stepId": "cool-tea-apple-banana-green-tea-smoothie",
+        "minutes": 20
+      },
+      {
+        "stepId": "blend-smoothie-apple-banana-green-tea-smoothie",
+        "minutes": 8
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "green-tea",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mint",
+        "quantity": 1,
+        "unit": "sprig",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "apple",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "banana",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "topinambur-syrup",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 1,
+        "unit": "cup",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "add-tea-mint-apple-banana-green-tea-smoothie",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-water-steep-apple-banana-green-tea-smoothie",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "pour-tea-glass-apple-banana-green-tea-smoothie",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cool-tea-apple-banana-green-tea-smoothie",
+        "duration": 20,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-fruit-apple-banana-green-tea-smoothie",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "blend-smoothie-apple-banana-green-tea-smoothie",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "add-tea-mint-apple-banana-green-tea-smoothie",
+        "en": {
+          "title": "Add tea and mint to teapot",
+          "description": "Place the green tea leaves and fresh mint sprig into a teapot."
+        }
+      },
+      {
+        "id": "pour-water-steep-apple-banana-green-tea-smoothie",
+        "en": {
+          "title": "Pour boiling water and steep",
+          "description": "Pour boiling water into the teapot, cover, and let steep for 10 minutes."
+        }
+      },
+      {
+        "id": "pour-tea-glass-apple-banana-green-tea-smoothie",
+        "en": {
+          "title": "Pour tea into glass",
+          "description": "Strain the tea into a tall glass and allow it to cool completely."
+        }
+      },
+      {
+        "id": "cool-tea-apple-banana-green-tea-smoothie",
+        "en": {
+          "title": "Cool the tea completely",
+          "description": "Let the tea sit until it reaches room temperature, about 20 minutes."
+        }
+      },
+      {
+        "id": "prepare-fruit-apple-banana-green-tea-smoothie",
+        "en": {
+          "title": "Prepare the fruit",
+          "description": "Peel the banana and remove the apple core. Cut both into arbitrary pieces."
+        }
+      },
+      {
+        "id": "blend-smoothie-apple-banana-green-tea-smoothie",
+        "en": {
+          "title": "Blend the smoothie",
+          "description": "Transfer the cooled tea to a blender. Add the chopped apple, banana, and topinambur syrup. Blend until smooth."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "brew-tea-apple-banana-green-tea-smoothie",
+        "en": {
+          "title": "Brew the tea"
+        }
+      },
+      {
+        "id": "cool-tea-apple-banana-green-tea-smoothie",
+        "en": {
+          "title": "Cool the tea"
+        }
+      },
+      {
+        "id": "blend-smoothie-apple-banana-green-tea-smoothie",
+        "en": {
+          "title": "Blend the smoothie"
+        }
+      }
+    ]
+  }
+]

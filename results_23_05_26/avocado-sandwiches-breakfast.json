@@ -1,0 +1,201 @@
+[
+  {
+    "id": "avocado-sandwiches-breakfast",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTExMS80NDZhREouanBlZw.webp",
+    "title": {
+      "en": "Avocado Sandwiches for Breakfast"
+    },
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "tags": [
+      "hearty",
+      "creamy"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "boil-and-cool-egg-avocado-sandwiches-breakfast",
+        "minutes": 12
+      },
+      {
+        "stepId": "prepare-ingredients-avocado-sandwiches-breakfast",
+        "minutes": 5
+      },
+      {
+        "stepId": "toast-and-assemble-avocado-sandwiches-breakfast",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "avocado",
+        "quantity": 110,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "crab-sticks",
+        "quantity": 62.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "boil-egg-avocado-sandwiches-breakfast",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cool-peel-egg-avocado-sandwiches-breakfast",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "toast-bread-avocado-sandwiches-breakfast",
+        "duration": 4,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "chop-prepare-ingredients-avocado-sandwiches-breakfast",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-filling-avocado-sandwiches-breakfast",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mash-avocado-spread-avocado-sandwiches-breakfast",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-sandwiches-avocado-sandwiches-breakfast",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "boil-egg-avocado-sandwiches-breakfast",
+        "en": {
+          "title": "Boil the egg",
+          "description": "Place the egg in a small saucepan, cover with cold water, and bring to a boil. Boil for exactly 10 minutes from the moment the water starts boiling."
+        }
+      },
+      {
+        "id": "cool-peel-egg-avocado-sandwiches-breakfast",
+        "en": {
+          "title": "Cool and peel the egg",
+          "description": "Transfer the boiled egg to a bowl of ice water and let it cool completely. Once cool, peel off the shell and set aside."
+        }
+      },
+      {
+        "id": "toast-bread-avocado-sandwiches-breakfast",
+        "en": {
+          "title": "Toast the bread",
+          "description": "Heat a dry skillet over medium heat. Toast the bread slices on both sides until golden brown, about 2 minutes per side. Alternatively, you can use a toaster."
+        }
+      },
+      {
+        "id": "chop-prepare-ingredients-avocado-sandwiches-breakfast",
+        "en": {
+          "title": "Chop and prepare the filling ingredients",
+          "description": "Finely chop the crab sticks. Cut the cherry tomatoes into quarters. Mash the boiled egg with a fork until crumbly."
+        }
+      },
+      {
+        "id": "mix-filling-avocado-sandwiches-breakfast",
+        "en": {
+          "title": "Mix the filling",
+          "description": "In a bowl, combine the chopped crab sticks, cherry tomatoes, and mashed egg. Add the cream cheese and stir until well combined."
+        }
+      },
+      {
+        "id": "mash-avocado-spread-avocado-sandwiches-breakfast",
+        "en": {
+          "title": "Mash avocado and spread on toast",
+          "description": "Scoop the avocado flesh into a bowl and mash it with a fork until smooth. Spread the mashed avocado evenly over each toasted bread slice."
+        }
+      },
+      {
+        "id": "assemble-sandwiches-avocado-sandwiches-breakfast",
+        "en": {
+          "title": "Assemble the sandwiches",
+          "description": "Spoon the egg and crab mixture onto the avocado-covered toasts. Sprinkle with freshly ground black pepper to taste."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "boil-and-cool-egg-avocado-sandwiches-breakfast",
+        "en": {
+          "title": "Boil and cool the egg"
+        }
+      },
+      {
+        "id": "prepare-ingredients-avocado-sandwiches-breakfast",
+        "en": {
+          "title": "Prepare the filling ingredients"
+        }
+      },
+      {
+        "id": "toast-and-assemble-avocado-sandwiches-breakfast",
+        "en": {
+          "title": "Toast bread and assemble sandwiches"
+        }
+      }
+    ]
+  }
+]

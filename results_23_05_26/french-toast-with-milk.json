@@ -1,0 +1,197 @@
+[
+  {
+    "id": "french-toast-with-milk",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDQyNC80Nk05cm4uanBlZw.webp",
+    "title": {
+      "en": "French Toast with Milk"
+    },
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-egg-mixture-french-toast-with-milk",
+        "minutes": 5
+      },
+      {
+        "stepId": "fry-toasts-french-toast-with-milk",
+        "minutes": 13
+      },
+      {
+        "stepId": "garnish-and-serve-french-toast-with-milk",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 2,
+        "unit": "slices",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 37.5,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 0.25,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.75,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "powdered-sugar",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "whisk-eggs-french-toast-with-milk",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-milk-french-toast-with-milk",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-vanilla-cinnamon-french-toast-with-milk",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-french-toast-with-milk",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dip-and-fry-bread-french-toast-with-milk",
+        "duration": 8,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "whisk-eggs-french-toast-with-milk",
+        "en": {
+          "title": "Whisk eggs with salt and sugar",
+          "description": "Break the eggs into a bowl. Add salt and sugar. Whisk with a whisk until well combined."
+        }
+      },
+      {
+        "id": "add-milk-french-toast-with-milk",
+        "en": {
+          "title": "Add milk and whisk",
+          "description": "Pour in the milk. Continue whisking until the mixture is smooth and homogeneous."
+        }
+      },
+      {
+        "id": "add-vanilla-cinnamon-french-toast-with-milk",
+        "en": {
+          "title": "Add vanilla and cinnamon",
+          "description": "Add vanilla and cinnamon to the mixture. Stir well to combine."
+        }
+      },
+      {
+        "id": "heat-oil-french-toast-with-milk",
+        "en": {
+          "title": "Heat oil in a pan",
+          "description": "Pour vegetable oil into a frying pan and heat it over medium heat until hot."
+        }
+      },
+      {
+        "id": "dip-and-fry-bread-french-toast-with-milk",
+        "en": {
+          "title": "Dip and fry the bread slices",
+          "description": "Dip each slice of bread into the egg mixture, coating both sides, and immediately place it in the hot pan. Fry over medium heat for 2 minutes on each side, until golden brown and crispy."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-egg-mixture-french-toast-with-milk",
+        "en": {
+          "title": "Prepare the egg mixture"
+        }
+      },
+      {
+        "id": "fry-toasts-french-toast-with-milk",
+        "en": {
+          "title": "Fry the toasts"
+        }
+      },
+      {
+        "id": "garnish-and-serve-french-toast-with-milk",
+        "en": {
+          "title": "Garnish and serve"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "mini-turkey-cheese-sandwich",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAwNi8zRENYTnouanBlZw.webp",
+    "title": {
+      "en": "Mini Turkey and Cheese Sandwich on Crispbread"
+    },
+    "timeMinutes": 5,
+    "difficulty": "easy",
+    "tags": [
+      "hearty"
+    ],
+    "kitchen": [],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-herb-oil-mini-turkey-cheese-sandwich",
+        "minutes": 2
+      },
+      {
+        "stepId": "assemble-base-mini-turkey-cheese-sandwich",
+        "minutes": 2
+      },
+      {
+        "stepId": "add-toppings-mini-turkey-cheese-sandwich",
+        "minutes": 1
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "turkey-fillet",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 12,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lettuce",
+        "quantity": 8,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dill",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "strip-chop-dill-mini-turkey-cheese-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-herb-oil-mini-turkey-cheese-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-oil-mixture-mini-turkey-cheese-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-cheese-mini-turkey-cheese-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "layer-toppings-mini-turkey-cheese-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "strip-chop-dill-mini-turkey-cheese-sandwich",
+        "en": {
+          "title": "Strip and chop the dill",
+          "description": "Remove the dill leaves from the stems and chop them finely."
+        }
+      },
+      {
+        "id": "mix-herb-oil-mini-turkey-cheese-sandwich",
+        "en": {
+          "title": "Mix herb oil",
+          "description": "Combine the chopped dill with salt and olive oil in a small bowl. Stir well to create a flavored oil mixture."
+        }
+      },
+      {
+        "id": "spread-oil-mixture-mini-turkey-cheese-sandwich",
+        "en": {
+          "title": "Spread oil mixture on crispbread",
+          "description": "Brush or spread the herb oil mixture evenly over the surface of the crispbread."
+        }
+      },
+      {
+        "id": "place-cheese-mini-turkey-cheese-sandwich",
+        "en": {
+          "title": "Place cheese slice",
+          "description": "Lay a thin slice of cheese on top of the oiled crispbread."
+        }
+      },
+      {
+        "id": "layer-toppings-mini-turkey-cheese-sandwich",
+        "en": {
+          "title": "Layer the toppings",
+          "description": "Place a lettuce leaf on the cheese, then add slices of boiled turkey and tomato on top."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-herb-oil-mini-turkey-cheese-sandwich",
+        "en": {
+          "title": "Prepare herb oil"
+        }
+      },
+      {
+        "id": "assemble-base-mini-turkey-cheese-sandwich",
+        "en": {
+          "title": "Assemble base"
+        }
+      },
+      {
+        "id": "add-toppings-mini-turkey-cheese-sandwich",
+        "en": {
+          "title": "Add toppings"
+        }
+      }
+    ]
+  }
+]

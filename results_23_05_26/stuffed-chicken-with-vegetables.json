@@ -1,0 +1,291 @@
+[
+  {
+    "id": "stuffed-chicken-with-vegetables",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDkxMC80UHZUZlEuanBlZw.webp",
+    "title": {
+      "en": "Stuffed Chicken with Vegetables"
+    },
+    "timeMinutes": 90,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "marinated",
+      "hearty"
+    ],
+    "kitchen": [
+      "oven",
+      "stove",
+      "pots",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-and-stuff-chicken-stuffed-chicken-with-vegetables",
+        "minutes": 45
+      },
+      {
+        "stepId": "first-bake-chicken-stuffed-chicken-with-vegetables",
+        "minutes": 45
+      },
+      {
+        "stepId": "prepare-vegetables-stuffed-chicken-with-vegetables",
+        "minutes": 17
+      },
+      {
+        "stepId": "finish-baking-with-vegetables-stuffed-chicken-with-vegetables",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "whole-chicken",
+        "quantity": 375,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "frozen-vegetable-mix",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mushrooms",
+        "quantity": 24,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "spices",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cheese",
+        "quantity": 17.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lavash",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pumpkin",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "potatoes",
+        "quantity": 90,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.25,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vegetables",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "prepare-chicken-stuffed-chicken-with-vegetables",
+        "duration": 15,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "marinate-chicken-stuffed-chicken-with-vegetables",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-lavash-roll-stuffed-chicken-with-vegetables",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-stuffed-chicken-with-vegetables",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "stuff-chicken-stuffed-chicken-with-vegetables",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "secure-opening-stuffed-chicken-with-vegetables",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-chicken-stuffed-chicken-with-vegetables",
+        "duration": 45,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "boil-potatoes-stuffed-chicken-with-vegetables",
+        "duration": 15,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "slice-pumpkin-stuffed-chicken-with-vegetables",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-vegetables-and-bake-stuffed-chicken-with-vegetables",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "prepare-chicken-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Prepare the chicken",
+          "description": "Place the chicken breast side up. Gently separate the skin from the breast with your hands. Cut the breast away from the back using a knife, being careful not to tear the skin. Remove the meat from the carcass, debone it, and cut it into cubes about 1 cm."
+        }
+      },
+      {
+        "id": "marinate-chicken-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Marinate the chicken",
+          "description": "In a bowl, mix mayonnaise, ⅓ teaspoon of salt, and chicken seasoning. Place the chicken carcass in a baking dish and spread the marinade inside and out. Let it marinate while you prepare the filling."
+        }
+      },
+      {
+        "id": "assemble-lavash-roll-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Assemble the lavash roll",
+          "description": "Spread a sheet of lavash on the table. Arrange the chicken cubes on it and sprinkle with ⅓ teaspoon of salt. Spread the frozen vegetable mix evenly over the chicken. Slice mushrooms thinly and place on top. Cut the cheese into slices and cover the mushrooms. Roll the lavash tightly into a log."
+        }
+      },
+      {
+        "id": "preheat-oven-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 200°C (400°F)."
+        }
+      },
+      {
+        "id": "stuff-chicken-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Stuff the chicken",
+          "description": "Cut the lavash log into 3–4 pieces. Stuff these pieces tightly into the cavity of the chicken, under the skin of the breast."
+        }
+      },
+      {
+        "id": "secure-opening-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Secure the opening",
+          "description": "Close the opening in the carcass with the ends of the skin. Fasten with toothpicks or skewers."
+        }
+      },
+      {
+        "id": "bake-chicken-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Bake the chicken",
+          "description": "Place the chicken in the preheated oven and bake for 40–50 minutes until golden and cooked through."
+        }
+      },
+      {
+        "id": "boil-potatoes-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Boil the potatoes",
+          "description": "Cut the potatoes into 3–4 pieces each. Place in a saucepan, cover with water, and bring to a boil over high heat. Add ⅓ teaspoon of salt, reduce the heat to medium, and cook for 10–15 minutes until half-done. Drain and let cool."
+        }
+      },
+      {
+        "id": "slice-pumpkin-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Slice the pumpkin",
+          "description": "Cut the pumpkin into slices about 1–1.5 cm thick."
+        }
+      },
+      {
+        "id": "add-vegetables-and-bake-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Add vegetables and finish baking",
+          "description": "Remove the almost-done chicken from the oven. Arrange the boiled potatoes and pumpkin slices around the chicken. Drizzle with vegetable oil. Return to the oven and bake for another 10–15 minutes until the chicken is nicely browned and the vegetables are tender."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-and-stuff-chicken-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Prepare and stuff the chicken"
+        }
+      },
+      {
+        "id": "first-bake-chicken-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "First bake the chicken"
+        }
+      },
+      {
+        "id": "prepare-vegetables-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Prepare the vegetables"
+        }
+      },
+      {
+        "id": "finish-baking-with-vegetables-stuffed-chicken-with-vegetables",
+        "en": {
+          "title": "Finish baking with vegetables"
+        }
+      }
+    ]
+  }
+]

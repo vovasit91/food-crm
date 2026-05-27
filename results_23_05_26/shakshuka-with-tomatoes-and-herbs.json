@@ -1,0 +1,243 @@
+[
+  {
+    "id": "shakshuka-with-tomatoes-and-herbs",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAwNi94cm53VFguanBlZw.webp",
+    "title": {
+      "en": "Shakshuka with Tomatoes and Herbs"
+    },
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "pan-fried",
+      "one-pan"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "saute-vegetables-shakshuka-with-tomatoes-and-herbs",
+        "minutes": 5
+      },
+      {
+        "stepId": "add-tomatoes-shakshuka-with-tomatoes-and-herbs",
+        "minutes": 3
+      },
+      {
+        "stepId": "cook-eggs-shakshuka-with-tomatoes-and-herbs",
+        "minutes": 10
+      },
+      {
+        "stepId": "garnish-shakshuka-with-tomatoes-and-herbs",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "onion",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parsley",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 1,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "brynza",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lettuce",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "spices",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "chop-onion-garlic-shakshuka-with-tomatoes-and-herbs",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "saute-onion-garlic-shakshuka-with-tomatoes-and-herbs",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grate-tomatoes-add-shakshuka-with-tomatoes-and-herbs",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "crack-eggs-shakshuka-with-tomatoes-and-herbs",
+        "duration": 1,
+        "showTimer": false,
+        "tags": [
+          "dont-overcook"
+        ]
+      },
+      {
+        "stepId": "chop-feta-place-shakshuka-with-tomatoes-and-herbs",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cover-simmer-shakshuka-with-tomatoes-and-herbs",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "chop-herbs-garnish-shakshuka-with-tomatoes-and-herbs",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "chop-onion-garlic-shakshuka-with-tomatoes-and-herbs",
+        "en": {
+          "title": "Chop onion and garlic",
+          "description": "Finely chop the onion and garlic cloves. This step is preparation for sautéing."
+        }
+      },
+      {
+        "id": "saute-onion-garlic-shakshuka-with-tomatoes-and-herbs",
+        "en": {
+          "title": "Sauté onion and garlic",
+          "description": "Heat the olive oil in a skillet over medium heat. Add the chopped onion and garlic, season with salt, pepper, and spices, and sauté until softened, about 3 minutes."
+        }
+      },
+      {
+        "id": "grate-tomatoes-add-shakshuka-with-tomatoes-and-herbs",
+        "en": {
+          "title": "Grate tomatoes and add to skillet",
+          "description": "Grate the tomatoes on a coarse grater directly into the skillet with the sautéed vegetables. Stir well to combine."
+        }
+      },
+      {
+        "id": "crack-eggs-shakshuka-with-tomatoes-and-herbs",
+        "en": {
+          "title": "Crack eggs into the sauce",
+          "description": "Carefully crack the eggs into the skillet, placing them directly onto the tomato sauce. Try not to break the yolks."
+        }
+      },
+      {
+        "id": "chop-feta-place-shakshuka-with-tomatoes-and-herbs",
+        "en": {
+          "title": "Chop feta and arrange over eggs",
+          "description": "Cut the feta cheese into small cubes and scatter them evenly over the eggs."
+        }
+      },
+      {
+        "id": "cover-simmer-shakshuka-with-tomatoes-and-herbs",
+        "en": {
+          "title": "Cover and simmer",
+          "description": "Cover the skillet with a lid and reduce the heat to low. Let the shakshuka simmer for 10 minutes, until the eggs are cooked to your liking."
+        }
+      },
+      {
+        "id": "chop-herbs-garnish-shakshuka-with-tomatoes-and-herbs",
+        "en": {
+          "title": "Chop herbs and garnish",
+          "description": "Finely chop the fresh herbs and lettuce leaves. Sprinkle the mixture over the finished shakshuka before serving."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "saute-vegetables-shakshuka-with-tomatoes-and-herbs",
+        "en": {
+          "title": "Sauté vegetables"
+        }
+      },
+      {
+        "id": "add-tomatoes-shakshuka-with-tomatoes-and-herbs",
+        "en": {
+          "title": "Add tomatoes"
+        }
+      },
+      {
+        "id": "cook-eggs-shakshuka-with-tomatoes-and-herbs",
+        "en": {
+          "title": "Cook eggs"
+        }
+      },
+      {
+        "id": "garnish-shakshuka-with-tomatoes-and-herbs",
+        "en": {
+          "title": "Garnish and serve"
+        }
+      }
+    ]
+  }
+]

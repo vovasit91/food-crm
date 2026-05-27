@@ -1,0 +1,293 @@
+[
+  {
+    "id": "chicken-julienne",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDExNS80UWs5TnkuanBlZw.webp",
+    "title": {
+      "en": "Chicken Julienne"
+    },
+    "timeMinutes": 50,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "creamy",
+      "hearty",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "frying-pan",
+      "pots",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-ingredients-chicken-julienne",
+        "minutes": 5
+      },
+      {
+        "stepId": "cook-filling-chicken-julienne",
+        "minutes": 12
+      },
+      {
+        "stepId": "make-sauce-chicken-julienne",
+        "minutes": 9
+      },
+      {
+        "stepId": "assemble-and-bake-chicken-julienne",
+        "minutes": 24
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "chicken-breast",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mushrooms",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "spices",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "hard-cheese",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "cut-chicken-chicken-julienne",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-onion-mushrooms-chicken-julienne",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "saute-onion-chicken-julienne",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-mushrooms-chicken-julienne",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-chicken-chicken-julienne",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "melt-butter-chicken-julienne",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-flour-chicken-julienne",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "simmer-sauce-chicken-julienne",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "assemble-filling-chicken-julienne",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-sauce-chicken-julienne",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "sprinkle-cheese-chicken-julienne",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-chicken-julienne",
+        "duration": 20,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "cut-chicken-chicken-julienne",
+        "en": {
+          "title": "Cut the chicken",
+          "description": "Take the pre-boiled chicken breast and cut it into small, bite-sized pieces. Set aside."
+        }
+      },
+      {
+        "id": "chop-onion-mushrooms-chicken-julienne",
+        "en": {
+          "title": "Chop onion and mushrooms",
+          "description": "Peel and finely chop the onion. Clean the mushrooms and slice them thinly."
+        }
+      },
+      {
+        "id": "saute-onion-chicken-julienne",
+        "en": {
+          "title": "Sauté the onion",
+          "description": "Melt a knob of butter in a frying pan over medium heat. Add the chopped onion and cook until translucent, about 5 minutes."
+        }
+      },
+      {
+        "id": "add-mushrooms-chicken-julienne",
+        "en": {
+          "title": "Add mushrooms",
+          "description": "Add the sliced mushrooms to the pan with the onion. Cook, stirring occasionally, until the mushrooms have softened and released their moisture, about 5 minutes."
+        }
+      },
+      {
+        "id": "add-chicken-chicken-julienne",
+        "en": {
+          "title": "Add chicken",
+          "description": "Add the cut chicken pieces to the pan. Stir well to combine with the onion and mushrooms, then remove from heat."
+        }
+      },
+      {
+        "id": "melt-butter-chicken-julienne",
+        "en": {
+          "title": "Melt butter for sauce",
+          "description": "In a separate small pan, melt a generous piece of butter over low heat."
+        }
+      },
+      {
+        "id": "fry-flour-chicken-julienne",
+        "en": {
+          "title": "Fry the flour",
+          "description": "Add the flour to the melted butter and stir continuously. Cook until the mixture turns a light golden color, about 3 minutes. Be careful not to burn it."
+        }
+      },
+      {
+        "id": "simmer-sauce-chicken-julienne",
+        "en": {
+          "title": "Simmer the sauce",
+          "description": "Slowly pour in the milk while whisking constantly to avoid lumps. Add your chosen spices (salt, pepper, nutmeg). Continue to simmer over low heat, stirring gently, until the sauce thickens, about 5 minutes."
+        }
+      },
+      {
+        "id": "assemble-filling-chicken-julienne",
+        "en": {
+          "title": "Distribute the filling",
+          "description": "Divide the chicken and mushroom mixture evenly among individual ovenproof molds or a single baking dish."
+        }
+      },
+      {
+        "id": "pour-sauce-chicken-julienne",
+        "en": {
+          "title": "Pour the sauce",
+          "description": "Spoon the prepared white sauce over the filling in each mold, covering it completely."
+        }
+      },
+      {
+        "id": "sprinkle-cheese-chicken-julienne",
+        "en": {
+          "title": "Sprinkle with cheese",
+          "description": "Grate the hard cheese and generously sprinkle it over the sauced filling."
+        }
+      },
+      {
+        "id": "bake-chicken-julienne",
+        "en": {
+          "title": "Bake the julienne",
+          "description": "Preheat your oven to 200°C (400°F). Place the filled molds on a baking tray and bake for 20 minutes, until the cheese is melted and golden brown. Serve hot."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-ingredients-chicken-julienne",
+        "en": {
+          "title": "Prepare ingredients"
+        }
+      },
+      {
+        "id": "cook-filling-chicken-julienne",
+        "en": {
+          "title": "Cook the filling"
+        }
+      },
+      {
+        "id": "make-sauce-chicken-julienne",
+        "en": {
+          "title": "Make the sauce"
+        }
+      },
+      {
+        "id": "assemble-and-bake-chicken-julienne",
+        "en": {
+          "title": "Assemble and bake"
+        }
+      }
+    ]
+  }
+]

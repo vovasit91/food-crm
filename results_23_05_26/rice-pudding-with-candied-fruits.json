@@ -1,0 +1,384 @@
+[
+  {
+    "id": "rice-pudding-with-candied-fruits",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyOC8zQnR5YncuanBlZw.webp",
+    "title": {
+      "en": "Rice Pudding with Candied Fruits"
+    },
+    "timeMinutes": 60,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "creamy",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "pots",
+      "baking-tray",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "boil-rice-rice-pudding-with-candied-fruits",
+        "minutes": 20
+      },
+      {
+        "stepId": "simmer-rice-milk-rice-pudding-with-candied-fruits",
+        "minutes": 15
+      },
+      {
+        "stepId": "mix-custard-rice-pudding-with-candied-fruits",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-pudding-rice-pudding-with-candied-fruits",
+        "minutes": 35
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "rice",
+        "quantity": 45,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 45,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "candied-fruits",
+        "quantity": 38,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "breadcrumbs",
+        "quantity": 0.25,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "bring-water-to-boil-rice-pudding-with-candied-fruits",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "add-rice-and-boil-rice-pudding-with-candied-fruits",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "drain-rice-rice-pudding-with-candied-fruits",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "return-rice-add-milk-rice-pudding-with-candied-fruits",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "simmer-rice-milk-low-heat-rice-pudding-with-candied-fruits",
+        "duration": 15,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "cool-rice-mixture-slightly-rice-pudding-with-candied-fruits",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "separate-eggs-rice-pudding-with-candied-fruits",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whisk-yolks-sugar-vanilla-rice-pudding-with-candied-fruits",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-yolk-mixture-into-rice-rice-pudding-with-candied-fruits",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "dont-overcook"
+        ]
+      },
+      {
+        "stepId": "whip-egg-whites-rice-pudding-with-candied-fruits",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cut-butter-into-cubes-rice-pudding-with-candied-fruits",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-candied-fruits-rice-pudding-with-candied-fruits",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-butter-candied-fruits-rice-pudding-with-candied-fruits",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fold-in-whites-rice-pudding-with-candied-fruits",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "grease-dish-with-butter-rice-pudding-with-candied-fruits",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fill-dish-with-mixture-rice-pudding-with-candied-fruits",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-pudding-at-180c-rice-pudding-with-candied-fruits",
+        "duration": 35,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "cool-pudding-rice-pudding-with-candied-fruits",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "bring-water-to-boil-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Bring water to a boil",
+          "description": "Fill a large pot with water, add a pinch of salt, and bring to a boil over high heat."
+        }
+      },
+      {
+        "id": "add-rice-and-boil-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Add rice and boil",
+          "description": "Add the rice to the boiling water and cook for 10 minutes, stirring occasionally."
+        }
+      },
+      {
+        "id": "drain-rice-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Drain the rice",
+          "description": "Pour the rice into a colander and let the water drain completely."
+        }
+      },
+      {
+        "id": "return-rice-add-milk-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Return rice and add milk",
+          "description": "Return the drained rice to the pot and pour in the milk."
+        }
+      },
+      {
+        "id": "simmer-rice-milk-low-heat-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Simmer rice with milk",
+          "description": "Place the pot on the stove and cook over low heat for 15 minutes, stirring frequently. Allow to cool slightly."
+        }
+      },
+      {
+        "id": "cool-rice-mixture-slightly-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Cool the rice mixture slightly",
+          "description": "Let the rice mixture sit for a few minutes until it is warm but not hot."
+        }
+      },
+      {
+        "id": "separate-eggs-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Separate eggs",
+          "description": "Crack the eggs and separate the yolks from the whites. Place whites in a clean bowl and yolks in another."
+        }
+      },
+      {
+        "id": "whisk-yolks-sugar-vanilla-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Whisk yolks with sugar and vanilla",
+          "description": "Add sugar and vanilla to the yolks and whisk until smooth and pale."
+        }
+      },
+      {
+        "id": "mix-yolk-mixture-into-rice-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Mix yolk mixture into rice",
+          "description": "Pour the yolk mixture into the cooled rice and stir gently to combine. Ensure the rice is not hot to prevent the yolks from curdling."
+        }
+      },
+      {
+        "id": "whip-egg-whites-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Whip egg whites",
+          "description": "In a clean bowl, whip the egg whites until stiff peaks form."
+        }
+      },
+      {
+        "id": "cut-butter-into-cubes-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Cut butter into cubes",
+          "description": "Cut the butter into small cubes."
+        }
+      },
+      {
+        "id": "chop-candied-fruits-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Chop candied fruits",
+          "description": "If the candied fruits are large, chop them into smaller pieces."
+        }
+      },
+      {
+        "id": "add-butter-candied-fruits-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Add butter and candied fruits",
+          "description": "Add the butter cubes and chopped candied fruits to the rice mixture and stir to combine."
+        }
+      },
+      {
+        "id": "fold-in-whites-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Fold in whipped egg whites",
+          "description": "Gently fold the whipped egg whites into the pudding mixture until just combined. Be careful not to deflate the whites."
+        }
+      },
+      {
+        "id": "grease-dish-with-butter-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Grease baking dish with butter",
+          "description": "Grease a baking dish with the remaining butter and sprinkle with breadcrumbs."
+        }
+      },
+      {
+        "id": "fill-dish-with-mixture-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Fill the dish with pudding mixture",
+          "description": "Pour the pudding mixture into the prepared baking dish and spread evenly."
+        }
+      },
+      {
+        "id": "bake-pudding-at-180c-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Bake the pudding",
+          "description": "Preheat the oven to 180°C. Bake the pudding for 35 minutes until set and golden. Let cool before serving."
+        }
+      },
+      {
+        "id": "cool-pudding-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Cool the pudding",
+          "description": "Allow the pudding to cool completely before serving. Optionally, refrigerate for a firmer texture."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "boil-rice-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Boil rice"
+        }
+      },
+      {
+        "id": "simmer-rice-milk-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Simmer rice with milk"
+        }
+      },
+      {
+        "id": "mix-custard-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Mix the custard"
+        }
+      },
+      {
+        "id": "bake-pudding-rice-pudding-with-candied-fruits",
+        "en": {
+          "title": "Bake the pudding"
+        }
+      }
+    ]
+  }
+]

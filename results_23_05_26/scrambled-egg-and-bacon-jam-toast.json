@@ -1,0 +1,269 @@
+[
+  {
+    "id": "scrambled-egg-and-bacon-jam-toast",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAxOC80MjJlaTMuanBlZw.webp",
+    "title": {
+      "en": "Scrambled Egg and Bacon Jam Toast"
+    },
+    "timeMinutes": 170,
+    "difficulty": "medium",
+    "tags": [
+      "pan-fried",
+      "slow-cooked",
+      "creamy",
+      "spicy",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "make-bacon-jam-scrambled-egg-and-bacon-jam-toast",
+        "minutes": 155
+      },
+      {
+        "stepId": "cook-scrambled-eggs-scrambled-egg-and-bacon-jam-toast",
+        "minutes": 10
+      },
+      {
+        "stepId": "toast-bread-and-assemble-scrambled-egg-and-bacon-jam-toast",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "streaky-bacon",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "maple-syrup",
+        "quantity": 36,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ground-coffee",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 25,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vinegar",
+        "quantity": 16,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 23,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chili-flakes",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "prep-ingredients-scrambled-egg-and-bacon-jam-toast",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-coffee-scrambled-egg-and-bacon-jam-toast",
+        "duration": 8,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-bacon-scrambled-egg-and-bacon-jam-toast",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "pan-fried"
+        ]
+      },
+      {
+        "stepId": "caramelize-shallots-scrambled-egg-and-bacon-jam-toast",
+        "duration": 20,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "simmer-bacon-jam-scrambled-egg-and-bacon-jam-toast",
+        "duration": 120,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "slow-cooked"
+        ]
+      },
+      {
+        "stepId": "cook-scrambled-eggs-scrambled-egg-and-bacon-jam-toast",
+        "duration": 4,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "gentle-stir",
+          "dont-overcook"
+        ]
+      },
+      {
+        "stepId": "toast-bread-scrambled-egg-and-bacon-jam-toast",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "pan-fried"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "prep-ingredients-scrambled-egg-and-bacon-jam-toast",
+        "en": {
+          "title": "Prep ingredients",
+          "description": "Slice the shallots into half rings. Dice the bacon into 1 cm cubes. Crack the eggs into a bowl, add salt and pepper, and whisk with a fork until well combined."
+        }
+      },
+      {
+        "id": "prepare-coffee-scrambled-egg-and-bacon-jam-toast",
+        "en": {
+          "title": "Prepare coffee",
+          "description": "Put ground coffee into a cezve and pour in water. Set over medium heat and wait until foam rises. Remove from heat for 20–30 seconds to let the foam subside. Return to heat and bring to the first signs of boiling again, then remove and let cool."
+        }
+      },
+      {
+        "id": "cook-bacon-scrambled-egg-and-bacon-jam-toast",
+        "en": {
+          "title": "Cook bacon",
+          "description": "Heat a dry frying pan over high heat, then reduce to medium. Add the bacon cubes and fry, stirring often, for about 10 minutes until the fat renders and the bacon is crispy. Transfer the bacon to a plate."
+        }
+      },
+      {
+        "id": "caramelize-shallots-scrambled-egg-and-bacon-jam-toast",
+        "en": {
+          "title": "Caramelize shallots",
+          "description": "Add the sliced shallots to the bacon fat in the pan. Reduce heat to low and cook, stirring occasionally, for 20–25 minutes until the shallots are dark and caramelized."
+        }
+      },
+      {
+        "id": "simmer-bacon-jam-scrambled-egg-and-bacon-jam-toast",
+        "en": {
+          "title": "Simmer bacon jam",
+          "description": "Return the cooked bacon to the pan with the shallots. Pour in maple syrup, apple cider vinegar, and the prepared coffee. Add sugar and chili flakes. Stir well. Increase heat to medium and bring to a boil, then reduce to low and simmer for about 2 hours, stirring occasionally, until the jam thickens. Remove from heat and let cool until warm."
+        }
+      },
+      {
+        "id": "cook-scrambled-eggs-scrambled-egg-and-bacon-jam-toast",
+        "en": {
+          "title": "Cook scrambled eggs",
+          "description": "Place 20 g (for the whole recipe, adjust for your serving) of butter in the pan and melt over medium heat. Pour in the egg mixture and let it set for 5–7 seconds. Stir continuously from the center to the edges for 3–4 minutes until the eggs are just set but still soft. Remove from heat, let rest for 2–3 seconds, then transfer to a plate. Wipe the pan clean with paper towels."
+        }
+      },
+      {
+        "id": "toast-bread-scrambled-egg-and-bacon-jam-toast",
+        "en": {
+          "title": "Toast bread",
+          "description": "Return the cleaned pan to medium heat and melt the remaining butter. Add the bread slices and toast for 1–2 minutes per side until golden brown. Arrange the toast on a serving plate."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "make-bacon-jam-scrambled-egg-and-bacon-jam-toast",
+        "en": {
+          "title": "Make the bacon jam"
+        }
+      },
+      {
+        "id": "cook-scrambled-eggs-scrambled-egg-and-bacon-jam-toast",
+        "en": {
+          "title": "Cook the scrambled eggs"
+        }
+      },
+      {
+        "id": "toast-bread-and-assemble-scrambled-egg-and-bacon-jam-toast",
+        "en": {
+          "title": "Toast bread and assemble"
+        }
+      }
+    ]
+  }
+]

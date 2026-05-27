@@ -1,0 +1,371 @@
+[
+  {
+    "id": "vegetable-crepes",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIwMS80bVZBZFMuanBlZw.webp",
+    "title": {
+      "en": "Vegetable Crepes"
+    },
+    "timeMinutes": 50,
+    "difficulty": "medium",
+    "tags": [
+      "vegetarian",
+      "pan-fried",
+      "creamy",
+      "meal-prep"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-filling-vegetable-crepes",
+        "minutes": 25
+      },
+      {
+        "stepId": "make-crepes-vegetable-crepes",
+        "minutes": 20
+      },
+      {
+        "stepId": "assemble-crepes-vegetable-crepes",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "zucchini",
+        "quantity": 150,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggplant",
+        "quantity": 160,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dill",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mozzarella",
+        "quantity": 55,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 11,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 9,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 90,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 17,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ketchup",
+        "quantity": 11,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 6,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "chop-vegetables-vegetable-crepes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grate-and-chop-vegetable-crepes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "coat-vegetables-vegetable-crepes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-coated-vegetables-vegetable-crepes",
+        "duration": 7,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "saute-onion-vegetable-crepes",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "fry-bell-pepper-vegetable-crepes",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "combine-filling-vegetable-crepes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whisk-egg-mix-vegetable-crepes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-milk-and-flour-vegetable-crepes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-remaining-milk-oil-vegetable-crepes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rest-batter-vegetable-crepes",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "fry-pancakes-vegetable-crepes",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "fill-and-roll-pancakes-vegetable-crepes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "make-sauce-vegetable-crepes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "chop-vegetables-vegetable-crepes",
+        "en": {
+          "title": "Chop the vegetables",
+          "description": "Dice the zucchini and eggplant into medium cubes. Finely dice the onion and bell pepper."
+        }
+      },
+      {
+        "id": "grate-and-chop-vegetable-crepes",
+        "en": {
+          "title": "Grate and chop",
+          "description": "Coarsely grate the mozzarella. Finely chop the dill and garlic."
+        }
+      },
+      {
+        "id": "coat-vegetables-vegetable-crepes",
+        "en": {
+          "title": "Coat vegetables with flour",
+          "description": "Sprinkle flour over the diced zucchini and eggplant. Toss to coat evenly."
+        }
+      },
+      {
+        "id": "fry-coated-vegetables-vegetable-crepes",
+        "en": {
+          "title": "Fry the coated vegetables",
+          "description": "Heat oil in a skillet over medium heat. Add the floured zucchini and eggplant and fry until golden brown. Transfer to a plate."
+        }
+      },
+      {
+        "id": "saute-onion-vegetable-crepes",
+        "en": {
+          "title": "Sauté the onion",
+          "description": "Add the diced onion to the same skillet and cook over medium heat until translucent, stirring occasionally."
+        }
+      },
+      {
+        "id": "fry-bell-pepper-vegetable-crepes",
+        "en": {
+          "title": "Fry the bell pepper",
+          "description": "Add the diced bell pepper to the skillet with the onion. Continue cooking until the pepper is soft."
+        }
+      },
+      {
+        "id": "combine-filling-vegetable-crepes",
+        "en": {
+          "title": "Combine the filling",
+          "description": "Return the fried zucchini and eggplant to the skillet. Add the chopped dill, garlic, half of the grated mozzarella, and salt. Mix well."
+        }
+      },
+      {
+        "id": "whisk-egg-mix-vegetable-crepes",
+        "en": {
+          "title": "Whisk eggs with sugar and salt",
+          "description": "In a bowl, whisk the eggs together with the sugar and salt until well combined."
+        }
+      },
+      {
+        "id": "add-milk-and-flour-vegetable-crepes",
+        "en": {
+          "title": "Add milk and flour gradually",
+          "description": "Pour half of the milk into the egg mixture. Gradually add the flour while stirring constantly to avoid lumps."
+        }
+      },
+      {
+        "id": "add-remaining-milk-oil-vegetable-crepes",
+        "en": {
+          "title": "Add remaining milk and oil",
+          "description": "Stir in the remaining milk and the vegetable oil. Mix until the batter is smooth."
+        }
+      },
+      {
+        "id": "rest-batter-vegetable-crepes",
+        "en": {
+          "title": "Rest the batter",
+          "description": "Let the batter sit for 5 minutes to allow the gluten to relax."
+        }
+      },
+      {
+        "id": "fry-pancakes-vegetable-crepes",
+        "en": {
+          "title": "Fry the pancakes",
+          "description": "Heat a non-stick skillet over medium-high heat with a little oil. Pour a ladleful of batter and swirl to coat the pan. Cook until golden on both sides. Repeat with remaining batter."
+        }
+      },
+      {
+        "id": "fill-and-roll-pancakes-vegetable-crepes",
+        "en": {
+          "title": "Fill and roll the pancakes",
+          "description": "Place about 2 tablespoons of the vegetable filling on one edge of each pancake. Roll it up like a tight roll or envelope."
+        }
+      },
+      {
+        "id": "make-sauce-vegetable-crepes",
+        "en": {
+          "title": "Make the sauce",
+          "description": "In a small bowl, combine sour cream and ketchup. Stir in the remaining grated mozzarella. Mix well."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-filling-vegetable-crepes",
+        "en": {
+          "title": "Prepare the vegetable filling"
+        }
+      },
+      {
+        "id": "make-crepes-vegetable-crepes",
+        "en": {
+          "title": "Make the crepes"
+        }
+      },
+      {
+        "id": "assemble-crepes-vegetable-crepes",
+        "en": {
+          "title": "Assemble crepes and prepare sauce"
+        }
+      }
+    ]
+  }
+]

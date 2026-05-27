@@ -1,0 +1,198 @@
+[
+  {
+    "id": "oatmeal-broccoli-fritters",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEwNi8zY3lQdUUuanBlZw.webp",
+    "title": {
+      "en": "Oatmeal and Broccoli Fritters"
+    },
+    "timeMinutes": 60,
+    "difficulty": "medium",
+    "tags": [
+      "vegetarian",
+      "pan-fried",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "blender",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "soak-oats-oatmeal-broccoli-fritters",
+        "minutes": 35
+      },
+      {
+        "stepId": "blanch-broccoli-oatmeal-broccoli-fritters",
+        "minutes": 8
+      },
+      {
+        "stepId": "make-batter-oatmeal-broccoli-fritters",
+        "minutes": 13
+      },
+      {
+        "stepId": "fry-fritters-oatmeal-broccoli-fritters",
+        "minutes": 6
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "oats",
+        "quantity": 14,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "broccoli",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "brynza",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 17,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "soak-oats-oatmeal-broccoli-fritters",
+        "duration": 35,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "thaw-and-boil-broccoli-oatmeal-broccoli-fritters",
+        "duration": 8,
+        "showTimer": true,
+        "tags": [
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "drain-chop-blend-oatmeal-broccoli-fritters",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-and-mix-oatmeal-broccoli-fritters",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-fritters-oatmeal-broccoli-fritters",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "soak-oats-oatmeal-broccoli-fritters",
+        "en": {
+          "title": "Soak the oats",
+          "description": "Place the rolled oats in a small bowl and pour boiling water over them until they are covered by about 1 cm. Let them soak for 30–40 minutes until softened and cooled."
+        }
+      },
+      {
+        "id": "thaw-and-boil-broccoli-oatmeal-broccoli-fritters",
+        "en": {
+          "title": "Thaw and boil the broccoli",
+          "description": "Pour hot water over the broccoli and let it sit for 3 minutes to thaw. Then transfer to a small pot, add water and salt, and boil for 5 minutes."
+        }
+      },
+      {
+        "id": "drain-chop-blend-oatmeal-broccoli-fritters",
+        "en": {
+          "title": "Drain, chop and blend",
+          "description": "Drain the broccoli in a colander and let it cool. Peel and roughly chop the onion. Transfer the broccoli and onion to a blender and pulse until finely chopped into a vegetable crumb."
+        }
+      },
+      {
+        "id": "combine-and-mix-oatmeal-broccoli-fritters",
+        "en": {
+          "title": "Combine and mix",
+          "description": "Add the soaked oats to the broccoli-onion mixture, crack in the egg, crumble the brynza cheese with your hands, and season with salt and pepper. Mix thoroughly."
+        }
+      },
+      {
+        "id": "fry-fritters-oatmeal-broccoli-fritters",
+        "en": {
+          "title": "Fry the fritters",
+          "description": "Heat vegetable oil in a frying pan over medium heat. Drop spoonfuls of the batter into the pan, shaping them into small fritters. Fry for 3 minutes on each side until golden brown."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "soak-oats-oatmeal-broccoli-fritters",
+        "en": {
+          "title": "Soak oats"
+        }
+      },
+      {
+        "id": "blanch-broccoli-oatmeal-broccoli-fritters",
+        "en": {
+          "title": "Blanch broccoli"
+        }
+      },
+      {
+        "id": "make-batter-oatmeal-broccoli-fritters",
+        "en": {
+          "title": "Make batter"
+        }
+      },
+      {
+        "id": "fry-fritters-oatmeal-broccoli-fritters",
+        "en": {
+          "title": "Fry fritters"
+        }
+      }
+    ]
+  }
+]

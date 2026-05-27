@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cornmeal-casserole",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExMi80TlJvUWEuanBlZw.webp",
+    "title": {
+      "en": "Cornmeal Casserole"
+    },
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "gluten-free",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "pots",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "cook-cornmeal-cornmeal-casserole",
+        "minutes": 20
+      },
+      {
+        "stepId": "prepare-filling-cornmeal-casserole",
+        "minutes": 5
+      },
+      {
+        "stepId": "bake-casserole-cornmeal-casserole",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "cornmeal",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 150,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 50,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "carrots",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "apple",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "soak-cornmeal-cornmeal-casserole",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "drain-and-add-water-cornmeal-casserole",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "boil-and-cook-cornmeal-cornmeal-casserole",
+        "duration": 15,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "add-milk-and-cook-cornmeal-casserole",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "remove-and-cool-cornmeal-casserole",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grate-apple-and-carrot-cornmeal-casserole",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-filling-cornmeal-casserole",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whisk-egg-cornmeal-casserole",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-egg-with-cornmeal-cornmeal-casserole",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grease-dish-cornmeal-casserole",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-half-cornmeal-cornmeal-casserole",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-filling-cornmeal-casserole",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "top-with-remaining-cornmeal-cornmeal-casserole",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-cornmeal-casserole",
+        "duration": 20,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "soak-cornmeal-cornmeal-casserole",
+        "en": {
+          "title": "Soak the cornmeal",
+          "description": "Pour 200 ml of water over the cornmeal and leave it for 4 hours. This softens the grain for faster cooking."
+        }
+      },
+      {
+        "id": "drain-and-add-water-cornmeal-casserole",
+        "en": {
+          "title": "Drain and add remaining water",
+          "description": "Drain the soaked cornmeal, then add the remaining 100 ml of water. Place the pot on the stove."
+        }
+      },
+      {
+        "id": "boil-and-cook-cornmeal-cornmeal-casserole",
+        "en": {
+          "title": "Boil and cook the cornmeal",
+          "description": "Bring the water to a boil, then cook the cornmeal for 15 minutes over medium heat. Stir occasionally."
+        }
+      },
+      {
+        "id": "add-milk-and-cook-cornmeal-casserole",
+        "en": {
+          "title": "Add milk and cook until tender",
+          "description": "Pour in the milk and continue cooking the porridge until it reaches the desired consistency. Stir gently to prevent lumps."
+        }
+      },
+      {
+        "id": "remove-and-cool-cornmeal-casserole",
+        "en": {
+          "title": "Remove from heat and cool",
+          "description": "Take the pot off the stove and let the cornmeal porridge cool down slightly."
+        }
+      },
+      {
+        "id": "grate-apple-and-carrot-cornmeal-casserole",
+        "en": {
+          "title": "Grate the apple and carrot",
+          "description": "Peel and grate the apple and carrot on a coarse grater."
+        }
+      },
+      {
+        "id": "combine-filling-cornmeal-casserole",
+        "en": {
+          "title": "Combine the filling",
+          "description": "In a bowl, mix the grated apple and carrot. Sprinkle with sugar and stir."
+        }
+      },
+      {
+        "id": "whisk-egg-cornmeal-casserole",
+        "en": {
+          "title": "Whisk the egg",
+          "description": "Beat the egg in a clean bowl until frothy."
+        }
+      },
+      {
+        "id": "mix-egg-with-cornmeal-cornmeal-casserole",
+        "en": {
+          "title": "Mix egg into the cornmeal",
+          "description": "Pour half of the beaten egg into the cooled cornmeal porridge. Add salt and vanilla. Mix well."
+        }
+      },
+      {
+        "id": "grease-dish-cornmeal-casserole",
+        "en": {
+          "title": "Grease the baking dish",
+          "description": "Grease a baking dish with butter to prevent sticking."
+        }
+      },
+      {
+        "id": "spread-half-cornmeal-cornmeal-casserole",
+        "en": {
+          "title": "Spread half the cornmeal mixture",
+          "description": "Spoon half of the cornmeal porridge into the dish and spread it evenly."
+        }
+      },
+      {
+        "id": "add-filling-cornmeal-casserole",
+        "en": {
+          "title": "Add the apple-carrot filling",
+          "description": "Distribute the fruit and vegetable filling evenly over the cornmeal layer."
+        }
+      },
+      {
+        "id": "top-with-remaining-cornmeal-cornmeal-casserole",
+        "en": {
+          "title": "Top with remaining cornmeal",
+          "description": "Cover the filling with the rest of the cornmeal porridge and drizzle the remaining beaten egg on top."
+        }
+      },
+      {
+        "id": "bake-cornmeal-casserole",
+        "en": {
+          "title": "Bake the casserole",
+          "description": "Preheat the oven to 200°C. Bake the casserole for 15–20 minutes until the top is golden brown."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "cook-cornmeal-cornmeal-casserole",
+        "en": {
+          "title": "Cook the cornmeal"
+        }
+      },
+      {
+        "id": "prepare-filling-cornmeal-casserole",
+        "en": {
+          "title": "Prepare the filling"
+        }
+      },
+      {
+        "id": "bake-casserole-cornmeal-casserole",
+        "en": {
+          "title": "Bake the casserole"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "japanese-rice-porridge-egg",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyOC80VGV0TnUuanBlZw.webp",
+    "title": {
+      "en": "Japanese Rice Porridge with Egg"
+    },
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "tags": [
+      "hearty",
+      "creamy"
+    ],
+    "kitchen": [
+      "stove",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "cook-rice-japanese-rice-porridge-egg",
+        "minutes": 15
+      },
+      {
+        "stepId": "simmer-porridge-japanese-rice-porridge-egg",
+        "minutes": 11
+      },
+      {
+        "stepId": "add-eggs-japanese-rice-porridge-egg",
+        "minutes": 4
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "rice",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dashi",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sake",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mirin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "nori",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "green-onion",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "boil-rice-japanese-rice-porridge-egg",
+        "duration": 15,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "boil-broth-japanese-rice-porridge-egg",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "add-rice-japanese-rice-porridge-egg",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-seasonings-japanese-rice-porridge-egg",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "simmer-porridge-japanese-rice-porridge-egg",
+        "duration": 4,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "whisk-eggs-japanese-rice-porridge-egg",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-eggs-japanese-rice-porridge-egg",
+        "duration": 1,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "dont-overcook"
+        ]
+      },
+      {
+        "stepId": "stir-porridge-japanese-rice-porridge-egg",
+        "duration": 1,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "boil-rice-japanese-rice-porridge-egg",
+        "en": {
+          "title": "Boil the rice",
+          "description": "Bring a pot of salted water to a boil. Add the rice and cook until tender. Drain the rice in a sieve and set aside."
+        }
+      },
+      {
+        "id": "boil-broth-japanese-rice-porridge-egg",
+        "en": {
+          "title": "Boil the dashi broth",
+          "description": "Pour the dashi broth into a pot and bring to a boil over medium heat."
+        }
+      },
+      {
+        "id": "add-rice-japanese-rice-porridge-egg",
+        "en": {
+          "title": "Add the cooked rice",
+          "description": "Add the drained rice to the boiling broth."
+        }
+      },
+      {
+        "id": "add-seasonings-japanese-rice-porridge-egg",
+        "en": {
+          "title": "Add the seasonings",
+          "description": "Stir in the mirin, sake, and light soy sauce."
+        }
+      },
+      {
+        "id": "simmer-porridge-japanese-rice-porridge-egg",
+        "en": {
+          "title": "Simmer the porridge",
+          "description": "Reduce the heat to low and cover the pot, leaving a small gap. Simmer until the porridge reaches your desired consistency."
+        }
+      },
+      {
+        "id": "whisk-eggs-japanese-rice-porridge-egg",
+        "en": {
+          "title": "Whisk the eggs",
+          "description": "In a small bowl, whisk the eggs until uniform."
+        }
+      },
+      {
+        "id": "add-eggs-japanese-rice-porridge-egg",
+        "en": {
+          "title": "Add the eggs",
+          "description": "Pour the whisked eggs into the porridge without stirring. Cook for 20-30 seconds over low heat."
+        }
+      },
+      {
+        "id": "stir-porridge-japanese-rice-porridge-egg",
+        "en": {
+          "title": "Stir and serve",
+          "description": "Stir the porridge gently to distribute the eggs evenly. Remove from heat and serve immediately."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "cook-rice-japanese-rice-porridge-egg",
+        "en": {
+          "title": "Cook the rice"
+        }
+      },
+      {
+        "id": "simmer-porridge-japanese-rice-porridge-egg",
+        "en": {
+          "title": "Simmer the porridge"
+        }
+      },
+      {
+        "id": "add-eggs-japanese-rice-porridge-egg",
+        "en": {
+          "title": "Add the eggs"
+        }
+      }
+    ]
+  }
+]

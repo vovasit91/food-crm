@@ -1,0 +1,217 @@
+[
+  {
+    "id": "okonomiyaki",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyMi9UUmVNQ3ouanBlZw.webp",
+    "title": {
+      "en": "Okonomiyaki"
+    },
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "vegetarian",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-batter-okonomiyaki",
+        "minutes": 10
+      },
+      {
+        "stepId": "cook-first-patty-okonomiyaki",
+        "minutes": 15
+      },
+      {
+        "stepId": "cook-second-patty-okonomiyaki",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "cabbage",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "carrots",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "potatoes",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "quantity": 37.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pickled-ginger",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "prep-vegetables-okonomiyaki",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "make-batter-okonomiyaki",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-first-side-first-patty-okonomiyaki",
+        "duration": 13,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-second-side-first-patty-okonomiyaki",
+        "duration": 11,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-first-side-second-patty-okonomiyaki",
+        "duration": 13,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-second-side-second-patty-okonomiyaki",
+        "duration": 11,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "prep-vegetables-okonomiyaki",
+        "en": {
+          "title": "Grate and shred the vegetables",
+          "description": "Finely grate the potato and carrot into a bowl. Shred the cabbage, bell pepper, and pickled ginger, and add them to the same bowl."
+        }
+      },
+      {
+        "id": "make-batter-okonomiyaki",
+        "en": {
+          "title": "Mix the batter",
+          "description": "Crack the eggs into the bowl with the vegetables, add soy sauce, and mix well. Gradually add the flour while stirring continuously until a thick batter forms."
+        }
+      },
+      {
+        "id": "cook-first-side-first-patty-okonomiyaki",
+        "en": {
+          "title": "Cook the first patty, first side",
+          "description": "Grease a frying pan with sunflower oil and heat over medium heat. Form half of the batter into a flat, round patty about 1 cm thick and 12–15 cm in diameter. Place it in the pan, cover with a lid, and cook for 12–15 minutes until the bottom is golden and crispy."
+        }
+      },
+      {
+        "id": "cook-second-side-first-patty-okonomiyaki",
+        "en": {
+          "title": "Flip and cook the first patty, second side",
+          "description": "Flip the patty carefully, cover again, and cook for another 10–12 minutes. Transfer the cooked patty to a plate."
+        }
+      },
+      {
+        "id": "cook-first-side-second-patty-okonomiyaki",
+        "en": {
+          "title": "Cook the second patty, first side",
+          "description": "Using the remaining batter, form another patty of the same size. Place it in the hot pan, cover, and cook for 12–15 minutes on the first side."
+        }
+      },
+      {
+        "id": "cook-second-side-second-patty-okonomiyaki",
+        "en": {
+          "title": "Flip and cook the second patty, second side",
+          "description": "Flip the second patty, cover, and cook for 10–12 minutes. Remove to the plate and serve."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-batter-okonomiyaki",
+        "en": {
+          "title": "Prepare the batter"
+        }
+      },
+      {
+        "id": "cook-first-patty-okonomiyaki",
+        "en": {
+          "title": "Cook the first okonomiyaki patty"
+        }
+      },
+      {
+        "id": "cook-second-patty-okonomiyaki",
+        "en": {
+          "title": "Cook the second okonomiyaki patty"
+        }
+      }
+    ]
+  }
+]

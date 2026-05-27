@@ -1,0 +1,240 @@
+[
+  {
+    "id": "orzo-pasta-chicken-creamy-sauce",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDIzMTE4MC90M1l2eWYuanBlZw.webp",
+    "title": {
+      "en": "Orzo Pasta with Chicken in Creamy Sauce"
+    },
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "tags": [
+      "creamy",
+      "hearty",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "fry-chicken-and-garlic-orzo-pasta-chicken-creamy-sauce",
+        "minutes": 10
+      },
+      {
+        "stepId": "cook-pasta-with-chicken-orzo-pasta-chicken-creamy-sauce",
+        "minutes": 15
+      },
+      {
+        "stepId": "simmer-cream-and-cheese-orzo-pasta-chicken-creamy-sauce",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "quantity": 65,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "whole-chicken",
+        "quantity": 375,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pasta",
+        "quantity": 65,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "light-cream",
+        "quantity": 50,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cheese",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "spices",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 1,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "sauté-garlic-add-chicken-orzo-pasta-chicken-creamy-sauce",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "fry-chicken-orzo-pasta-chicken-creamy-sauce",
+        "duration": 8,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "transfer-chicken-orzo-pasta-chicken-creamy-sauce",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-pasta-water-orzo-pasta-chicken-creamy-sauce",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "return-chicken-orzo-pasta-chicken-creamy-sauce",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-cream-orzo-pasta-chicken-creamy-sauce",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-spices-orzo-pasta-chicken-creamy-sauce",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-cheese-orzo-pasta-chicken-creamy-sauce",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "simmer-sauce-orzo-pasta-chicken-creamy-sauce",
+        "duration": 22,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "sauté-garlic-add-chicken-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Sauté garlic and add chicken",
+          "description": "Heat sunflower oil in a frying pan over medium heat. Add the garlic and cook until fragrant, then add the chicken pieces."
+        }
+      },
+      {
+        "id": "fry-chicken-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Fry the chicken",
+          "description": "Cook the chicken until golden brown and cooked through, about 8 minutes. Adjust heat as needed to avoid burning."
+        }
+      },
+      {
+        "id": "transfer-chicken-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Transfer the chicken to a plate",
+          "description": "Remove the cooked chicken from the pan and set it aside on a plate."
+        }
+      },
+      {
+        "id": "add-pasta-water-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Add pasta and water",
+          "description": "Place the orzo pasta into the same pan and pour in about 65 ml of water. Stir to combine."
+        }
+      },
+      {
+        "id": "return-chicken-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Return the chicken to the pan",
+          "description": "Add the cooked chicken back into the pan with the pasta and water."
+        }
+      },
+      {
+        "id": "add-cream-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Pour in the cream",
+          "description": "Add the light cream to the pan and stir to incorporate."
+        }
+      },
+      {
+        "id": "add-spices-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Add spices",
+          "description": "Season with your choice of spices to taste, such as salt, pepper, or Italian herbs."
+        }
+      },
+      {
+        "id": "add-cheese-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Sprinkle cheese",
+          "description": "Grate or sprinkle the cheese over the mixture."
+        }
+      },
+      {
+        "id": "simmer-sauce-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Simmer until thickened",
+          "description": "Lower the heat and let the sauce simmer gently until it thickens and the pasta is tender, about 22 minutes. Stir occasionally to prevent sticking."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "fry-chicken-and-garlic-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Fry chicken and garlic"
+        }
+      },
+      {
+        "id": "cook-pasta-with-chicken-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Cook pasta with chicken"
+        }
+      },
+      {
+        "id": "simmer-cream-and-cheese-orzo-pasta-chicken-creamy-sauce",
+        "en": {
+          "title": "Simmer with cream and cheese"
+        }
+      }
+    ]
+  }
+]

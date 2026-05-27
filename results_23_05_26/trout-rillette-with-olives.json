@@ -1,0 +1,221 @@
+[
+  {
+    "id": "trout-rillette-with-olives",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIxNC94aU5ZdjMuanBlZw.webp",
+    "title": {
+      "en": "Trout Rillette with Olives"
+    },
+    "timeMinutes": 95,
+    "difficulty": "medium",
+    "tags": [
+      "hearty",
+      "meal-prep"
+    ],
+    "kitchen": [
+      "stove",
+      "pots",
+      "frying-pan",
+      "microwave"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "poach-trout-trout-rillette-with-olives",
+        "minutes": 10
+      },
+      {
+        "stepId": "prepare-mixture-trout-rillette-with-olives",
+        "minutes": 20
+      },
+      {
+        "stepId": "chill-rillette-trout-rillette-with-olives",
+        "minutes": 60
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "trout",
+        "quantity": 125,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "white-wine",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 38,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olives",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "orange-zest",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bread",
+        "quantity": null,
+        "unit": null,
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "poach-trout-trout-rillette-with-olives",
+        "duration": 7,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "dont-overcook"
+        ]
+      },
+      {
+        "stepId": "shred-trout-trout-rillette-with-olives",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-olives-trout-rillette-with-olives",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "melt-butter-trout-rillette-with-olives",
+        "duration": 3,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "saute-zest-trout-rillette-with-olives",
+        "duration": 1,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "combine-ingredients-trout-rillette-with-olives",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chill-rillette-trout-rillette-with-olives",
+        "duration": 60,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "poach-trout-trout-rillette-with-olives",
+        "en": {
+          "title": "Poach the trout",
+          "description": "Place the whole trout fillet in a saucepan and pour in the white wine. Set over medium heat and bring to a boil. Reduce heat to low, cover, and simmer for 5–7 minutes until the fish is cooked through."
+        }
+      },
+      {
+        "id": "shred-trout-trout-rillette-with-olives",
+        "en": {
+          "title": "Shred the trout",
+          "description": "Transfer the poached trout to a plate and remove the skin. Use a fork to break the flesh into small flakes."
+        }
+      },
+      {
+        "id": "chop-olives-trout-rillette-with-olives",
+        "en": {
+          "title": "Chop the olives",
+          "description": "Roughly chop the olives into rings."
+        }
+      },
+      {
+        "id": "melt-butter-trout-rillette-with-olives",
+        "en": {
+          "title": "Melt the butter",
+          "description": "Place the butter in a microwave-safe bowl. Melt it in 2–3 intervals of 30–40 seconds each, then let it cool slightly."
+        }
+      },
+      {
+        "id": "saute-zest-trout-rillette-with-olives",
+        "en": {
+          "title": "Sauté the orange zest",
+          "description": "Heat olive oil in a skillet over medium heat. Add the orange zest and sauté for about 1 minute until fragrant."
+        }
+      },
+      {
+        "id": "combine-ingredients-trout-rillette-with-olives",
+        "en": {
+          "title": "Combine all ingredients",
+          "description": "In a large bowl, mix together the shredded trout, chopped olives, and sautéed orange zest. Pour in the melted butter, add salt and pepper, and stir until well combined."
+        }
+      },
+      {
+        "id": "chill-rillette-trout-rillette-with-olives",
+        "en": {
+          "title": "Chill the rillette",
+          "description": "Transfer the mixture to a container or small bowl. Cover with plastic wrap and refrigerate for at least 1 hour before serving."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "poach-trout-trout-rillette-with-olives",
+        "en": {
+          "title": "Poach the trout"
+        }
+      },
+      {
+        "id": "prepare-mixture-trout-rillette-with-olives",
+        "en": {
+          "title": "Prepare the rillette mixture"
+        }
+      },
+      {
+        "id": "chill-rillette-trout-rillette-with-olives",
+        "en": {
+          "title": "Chill the rillette"
+        }
+      }
+    ]
+  }
+]

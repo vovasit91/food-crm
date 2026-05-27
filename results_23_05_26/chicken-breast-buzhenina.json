@@ -1,0 +1,199 @@
+[
+  {
+    "id": "chicken-breast-buzhenina",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTEwOS9wU2R6UW8uanBlZw.webp",
+    "title": {
+      "en": "Chicken Breast Buzhenina"
+    },
+    "timeMinutes": 180,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "spicy",
+      "hearty",
+      "meal-prep",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-seasoning-chicken-breast-buzhenina",
+        "minutes": 5
+      },
+      {
+        "stepId": "bake-chicken-chicken-breast-buzhenina",
+        "minutes": 30
+      },
+      {
+        "stepId": "chill-chicken-chicken-breast-buzhenina",
+        "minutes": 145
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "chicken-breast",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chili-flakes",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "paprika",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "olive-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mustard",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-spices-chicken-breast-buzhenina",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-oil-chicken-breast-buzhenina",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "coat-chicken-chicken-breast-buzhenina",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "wrap-and-bake-chicken-breast-buzhenina",
+        "duration": 30,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "cool-chicken-chicken-breast-buzhenina",
+        "duration": 15,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "refrigerate-chicken-chicken-breast-buzhenina",
+        "duration": 120,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-spices-chicken-breast-buzhenina",
+        "en": {
+          "title": "Mix spices",
+          "description": "Combine all dry spices in a small bowl and stir together."
+        }
+      },
+      {
+        "id": "add-oil-chicken-breast-buzhenina",
+        "en": {
+          "title": "Add olive oil",
+          "description": "Pour in the olive oil and mix until a paste forms."
+        }
+      },
+      {
+        "id": "coat-chicken-chicken-breast-buzhenina",
+        "en": {
+          "title": "Coat the chicken",
+          "description": "Generously rub the spice paste all over the chicken fillet."
+        }
+      },
+      {
+        "id": "wrap-and-bake-chicken-breast-buzhenina",
+        "en": {
+          "title": "Wrap and bake",
+          "description": "Wrap the chicken tightly in foil, place in a baking dish, and bake in a preheated oven at 170°C for 30 minutes."
+        }
+      },
+      {
+        "id": "cool-chicken-chicken-breast-buzhenina",
+        "en": {
+          "title": "Cool the chicken",
+          "description": "Remove the baked chicken from the oven, unwrap, and let it cool completely."
+        }
+      },
+      {
+        "id": "refrigerate-chicken-chicken-breast-buzhenina",
+        "en": {
+          "title": "Refrigerate",
+          "description": "Once cooled, wrap the chicken in fresh foil and refrigerate for at least 2 hours before serving."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-seasoning-chicken-breast-buzhenina",
+        "en": {
+          "title": "Prepare seasoning and coat chicken"
+        }
+      },
+      {
+        "id": "bake-chicken-chicken-breast-buzhenina",
+        "en": {
+          "title": "Bake wrapped chicken"
+        }
+      },
+      {
+        "id": "chill-chicken-chicken-breast-buzhenina",
+        "en": {
+          "title": "Cool and refrigerate"
+        }
+      }
+    ]
+  }
+]

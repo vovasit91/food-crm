@@ -1,0 +1,176 @@
+[
+  {
+    "id": "egg-sandwich",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyOC80SGFzQVEuanBlZw.webp",
+    "title": {
+      "en": "Egg Sandwich"
+    },
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "creamy",
+      "meal-prep"
+    ],
+    "kitchen": [
+      "stove",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "boil-eggs-phase-egg-sandwich",
+        "minutes": 13
+      },
+      {
+        "stepId": "prepare-filling-phase-egg-sandwich",
+        "minutes": 4
+      },
+      {
+        "stepId": "assemble-sandwiches-phase-egg-sandwich",
+        "minutes": 3
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "eggs",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bread",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "boil-eggs-egg-sandwich",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cool-and-peel-eggs-egg-sandwich",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "separate-yolks-and-whites-egg-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mash-yolks-with-mayo-egg-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-whites-and-mix-egg-sandwich",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-sandwiches-egg-sandwich",
+        "duration": 4,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "boil-eggs-egg-sandwich",
+        "en": {
+          "title": "Boil the eggs",
+          "description": "Place the eggs in a pot, cover with cold water, and bring to a boil over medium heat. Boil for exactly 10 minutes."
+        }
+      },
+      {
+        "id": "cool-and-peel-eggs-egg-sandwich",
+        "en": {
+          "title": "Cool and peel the eggs",
+          "description": "Transfer the boiled eggs to a bowl of cold water to cool. Once cool enough to handle, peel the eggs."
+        }
+      },
+      {
+        "id": "separate-yolks-and-whites-egg-sandwich",
+        "en": {
+          "title": "Separate yolks and whites",
+          "description": "Cut each egg in half. Separate the yolks and whites into two separate bowls."
+        }
+      },
+      {
+        "id": "mash-yolks-with-mayo-egg-sandwich",
+        "en": {
+          "title": "Mash yolks with mayonnaise",
+          "description": "Add mayonnaise, salt, and pepper to the yolks. Mash with a fork until smooth and creamy."
+        }
+      },
+      {
+        "id": "chop-whites-and-mix-egg-sandwich",
+        "en": {
+          "title": "Chop whites and mix",
+          "description": "Chop the egg whites into small pieces. Add them to the yolk mixture and stir well to combine."
+        }
+      },
+      {
+        "id": "assemble-sandwiches-egg-sandwich",
+        "en": {
+          "title": "Assemble the sandwiches",
+          "description": "Spread the egg filling onto two slices of bread. Top with the remaining slices and press gently. Repeat for the second sandwich."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "boil-eggs-phase-egg-sandwich",
+        "en": {
+          "title": "Boil Eggs"
+        }
+      },
+      {
+        "id": "prepare-filling-phase-egg-sandwich",
+        "en": {
+          "title": "Prepare Filling"
+        }
+      },
+      {
+        "id": "assemble-sandwiches-phase-egg-sandwich",
+        "en": {
+          "title": "Assemble Sandwiches"
+        }
+      }
+    ]
+  }
+]

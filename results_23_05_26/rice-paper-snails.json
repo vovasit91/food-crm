@@ -1,0 +1,342 @@
+[
+  {
+    "id": "rice-paper-snails",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEwNC80NTZVTm8uanBlZw.webp",
+    "title": {
+      "en": "Rice Paper Snails"
+    },
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-filling-rice-paper-snails",
+        "minutes": 10
+      },
+      {
+        "stepId": "assemble-rolls-rice-paper-snails",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-rice-paper-snails",
+        "minutes": 20
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "rice-paper",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tvorog",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 12,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 14,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "spinach",
+        "quantity": 12,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "green-onion",
+        "quantity": 5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "italian-herbs",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "egg-yolk",
+        "quantity": 3,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "basil",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mash-tvorog-rice-paper-snails",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-egg-mix-rice-paper-snails",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grate-cheese-rice-paper-snails",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-spinach-onion-rice-paper-snails",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dice-bell-pepper-rice-paper-snails",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-filling-rice-paper-snails",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-water-container-rice-paper-snails",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dip-first-sheet-rice-paper-snails",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dip-second-sheet-overlap-rice-paper-snails",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-filling-on-sheet-rice-paper-snails",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "roll-tightly-rice-paper-snails",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "shape-snail-and-transfer-rice-paper-snails",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "brush-with-yolk-rice-paper-snails",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-rice-paper-snails",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "bake-rice-paper-snails",
+        "duration": 20,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mash-tvorog-rice-paper-snails",
+        "en": {
+          "title": "Mash the tvorog",
+          "description": "Place the tvorog in a bowl and mash it with a fork until smooth."
+        }
+      },
+      {
+        "id": "add-egg-mix-rice-paper-snails",
+        "en": {
+          "title": "Add egg and seasonings",
+          "description": "Crack the egg into the mashed tvorog, add salt and dried basil, then mix thoroughly until combined."
+        }
+      },
+      {
+        "id": "grate-cheese-rice-paper-snails",
+        "en": {
+          "title": "Grate the cheese",
+          "description": "Grate the hard cheese on a fine grater."
+        }
+      },
+      {
+        "id": "chop-spinach-onion-rice-paper-snails",
+        "en": {
+          "title": "Chop spinach and green onion",
+          "description": "Finely chop the spinach and green onion."
+        }
+      },
+      {
+        "id": "dice-bell-pepper-rice-paper-snails",
+        "en": {
+          "title": "Dice the bell pepper",
+          "description": "Cut the red bell pepper into small squares."
+        }
+      },
+      {
+        "id": "combine-filling-rice-paper-snails",
+        "en": {
+          "title": "Combine all filling ingredients",
+          "description": "Add the grated cheese, chopped spinach, green onion, and diced bell pepper to the tvorog mixture. Stir until evenly distributed."
+        }
+      },
+      {
+        "id": "pour-water-container-rice-paper-snails",
+        "en": {
+          "title": "Prepare water for softening rice paper",
+          "description": "Pour water into a wide container or deep plate."
+        }
+      },
+      {
+        "id": "dip-first-sheet-rice-paper-snails",
+        "en": {
+          "title": "Dip first rice paper sheet",
+          "description": "Immerse one sheet of rice paper in water for 5–10 seconds until it softens, then place it on a cutting board."
+        }
+      },
+      {
+        "id": "dip-second-sheet-overlap-rice-paper-snails",
+        "en": {
+          "title": "Add second sheet and overlap",
+          "description": "Dip a second sheet of rice paper and place it slightly overlapping the first sheet to form a larger rectangle."
+        }
+      },
+      {
+        "id": "place-filling-on-sheet-rice-paper-snails",
+        "en": {
+          "title": "Portion the filling",
+          "description": "Place one-fifth of the filling along the edge of the combined rice paper sheet."
+        }
+      },
+      {
+        "id": "roll-tightly-rice-paper-snails",
+        "en": {
+          "title": "Roll tightly",
+          "description": "Roll the rice paper over the filling, pressing gently to form a tight log."
+        }
+      },
+      {
+        "id": "shape-snail-and-transfer-rice-paper-snails",
+        "en": {
+          "title": "Shape into snails and transfer to baking sheet",
+          "description": "Coil the rolled log into a spiral (snail shape), pinch the edge to seal, and place on a parchment-covered baking sheet. Repeat for all remaining rolls."
+        }
+      },
+      {
+        "id": "brush-with-yolk-rice-paper-snails",
+        "en": {
+          "title": "Brush with egg yolk",
+          "description": "Beat the egg yolk and brush it over the tops of the snails for a golden finish."
+        }
+      },
+      {
+        "id": "preheat-oven-rice-paper-snails",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 200°C (400°F)."
+        }
+      },
+      {
+        "id": "bake-rice-paper-snails",
+        "en": {
+          "title": "Bake until crispy",
+          "description": "Bake the snails in the preheated oven for 20–25 minutes, until the rice paper is golden and crispy."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-filling-rice-paper-snails",
+        "en": {
+          "title": "Prepare the filling"
+        }
+      },
+      {
+        "id": "assemble-rolls-rice-paper-snails",
+        "en": {
+          "title": "Assemble the rolls"
+        }
+      },
+      {
+        "id": "bake-rice-paper-snails",
+        "en": {
+          "title": "Bake the snails"
+        }
+      }
+    ]
+  }
+]

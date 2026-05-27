@@ -1,0 +1,429 @@
+[
+  {
+    "id": "danish-with-nectarines",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyNi8zZ1ZkZ1MuanBlZw",
+    "title": {
+      "en": "Danish with Nectarines"
+    },
+    "timeMinutes": 35,
+    "difficulty": "hard",
+    "tags": [
+      "baked",
+      "creamy",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-filling-danish-with-nectarines",
+        "minutes": 10
+      },
+      {
+        "stepId": "roll-cut-pastry-danish-with-nectarines",
+        "minutes": 5
+      },
+      {
+        "stepId": "assemble-danishes-danish-with-nectarines",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-danishes-danish-with-nectarines",
+        "minutes": 20
+      },
+      {
+        "stepId": "prepare-glaze-danish-with-nectarines",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "puff-pastry",
+        "quantity": 42,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "nectarines",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 19,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 8,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 3,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "almonds",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 2.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "powdered-sugar",
+        "quantity": 12,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 3,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "preheat-oven-danish-with-nectarines",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "slice-nectarines-danish-with-nectarines",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-nectarines-danish-with-nectarines",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "separate-egg-danish-with-nectarines",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-filling-danish-with-nectarines",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "beat-filling-danish-with-nectarines",
+        "duration": 3,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "dust-counter-danish-with-nectarines",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "roll-pastry-danish-with-nectarines",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cut-pastry-danish-with-nectarines",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-on-tray-danish-with-nectarines",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "make-slits-danish-with-nectarines",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-filling-danish-with-nectarines",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "arrange-nectarines-danish-with-nectarines",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-egg-wash-danish-with-nectarines",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "brush-egg-wash-danish-with-nectarines",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "sprinkle-almonds-danish-with-nectarines",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-danish-with-nectarines",
+        "duration": 20,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "make-glaze-danish-with-nectarines",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "drizzle-glaze-danish-with-nectarines",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "preheat-oven-danish-with-nectarines",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Set your oven to preheat to 200°C. This ensures it reaches the right temperature for baking the danishes."
+        }
+      },
+      {
+        "id": "slice-nectarines-danish-with-nectarines",
+        "en": {
+          "title": "Slice the nectarines",
+          "description": "Cut the nectarines into thin slices. Place them in a bowl."
+        }
+      },
+      {
+        "id": "mix-nectarines-danish-with-nectarines",
+        "en": {
+          "title": "Mix nectarines with flour and cinnamon",
+          "description": "Add 1 tbsp flour and cinnamon to the sliced nectarines. Gently toss to coat evenly."
+        }
+      },
+      {
+        "id": "separate-egg-danish-with-nectarines",
+        "en": {
+          "title": "Separate the egg",
+          "description": "Crack one egg and separate the yolk from the white. Keep the yolk for the filling."
+        }
+      },
+      {
+        "id": "combine-filling-danish-with-nectarines",
+        "en": {
+          "title": "Combine filling ingredients",
+          "description": "In a clean bowl, mix the egg yolk, cream cheese, sugar, a pinch of salt, and lemon juice."
+        }
+      },
+      {
+        "id": "beat-filling-danish-with-nectarines",
+        "en": {
+          "title": "Beat the filling",
+          "description": "Using a mixer on medium speed, beat the mixture for 2–3 minutes until it becomes smooth and fluffy."
+        }
+      },
+      {
+        "id": "dust-counter-danish-with-nectarines",
+        "en": {
+          "title": "Dust the counter with flour",
+          "description": "Lightly dust your work surface with about 1 tbsp of flour to prevent sticking."
+        }
+      },
+      {
+        "id": "roll-pastry-danish-with-nectarines",
+        "en": {
+          "title": "Roll out the puff pastry",
+          "description": "Place the puff pastry on the floured surface. Roll it gently to a thickness of 4–5 mm, smoothing out any creases."
+        }
+      },
+      {
+        "id": "cut-pastry-danish-with-nectarines",
+        "en": {
+          "title": "Cut the pastry into rectangles",
+          "description": "Slice the rolled pastry into 6 equal rectangles."
+        }
+      },
+      {
+        "id": "place-on-tray-danish-with-nectarines",
+        "en": {
+          "title": "Place rectangles on a baking tray",
+          "description": "Arrange the pastry rectangles on a baking tray lined with parchment paper."
+        }
+      },
+      {
+        "id": "make-slits-danish-with-nectarines",
+        "en": {
+          "title": "Make slits along the edges",
+          "description": "With a knife, cut small slits about 5–6 mm long along the edges of each rectangle, spacing them evenly."
+        }
+      },
+      {
+        "id": "spread-filling-danish-with-nectarines",
+        "en": {
+          "title": "Spread the filling",
+          "description": "Using a spoon, spread the cream cheese mixture over the center of each rectangle, leaving the slit edges bare."
+        }
+      },
+      {
+        "id": "arrange-nectarines-danish-with-nectarines",
+        "en": {
+          "title": "Arrange nectarine slices",
+          "description": "Place the sliced nectarines on top of the cream cheese filling."
+        }
+      },
+      {
+        "id": "prepare-egg-wash-danish-with-nectarines",
+        "en": {
+          "title": "Prepare the egg wash",
+          "description": "Crack the remaining egg into a clean bowl and add 1 tbsp of milk. Whisk until combined."
+        }
+      },
+      {
+        "id": "brush-egg-wash-danish-with-nectarines",
+        "en": {
+          "title": "Brush the edges with egg wash",
+          "description": "Using a pastry brush, coat the exposed edges of each rectangle with the egg wash. This helps achieve a golden colour."
+        }
+      },
+      {
+        "id": "sprinkle-almonds-danish-with-nectarines",
+        "en": {
+          "title": "Sprinkle with almond flakes",
+          "description": "Evenly distribute almond flakes over the tops of the danishes."
+        }
+      },
+      {
+        "id": "bake-danish-with-nectarines",
+        "en": {
+          "title": "Bake the danishes",
+          "description": "Place the tray in the preheated oven. Bake at 200°C for 15–20 minutes, until golden and puffed."
+        }
+      },
+      {
+        "id": "make-glaze-danish-with-nectarines",
+        "en": {
+          "title": "Make the glaze",
+          "description": "In a small bowl, combine powdered sugar, 1 tbsp of milk, and a pinch of salt. Stir until smooth and lump-free."
+        }
+      },
+      {
+        "id": "drizzle-glaze-danish-with-nectarines",
+        "en": {
+          "title": "Drizzle glaze over baked danishes",
+          "description": "Once the danishes are out of the oven and slightly cool, drizzle the prepared glaze over them for a sweet finish."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-filling-danish-with-nectarines",
+        "en": {
+          "title": "Prepare the filling and nectarines"
+        }
+      },
+      {
+        "id": "roll-cut-pastry-danish-with-nectarines",
+        "en": {
+          "title": "Roll and cut the pastry"
+        }
+      },
+      {
+        "id": "assemble-danishes-danish-with-nectarines",
+        "en": {
+          "title": "Assemble the danishes"
+        }
+      },
+      {
+        "id": "bake-danishes-danish-with-nectarines",
+        "en": {
+          "title": "Bake the danishes"
+        }
+      },
+      {
+        "id": "prepare-glaze-danish-with-nectarines",
+        "en": {
+          "title": "Prepare the glaze and finish"
+        }
+      }
+    ]
+  }
+]

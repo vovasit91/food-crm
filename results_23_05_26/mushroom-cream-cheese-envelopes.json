@@ -1,0 +1,212 @@
+[
+  {
+    "id": "mushroom-cream-cheese-envelopes",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAxOC85aTQ4WlcuanBlZw.webp",
+    "title": {
+      "en": "Mushroom and Cream Cheese Envelopes"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "creamy",
+      "vegetarian",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-filling-mushroom-cream-cheese-envelopes",
+        "minutes": 5
+      },
+      {
+        "stepId": "cook-filling-mushroom-cream-cheese-envelopes",
+        "minutes": 10
+      },
+      {
+        "stepId": "assemble-envelopes-mushroom-cream-cheese-envelopes",
+        "minutes": 5
+      },
+      {
+        "stepId": "fry-envelopes-mushroom-cream-cheese-envelopes",
+        "minutes": 10
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "lavash",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mushrooms",
+        "quantity": 4,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 70,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "chop-vegetables-mushroom-cream-cheese-envelopes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-onion-mushroom-cream-cheese-envelopes",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "fry-mushrooms-mushroom-cream-cheese-envelopes",
+        "duration": 4,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "assemble-envelopes-mushroom-cream-cheese-envelopes",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "beat-eggs-mushroom-cream-cheese-envelopes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-envelopes-mushroom-cream-cheese-envelopes",
+        "duration": 8,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "chop-vegetables-mushroom-cream-cheese-envelopes",
+        "en": {
+          "title": "Chop the vegetables",
+          "description": "Cut the onion into small cubes, about 3–4 mm. Chop the mushrooms into slightly larger cubes."
+        }
+      },
+      {
+        "id": "fry-onion-mushroom-cream-cheese-envelopes",
+        "en": {
+          "title": "Fry the onion",
+          "description": "Heat 1 tablespoon of oil in a frying pan over medium heat. Fry the onion, stirring occasionally, for 2–3 minutes until golden brown."
+        }
+      },
+      {
+        "id": "fry-mushrooms-mushroom-cream-cheese-envelopes",
+        "en": {
+          "title": "Fry the mushrooms",
+          "description": "Add the chopped mushrooms to the pan with the onion. Cook together, stirring, for 3–4 minutes until the liquid evaporates and the mushrooms are lightly browned. Season with salt and pepper, stir, and remove from heat."
+        }
+      },
+      {
+        "id": "assemble-envelopes-mushroom-cream-cheese-envelopes",
+        "en": {
+          "title": "Assemble the envelopes",
+          "description": "Cut each lavash into 3 long strips. Spread cream cheese evenly over each strip. Place about 2 teaspoons of the mushroom filling in the center of each strip, then fold into triangular envelopes."
+        }
+      },
+      {
+        "id": "beat-eggs-mushroom-cream-cheese-envelopes",
+        "en": {
+          "title": "Beat the eggs",
+          "description": "Crack the eggs into a bowl and beat them with a fork until smooth."
+        }
+      },
+      {
+        "id": "fry-envelopes-mushroom-cream-cheese-envelopes",
+        "en": {
+          "title": "Fry the envelopes",
+          "description": "Add another tablespoon of oil to the pan and heat over medium heat. Dip each assembled envelope into the beaten egg, then fry for 2–3 minutes per side until golden brown."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-filling-mushroom-cream-cheese-envelopes",
+        "en": {
+          "title": "Prepare the filling"
+        }
+      },
+      {
+        "id": "cook-filling-mushroom-cream-cheese-envelopes",
+        "en": {
+          "title": "Cook the filling"
+        }
+      },
+      {
+        "id": "assemble-envelopes-mushroom-cream-cheese-envelopes",
+        "en": {
+          "title": "Assemble the envelopes"
+        }
+      },
+      {
+        "id": "fry-envelopes-mushroom-cream-cheese-envelopes",
+        "en": {
+          "title": "Fry the envelopes"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,216 @@
+[
+  {
+    "id": "syrniki-with-sun-dried-tomatoes",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyMS8zYUVCZksuanBlZw.webp",
+    "title": {
+      "en": "Syrniki with Sun-Dried Tomatoes"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-ingredients-phase-syrniki-with-sun-dried-tomatoes",
+        "minutes": 5
+      },
+      {
+        "stepId": "make-dough-phase-syrniki-with-sun-dried-tomatoes",
+        "minutes": 8
+      },
+      {
+        "stepId": "form-patties-phase-syrniki-with-sun-dried-tomatoes",
+        "minutes": 5
+      },
+      {
+        "stepId": "fry-syrniki-phase-syrniki-with-sun-dried-tomatoes",
+        "minutes": 12
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "tvorog",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "rice-flour",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 12.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sun-dried-tomatoes",
+        "quantity": 22.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "hard-cheese",
+        "quantity": 7.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parsley",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "basil",
+        "quantity": 1.75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 4.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "prep-ingredients-syrniki-with-sun-dried-tomatoes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-tvorog-mixture-syrniki-with-sun-dried-tomatoes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-dough-syrniki-with-sun-dried-tomatoes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "form-syrniki-patties-syrniki-with-sun-dried-tomatoes",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-syrniki-syrniki-with-sun-dried-tomatoes",
+        "duration": 12,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "low-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "prep-ingredients-syrniki-with-sun-dried-tomatoes",
+        "en": {
+          "title": "Prepare the herbs, cheese, and tomatoes",
+          "description": "Separate the parsley and basil leaves from the stems and finely chop them. Finely grate the hard cheese. Cut the sun-dried tomatoes into small pieces."
+        }
+      },
+      {
+        "id": "mix-tvorog-mixture-syrniki-with-sun-dried-tomatoes",
+        "en": {
+          "title": "Mix the tvorog, sour cream, and egg yolk",
+          "description": "In a bowl, combine the tvorog, sour cream, and egg yolk. Mix well, mashing the tvorog until smooth."
+        }
+      },
+      {
+        "id": "combine-dough-syrniki-with-sun-dried-tomatoes",
+        "en": {
+          "title": "Add the vegetables, cheese, and flour",
+          "description": "Add the chopped sun-dried tomatoes, herbs, grated hard cheese, salt, and black pepper to the tvorog mixture. Stir until combined. Gradually add 2-3 tablespoons of rice flour, adjusting the amount until the dough is slightly sticky but firm. Knead gently."
+        }
+      },
+      {
+        "id": "form-syrniki-patties-syrniki-with-sun-dried-tomatoes",
+        "en": {
+          "title": "Shape the syrniki patties",
+          "description": "Pour the remaining rice flour onto a plate. Form the tvorog dough into round patties about 3-3.5 cm in diameter. Coat each patty thoroughly in rice flour."
+        }
+      },
+      {
+        "id": "fry-syrniki-syrniki-with-sun-dried-tomatoes",
+        "en": {
+          "title": "Fry the syrniki",
+          "description": "Pour sunflower oil into a frying pan and heat over medium heat. Place the syrniki in the pan and fry for 3-4 minutes until golden brown. Flip and fry the other side for another 3-4 minutes. Cover the pan, reduce heat to low, and steam the syrniki for about 2 minutes more."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-ingredients-phase-syrniki-with-sun-dried-tomatoes",
+        "en": {
+          "title": "Prep ingredients"
+        }
+      },
+      {
+        "id": "make-dough-phase-syrniki-with-sun-dried-tomatoes",
+        "en": {
+          "title": "Make the dough"
+        }
+      },
+      {
+        "id": "form-patties-phase-syrniki-with-sun-dried-tomatoes",
+        "en": {
+          "title": "Form patties"
+        }
+      },
+      {
+        "id": "fry-syrniki-phase-syrniki-with-sun-dried-tomatoes",
+        "en": {
+          "title": "Fry the syrniki"
+        }
+      }
+    ]
+  }
+]

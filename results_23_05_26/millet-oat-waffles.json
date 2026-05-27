@@ -1,0 +1,255 @@
+[
+  {
+    "id": "millet-oat-waffles",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyNS80NlpRWGIuanBlZw.webp",
+    "title": {
+      "en": "Millet-Oat Waffles"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "blender"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-dry-millet-oat-waffles",
+        "minutes": 2
+      },
+      {
+        "stepId": "prepare-wet-millet-oat-waffles",
+        "minutes": 2
+      },
+      {
+        "stepId": "combine-and-rest-millet-oat-waffles",
+        "minutes": 12
+      },
+      {
+        "stepId": "bake-millet-oat-waffles",
+        "minutes": 11
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "wheat-flakes",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "oats",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "whole-wheat-flour",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 0.25,
+        "unit": "cup",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "banana",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-soda",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vanilla",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cinnamon",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grind-flakes-millet-oat-waffles",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-dry-millet-oat-waffles",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mash-banana-mix-wet-millet-oat-waffles",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-wet-dry-millet-oat-waffles",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "rest-batter-millet-oat-waffles",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-millet-oat-waffles",
+        "duration": 0,
+        "showTimer": false,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "pour-batter-into-forms-millet-oat-waffles",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-waffles-millet-oat-waffles",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grind-flakes-millet-oat-waffles",
+        "en": {
+          "title": "Grind the flakes",
+          "description": "Grind the wheat and oat flakes in a coffee grinder or blender until they become a fine powder."
+        }
+      },
+      {
+        "id": "combine-dry-millet-oat-waffles",
+        "en": {
+          "title": "Combine dry ingredients",
+          "description": "In a large bowl, mix the ground flakes with whole wheat flour, baking powder, baking soda, salt, and cinnamon. Whisk to combine."
+        }
+      },
+      {
+        "id": "mash-banana-mix-wet-millet-oat-waffles",
+        "en": {
+          "title": "Mash banana and mix wet ingredients",
+          "description": "Mash the banana into a puree. Add milk, vegetable oil, and vanilla extract. Whisk again until smooth."
+        }
+      },
+      {
+        "id": "combine-wet-dry-millet-oat-waffles",
+        "en": {
+          "title": "Combine wet and dry mixtures",
+          "description": "Pour the wet mixture into the bowl with the dry ingredients. Stir with a whisk or silicone spatula until just combined. The batter should be like liquid sour cream. If too thick, add 1 tablespoon of water and mix again."
+        }
+      },
+      {
+        "id": "rest-batter-millet-oat-waffles",
+        "en": {
+          "title": "Rest the batter",
+          "description": "Let the batter rest for 10 minutes. This allows the grains to hydrate and the batter to thicken slightly."
+        }
+      },
+      {
+        "id": "preheat-oven-millet-oat-waffles",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 180°C (350°F) while the batter rests."
+        }
+      },
+      {
+        "id": "pour-batter-into-forms-millet-oat-waffles",
+        "en": {
+          "title": "Pour batter into waffle forms",
+          "description": "Divide the batter into greased waffle baking forms or a waffle iron. Spread evenly."
+        }
+      },
+      {
+        "id": "bake-waffles-millet-oat-waffles",
+        "en": {
+          "title": "Bake the waffles",
+          "description": "Bake the waffles in the preheated oven for 10-15 minutes until golden brown and cooked through. The exact time depends on your oven and forms."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-dry-millet-oat-waffles",
+        "en": {
+          "title": "Prepare dry ingredients"
+        }
+      },
+      {
+        "id": "prepare-wet-millet-oat-waffles",
+        "en": {
+          "title": "Prepare wet ingredients"
+        }
+      },
+      {
+        "id": "combine-and-rest-millet-oat-waffles",
+        "en": {
+          "title": "Combine and rest the batter"
+        }
+      },
+      {
+        "id": "bake-millet-oat-waffles",
+        "en": {
+          "title": "Bake the waffles"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,235 @@
+[
+  {
+    "id": "hearty-breakfast-toasts",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTEyMi8zM0RIak4uanBlZw.webp",
+    "title": {
+      "en": "Hearty Breakfast Toasts"
+    },
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "tags": [
+      "hearty",
+      "pan-fried",
+      "one-pan"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-ingredients-hearty-breakfast-toasts",
+        "minutes": 6
+      },
+      {
+        "stepId": "assemble-toasts-hearty-breakfast-toasts",
+        "minutes": 5
+      },
+      {
+        "stepId": "fry-toasts-hearty-breakfast-toasts",
+        "minutes": 9
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ham",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "quantity": 19,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 19,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "cut-bread-window-hearty-breakfast-toasts",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dice-ham-veggies-hearty-breakfast-toasts",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slice-cheese-hearty-breakfast-toasts",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-hearty-breakfast-toasts",
+        "duration": 1,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "fry-bread-hearty-breakfast-toasts",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "add-egg-and-toppings-hearty-breakfast-toasts",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-cheese-and-lid-hearty-breakfast-toasts",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-toasts-hearty-breakfast-toasts",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "dont-overcook"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "cut-bread-window-hearty-breakfast-toasts",
+        "en": {
+          "title": "Cut a window from the bread",
+          "description": "Using a small knife, cut a square or round hole in the center of each bread slice, leaving a 1 cm border around the edges. Set the cut-out pieces aside to use as lids later."
+        }
+      },
+      {
+        "id": "dice-ham-veggies-hearty-breakfast-toasts",
+        "en": {
+          "title": "Dice the ham and vegetables",
+          "description": "Finely dice the ham, red onion, and bell pepper into small cubes. Aim for uniform pieces so they cook evenly."
+        }
+      },
+      {
+        "id": "slice-cheese-hearty-breakfast-toasts",
+        "en": {
+          "title": "Slice the cheese",
+          "description": "Cut the gouda cheese into thin slices. You'll need enough to cover the top of each toast."
+        }
+      },
+      {
+        "id": "heat-oil-hearty-breakfast-toasts",
+        "en": {
+          "title": "Heat the oil",
+          "description": "Add the sunflower oil to a frying pan and place it over low heat. Let the oil warm up for about a minute before adding the bread."
+        }
+      },
+      {
+        "id": "fry-bread-hearty-breakfast-toasts",
+        "en": {
+          "title": "Fry the bread on one side",
+          "description": "Place the bread slices with the hole in the pan. Fry them for 2 minutes on one side over low heat until lightly golden. Keep the heat low to prevent burning."
+        }
+      },
+      {
+        "id": "add-egg-and-toppings-hearty-breakfast-toasts",
+        "en": {
+          "title": "Add the egg and toppings",
+          "description": "Carefully crack an egg into the hole of each bread slice. Sprinkle the diced ham, onion, and bell pepper evenly over the egg. The toppings should sit on top of the egg yolk and white."
+        }
+      },
+      {
+        "id": "add-cheese-and-lid-hearty-breakfast-toasts",
+        "en": {
+          "title": "Add cheese and cover with bread lid",
+          "description": "Place the sliced gouda cheese over the egg and toppings. Then take the reserved bread cut-outs and place them on top, pressing down gently to seal the toast."
+        }
+      },
+      {
+        "id": "cook-toasts-hearty-breakfast-toasts",
+        "en": {
+          "title": "Cook the toasts until egg is set",
+          "description": "Continue cooking the toasts over low heat for 4 to 5 minutes, until the egg white is fully set and the cheese is melted. Then carefully flip each toast and cook for 1 more minute on the other side. Serve immediately."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-ingredients-hearty-breakfast-toasts",
+        "en": {
+          "title": "Prepare the ingredients"
+        }
+      },
+      {
+        "id": "assemble-toasts-hearty-breakfast-toasts",
+        "en": {
+          "title": "Assemble the toasts"
+        }
+      },
+      {
+        "id": "fry-toasts-hearty-breakfast-toasts",
+        "en": {
+          "title": "Fry the toasts"
+        }
+      }
+    ]
+  }
+]

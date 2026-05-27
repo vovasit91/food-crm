@@ -1,0 +1,245 @@
+[
+  {
+    "id": "puff-pastry-pizza-with-sausages-and-pickles",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExNy9qZUJvaVcuanBlZw.webp",
+    "title": {
+      "en": "Puff Pastry Pizza with Sausages and Pickles"
+    },
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "hearty"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-ingredients-puff-pastry-pizza-with-sausages-and-pickles",
+        "minutes": 8
+      },
+      {
+        "stepId": "assemble-pizza-puff-pastry-pizza-with-sausages-and-pickles",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-pizza-puff-pastry-pizza-with-sausages-and-pickles",
+        "minutes": 22
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "puff-pastry",
+        "quantity": 125,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sausages",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mushrooms",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mozzarella",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 45,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pickles",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ketchup",
+        "quantity": 33,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "italian-herbs",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "preheat-oven-puff-pastry-pizza-with-sausages-and-pickles",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "slice-onion-and-grate-cheese-puff-pastry-pizza-with-sausages-and-pickles",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slice-vegetables-and-sausages-puff-pastry-pizza-with-sausages-and-pickles",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "roll-dough-and-form-crust-puff-pastry-pizza-with-sausages-and-pickles",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-ketchup-and-add-toppings-puff-pastry-pizza-with-sausages-and-pickles",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-tomato-and-pickles-puff-pastry-pizza-with-sausages-and-pickles",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-sausages-and-cheese-puff-pastry-pizza-with-sausages-and-pickles",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-pizza-puff-pastry-pizza-with-sausages-and-pickles",
+        "duration": 22,
+        "showTimer": true,
+        "tags": [
+          "baked"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "preheat-oven-puff-pastry-pizza-with-sausages-and-pickles",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 200°C (400°F). This ensures the oven is hot enough for baking the pizza."
+        }
+      },
+      {
+        "id": "slice-onion-and-grate-cheese-puff-pastry-pizza-with-sausages-and-pickles",
+        "en": {
+          "title": "Slice onion and grate cheese",
+          "description": "Slice the onion into thin half rings. Grate the mozzarella cheese coarsely using a box grater."
+        }
+      },
+      {
+        "id": "slice-vegetables-and-sausages-puff-pastry-pizza-with-sausages-and-pickles",
+        "en": {
+          "title": "Slice vegetables and sausages",
+          "description": "Cut the pickles, tomato, and sausages into round slices about 2–3 mm thick. Slice the mushrooms into similar thin slices."
+        }
+      },
+      {
+        "id": "roll-dough-and-form-crust-puff-pastry-pizza-with-sausages-and-pickles",
+        "en": {
+          "title": "Roll out dough and form crust",
+          "description": "Roll the puff pastry sheet into a rectangle about 3–4 mm thick. Transfer it to a baking sheet. Fold the edges inward to create a raised crust."
+        }
+      },
+      {
+        "id": "spread-ketchup-and-add-toppings-puff-pastry-pizza-with-sausages-and-pickles",
+        "en": {
+          "title": "Spread ketchup and add first toppings",
+          "description": "Evenly spread ketchup over the dough base. Arrange the sliced onion on top, then lay the mushroom slices over the onion. Season with salt, black pepper, and Italian herbs."
+        }
+      },
+      {
+        "id": "add-tomato-and-pickles-puff-pastry-pizza-with-sausages-and-pickles",
+        "en": {
+          "title": "Add tomato and pickles",
+          "description": "Distribute the sliced tomato and pickles evenly over the pizza."
+        }
+      },
+      {
+        "id": "add-sausages-and-cheese-puff-pastry-pizza-with-sausages-and-pickles",
+        "en": {
+          "title": "Add sausages and cheese",
+          "description": "Place the sausage slices on the pizza, then sprinkle the grated mozzarella cheese evenly over everything."
+        }
+      },
+      {
+        "id": "bake-pizza-puff-pastry-pizza-with-sausages-and-pickles",
+        "en": {
+          "title": "Bake the pizza",
+          "description": "Place the baking sheet in the preheated oven and bake at 200°C for 20–25 minutes, until the crust is golden and cheese is melted and bubbly."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-ingredients-puff-pastry-pizza-with-sausages-and-pickles",
+        "en": {
+          "title": "Prepare ingredients"
+        }
+      },
+      {
+        "id": "assemble-pizza-puff-pastry-pizza-with-sausages-and-pickles",
+        "en": {
+          "title": "Assemble the pizza"
+        }
+      },
+      {
+        "id": "bake-pizza-puff-pastry-pizza-with-sausages-and-pickles",
+        "en": {
+          "title": "Bake the pizza"
+        }
+      }
+    ]
+  }
+]

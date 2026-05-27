@@ -1,0 +1,197 @@
+[
+  {
+    "id": "carrot-pancakes",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyOC8zV1NQRzcuanBlZw.webp",
+    "title": {
+      "en": "Carrot Pancakes"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "mix-batter-carrot-pancakes",
+        "minutes": 10
+      },
+      {
+        "stepId": "grate-carrot-mix-batter-carrot-pancakes",
+        "minutes": 5
+      },
+      {
+        "stepId": "fry-pancakes-carrot-pancakes",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "kefir",
+        "quantity": 130,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "honey",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 65,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-soda",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "carrots",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "beat-egg-mixture-carrot-pancakes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-kefir-oil-carrot-pancakes",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-flour-soda-batter-carrot-pancakes",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grate-carrot-mix-batter-carrot-pancakes",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-pan-carrot-pancakes",
+        "duration": 1,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "fry-pancakes-carrot-pancakes",
+        "duration": 20,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "beat-egg-mixture-carrot-pancakes",
+        "en": {
+          "title": "Beat egg with honey and salt",
+          "description": "Break the egg into a bowl. Add honey and salt. Beat with a mixer until smooth and homogeneous."
+        }
+      },
+      {
+        "id": "add-kefir-oil-carrot-pancakes",
+        "en": {
+          "title": "Add kefir and oil",
+          "description": "Pour in the kefir and vegetable oil. Mix again until combined."
+        }
+      },
+      {
+        "id": "combine-flour-soda-batter-carrot-pancakes",
+        "en": {
+          "title": "Combine flour and soda with wet mixture",
+          "description": "Mix the flour with baking soda. Gradually add it to the wet ingredients, stirring constantly to avoid lumps. The batter should become smooth and thick like sour cream."
+        }
+      },
+      {
+        "id": "grate-carrot-mix-batter-carrot-pancakes",
+        "en": {
+          "title": "Grate carrot and fold into batter",
+          "description": "Finely grate the carrot and stir it into the batter until evenly distributed."
+        }
+      },
+      {
+        "id": "heat-pan-carrot-pancakes",
+        "en": {
+          "title": "Heat the frying pan",
+          "description": "Place a dry frying pan over medium heat and let it get hot."
+        }
+      },
+      {
+        "id": "fry-pancakes-carrot-pancakes",
+        "en": {
+          "title": "Fry the pancakes",
+          "description": "Pour a ladle of batter onto the hot pan. Cook for 2–3 minutes on each side until golden brown. Repeat with the remaining batter."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "mix-batter-carrot-pancakes",
+        "en": {
+          "title": "Mix the batter"
+        }
+      },
+      {
+        "id": "grate-carrot-mix-batter-carrot-pancakes",
+        "en": {
+          "title": "Grate carrot and mix"
+        }
+      },
+      {
+        "id": "fry-pancakes-carrot-pancakes",
+        "en": {
+          "title": "Fry the pancakes"
+        }
+      }
+    ]
+  }
+]

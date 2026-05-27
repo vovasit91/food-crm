@@ -1,0 +1,153 @@
+[
+  {
+    "id": "oatmeal-with-ginger-pear-and-honey",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTExNS8zSlVzaWEuanBlZw.webp",
+    "title": {
+      "en": "Oatmeal with Ginger, Pear and Honey"
+    },
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "cook-oatmeal-oatmeal-with-ginger-pear-and-honey",
+        "minutes": 10
+      },
+      {
+        "stepId": "caramelize-pear-oatmeal-with-ginger-pear-and-honey",
+        "minutes": 5
+      },
+      {
+        "stepId": "assemble-oatmeal-with-ginger-pear-and-honey",
+        "minutes": 0
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "oats",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pears",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ginger",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "honey",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 1,
+        "unit": "pinch",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "pumpkin-seeds",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "cook-oats-oatmeal-with-ginger-pear-and-honey",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "caramelize-pear-oatmeal-with-ginger-pear-and-honey",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "pan-fried"
+        ]
+      },
+      {
+        "stepId": "add-ginger-and-serve-oatmeal-with-ginger-pear-and-honey",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "cook-oats-oatmeal-with-ginger-pear-and-honey",
+        "en": {
+          "title": "Cook the oatmeal",
+          "description": "Place the oats into a small saucepan, add a pinch of salt, and pour in the water. Set over medium heat and cook for about 10 minutes, until the oats have absorbed the liquid."
+        }
+      },
+      {
+        "id": "caramelize-pear-oatmeal-with-ginger-pear-and-honey",
+        "en": {
+          "title": "Caramelize the pear",
+          "description": "Slice the pear into thin wedges. Fry the slices in a grill pan or regular skillet over medium-high heat for 3–5 minutes, until they are lightly caramelized."
+        }
+      },
+      {
+        "id": "add-ginger-and-serve-oatmeal-with-ginger-pear-and-honey",
+        "en": {
+          "title": "Add ginger and serve",
+          "description": "Stir the ground ginger into the cooked oatmeal. Transfer to a bowl, top with the caramelized pear slices, pumpkin seeds, and drizzle with honey."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "cook-oatmeal-oatmeal-with-ginger-pear-and-honey",
+        "en": {
+          "title": "Cook the oatmeal"
+        }
+      },
+      {
+        "id": "caramelize-pear-oatmeal-with-ginger-pear-and-honey",
+        "en": {
+          "title": "Caramelize the pear"
+        }
+      },
+      {
+        "id": "assemble-oatmeal-with-ginger-pear-and-honey",
+        "en": {
+          "title": "Assemble the dish"
+        }
+      }
+    ]
+  }
+]

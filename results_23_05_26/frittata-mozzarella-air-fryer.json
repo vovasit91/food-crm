@@ -1,0 +1,202 @@
+[
+  {
+    "id": "frittata-mozzarella-air-fryer",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTAwMy80UTVOUWYuanBlZw.webp",
+    "title": {
+      "en": "Frittata with Mozzarella in Air Fryer"
+    },
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "vegetarian",
+      "gluten-free",
+      "one-pan"
+    ],
+    "kitchen": [
+      "air-fryer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-and-assemble-frittata-mozzarella-air-fryer",
+        "minutes": 8
+      },
+      {
+        "stepId": "cook-frittata-mozzarella-air-fryer",
+        "minutes": 20
+      },
+      {
+        "stepId": "serve-frittata-mozzarella-air-fryer",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "eggs",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "broccoli",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mozzarella",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parmesan",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parsley",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": true,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "prepare-vegetables-frittata-mozzarella-air-fryer",
+        "duration": 4,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grate-cheese-frittata-mozzarella-air-fryer",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "crack-eggs-frittata-mozzarella-air-fryer",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-frittata-mozzarella-air-fryer",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-frittata-mozzarella-air-fryer",
+        "duration": 20,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "serve-frittata-mozzarella-air-fryer",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "prepare-vegetables-frittata-mozzarella-air-fryer",
+        "en": {
+          "title": "Prepare the vegetables",
+          "description": "Cut the broccoli into 1.5–2 cm florets. Halve the cherry tomatoes. Dice the bell pepper into 7–8 mm cubes."
+        }
+      },
+      {
+        "id": "grate-cheese-frittata-mozzarella-air-fryer",
+        "en": {
+          "title": "Grate the hard cheese",
+          "description": "Coarsely grate the hard cheese and set aside."
+        }
+      },
+      {
+        "id": "crack-eggs-frittata-mozzarella-air-fryer",
+        "en": {
+          "title": "Crack the eggs into the air fryer container",
+          "description": "Carefully crack the eggs onto a piece of parchment paper in the air fryer container, being careful not to break the yolks. Season with salt and black pepper."
+        }
+      },
+      {
+        "id": "assemble-frittata-mozzarella-air-fryer",
+        "en": {
+          "title": "Assemble the frittata",
+          "description": "Arrange the broccoli florets, cherry tomato halves, and diced bell pepper on the egg whites. Distribute the mini mozzarella balls in the gaps. Sprinkle the grated cheese evenly over everything."
+        }
+      },
+      {
+        "id": "cook-frittata-mozzarella-air-fryer",
+        "en": {
+          "title": "Cook the frittata in the air fryer",
+          "description": "Set the air fryer to 180°C in the 'Vegetables' mode and the timer to 20 minutes. Place the container inside and wait until the frittata is fully cooked."
+        }
+      },
+      {
+        "id": "serve-frittata-mozzarella-air-fryer",
+        "en": {
+          "title": "Serve the frittata",
+          "description": "Transfer the frittata to a serving plate and cut it into portions."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-and-assemble-frittata-mozzarella-air-fryer",
+        "en": {
+          "title": "Prepare and assemble the frittata"
+        }
+      },
+      {
+        "id": "cook-frittata-mozzarella-air-fryer",
+        "en": {
+          "title": "Cook the frittata in the air fryer"
+        }
+      },
+      {
+        "id": "serve-frittata-mozzarella-air-fryer",
+        "en": {
+          "title": "Serve the frittata"
+        }
+      }
+    ]
+  }
+]

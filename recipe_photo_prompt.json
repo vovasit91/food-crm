@@ -1,0 +1,52 @@
+{
+    "style_guide": {
+      "purpose": "Consistent recipe image generation for a clean, modern recipe app",
+      "background": {
+        "surface": "blue and white checkered tablecloth",
+        "pattern": "classic small gingham check",
+        "colors": ["#FFFFFF", "#4A90D9"],
+        "mood": "clean, crisp, minimal — no clutter or props"
+      },
+      "composition": {
+        "framing": "full dish in frame, natural table view",
+        "subject": "food served and plated on a clean white plate",
+        "focus": "sharp focus across the entire dish",
+        "angle": "45 degree angle — natural eye-level table perspective",
+        "negative_space": "tablecloth visible generously around the plate"
+      },
+      "lighting": {
+        "type": "soft natural daylight",
+        "direction": "top-left",
+        "shadows": "soft and minimal",
+        "avoid": ["harsh flash", "dark moody shadows", "dramatic candlelight"]
+      },
+      "color_palette": {
+        "mood": "bright and appetizing",
+        "saturation": "natural — not oversaturated or filtered",
+        "temperature": "slightly warm"
+      },
+      "style": {
+        "photography_style": "editorial food photography",
+        "post_processing": "clean and minimal — no heavy filters or vignettes",
+        "avoid": ["macro or extreme close-ups", "rustic linen", "dark wood backgrounds", "excessive garnishes", "cooking vessels as serving dishes"]
+      },
+      "plating": {
+        "vessel": "clean white ceramic plate",
+        "condition": "freshly plated, restaurant-quality presentation",
+        "garnish": "minimal and intentional — one simple garnish at most"
+      },
+      "props": {
+        "cutlery": {
+          "style": "sleek modern stainless steel",
+          "finish": "polished silver",
+          "placement": "naturally placed beside the plate — fork on the left, knife and spoon on the right",
+          "avoid": ["gold or brass tones", "ornate or decorative handles", "mismatched sets"]
+        },
+        "extras": {
+          "allowed": ["folded white linen napkin", "small glass of water", "simple seasoning pinch bowl"],
+          "quantity": "maximum 2 extra props — keep the scene uncluttered",
+          "avoid": ["candles", "flowers", "busy decorative items", "branded objects"]
+        }
+      }
+    }
+  }

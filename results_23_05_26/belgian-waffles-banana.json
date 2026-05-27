@@ -1,0 +1,122 @@
+[
+  {
+    "id": "belgian-waffles-banana",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyMC80UXFycjguanBlZw.webp",
+    "title": {
+      "en": "Belgian Waffles with Banana"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "vegetarian"
+    ],
+    "kitchen": [],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-batter-belgian-waffles-banana",
+        "minutes": 20
+      },
+      {
+        "stepId": "bake-waffles-belgian-waffles-banana",
+        "minutes": 10
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "banana",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mash-banana-belgian-waffles-banana",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-dough-belgian-waffles-banana",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-waffles-belgian-waffles-banana",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "high-heat"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mash-banana-belgian-waffles-banana",
+        "en": {
+          "title": "Mash banana and mix with egg",
+          "description": "Mash the banana with a fork until smooth. Add the egg and mix well."
+        }
+      },
+      {
+        "id": "mix-dough-belgian-waffles-banana",
+        "en": {
+          "title": "Add dry ingredients and mix dough",
+          "description": "Sift in the flour and baking powder. Stir until a smooth batter forms."
+        }
+      },
+      {
+        "id": "bake-waffles-belgian-waffles-banana",
+        "en": {
+          "title": "Bake waffles",
+          "description": "Preheat the waffle iron. Lightly grease the surface with oil. Pour the batter onto the hot iron, close the lid, and bake for 4–5 minutes until golden brown."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-batter-belgian-waffles-banana",
+        "en": {
+          "title": "Prepare the batter"
+        }
+      },
+      {
+        "id": "bake-waffles-belgian-waffles-banana",
+        "en": {
+          "title": "Bake the waffles"
+        }
+      }
+    ]
+  }
+]

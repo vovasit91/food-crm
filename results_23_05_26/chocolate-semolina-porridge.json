@@ -1,0 +1,221 @@
+[
+  {
+    "id": "chocolate-semolina-porridge",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExOS80QUhOYmsuanBlZw.webp",
+    "title": {
+      "en": "Chocolate Semolina Porridge"
+    },
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "tags": [
+      "creamy",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "stove",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "combine-and-soak-chocolate-semolina-porridge",
+        "minutes": 3
+      },
+      {
+        "stepId": "chop-chocolate-chocolate-semolina-porridge",
+        "minutes": 1
+      },
+      {
+        "stepId": "cook-porridge-chocolate-semolina-porridge",
+        "minutes": 6
+      },
+      {
+        "stepId": "finish-and-rest-chocolate-semolina-porridge",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "milk",
+        "quantity": 200,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "semolina",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cocoa-powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dark-chocolate",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "combine-dry-ingredients-chocolate-semolina-porridge",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-milk-chocolate-semolina-porridge",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "soak-semolina-chocolate-semolina-porridge",
+        "duration": 3,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "chop-chocolate-chocolate-semolina-porridge",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-mixture-chocolate-semolina-porridge",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "simmer-porridge-chocolate-semolina-porridge",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "low-heat",
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "add-butter-and-chocolate-chocolate-semolina-porridge",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rest-porridge-chocolate-semolina-porridge",
+        "duration": 5,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "combine-dry-ingredients-chocolate-semolina-porridge",
+        "en": {
+          "title": "Combine dry ingredients",
+          "description": "In a saucepan, mix the semolina and cocoa powder together."
+        }
+      },
+      {
+        "id": "pour-milk-chocolate-semolina-porridge",
+        "en": {
+          "title": "Pour in milk",
+          "description": "Add the cold milk to the dry mixture and stir briefly."
+        }
+      },
+      {
+        "id": "soak-semolina-chocolate-semolina-porridge",
+        "en": {
+          "title": "Soak the semolina",
+          "description": "Leave the mixture to sit for 2–3 minutes so the semolina can swell."
+        }
+      },
+      {
+        "id": "chop-chocolate-chocolate-semolina-porridge",
+        "en": {
+          "title": "Chop the chocolate",
+          "description": "Finely chop the dark chocolate or grate it on a coarse grater."
+        }
+      },
+      {
+        "id": "heat-mixture-chocolate-semolina-porridge",
+        "en": {
+          "title": "Heat the mixture",
+          "description": "Place the saucepan over medium heat. Stir constantly with a whisk until the mixture comes to a boil."
+        }
+      },
+      {
+        "id": "simmer-porridge-chocolate-semolina-porridge",
+        "en": {
+          "title": "Simmer until thickened",
+          "description": "Reduce the heat to low and cook for 2–3 minutes, stirring constantly, until the porridge thickens."
+        }
+      },
+      {
+        "id": "add-butter-and-chocolate-chocolate-semolina-porridge",
+        "en": {
+          "title": "Add butter and chocolate",
+          "description": "Remove the saucepan from heat. Add the butter and chopped chocolate. Stir until completely melted and smooth."
+        }
+      },
+      {
+        "id": "rest-porridge-chocolate-semolina-porridge",
+        "en": {
+          "title": "Rest the porridge",
+          "description": "Cover the saucepan with a lid and let the porridge stand for 5 minutes before serving."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "combine-and-soak-chocolate-semolina-porridge",
+        "en": {
+          "title": "Combine and soak the semolina"
+        }
+      },
+      {
+        "id": "chop-chocolate-chocolate-semolina-porridge",
+        "en": {
+          "title": "Chop the chocolate"
+        }
+      },
+      {
+        "id": "cook-porridge-chocolate-semolina-porridge",
+        "en": {
+          "title": "Cook the porridge"
+        }
+      },
+      {
+        "id": "finish-and-rest-chocolate-semolina-porridge",
+        "en": {
+          "title": "Finish and rest"
+        }
+      }
+    ]
+  }
+]

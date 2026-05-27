@@ -1,0 +1,286 @@
+[
+  {
+    "id": "carrot-tortillas-with-chicken-and-avocado",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDMxMy9VQWhkWjcuanBlZw.webp",
+    "title": {
+      "en": "Carrot Tortillas with Chicken and Avocado"
+    },
+    "timeMinutes": 40,
+    "difficulty": "hard",
+    "tags": [
+      "baked",
+      "gluten-free",
+      "hearty",
+      "creamy"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-batter-carrot-tortillas-with-chicken-and-avocado",
+        "minutes": 5
+      },
+      {
+        "stepId": "bake-tortillas-carrot-tortillas-with-chicken-and-avocado",
+        "minutes": 20
+      },
+      {
+        "stepId": "cool-and-prep-filling-carrot-tortillas-with-chicken-and-avocado",
+        "minutes": 10
+      },
+      {
+        "stepId": "assemble-tortillas-carrot-tortillas-with-chicken-and-avocado",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "carrots",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cheddar",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chicken-breast",
+        "quantity": 90,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "arugula",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cucumber",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "avocado",
+        "quantity": 55,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grate-carrot-cheese-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-batter-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "line-tray-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "form-tortillas-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-tortillas-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 20,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "cool-tortillas-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-cream-cheese-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-arugula-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slice-cucumber-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-avocado-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slice-chicken-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-tortilla-carrot-tortillas-with-chicken-and-avocado",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grate-carrot-cheese-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Grate carrot and cheese",
+          "description": "Finely grate the carrot and the cheese. Use a fine grater for best texture."
+        }
+      },
+      {
+        "id": "mix-batter-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Mix the batter",
+          "description": "Combine the grated carrot, cheese, and egg in a bowl. Stir until the mixture is uniform and well combined."
+        }
+      },
+      {
+        "id": "line-tray-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Line baking tray with parchment",
+          "description": "Line a baking tray with parchment paper to prevent sticking."
+        }
+      },
+      {
+        "id": "form-tortillas-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Form tortillas on tray",
+          "description": "Spoon the carrot mixture onto the prepared tray and shape it into two round, thin tortillas. Flatten them evenly."
+        }
+      },
+      {
+        "id": "bake-tortillas-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Bake the tortillas",
+          "description": "Place the tray in a preheated oven at 180°C (350°F) and bake for 20-25 minutes, until the tortillas are golden and firm. They should be slightly crispy on the edges."
+        }
+      },
+      {
+        "id": "cool-tortillas-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Cool the tortillas",
+          "description": "Remove the tortillas from the parchment paper and let them cool slightly on a wire rack. They should be cool enough to handle."
+        }
+      },
+      {
+        "id": "spread-cream-cheese-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Spread cream cheese",
+          "description": "Spread a generous layer of cream cheese over half of each tortilla, leaving the other half uncovered."
+        }
+      },
+      {
+        "id": "add-arugula-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Add arugula",
+          "description": "Distribute fresh arugula leaves evenly over the cream cheese layer."
+        }
+      },
+      {
+        "id": "slice-cucumber-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Slice cucumber",
+          "description": "Cut the cucumber into thin slices and arrange them in a single layer over the arugula."
+        }
+      },
+      {
+        "id": "prepare-avocado-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Prepare avocado",
+          "description": "Remove the pit and skin from the avocado. Slice the flesh into thin pieces and lay them over the cucumber."
+        }
+      },
+      {
+        "id": "slice-chicken-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Slice chicken breast",
+          "description": "Cut the chicken breast into bite-sized pieces or thin strips and scatter them over the avocado."
+        }
+      },
+      {
+        "id": "assemble-tortilla-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Assemble the tortilla",
+          "description": "Fold the uncovered half of the tortilla over the filling and press gently to seal. Serve immediately."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-batter-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Prepare the tortilla batter"
+        }
+      },
+      {
+        "id": "bake-tortillas-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Bake the tortillas"
+        }
+      },
+      {
+        "id": "cool-and-prep-filling-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Cool tortillas and prepare filling"
+        }
+      },
+      {
+        "id": "assemble-tortillas-carrot-tortillas-with-chicken-and-avocado",
+        "en": {
+          "title": "Assemble the tortillas"
+        }
+      }
+    ]
+  }
+]

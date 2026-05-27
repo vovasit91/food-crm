@@ -1,0 +1,263 @@
+[
+  {
+    "id": "carrot-tortillas-with-chicken",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTEyMS9Lcmg1Y1kuanBlZw.webp",
+    "title": {
+      "en": "Carrot Tortillas with Chicken"
+    },
+    "timeMinutes": 50,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "creamy",
+      "gluten-free",
+      "hearty"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "bake-tortillas-carrot-tortillas-with-chicken",
+        "minutes": 30
+      },
+      {
+        "stepId": "prepare-fillings-carrot-tortillas-with-chicken",
+        "minutes": 10
+      },
+      {
+        "stepId": "assemble-tortillas-carrot-tortillas-with-chicken",
+        "minutes": 10
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "carrots",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chicken-thighs",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "parsley",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cucumber",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "avocado",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grate-cheese-carrot-carrot-tortillas-with-chicken",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-batter-carrot-tortillas-with-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "shape-tortillas-carrot-tortillas-with-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-tortillas-carrot-tortillas-with-chicken",
+        "duration": 30,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "remove-tortillas-carrot-tortillas-with-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-cream-cheese-carrot-tortillas-with-chicken",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-herbs-carrot-tortillas-with-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "slice-cucumber-avocado-carrot-tortillas-with-chicken",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "arrange-veggies-carrot-tortillas-with-chicken",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-chicken-carrot-tortillas-with-chicken",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "top-with-chicken-carrot-tortillas-with-chicken",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grate-cheese-carrot-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Grate cheese and carrot",
+          "description": "Finely grate the cheese and the carrot using a box grater. Set aside."
+        }
+      },
+      {
+        "id": "mix-batter-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Mix batter",
+          "description": "In a bowl, combine the grated cheese and carrot. Crack the egg into the bowl and mix everything together until well combined."
+        }
+      },
+      {
+        "id": "shape-tortillas-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Shape tortillas",
+          "description": "Line a baking sheet with parchment paper. Spoon the carrot mixture onto the paper and form round tortillas about 0.5 cm thick."
+        }
+      },
+      {
+        "id": "bake-tortillas-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Bake tortillas",
+          "description": "Preheat the oven to 180°C. Bake the tortillas for 25–30 minutes, until golden and set. The exact time depends on your oven."
+        }
+      },
+      {
+        "id": "remove-tortillas-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Remove tortillas",
+          "description": "Carefully peel the baked tortillas off the parchment paper and transfer them to a plate."
+        }
+      },
+      {
+        "id": "spread-cream-cheese-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Spread cream cheese",
+          "description": "Spread an even layer of cream cheese over each tortilla."
+        }
+      },
+      {
+        "id": "add-herbs-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Add fresh herbs",
+          "description": "Place fresh parsley (or your favorite herbs) on top of the cream cheese."
+        }
+      },
+      {
+        "id": "slice-cucumber-avocado-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Slice cucumber and avocado",
+          "description": "Cut the cucumber into half‑rings and slice the avocado into thin strips."
+        }
+      },
+      {
+        "id": "arrange-veggies-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Arrange vegetables",
+          "description": "Arrange the cucumber and avocado strips over the herbs on the tortillas."
+        }
+      },
+      {
+        "id": "chop-chicken-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Chop smoked chicken",
+          "description": "Finely chop the smoked chicken thigh."
+        }
+      },
+      {
+        "id": "top-with-chicken-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Top with chicken",
+          "description": "Sprinkle the chopped chicken over the vegetables as the top layer."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "bake-tortillas-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Bake carrot tortillas"
+        }
+      },
+      {
+        "id": "prepare-fillings-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Prepare fillings"
+        }
+      },
+      {
+        "id": "assemble-tortillas-carrot-tortillas-with-chicken",
+        "en": {
+          "title": "Assemble tortillas"
+        }
+      }
+    ]
+  }
+]

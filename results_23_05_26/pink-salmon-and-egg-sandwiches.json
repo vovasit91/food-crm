@@ -1,0 +1,201 @@
+[
+  {
+    "id": "pink-salmon-and-egg-sandwiches",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDQyMi9lc3d6WHQuanBlZw.webp",
+    "title": {
+      "en": "Pink Salmon and Egg Sandwiches"
+    },
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "creamy",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "pots",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "boil-eggs-pink-salmon-and-egg-sandwiches",
+        "minutes": 10
+      },
+      {
+        "stepId": "prepare-filling-pink-salmon-and-egg-sandwiches",
+        "minutes": 3
+      },
+      {
+        "stepId": "toast-bread-pink-salmon-and-egg-sandwiches",
+        "minutes": 3
+      },
+      {
+        "stepId": "assemble-sandwiches-pink-salmon-and-egg-sandwiches",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salmon",
+        "quantity": 80,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mustard",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cucumber",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "lettuce",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "boil-eggs-pink-salmon-and-egg-sandwiches",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cool-and-mash-eggs-pink-salmon-and-egg-sandwiches",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dice-cucumber-and-flake-fish-pink-salmon-and-egg-sandwiches",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-filling-pink-salmon-and-egg-sandwiches",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "toast-bread-pink-salmon-and-egg-sandwiches",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "assemble-sandwiches-pink-salmon-and-egg-sandwiches",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "boil-eggs-pink-salmon-and-egg-sandwiches",
+        "en": {
+          "title": "Boil the eggs",
+          "description": "Place the eggs in a pot, cover with water, and bring to a boil. Cook for 10 minutes from the moment of boiling."
+        }
+      },
+      {
+        "id": "cool-and-mash-eggs-pink-salmon-and-egg-sandwiches",
+        "en": {
+          "title": "Cool, peel and mash the eggs",
+          "description": "Transfer the boiled eggs to ice water to cool. Then peel them and mash with a fork."
+        }
+      },
+      {
+        "id": "dice-cucumber-and-flake-fish-pink-salmon-and-egg-sandwiches",
+        "en": {
+          "title": "Dice cucumber and flake fish",
+          "description": "Cut the cucumber into small cubes. Remove the canned salmon from the can and flake it with a fork."
+        }
+      },
+      {
+        "id": "mix-filling-pink-salmon-and-egg-sandwiches",
+        "en": {
+          "title": "Mix the filling",
+          "description": "Combine the flaked salmon, mashed eggs, and diced cucumber in a bowl. Add sour cream and grainy mustard. Stir well until smooth."
+        }
+      },
+      {
+        "id": "toast-bread-pink-salmon-and-egg-sandwiches",
+        "en": {
+          "title": "Toast the bread",
+          "description": "Toast the slices of bread in a dry frying pan or toaster until golden brown on both sides."
+        }
+      },
+      {
+        "id": "assemble-sandwiches-pink-salmon-and-egg-sandwiches",
+        "en": {
+          "title": "Assemble the sandwiches",
+          "description": "Spread the fish mixture onto two slices of toast. Top with lettuce leaves and cover with the remaining two slices of bread."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "boil-eggs-pink-salmon-and-egg-sandwiches",
+        "en": {
+          "title": "Boil eggs"
+        }
+      },
+      {
+        "id": "prepare-filling-pink-salmon-and-egg-sandwiches",
+        "en": {
+          "title": "Prepare the filling"
+        }
+      },
+      {
+        "id": "toast-bread-pink-salmon-and-egg-sandwiches",
+        "en": {
+          "title": "Toast the bread"
+        }
+      },
+      {
+        "id": "assemble-sandwiches-pink-salmon-and-egg-sandwiches",
+        "en": {
+          "title": "Assemble the sandwiches"
+        }
+      }
+    ]
+  }
+]

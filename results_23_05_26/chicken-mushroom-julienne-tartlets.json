@@ -1,0 +1,270 @@
+[
+  {
+    "id": "chicken-mushroom-julienne-tartlets",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MTEyNS8zNUp0NDMuanBlZw.webp",
+    "title": {
+      "en": "Chicken and Mushroom Julienne in Tartlets"
+    },
+    "timeMinutes": 35,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "creamy",
+      "hearty",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "frying-pan",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "saute-filling-chicken-mushroom-julienne-tartlets",
+        "minutes": 20
+      },
+      {
+        "stepId": "make-cream-sauce-chicken-mushroom-julienne-tartlets",
+        "minutes": 5
+      },
+      {
+        "stepId": "bake-tartlets-chicken-mushroom-julienne-tartlets",
+        "minutes": 10
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "chicken-breast",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "hard-cheese",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mushrooms",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 16,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 7,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "light-cream",
+        "quantity": 30,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "italian-herbs",
+        "quantity": 0.4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tartlets",
+        "quantity": 2,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "fry-onion-chicken-mushroom-julienne-tartlets",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "add-chicken-chicken-mushroom-julienne-tartlets",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-mushrooms-chicken-mushroom-julienne-tartlets",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "add-flour-herbs-chicken-mushroom-julienne-tartlets",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "simmer-cream-chicken-mushroom-julienne-tartlets",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "season-filling-chicken-mushroom-julienne-tartlets",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fill-tartlets-chicken-mushroom-julienne-tartlets",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "top-with-cheese-chicken-mushroom-julienne-tartlets",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-julienne-chicken-mushroom-julienne-tartlets",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "fry-onion-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Fry the onion",
+          "description": "Chop the onion into small pieces. Fry in vegetable oil over medium heat for 2 minutes."
+        }
+      },
+      {
+        "id": "add-chicken-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Add chicken",
+          "description": "Add finely chopped chicken breast to the pan. Continue frying for 5 minutes, stirring occasionally."
+        }
+      },
+      {
+        "id": "cook-mushrooms-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Cook mushrooms",
+          "description": "Add diced mushrooms, stir, and cook for 8–10 minutes until tender."
+        }
+      },
+      {
+        "id": "add-flour-herbs-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Add flour and herbs",
+          "description": "Sprinkle flour and herbes de Provence over the mixture. Stir and fry for 2 minutes."
+        }
+      },
+      {
+        "id": "simmer-cream-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Simmer with cream",
+          "description": "Pour in the cream, bring to a boil, then reduce heat and simmer for 2 minutes. Turn off the heat."
+        }
+      },
+      {
+        "id": "season-filling-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Season the filling",
+          "description": "Add salt and pepper to taste, and stir well."
+        }
+      },
+      {
+        "id": "fill-tartlets-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Fill the tartlets",
+          "description": "Spoon the chicken and mushroom filling into the tartlet shells."
+        }
+      },
+      {
+        "id": "top-with-cheese-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Top with cheese",
+          "description": "Sprinkle grated hard cheese evenly over the filling in each tartlet."
+        }
+      },
+      {
+        "id": "bake-julienne-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Bake the tartlets",
+          "description": "Preheat the oven to 180°C. Bake the tartlets for 8–10 minutes until the cheese is melted and golden."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "saute-filling-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Sauté filling"
+        }
+      },
+      {
+        "id": "make-cream-sauce-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Make cream sauce"
+        }
+      },
+      {
+        "id": "bake-tartlets-chicken-mushroom-julienne-tartlets",
+        "en": {
+          "title": "Bake tartlets"
+        }
+      }
+    ]
+  }
+]

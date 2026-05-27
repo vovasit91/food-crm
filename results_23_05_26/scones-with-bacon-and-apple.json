@@ -1,0 +1,326 @@
+[
+  {
+    "id": "scones-with-bacon-and-apple",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIxNS9Hd1k3Rk4uanBlZw.webp",
+    "title": {
+      "en": "Scones with Bacon and Apple"
+    },
+    "timeMinutes": 60,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "pan-fried",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "frying-pan",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prep-ingredients-scones-with-bacon-and-apple",
+        "minutes": 20
+      },
+      {
+        "stepId": "make-dough-scones-with-bacon-and-apple",
+        "minutes": 10
+      },
+      {
+        "stepId": "shape-and-bake-scones-with-bacon-and-apple",
+        "minutes": 30
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 65,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "quantity": 60,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cheddar",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "streaky-bacon",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "apple",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "rosemary",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "dice-bacon-scones-with-bacon-and-apple",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fry-bacon-scones-with-bacon-and-apple",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "drain-bacon-scones-with-bacon-and-apple",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grate-cheese-scones-with-bacon-and-apple",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dice-apple-scones-with-bacon-and-apple",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chop-rosemary-scones-with-bacon-and-apple",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-oven-scones-with-bacon-and-apple",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "mix-dry-ingredients-scones-with-bacon-and-apple",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cut-butter-into-flour-scones-with-bacon-and-apple",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-wet-and-dry-scones-with-bacon-and-apple",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "roll-dough-scones-with-bacon-and-apple",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cut-dough-scones-with-bacon-and-apple",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-on-tray-scones-with-bacon-and-apple",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-scones-with-bacon-and-apple",
+        "duration": 25,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "dice-bacon-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Dice the bacon",
+          "description": "Cut the bacon into small pieces."
+        }
+      },
+      {
+        "id": "fry-bacon-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Fry the bacon",
+          "description": "Place the bacon in a dry skillet over medium heat and cook for about 5 minutes until crispy and golden. Stir occasionally."
+        }
+      },
+      {
+        "id": "drain-bacon-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Drain the bacon",
+          "description": "Transfer the cooked bacon to a paper towel-lined plate to remove excess fat."
+        }
+      },
+      {
+        "id": "grate-cheese-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Grate the cheese",
+          "description": "Coarsely grate the cheddar cheese."
+        }
+      },
+      {
+        "id": "dice-apple-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Dice the apple",
+          "description": "Cut the apple into small cubes."
+        }
+      },
+      {
+        "id": "chop-rosemary-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Chop the rosemary",
+          "description": "Finely chop the fresh rosemary."
+        }
+      },
+      {
+        "id": "preheat-oven-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Preheat the oven",
+          "description": "Preheat your oven to 190°C (375°F)."
+        }
+      },
+      {
+        "id": "mix-dry-ingredients-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Mix dry ingredients",
+          "description": "In a large bowl, combine the flour, baking powder, sugar, salt, and black pepper."
+        }
+      },
+      {
+        "id": "cut-butter-into-flour-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Cut butter into flour",
+          "description": "Grate the cold butter into the dry mixture and use forks or a pastry cutter to work it into the flour until the mixture resembles coarse crumbs."
+        }
+      },
+      {
+        "id": "mix-wet-and-dry-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Mix wet and dry ingredients",
+          "description": "Add the diced apple, bacon, grated cheese, chopped rosemary, and heavy cream to the bowl. Stir a few times until the dough comes together into a ball. Do not overmix."
+        }
+      },
+      {
+        "id": "roll-dough-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Roll out the dough",
+          "description": "Transfer the dough to a lightly floured surface and roll it out to a thickness of 2 cm (about 3/4 inch)."
+        }
+      },
+      {
+        "id": "cut-dough-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Cut out scones",
+          "description": "Use a round cutter to cut out scones from the dough. Gather scraps and re-roll if needed."
+        }
+      },
+      {
+        "id": "place-on-tray-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Place on baking tray",
+          "description": "Transfer the cut scones to a baking sheet lined with parchment paper, spacing them slightly apart."
+        }
+      },
+      {
+        "id": "bake-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Bake the scones",
+          "description": "Bake in the preheated oven at 190°C for 20–25 minutes, until golden brown and risen. Let cool slightly before serving."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prep-ingredients-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Prepare ingredients"
+        }
+      },
+      {
+        "id": "make-dough-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Make the dough"
+        }
+      },
+      {
+        "id": "shape-and-bake-scones-with-bacon-and-apple",
+        "en": {
+          "title": "Shape and bake"
+        }
+      }
+    ]
+  }
+]

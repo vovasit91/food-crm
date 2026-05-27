@@ -1,0 +1,217 @@
+[
+  {
+    "id": "cottage-cheese-flatbreads",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyNy9DYTNyTVQuanBlZw.webp",
+    "title": {
+      "en": "Cottage Cheese Flatbreads for Breakfast"
+    },
+    "timeMinutes": 45,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "hearty"
+    ],
+    "kitchen": [
+      "oven",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-dough-cottage-cheese-flatbreads",
+        "minutes": 10
+      },
+      {
+        "stepId": "bake-flatbreads-cottage-cheese-flatbreads",
+        "minutes": 25
+      },
+      {
+        "stepId": "assemble-flatbreads-cottage-cheese-flatbreads",
+        "minutes": 10
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "tvorog",
+        "quantity": 100,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 0.75,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.15,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": 0.15,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "arugula",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ham",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mash-cottage-cheese-cottage-cheese-flatbreads",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-grated-cheese-cottage-cheese-flatbreads",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "shape-flatbreads-cottage-cheese-flatbreads",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-flatbreads-cottage-cheese-flatbreads",
+        "duration": 25,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "assemble-flatbreads-cottage-cheese-flatbreads",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fold-and-serve-cottage-cheese-flatbreads",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mash-cottage-cheese-cottage-cheese-flatbreads",
+        "en": {
+          "title": "Mash the cottage cheese",
+          "description": "In a bowl, mash the cottage cheese with a fork until smooth. Crack the egg into the bowl and add the flour, salt, pepper, and dried garlic. Stir to combine."
+        }
+      },
+      {
+        "id": "add-grated-cheese-cottage-cheese-flatbreads",
+        "en": {
+          "title": "Add grated cheese",
+          "description": "Grate the hard cheese on a fine grater. Add it to the cottage cheese mixture and stir well until you have a homogeneous dough."
+        }
+      },
+      {
+        "id": "shape-flatbreads-cottage-cheese-flatbreads",
+        "en": {
+          "title": "Shape the flatbreads",
+          "description": "Line a baking tray with parchment paper. Using a spoon, drop portions of the dough onto the tray and spread them into thin rounds."
+        }
+      },
+      {
+        "id": "bake-flatbreads-cottage-cheese-flatbreads",
+        "en": {
+          "title": "Bake the flatbreads",
+          "description": "Preheat the oven to 180°C. Bake the flatbreads for 20–25 minutes, until they are golden brown. Set a timer to track the baking time."
+        }
+      },
+      {
+        "id": "assemble-flatbreads-cottage-cheese-flatbreads",
+        "en": {
+          "title": "Assemble the flatbreads",
+          "description": "Carefully remove the baked flatbreads from the parchment. Spread cream cheese over each flatbread, then place arugula on top. Slice the tomato into thin rounds and lay them over the arugula, followed by the ham."
+        }
+      },
+      {
+        "id": "fold-and-serve-cottage-cheese-flatbreads",
+        "en": {
+          "title": "Fold and serve",
+          "description": "Fold each flatbread in half so the filling is enclosed. Serve immediately for breakfast."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-dough-cottage-cheese-flatbreads",
+        "en": {
+          "title": "Prepare the dough"
+        }
+      },
+      {
+        "id": "bake-flatbreads-cottage-cheese-flatbreads",
+        "en": {
+          "title": "Bake the flatbreads"
+        }
+      },
+      {
+        "id": "assemble-flatbreads-cottage-cheese-flatbreads",
+        "en": {
+          "title": "Assemble and serve"
+        }
+      }
+    ]
+  }
+]

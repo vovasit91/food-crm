@@ -1,0 +1,252 @@
+[
+  {
+    "id": "big-banana-pancake",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyNy8zS25XUGcuanBlZw.webp",
+    "title": {
+      "en": "Big Banana Pancake"
+    },
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "vegetarian",
+      "one-pan"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-batter-big-banana-pancake",
+        "minutes": 10
+      },
+      {
+        "stepId": "caramelize-bananas-big-banana-pancake",
+        "minutes": 5
+      },
+      {
+        "stepId": "cook-pancake-big-banana-pancake",
+        "minutes": 15
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "pancake-flour",
+        "quantity": 65,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 9,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "banana",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 2.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "combine-batter-ingredients-big-banana-pancake",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rest-batter-big-banana-pancake",
+        "duration": 10,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "slice-bananas-big-banana-pancake",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grease-pan-and-add-sugar-big-banana-pancake",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "arrange-bananas-big-banana-pancake",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-bananas-big-banana-pancake",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "pour-batter-over-bananas-big-banana-pancake",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cover-and-cook-pancake-big-banana-pancake",
+        "duration": 3.5,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "flip-pancake-big-banana-pancake",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-other-side-big-banana-pancake",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "transfer-and-cool-big-banana-pancake",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "combine-batter-ingredients-big-banana-pancake",
+        "en": {
+          "title": "Combine batter ingredients",
+          "description": "Pour the pancake flour into a deep bowl. Add the vegetable oil and warm milk. Mix thoroughly until no lumps remain."
+        }
+      },
+      {
+        "id": "rest-batter-big-banana-pancake",
+        "en": {
+          "title": "Rest the batter",
+          "description": "Set the batter aside and let it rest for 10 minutes. This helps the flour hydrate and results in a tender pancake."
+        }
+      },
+      {
+        "id": "slice-bananas-big-banana-pancake",
+        "en": {
+          "title": "Slice the bananas",
+          "description": "Cut the bananas into rounds about 1 cm thick."
+        }
+      },
+      {
+        "id": "grease-pan-and-add-sugar-big-banana-pancake",
+        "en": {
+          "title": "Grease pan and add sugar",
+          "description": "Butter the frying pan and sprinkle sugar over the butter."
+        }
+      },
+      {
+        "id": "arrange-bananas-big-banana-pancake",
+        "en": {
+          "title": "Arrange bananas in pan",
+          "description": "Place the banana slices tightly together in the pan."
+        }
+      },
+      {
+        "id": "cook-bananas-big-banana-pancake",
+        "en": {
+          "title": "Cook bananas until sugar dissolves",
+          "description": "Set the pan over medium heat and cook the bananas for 1-2 minutes, until the sugar dissolves and begins to caramelize."
+        }
+      },
+      {
+        "id": "pour-batter-over-bananas-big-banana-pancake",
+        "en": {
+          "title": "Pour batter over bananas",
+          "description": "Gently pour the batter into the pan, making sure it completely covers the bananas."
+        }
+      },
+      {
+        "id": "cover-and-cook-pancake-big-banana-pancake",
+        "en": {
+          "title": "Cover and cook pancake",
+          "description": "Cover the pan with a lid and cook the pancake over medium heat for 3-4 minutes, until the bottom is golden and the top is set."
+        }
+      },
+      {
+        "id": "flip-pancake-big-banana-pancake",
+        "en": {
+          "title": "Flip the pancake",
+          "description": "Carefully lift the pancake with a spatula and flip it to cook the other side."
+        }
+      },
+      {
+        "id": "cook-other-side-big-banana-pancake",
+        "en": {
+          "title": "Cook the other side",
+          "description": "Cook the pancake for another 2 minutes, until golden and cooked through."
+        }
+      },
+      {
+        "id": "transfer-and-cool-big-banana-pancake",
+        "en": {
+          "title": "Transfer and cool",
+          "description": "Slide the pancake onto a flat plate and let it cool slightly before serving."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-batter-big-banana-pancake",
+        "en": {
+          "title": "Make the batter"
+        }
+      },
+      {
+        "id": "caramelize-bananas-big-banana-pancake",
+        "en": {
+          "title": "Caramelize the bananas"
+        }
+      },
+      {
+        "id": "cook-pancake-big-banana-pancake",
+        "en": {
+          "title": "Cook the pancake"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "id": "tuna-sandwich-garlic-sauce",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDMxMS8zSmdpVEIuanBlZw.webp",
+    "title": {
+      "en": "Tuna Sandwiches with Garlic Sauce"
+    },
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "creamy",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "microwave"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-filling-tuna-sandwich-garlic-sauce",
+        "minutes": 10
+      },
+      {
+        "stepId": "prepare-bread-tuna-sandwich-garlic-sauce",
+        "minutes": 8
+      },
+      {
+        "stepId": "assemble-sandwiches-tuna-sandwich-garlic-sauce",
+        "minutes": 2
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "bread",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "celery",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tomatoes",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "coriander",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tuna",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "quantity": 1.25,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chili-sauce",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "garlic",
+        "quantity": 0.5,
+        "unit": "cloves",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-sauce-tuna-sandwich-garlic-sauce",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "prep-vegetables-tuna-sandwich-garlic-sauce",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "combine-filling-tuna-sandwich-garlic-sauce",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "melt-garlic-butter-tuna-sandwich-garlic-sauce",
+        "duration": 1,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cut-and-butter-bread-tuna-sandwich-garlic-sauce",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "toast-bread-tuna-sandwich-garlic-sauce",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "assemble-sandwiches-tuna-sandwich-garlic-sauce",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-sauce-tuna-sandwich-garlic-sauce",
+        "en": {
+          "title": "Mix the sauce",
+          "description": "In a small bowl, combine mayonnaise, chili sauce, a few drops of Worcestershire sauce, and a pinch of salt and pepper. Stir until smooth."
+        }
+      },
+      {
+        "id": "prep-vegetables-tuna-sandwich-garlic-sauce",
+        "en": {
+          "title": "Prepare the vegetables",
+          "description": "Peel the outer layer of the celery stalk using a vegetable peeler, then cut it into small cubes. Dice the tomato and shallot finely, and chop the cilantro. Transfer everything into a mixing bowl."
+        }
+      },
+      {
+        "id": "combine-filling-tuna-sandwich-garlic-sauce",
+        "en": {
+          "title": "Combine the filling",
+          "description": "Drain the tuna and flake it with a fork. Add it to the bowl with the vegetables. Pour in the prepared sauce and mix well."
+        }
+      },
+      {
+        "id": "melt-garlic-butter-tuna-sandwich-garlic-sauce",
+        "en": {
+          "title": "Melt garlic butter",
+          "description": "Place the butter in a microwave-safe bowl and add the pressed garlic. Microwave on high power for 15 seconds until melted."
+        }
+      },
+      {
+        "id": "cut-and-butter-bread-tuna-sandwich-garlic-sauce",
+        "en": {
+          "title": "Cut and butter the bread",
+          "description": "Slice the ciabatta in half lengthwise, then cut each half into 2 or 4 pieces. Brush each piece with the garlic butter."
+        }
+      },
+      {
+        "id": "toast-bread-tuna-sandwich-garlic-sauce",
+        "en": {
+          "title": "Toast the bread",
+          "description": "Brown the bread on a skillet or in the oven for about 3 minutes until golden and crisp."
+        }
+      },
+      {
+        "id": "assemble-sandwiches-tuna-sandwich-garlic-sauce",
+        "en": {
+          "title": "Assemble the sandwiches",
+          "description": "Spoon the tuna filling onto the bottom halves of the toasted ciabatta and cover with the top halves."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-filling-tuna-sandwich-garlic-sauce",
+        "en": {
+          "title": "Prepare the filling"
+        }
+      },
+      {
+        "id": "prepare-bread-tuna-sandwich-garlic-sauce",
+        "en": {
+          "title": "Prepare the bread"
+        }
+      },
+      {
+        "id": "assemble-sandwiches-tuna-sandwich-garlic-sauce",
+        "en": {
+          "title": "Assemble the sandwiches"
+        }
+      }
+    ]
+  }
+]

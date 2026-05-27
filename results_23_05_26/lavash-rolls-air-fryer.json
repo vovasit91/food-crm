@@ -1,0 +1,142 @@
+[
+  {
+    "id": "lavash-rolls-air-fryer",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDExMi8zWUZZQ3AuanBlZw.webp",
+    "title": {
+      "en": "Lavash Rolls in Air Fryer"
+    },
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "hearty"
+    ],
+    "kitchen": [
+      "air-fryer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-filling-lavash-rolls-air-fryer",
+        "minutes": 5
+      },
+      {
+        "stepId": "assemble-rolls-lavash-rolls-air-fryer",
+        "minutes": 5
+      },
+      {
+        "stepId": "bake-rolls-lavash-rolls-air-fryer",
+        "minutes": 10
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "lavash",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ham",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gouda",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "quantity": 12,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "egg-yolk",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "grate-mix-filling-lavash-rolls-air-fryer",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-rolls-lavash-rolls-air-fryer",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-bake-rolls-lavash-rolls-air-fryer",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "grate-mix-filling-lavash-rolls-air-fryer",
+        "en": {
+          "title": "Grate ham and cheese and mix with mayonnaise",
+          "description": "Coarsely grate the ham and hard cheese. Combine them in a bowl, add mayonnaise, and mix well."
+        }
+      },
+      {
+        "id": "assemble-rolls-lavash-rolls-air-fryer",
+        "en": {
+          "title": "Assemble the rolls",
+          "description": "Spread the filling evenly over the entire surface of the lavash, leaving a 1-2 cm border on the far edge. Roll the lavash tightly into a log. Cut the roll into 8 pieces. Place them in the air fryer basket lined with parchment. Brush the tops with egg yolk and sprinkle with sesame seeds."
+        }
+      },
+      {
+        "id": "preheat-bake-rolls-lavash-rolls-air-fryer",
+        "en": {
+          "title": "Bake the rolls in the air fryer",
+          "description": "Preheat the air fryer to 180°C. Bake the rolls for 8-10 minutes until golden and heated through."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-filling-lavash-rolls-air-fryer",
+        "en": {
+          "title": "Prepare the filling"
+        }
+      },
+      {
+        "id": "assemble-rolls-lavash-rolls-air-fryer",
+        "en": {
+          "title": "Assemble and cut the rolls"
+        }
+      },
+      {
+        "id": "bake-rolls-lavash-rolls-air-fryer",
+        "en": {
+          "title": "Bake the rolls in the air fryer"
+        }
+      }
+    ]
+  }
+]

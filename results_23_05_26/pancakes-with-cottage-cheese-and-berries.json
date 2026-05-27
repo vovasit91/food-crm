@@ -1,0 +1,294 @@
+[
+  {
+    "id": "pancakes-with-cottage-cheese-and-berries",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIxMS9nZWZxdHQuanBlZw.webp",
+    "title": {
+      "en": "Pancakes with Cottage Cheese and Berries"
+    },
+    "timeMinutes": 190,
+    "difficulty": "medium",
+    "tags": [
+      "pan-fried",
+      "creamy"
+    ],
+    "kitchen": [
+      "stove",
+      "frying-pan",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "make-batter-pancakes-with-cottage-cheese-and-berries",
+        "minutes": 35
+      },
+      {
+        "stepId": "cook-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "minutes": 20
+      },
+      {
+        "stepId": "make-filling-pancakes-with-cottage-cheese-and-berries",
+        "minutes": 10
+      },
+      {
+        "stepId": "assemble-and-chill-pancakes-with-cottage-cheese-and-berries",
+        "minutes": 125
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 65,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 62.5,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 62.5,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 0.375,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.125,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "tvorog",
+        "quantity": 90,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "quantity": 37.5,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "powdered-sugar",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "berries",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "mix-eggs-and-milk-pancakes-with-cottage-cheese-and-berries",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-dry-ingredients-pancakes-with-cottage-cheese-and-berries",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-remaining-milk-water-pancakes-with-cottage-cheese-and-berries",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-oil-pancakes-with-cottage-cheese-and-berries",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "rest-batter-pancakes-with-cottage-cheese-and-berries",
+        "duration": 30,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "cook-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "pan-fried",
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "stack-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "make-filling-pancakes-with-cottage-cheese-and-berries",
+        "duration": 8,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "refrigerate-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "duration": 180,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "serve-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "mix-eggs-and-milk-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Mix eggs and milk",
+          "description": "Crack the eggs into a bowl. Add half of the milk and whisk until combined."
+        }
+      },
+      {
+        "id": "add-dry-ingredients-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Add dry ingredients",
+          "description": "Sift in the flour, then add salt and sugar. Mix until smooth and no lumps remain."
+        }
+      },
+      {
+        "id": "add-remaining-milk-water-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Add remaining milk and water",
+          "description": "Pour in the rest of the milk and the water. Stir until the batter is homogeneous."
+        }
+      },
+      {
+        "id": "add-oil-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Add oil",
+          "description": "Add the vegetable oil and mix well. The batter is now ready."
+        }
+      },
+      {
+        "id": "rest-batter-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Rest the batter",
+          "description": "Cover the bowl and let the batter rest for 30 minutes. This allows the gluten to relax for tender pancakes."
+        }
+      },
+      {
+        "id": "cook-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Cook pancakes",
+          "description": "Heat a non-stick pan over medium heat with a little oil. Pour a ladleful of batter, swirl to cover the surface, and cook for 30–40 seconds per side until golden. Repeat with remaining batter."
+        }
+      },
+      {
+        "id": "stack-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Stack cooked pancakes",
+          "description": "Stack the cooked pancakes on a plate and cover with a clean kitchen towel to keep them warm and moist."
+        }
+      },
+      {
+        "id": "make-filling-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Make the filling",
+          "description": "In a deep bowl, whip the heavy cream with powdered sugar until stiff peaks form. Reserve one-third of the whipped cream for serving. Add the cottage cheese to the remaining cream and mix until smooth."
+        }
+      },
+      {
+        "id": "assemble-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Assemble the pancakes",
+          "description": "Line small bowls or a muffin tin with plastic wrap, letting the edges hang over. Place a pancake in each lined bowl. Spoon some cottage cheese filling in the center, make a small indent, and add berries or jam. Cover with more filling, then fold the pancake edges toward the center. Gather the plastic wrap and twist to seal tightly. Repeat for all pancakes."
+        }
+      },
+      {
+        "id": "refrigerate-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Chill the pancakes",
+          "description": "Place the wrapped pancake bundles in the refrigerator and chill for at least 3 hours, or until firm."
+        }
+      },
+      {
+        "id": "serve-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Serve",
+          "description": "Unwrap the chilled pancakes. Place a dollop of the reserved whipped cream on a plate, then set a pancake bundle on top. Serve immediately."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "make-batter-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Make pancake batter"
+        }
+      },
+      {
+        "id": "cook-pancakes-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Cook pancakes"
+        }
+      },
+      {
+        "id": "make-filling-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Prepare filling"
+        }
+      },
+      {
+        "id": "assemble-and-chill-pancakes-with-cottage-cheese-and-berries",
+        "en": {
+          "title": "Assemble and chill"
+        }
+      }
+    ]
+  }
+]

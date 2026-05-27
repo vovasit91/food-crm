@@ -1,0 +1,338 @@
+[
+  {
+    "id": "classic-belgian-waffles",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyMC8zVnNzUmQuanBlZw.webp",
+    "title": {
+      "en": "Classic Belgian Waffles"
+    },
+    "timeMinutes": 95,
+    "difficulty": "medium",
+    "tags": [
+      "vegetarian",
+      "hearty",
+      "pan-fried"
+    ],
+    "kitchen": [
+      "microwave",
+      "stove",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "make-batter-classic-belgian-waffles",
+        "minutes": 15
+      },
+      {
+        "stepId": "let-dough-rise-classic-belgian-waffles",
+        "minutes": 40
+      },
+      {
+        "stepId": "cook-waffles-classic-belgian-waffles",
+        "minutes": 40
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "flour",
+        "quantity": 125,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "yeast",
+        "quantity": 0.375,
+        "unit": "tsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.5,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 125,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 87.5,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 8.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 12.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "powdered-sugar",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "berries",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "melt-butter-classic-belgian-waffles",
+        "duration": 2,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "heat-milk-classic-belgian-waffles",
+        "duration": 3,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "combine-butter-and-milk-classic-belgian-waffles",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "beat-eggs-classic-belgian-waffles",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-eggs-to-mixture-classic-belgian-waffles",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-flour-gradually-classic-belgian-waffles",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "place-batter-on-low-heat-classic-belgian-waffles",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-sparkling-water-salt-sugar-classic-belgian-waffles",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "remove-from-heat-classic-belgian-waffles",
+        "duration": 0,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-yeast-classic-belgian-waffles",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "let-dough-rise-classic-belgian-waffles",
+        "duration": 40,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "preheat-waffle-iron-classic-belgian-waffles",
+        "duration": 5,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "grease-waffle-iron-classic-belgian-waffles",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-batter-and-cook-classic-belgian-waffles",
+        "duration": 20,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "trim-edges-classic-belgian-waffles",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "melt-butter-classic-belgian-waffles",
+        "en": {
+          "title": "Melt the butter",
+          "description": "Place the butter in a microwave-safe bowl and melt it in short bursts of 10–15 seconds until fully melted."
+        }
+      },
+      {
+        "id": "heat-milk-classic-belgian-waffles",
+        "en": {
+          "title": "Heat the milk",
+          "description": "Warm the milk in a small saucepan over medium heat until it is hot but not boiling. Remove from heat immediately."
+        }
+      },
+      {
+        "id": "combine-butter-and-milk-classic-belgian-waffles",
+        "en": {
+          "title": "Combine butter and milk",
+          "description": "Pour the warm milk into the melted butter and stir to combine."
+        }
+      },
+      {
+        "id": "beat-eggs-classic-belgian-waffles",
+        "en": {
+          "title": "Beat the eggs",
+          "description": "Crack the eggs into a separate bowl and whisk them until the yolks and whites are fully blended."
+        }
+      },
+      {
+        "id": "add-eggs-to-mixture-classic-belgian-waffles",
+        "en": {
+          "title": "Add eggs to the mixture",
+          "description": "While stirring the butter-milk mixture actively, slowly pour in the beaten eggs until incorporated."
+        }
+      },
+      {
+        "id": "add-flour-gradually-classic-belgian-waffles",
+        "en": {
+          "title": "Add flour gradually",
+          "description": "Sift the flour into the mixture in small portions, stirring thoroughly after each addition to avoid lumps."
+        }
+      },
+      {
+        "id": "place-batter-on-low-heat-classic-belgian-waffles",
+        "en": {
+          "title": "Place batter on low heat",
+          "description": "Set the saucepan with the batter over the lowest possible heat on the stove."
+        }
+      },
+      {
+        "id": "add-sparkling-water-salt-sugar-classic-belgian-waffles",
+        "en": {
+          "title": "Add sparkling water, salt, and sugar",
+          "description": "Pour in the sparkling water, then add the salt and sugar. Stir everything together until evenly mixed, then remove the pan from the heat."
+        }
+      },
+      {
+        "id": "remove-from-heat-classic-belgian-waffles",
+        "en": {
+          "title": "Remove from heat",
+          "description": "Take the saucepan off the stove."
+        }
+      },
+      {
+        "id": "add-yeast-classic-belgian-waffles",
+        "en": {
+          "title": "Add yeast",
+          "description": "Sprinkle the dry yeast over the warm batter and stir thoroughly to distribute it evenly."
+        }
+      },
+      {
+        "id": "let-dough-rise-classic-belgian-waffles",
+        "en": {
+          "title": "Let dough rise",
+          "description": "Cover the bowl with a clean cloth and leave it in a warm, draft‑free place for 40 minutes, until the batter has doubled in volume and becomes bubbly."
+        }
+      },
+      {
+        "id": "preheat-waffle-iron-classic-belgian-waffles",
+        "en": {
+          "title": "Preheat the waffle iron",
+          "description": "Turn on your waffle iron and let it heat up until it reaches the desired temperature (usually indicated by a light). This takes about 5 minutes."
+        }
+      },
+      {
+        "id": "grease-waffle-iron-classic-belgian-waffles",
+        "en": {
+          "title": "Grease the waffle iron",
+          "description": "Lightly brush the waffle plates with vegetable oil to prevent sticking."
+        }
+      },
+      {
+        "id": "pour-batter-and-cook-classic-belgian-waffles",
+        "en": {
+          "title": "Cook the waffles",
+          "description": "Ladle a small amount of batter onto the hot waffle iron, close the lid, and cook until the waffle is golden brown and crisp. Repeat with the remaining batter."
+        }
+      },
+      {
+        "id": "trim-edges-classic-belgian-waffles",
+        "en": {
+          "title": "Trim the edges",
+          "description": "Once each waffle is cooked, remove it carefully and use a knife to cut off any uneven or crisp edges for a neat appearance."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "make-batter-classic-belgian-waffles",
+        "en": {
+          "title": "Make batter"
+        }
+      },
+      {
+        "id": "let-dough-rise-classic-belgian-waffles",
+        "en": {
+          "title": "Let dough rise"
+        }
+      },
+      {
+        "id": "cook-waffles-classic-belgian-waffles",
+        "en": {
+          "title": "Cook waffles"
+        }
+      }
+    ]
+  }
+]

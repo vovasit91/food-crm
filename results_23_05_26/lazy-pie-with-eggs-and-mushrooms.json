@@ -1,0 +1,370 @@
+[
+  {
+    "id": "lazy-pie-with-eggs-and-mushrooms",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEwNS9OakJBQ00uanBlZw.webp",
+    "title": {
+      "en": "Lazy Pie with Eggs and Mushrooms"
+    },
+    "timeMinutes": 50,
+    "difficulty": "easy",
+    "tags": [
+      "baked",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "frying-pan"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "fry-mushrooms-lazy-pie-with-eggs-and-mushrooms",
+        "minutes": 8
+      },
+      {
+        "stepId": "cook-omelet-lazy-pie-with-eggs-and-mushrooms",
+        "minutes": 5
+      },
+      {
+        "stepId": "make-dough-lazy-pie-with-eggs-and-mushrooms",
+        "minutes": 5
+      },
+      {
+        "stepId": "assemble-and-bake-lazy-pie-with-eggs-and-mushrooms",
+        "minutes": 32
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "mayonnaise",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "flour",
+        "quantity": 8,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cornstarch",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "baking-powder",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "vodka",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 45,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sour-cream",
+        "quantity": 19,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mushrooms",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 30,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "light-cream",
+        "quantity": 12,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "onion",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cheddar",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 9,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "dill",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "black-pepper",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "chop-onion-and-mushrooms-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-oil-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 1,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "fry-onion-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 3,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "add-mushrooms-and-cook-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 7,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "transfer-filling-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whisk-eggs-cream-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-omelet-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 4,
+        "showTimer": true,
+        "tags": [
+          "medium-heat",
+          "dont-overcook"
+        ]
+      },
+      {
+        "stepId": "combine-filling-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "mix-wet-dough-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-dry-to-dough-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "grease-pan-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "pour-dough-and-top-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-pie-lazy-pie-with-eggs-and-mushrooms",
+        "duration": 33,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "chop-onion-and-mushrooms-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Chop onion and mushrooms",
+          "description": "Finely chop the onion and slice the mushrooms into thin pieces."
+        }
+      },
+      {
+        "id": "heat-oil-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Heat oil",
+          "description": "Heat 1 tablespoon of vegetable oil in a skillet over medium heat."
+        }
+      },
+      {
+        "id": "fry-onion-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Fry onion",
+          "description": "Add the chopped onion and sauté until soft and translucent."
+        }
+      },
+      {
+        "id": "add-mushrooms-and-cook-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Add mushrooms and cook",
+          "description": "Add the sliced mushrooms to the skillet and cook for 5-7 minutes until the excess moisture evaporates. Stir occasionally."
+        }
+      },
+      {
+        "id": "transfer-filling-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Transfer filling",
+          "description": "Transfer the cooked onion and mushrooms to a plate."
+        }
+      },
+      {
+        "id": "whisk-eggs-cream-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Whisk eggs and cream",
+          "description": "In a separate bowl, whisk together the eggs, cream, salt, and pepper until well combined."
+        }
+      },
+      {
+        "id": "cook-omelet-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Cook omelet",
+          "description": "Pour the egg mixture into the hot skillet and cook covered over medium heat for 3-4 minutes until set. Be careful not to overcook."
+        }
+      },
+      {
+        "id": "combine-filling-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Combine filling",
+          "description": "Transfer the cooked omelet to the plate with mushrooms and mix everything together thoroughly."
+        }
+      },
+      {
+        "id": "mix-wet-dough-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Mix wet dough ingredients",
+          "description": "In a clean bowl, combine the eggs, mayonnaise, sour cream, and vodka. Whisk until smooth."
+        }
+      },
+      {
+        "id": "add-dry-to-dough-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Add dry ingredients",
+          "description": "Sift in the flour and baking powder, then stir until the batter is smooth and lump-free. The dough should be runny but slightly thick, like pancake batter."
+        }
+      },
+      {
+        "id": "grease-pan-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Grease baking dish",
+          "description": "Grease a baking dish with the remaining vegetable oil."
+        }
+      },
+      {
+        "id": "pour-dough-and-top-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Assemble the pie",
+          "description": "Pour the batter into the prepared dish. Evenly distribute the mushroom-omelet filling on top and sprinkle with grated cheese."
+        }
+      },
+      {
+        "id": "bake-pie-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Bake the pie",
+          "description": "Place the dish in a preheated oven at 180°C (350°F) and bake for 30-35 minutes until golden brown and set."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "fry-mushrooms-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Fry mushrooms and onion"
+        }
+      },
+      {
+        "id": "cook-omelet-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Cook omelet"
+        }
+      },
+      {
+        "id": "make-dough-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Prepare dough"
+        }
+      },
+      {
+        "id": "assemble-and-bake-lazy-pie-with-eggs-and-mushrooms",
+        "en": {
+          "title": "Assemble and bake"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "id": "egg-pancakes-with-chicken",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDEwNC80UjdKQVQuanBlZw.webp",
+    "title": {
+      "en": "Egg Pancakes with Chicken"
+    },
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "tags": [
+      "pan-fried",
+      "baked",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "oven",
+      "frying-pan",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "bake-chicken-egg-pancakes-with-chicken",
+        "minutes": 30
+      },
+      {
+        "stepId": "make-pancake-egg-pancakes-with-chicken",
+        "minutes": 5
+      },
+      {
+        "stepId": "saute-mushrooms-egg-pancakes-with-chicken",
+        "minutes": 7
+      },
+      {
+        "stepId": "assemble-egg-pancakes-with-chicken",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "chicken-thighs",
+        "quantity": 85,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mushrooms",
+        "quantity": 50,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "spices",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sunflower-oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "season-chicken-egg-pancakes-with-chicken",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "bake-chicken-egg-pancakes-with-chicken",
+        "duration": 30,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "whisk-egg-mixture-egg-pancakes-with-chicken",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-pancake-egg-pancakes-with-chicken",
+        "duration": 3,
+        "showTimer": true,
+        "tags": [
+          "pan-fried"
+        ]
+      },
+      {
+        "stepId": "saute-mushrooms-egg-pancakes-with-chicken",
+        "duration": 7,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "prepare-chicken-filling-egg-pancakes-with-chicken",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-pancakes-egg-pancakes-with-chicken",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "season-chicken-egg-pancakes-with-chicken",
+        "en": {
+          "title": "Season the chicken",
+          "description": "Rub the chicken thighs with salt and spices on all sides."
+        }
+      },
+      {
+        "id": "bake-chicken-egg-pancakes-with-chicken",
+        "en": {
+          "title": "Bake the chicken",
+          "description": "Place the seasoned chicken in a parchment-lined baking dish and bake at 180°C until fully cooked, about 30 minutes."
+        }
+      },
+      {
+        "id": "whisk-egg-mixture-egg-pancakes-with-chicken",
+        "en": {
+          "title": "Whisk the egg mixture",
+          "description": "In a bowl, beat 1 egg with 1 tablespoon of milk and a pinch of salt until smooth."
+        }
+      },
+      {
+        "id": "cook-pancake-egg-pancakes-with-chicken",
+        "en": {
+          "title": "Cook the egg pancake",
+          "description": "Pour the egg mixture into a hot oiled frying pan, spread it thinly, and fry on both sides until golden. Transfer to a plate."
+        }
+      },
+      {
+        "id": "saute-mushrooms-egg-pancakes-with-chicken",
+        "en": {
+          "title": "Sauté the mushrooms",
+          "description": "Finely chop the mushrooms. Heat oil in a clean pan and sauté the mushrooms, stirring occasionally, until all liquid evaporates and they turn golden brown."
+        }
+      },
+      {
+        "id": "prepare-chicken-filling-egg-pancakes-with-chicken",
+        "en": {
+          "title": "Prepare the chicken filling",
+          "description": "Remove the baked chicken from the bones, cut it into small cubes, and mix with the sautéed mushrooms."
+        }
+      },
+      {
+        "id": "assemble-pancakes-egg-pancakes-with-chicken",
+        "en": {
+          "title": "Assemble the pancakes",
+          "description": "Place the chicken-mushroom filling in the center of the egg pancake. Fold the top and bottom edges over the filling, then fold the sides to form an envelope."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "bake-chicken-egg-pancakes-with-chicken",
+        "en": {
+          "title": "Bake the chicken"
+        }
+      },
+      {
+        "id": "make-pancake-egg-pancakes-with-chicken",
+        "en": {
+          "title": "Make the egg pancake"
+        }
+      },
+      {
+        "id": "saute-mushrooms-egg-pancakes-with-chicken",
+        "en": {
+          "title": "Sauté the mushrooms"
+        }
+      },
+      {
+        "id": "assemble-egg-pancakes-with-chicken",
+        "en": {
+          "title": "Assemble the pancakes"
+        }
+      }
+    ]
+  }
+]

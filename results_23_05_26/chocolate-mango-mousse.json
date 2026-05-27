@@ -1,0 +1,246 @@
+[
+  {
+    "id": "chocolate-mango-mousse",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyNi80MkdGalcuanBlZw.webp",
+    "title": {
+      "en": "Chocolate-Mango Mousse"
+    },
+    "timeMinutes": 110,
+    "difficulty": "hard",
+    "tags": [
+      "creamy",
+      "gluten-free"
+    ],
+    "kitchen": [
+      "stove",
+      "pots",
+      "blender",
+      "mixer"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-mango-layer-chocolate-mango-mousse",
+        "minutes": 74
+      },
+      {
+        "stepId": "make-chocolate-mousse-chocolate-mango-mousse",
+        "minutes": 23
+      },
+      {
+        "stepId": "assemble-and-chill-chocolate-mango-mousse",
+        "minutes": 32
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "dark-chocolate",
+        "quantity": 25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "quantity": 52.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "mango",
+        "quantity": 75,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 4,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "gelatin",
+        "quantity": 1.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "bloom-gelatin-chocolate-mango-mousse",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cook-mango-chocolate-mango-mousse",
+        "duration": 5,
+        "showTimer": false,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "blend-and-pour-mango-chocolate-mango-mousse",
+        "duration": 4,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "refrigerate-mango-layer-chocolate-mango-mousse",
+        "duration": 60,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "heat-cream-with-gelatin-and-melt-chocolate-chocolate-mango-mousse",
+        "duration": 6,
+        "showTimer": true,
+        "tags": [
+          "low-heat"
+        ]
+      },
+      {
+        "stepId": "blend-chocolate-mixture-chocolate-mango-mousse",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "cool-chocolate-mixture-chocolate-mango-mousse",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "whip-cream-chocolate-mango-mousse",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fold-cream-into-chocolate-chocolate-mango-mousse",
+        "duration": 2,
+        "showTimer": false,
+        "tags": [
+          "gentle-stir"
+        ]
+      },
+      {
+        "stepId": "assemble-mousse-chocolate-mango-mousse",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "refrigerate-final-chocolate-mango-mousse",
+        "duration": 30,
+        "showTimer": true,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "bloom-gelatin-chocolate-mango-mousse",
+        "en": {
+          "title": "Bloom the gelatin",
+          "description": "Pour 25 ml of water over the gelatin and let it sit at room temperature until the granules absorb the liquid and swell."
+        }
+      },
+      {
+        "id": "cook-mango-chocolate-mango-mousse",
+        "en": {
+          "title": "Cook the mango",
+          "description": "Dice the mango into cubes, add the sugar, and place over medium heat. Cook, stirring constantly, until the mixture comes to a boil."
+        }
+      },
+      {
+        "id": "blend-and-pour-mango-chocolate-mango-mousse",
+        "en": {
+          "title": "Blend and pour the mango purée",
+          "description": "Remove the saucepan from the heat, add half of the bloomed gelatin, and blend with an immersion blender until smooth and homogeneous. Pour the purée into serving glasses or ramekins."
+        }
+      },
+      {
+        "id": "refrigerate-mango-layer-chocolate-mango-mousse",
+        "en": {
+          "title": "Chill the mango layer",
+          "description": "Place the glasses in the refrigerator and let them set for 1 hour."
+        }
+      },
+      {
+        "id": "heat-cream-with-gelatin-and-melt-chocolate-chocolate-mango-mousse",
+        "en": {
+          "title": "Heat cream with gelatin and melt chocolate",
+          "description": "In a clean saucepan, combine 50 ml of heavy cream with the remaining gelatin. Place over low heat and warm for 4–5 minutes, without letting it boil. Add the finely chopped dark chocolate and cook for another minute until the chocolate is fully melted."
+        }
+      },
+      {
+        "id": "blend-chocolate-mixture-chocolate-mango-mousse",
+        "en": {
+          "title": "Blend the chocolate mixture",
+          "description": "Remove the saucepan from the heat and blend the mixture with an immersion blender until perfectly smooth. Let it cool slightly."
+        }
+      },
+      {
+        "id": "cool-chocolate-mixture-chocolate-mango-mousse",
+        "en": {
+          "title": "Cool the chocolate mixture",
+          "description": "Set the chocolate mixture aside to cool to room temperature, about 10 minutes."
+        }
+      },
+      {
+        "id": "whip-cream-chocolate-mango-mousse",
+        "en": {
+          "title": "Whip the remaining cream",
+          "description": "Pour the remaining heavy cream into a bowl and whip with a mixer until soft peaks form."
+        }
+      },
+      {
+        "id": "fold-cream-into-chocolate-chocolate-mango-mousse",
+        "en": {
+          "title": "Fold cream into chocolate",
+          "description": "Gently fold the whipped cream into the cooled chocolate mixture using a spatula, until just combined and no streaks remain."
+        }
+      },
+      {
+        "id": "assemble-mousse-chocolate-mango-mousse",
+        "en": {
+          "title": "Assemble the mousse",
+          "description": "Remove the chilled glasses from the refrigerator and spoon the chocolate mousse over the mango layer."
+        }
+      },
+      {
+        "id": "refrigerate-final-chocolate-mango-mousse",
+        "en": {
+          "title": "Refrigerate until set",
+          "description": "Return the glasses to the refrigerator and chill for at least 30 minutes before serving."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-mango-layer-chocolate-mango-mousse",
+        "en": {
+          "title": "Prepare the mango layer"
+        }
+      },
+      {
+        "id": "make-chocolate-mousse-chocolate-mango-mousse",
+        "en": {
+          "title": "Make the chocolate mousse"
+        }
+      },
+      {
+        "id": "assemble-and-chill-chocolate-mango-mousse",
+        "en": {
+          "title": "Assemble and chill the dessert"
+        }
+      }
+    ]
+  }
+]

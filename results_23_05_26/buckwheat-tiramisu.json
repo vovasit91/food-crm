@@ -1,0 +1,404 @@
+[
+  {
+    "id": "buckwheat-tiramisu",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI2MDIyNi80VG9LckouanBlZw.webp",
+    "title": {
+      "en": "Buckwheat Tiramisu"
+    },
+    "timeMinutes": 210,
+    "difficulty": "medium",
+    "tags": [
+      "vegetarian",
+      "creamy",
+      "hearty"
+    ],
+    "kitchen": [
+      "stove",
+      "mixer",
+      "pots"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "brew-coffee-buckwheat-tiramisu",
+        "minutes": 15
+      },
+      {
+        "stepId": "make-cream-buckwheat-tiramisu",
+        "minutes": 10
+      },
+      {
+        "stepId": "assemble-tiramisu-buckwheat-tiramisu",
+        "minutes": 130
+      },
+      {
+        "stepId": "cook-buckwheat-buckwheat-tiramisu",
+        "minutes": 20
+      },
+      {
+        "stepId": "serve-buckwheat-tiramisu",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "buckwheat",
+        "quantity": 40,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "milk",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 100,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "salt",
+        "quantity": 0.25,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 2,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 31,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "eggs",
+        "quantity": 0.25,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "savoiardi-biscuits",
+        "quantity": 3,
+        "unit": null,
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "quantity": 13,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "coffee-liqueur",
+        "quantity": 1,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "ground-coffee",
+        "quantity": 1.5,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "water",
+        "quantity": 25,
+        "unit": "ml",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "add-coffee-water-buckwheat-tiramisu",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "heat-coffee-foam-buckwheat-tiramisu",
+        "duration": 2,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "settle-foam-buckwheat-tiramisu",
+        "duration": 0.5,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "boil-coffee-buckwheat-tiramisu",
+        "duration": 1,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cool-coffee-buckwheat-tiramisu",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "separate-yolk-sugar-buckwheat-tiramisu",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "beat-yolk-sugar-buckwheat-tiramisu",
+        "duration": 3,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "mix-cream-buckwheat-tiramisu",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "add-liqueur-coffee-buckwheat-tiramisu",
+        "duration": 0.5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "dip-ladyfingers-buckwheat-tiramisu",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "spread-cream-buckwheat-tiramisu",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "chill-tiramisu-buckwheat-tiramisu",
+        "duration": 120,
+        "showTimer": true,
+        "tags": []
+      },
+      {
+        "stepId": "boil-buckwheat-water-buckwheat-tiramisu",
+        "duration": 3,
+        "showTimer": false,
+        "tags": [
+          "high-heat"
+        ]
+      },
+      {
+        "stepId": "cook-buckwheat-partial-buckwheat-tiramisu",
+        "duration": 7,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "cook-buckwheat-milk-buckwheat-tiramisu",
+        "duration": 10,
+        "showTimer": true,
+        "tags": [
+          "medium-heat"
+        ]
+      },
+      {
+        "stepId": "dust-cocoa-buckwheat-tiramisu",
+        "duration": 1,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "serve-dish-buckwheat-tiramisu",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "add-coffee-water-buckwheat-tiramisu",
+        "en": {
+          "title": "Add coffee and water to turk",
+          "description": "Place the ground coffee into a turk or small saucepan. Pour in 100 ml of water and stir briefly."
+        }
+      },
+      {
+        "id": "heat-coffee-foam-buckwheat-tiramisu",
+        "en": {
+          "title": "Heat over medium until foam forms",
+          "description": "Set the turk over medium heat and watch closely. When a light foam rises to the surface, immediately remove it from the heat."
+        }
+      },
+      {
+        "id": "settle-foam-buckwheat-tiramisu",
+        "en": {
+          "title": "Let the foam settle",
+          "description": "Remove the turk from the burner and wait about 30 seconds for the foam to subside."
+        }
+      },
+      {
+        "id": "boil-coffee-buckwheat-tiramisu",
+        "en": {
+          "title": "Bring to the first boil",
+          "description": "Return the turk to low heat and heat until you see the first signs of boiling. Remove promptly to avoid over-extraction."
+        }
+      },
+      {
+        "id": "cool-coffee-buckwheat-tiramisu",
+        "en": {
+          "title": "Allow the coffee to cool",
+          "description": "Set the coffee aside to cool completely to room temperature."
+        }
+      },
+      {
+        "id": "separate-yolk-sugar-buckwheat-tiramisu",
+        "en": {
+          "title": "Separate egg yolk and add sugar",
+          "description": "Crack an egg and separate the yolk into a mixing bowl. Add 1 teaspoon of sugar."
+        }
+      },
+      {
+        "id": "beat-yolk-sugar-buckwheat-tiramisu",
+        "en": {
+          "title": "Beat until fluffy",
+          "description": "Using a mixer on medium speed, beat the yolk and sugar for 2–3 minutes until the mixture becomes light and pale."
+        }
+      },
+      {
+        "id": "mix-cream-buckwheat-tiramisu",
+        "en": {
+          "title": "Add mascarpone and cream and mix",
+          "description": "Add the mascarpone and heavy cream to the beaten yolk. Mix on medium speed until smooth and fully combined."
+        }
+      },
+      {
+        "id": "add-liqueur-coffee-buckwheat-tiramisu",
+        "en": {
+          "title": "Add liqueur to coffee",
+          "description": "Stir the coffee liqueur into the cooled coffee mixture."
+        }
+      },
+      {
+        "id": "dip-ladyfingers-buckwheat-tiramisu",
+        "en": {
+          "title": "Dip ladyfingers and arrange in dish",
+          "description": "Quickly dip each ladyfinger into the coffee mixture, then arrange them in a single layer at the bottom of a serving dish."
+        }
+      },
+      {
+        "id": "spread-cream-buckwheat-tiramisu",
+        "en": {
+          "title": "Spread mascarpone cream on top",
+          "description": "Evenly spread the prepared mascarpone cream over the layer of ladyfingers."
+        }
+      },
+      {
+        "id": "chill-tiramisu-buckwheat-tiramisu",
+        "en": {
+          "title": "Refrigerate for 2–3 hours",
+          "description": "Place the dish in the refrigerator and let it chill for at least 2 hours, or up to 3, to allow the flavors to meld and the cream to set."
+        }
+      },
+      {
+        "id": "boil-buckwheat-water-buckwheat-tiramisu",
+        "en": {
+          "title": "Add buckwheat and water, bring to a boil",
+          "description": "Place the buckwheat groats in a pot and pour in the water. Add a pinch of salt. Bring to a boil over high heat."
+        }
+      },
+      {
+        "id": "cook-buckwheat-partial-buckwheat-tiramisu",
+        "en": {
+          "title": "Cook buckwheat partially",
+          "description": "Reduce the heat to medium and let the buckwheat simmer for 5–7 minutes, until it is half-cooked and has absorbed some water."
+        }
+      },
+      {
+        "id": "cook-buckwheat-milk-buckwheat-tiramisu",
+        "en": {
+          "title": "Add milk and sugar, cook until done",
+          "description": "Pour in the milk and add 0.5 teaspoon of sugar. Stir gently and continue cooking for another 7–10 minutes, until the buckwheat is soft and most of the liquid is absorbed."
+        }
+      },
+      {
+        "id": "dust-cocoa-buckwheat-tiramisu",
+        "en": {
+          "title": "Dust tiramisu with cocoa",
+          "description": "Take the chilled tiramisu out of the fridge and dust the top generously with cocoa powder."
+        }
+      },
+      {
+        "id": "serve-dish-buckwheat-tiramisu",
+        "en": {
+          "title": "Plate buckwheat porridge and top with tiramisu",
+          "description": "Divide the cooked buckwheat porridge among serving plates. Place a portion of the tiramisu on top of each plate."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "brew-coffee-buckwheat-tiramisu",
+        "en": {
+          "title": "Brew coffee"
+        }
+      },
+      {
+        "id": "make-cream-buckwheat-tiramisu",
+        "en": {
+          "title": "Make mascarpone cream"
+        }
+      },
+      {
+        "id": "assemble-tiramisu-buckwheat-tiramisu",
+        "en": {
+          "title": "Assemble and chill tiramisu"
+        }
+      },
+      {
+        "id": "cook-buckwheat-buckwheat-tiramisu",
+        "en": {
+          "title": "Cook buckwheat porridge"
+        }
+      },
+      {
+        "id": "serve-buckwheat-tiramisu",
+        "en": {
+          "title": "Serve"
+        }
+      }
+    ]
+  }
+]

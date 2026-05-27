@@ -1,0 +1,221 @@
+[
+  {
+    "id": "phyllo-strawberry-pastries",
+    "image": "https://cdn.food.ru/unsigned/fit/1200/900/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI1MTIyMS9RUXZNYlouanBlZw.webp",
+    "title": {
+      "en": "Phyllo Strawberry Pastries"
+    },
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "tags": [
+      "baked",
+      "creamy",
+      "vegetarian"
+    ],
+    "kitchen": [
+      "oven",
+      "microwave",
+      "baking-tray"
+    ],
+    "variations": [],
+    "tldrSteps": [
+      {
+        "stepId": "prepare-phyllo-phyllo-strawberry-pastries",
+        "minutes": 10
+      },
+      {
+        "stepId": "make-filling-phyllo-strawberry-pastries",
+        "minutes": 5
+      },
+      {
+        "stepId": "assemble-and-bake-phyllo-strawberry-pastries",
+        "minutes": 20
+      },
+      {
+        "stepId": "finish-and-top-phyllo-strawberry-pastries",
+        "minutes": 5
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredientId": "phyllo-dough",
+        "quantity": 60,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "butter",
+        "quantity": 20,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "strawberries",
+        "quantity": 83,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "white-chocolate",
+        "quantity": 15,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "almonds",
+        "quantity": null,
+        "unit": "to-taste",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "quantity": 33,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "egg-yolk",
+        "quantity": 11,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      },
+      {
+        "ingredientId": "sugar",
+        "quantity": 17,
+        "unit": "g",
+        "optional": false,
+        "substitutes": []
+      }
+    ],
+    "cookingSteps": [
+      {
+        "stepId": "melt-butter-phyllo-strawberry-pastries",
+        "duration": 2,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "assemble-phyllo-blanks-phyllo-strawberry-pastries",
+        "duration": 10,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "make-cream-filling-phyllo-strawberry-pastries",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "fill-and-brush-edges-phyllo-strawberry-pastries",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "sprinkle-almonds-and-bake-phyllo-strawberry-pastries",
+        "duration": 20,
+        "showTimer": true,
+        "tags": [
+          "preheat-oven"
+        ]
+      },
+      {
+        "stepId": "top-with-strawberries-phyllo-strawberry-pastries",
+        "duration": 5,
+        "showTimer": false,
+        "tags": []
+      },
+      {
+        "stepId": "melt-chocolate-and-drizzle-phyllo-strawberry-pastries",
+        "duration": 3,
+        "showTimer": false,
+        "tags": []
+      }
+    ],
+    "newCookingSteps": [
+      {
+        "id": "melt-butter-phyllo-strawberry-pastries",
+        "en": {
+          "title": "Melt the butter",
+          "description": "Melt the butter in the microwave in short 10-second bursts, stirring in between, until completely melted."
+        }
+      },
+      {
+        "id": "assemble-phyllo-blanks-phyllo-strawberry-pastries",
+        "en": {
+          "title": "Assemble phyllo blanks",
+          "description": "Lay one sheet of phyllo dough, brush it with melted butter, then place a second sheet on top. Gather the edges toward the center to form a round, crumpled blank. Repeat for the remaining sheets to make three blanks."
+        }
+      },
+      {
+        "id": "make-cream-filling-phyllo-strawberry-pastries",
+        "en": {
+          "title": "Make the cream filling",
+          "description": "In a bowl, combine cream cheese, sugar, and one egg yolk. Mix until smooth and homogeneous."
+        }
+      },
+      {
+        "id": "fill-and-brush-edges-phyllo-strawberry-pastries",
+        "en": {
+          "title": "Fill and brush edges",
+          "description": "Place a spoonful of the cream filling in the center of each phyllo blank. Brush the exposed dough edges with the remaining egg yolk."
+        }
+      },
+      {
+        "id": "sprinkle-almonds-and-bake-phyllo-strawberry-pastries",
+        "en": {
+          "title": "Sprinkle almonds and bake",
+          "description": "Sprinkle the edges of the pastries with almond flakes. Bake in an oven preheated to 180°C for 15–20 minutes until golden and crispy."
+        }
+      },
+      {
+        "id": "top-with-strawberries-phyllo-strawberry-pastries",
+        "en": {
+          "title": "Top with strawberries",
+          "description": "Remove the pastries from the oven. Cut the strawberries into quarters and arrange them on top of the cream filling."
+        }
+      },
+      {
+        "id": "melt-chocolate-and-drizzle-phyllo-strawberry-pastries",
+        "en": {
+          "title": "Melt chocolate and drizzle",
+          "description": "Break the white chocolate into pieces and melt it in the microwave in 10–15 second bursts. Drizzle the melted chocolate over the pastries."
+        }
+      }
+    ],
+    "newTldrSteps": [
+      {
+        "id": "prepare-phyllo-phyllo-strawberry-pastries",
+        "en": {
+          "title": "Prepare phyllo and butter"
+        }
+      },
+      {
+        "id": "make-filling-phyllo-strawberry-pastries",
+        "en": {
+          "title": "Make cream cheese filling"
+        }
+      },
+      {
+        "id": "assemble-and-bake-phyllo-strawberry-pastries",
+        "en": {
+          "title": "Assemble and bake"
+        }
+      },
+      {
+        "id": "finish-and-top-phyllo-strawberry-pastries",
+        "en": {
+          "title": "Top with strawberries and chocolate"
+        }
+      }
+    ]
+  }
+]
