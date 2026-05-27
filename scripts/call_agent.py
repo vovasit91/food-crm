@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Send a prompt file to a local or DeepSeek AI agent and print the response.
+"""Send a prompt file to a local or remote AI agent and print the response.
 
 Usage:
   call_agent.py <prompt_file>             # local agent
   call_agent.py <prompt_file> --deepseek  # DeepSeek API (requires DEEPSEEK_API_KEY env var)
+  call_agent.py <prompt_file> --claude    # Claude API (requires ANTHROPIC_API_KEY env var)
 """
 
 import json
@@ -31,25 +32,32 @@ DEEPSEEK_URL = "https://api.deepseek.com/chat/completions"
 
 prompt_path = sys.argv[1]
 use_deepseek = "--deepseek" in sys.argv
+use_claude = "--claude" in sys.argv
 
 prompt = open(prompt_path).read()
+env = load_env(Path(__file__).parent.parent / ".env")
 
-if use_deepseek:
-    env = load_env(Path(__file__).parent.parent / ".env")
+if use_claude:
+    import subprocess
+    result = subprocess.run(
+        ["claude", "--print"],
+        input=prompt,
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    print(result.stdout, end="")
+elif use_deepseek:
     api_key = env.get("DEEPSEEK_API_KEY") or os.environ.get("DEEPSEEK_API_KEY", "")
     if not api_key:
-        print(
-            "Error: DEEPSEEK_API_KEY environment variable is not set", file=sys.stderr
-        )
+        print("Error: DEEPSEEK_API_KEY is not set", file=sys.stderr)
         sys.exit(1)
-    payload = json.dumps(
-        {
-            "model": "deepseek-v4-pro",
-            "messages": [{"role": "user", "content": prompt}],
-            "thinking": {"type": "enabled"},
-            "reasoning_effort": "high",
-        }
-    ).encode()
+    payload = json.dumps({
+        "model": "deepseek-v4-pro",
+        "messages": [{"role": "user", "content": prompt}],
+        "thinking": {"type": "enabled"},
+        "reasoning_effort": "high",
+    }).encode()
     req = urllib.request.Request(
         DEEPSEEK_URL,
         data=payload,
@@ -59,6 +67,9 @@ if use_deepseek:
             "Authorization": f"Bearer {api_key}",
         },
     )
+    with urllib.request.urlopen(req) as resp:
+        data = json.load(resp)
+    print(data["choices"][0]["message"]["content"])
 else:
     payload = json.dumps({"messages": [{"role": "user", "content": prompt}]}).encode()
     req = urllib.request.Request(
@@ -66,7 +77,6 @@ else:
         data=payload,
         headers={"Content-Type": "application/json"},
     )
-
-with urllib.request.urlopen(req) as resp:
-    data = json.load(resp)
-print(data["choices"][0]["message"]["content"])
+    with urllib.request.urlopen(req) as resp:
+        data = json.load(resp)
+    print(data["choices"][0]["message"]["content"])

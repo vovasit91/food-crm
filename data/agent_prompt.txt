@@ -125,8 +125,9 @@ For each tldr step:
 - stepId: always a new slug suffixed with the recipe `id`: `{action}-{recipe-id}` (e.g. `boil-potatoes-vegan-shepherd-pie`)
 - minutes: estimated total time for that phase
 
-Always include every tldr stepId in `newTldrSteps` with:
-- translations.title: { "en": short imperative English phrase, "ua": Ukrainian translation (e.g. "Посмажити, Запікти, Змішати") }
+Always include every tldr stepId with:
+- translations.title.en: short imperative phrase, 2-4 words (e.g. "Slice the apples", "Bake until golden")
+- translations.title.ua: infinitive form, 2-4 words — verb + direct object only, no extra details or modifiers (e.g. "Нарізати яблука", "Запекти тісто"). NEVER use imperative (Наріжте, Запечіть).
 
 ### servings (preliminary step — do not output this field)
 Before mapping ingredients, determine how many servings the original recipe is for:

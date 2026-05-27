@@ -8,7 +8,10 @@ DB="/Users/v-sitdikov/iOS/Food/assets/db/food.db"
 OUTPUT_DIR="$PROJECT_DIR/results"
 PROMPT_TEMPLATE="$PROJECT_DIR/data/agent_prompt.txt"
 AGENT_FLAG=""
+COPY_PROMPT=false
 [[ "${1:-}" == "--deepseek" ]] && AGENT_FLAG="--deepseek"
+[[ "${1:-}" == "--claude" ]] && AGENT_FLAG="--claude"
+[[ "${1:-}" == "--copy-prompt" ]] && COPY_PROMPT=true
 
 mkdir -p "$OUTPUT_DIR"
 
@@ -192,6 +195,15 @@ $TAG_IDS
 ### Kitchen items
 $KITCHEN_IDS
 EOF
+
+# ── Copy prompt to clipboard and exit (if requested) ──────────────────────────
+
+if $COPY_PROMPT; then
+  pbcopy < "$TMPPROMPT"
+  echo "✓ Prompt copied to clipboard"
+  _revert_url
+  exit 0
+fi
 
 # ── Call Claude agent ──────────────────────────────────────────────────────────
 
