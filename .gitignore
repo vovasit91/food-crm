@@ -1,6 +1,8 @@
 .env
 .env.local
 for_import/
+results/
+results_23_05_26/
 .venv
 .DS_Store
 .next/
