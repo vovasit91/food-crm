@@ -9,7 +9,7 @@ from pathlib import Path
 
 DB = Path("/Users/v-sitdikov/iOS/Food/assets/db/food.db")
 TS_EN = Path("/Users/v-sitdikov/iOS/Food/src/i18n/locales/en/recipes.ts")
-RESULTS_DIR = Path(__file__).parent / "results"
+RESULTS_DIR = Path(__file__).parent.parent / "results"
 
 VALID_DIFFICULTIES = {"easy", "medium", "hard"}
 VALID_UNITS = {"g", "ml", "tbsp", "tsp", "cup", "cloves", "to-taste", None}

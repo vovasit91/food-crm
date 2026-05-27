@@ -26,9 +26,9 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-PROJECT_DIR = Path(__file__).resolve().parent
+PROJECT_DIR = Path(__file__).resolve().parent.parent
 ENV_PATH = PROJECT_DIR / ".env"
-DEFAULT_STYLE_PATH = PROJECT_DIR / "recipe_photo_prompt.json"
+DEFAULT_STYLE_PATH = PROJECT_DIR / "data" / "recipe_photo_prompt.json"
 
 GEMINI_DEFAULT_MODEL = "gemini-3.1-flash-image-preview"
 GEMINI_FALLBACK_MODEL = "gemini-2.5-flash-image"

@@ -20,7 +20,7 @@ SCRIPTS = Path(__file__).parent
 def load_env():
     env = {}
     try:
-        for line in (SCRIPTS / ".env").read_text().splitlines():
+        for line in (SCRIPTS.parent / ".env").read_text().splitlines():
             line = line.strip()
             if line and not line.startswith("#") and "=" in line:
                 k, v = line.split("=", 1)

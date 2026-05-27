@@ -5,7 +5,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 RESULTS_DIR = ROOT / "results"
 OUT_DIR = ROOT / "for_import"
 OUT_DIR.mkdir(exist_ok=True)

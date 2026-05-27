@@ -7,13 +7,14 @@ Usage:
 
 import sys
 import subprocess
+from pathlib import Path
 
 args = sys.argv[1:]
 done = 0
 
 while True:
     result = subprocess.run(
-        ["python3", "translate_one.py"] + args,
+        ["python3", str(Path(__file__).parent / "translate_one.py")] + args,
         capture_output=True,
         text=True,
     )

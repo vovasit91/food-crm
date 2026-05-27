@@ -26,7 +26,7 @@ Output only the summary text, nothing else."""
 
 
 def load_env():
-    env_path = Path(__file__).parent / ".env"
+    env_path = Path(__file__).parent.parent / ".env"
     try:
         for line in env_path.read_text().splitlines():
             line = line.strip()

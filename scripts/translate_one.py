@@ -33,7 +33,7 @@ Output only the translated text — no explanations, no quotes, no punctuation c
 def load_env():
     env = {}
     try:
-        for line in (Path(__file__).parent / ".env").read_text().splitlines():
+        for line in (Path(__file__).parent.parent / ".env").read_text().splitlines():
             line = line.strip()
             if line and not line.startswith("#") and "=" in line:
                 k, v = line.split("=", 1)

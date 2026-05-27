@@ -35,7 +35,7 @@ use_deepseek = "--deepseek" in sys.argv
 prompt = open(prompt_path).read()
 
 if use_deepseek:
-    env = load_env(Path(__file__).parent / ".env")
+    env = load_env(Path(__file__).parent.parent / ".env")
     api_key = env.get("DEEPSEEK_API_KEY") or os.environ.get("DEEPSEEK_API_KEY", "")
     if not api_key:
         print(

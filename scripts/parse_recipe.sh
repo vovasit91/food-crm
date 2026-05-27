@@ -2,17 +2,18 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-LINKS_FILE="$SCRIPT_DIR/links.txt"
+PROJECT_DIR="$SCRIPT_DIR/.."
+LINKS_FILE="$PROJECT_DIR/data/links.txt"
 DB="/Users/v-sitdikov/iOS/Food/assets/db/food.db"
-OUTPUT_DIR="$SCRIPT_DIR/results"
-PROMPT_TEMPLATE="$SCRIPT_DIR/agent_prompt.txt"
+OUTPUT_DIR="$PROJECT_DIR/results"
+PROMPT_TEMPLATE="$PROJECT_DIR/data/agent_prompt.txt"
 AGENT_FLAG=""
 [[ "${1:-}" == "--deepseek" ]] && AGENT_FLAG="--deepseek"
 
 mkdir -p "$OUTPUT_DIR"
 
 # Atomically claim the first unclaimed, unprocessed URL
-URL=$(python3 - "$LINKS_FILE" "$SCRIPT_DIR/processed-links.txt" << 'PYEOF'
+URL=$(python3 - "$LINKS_FILE" "$PROJECT_DIR/data/processed-links.txt" << 'PYEOF'
 import sys, fcntl
 
 links_path, done_path = sys.argv[1], sys.argv[2]
@@ -255,7 +256,7 @@ print(len(obj.get('newCookingSteps', [])))
 
 # ── Remove processed URL from links.txt and record it ─────────────────────────
 
-python3 - "$LINKS_FILE" "$URL" "$SCRIPT_DIR/processed-links.txt" << 'PYEOF'
+python3 - "$LINKS_FILE" "$URL" "$PROJECT_DIR/data/processed-links.txt" << 'PYEOF'
 import sys, fcntl
 
 links_path, url, done_path = sys.argv[1], sys.argv[2], sys.argv[3]
