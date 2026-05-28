@@ -13,8 +13,13 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const [row] = await db.select({ version: contentVersion.version }).from(contentVersion);
-  const currentVersion = row?.version ?? 0;
+  let currentVersion = 0;
+  try {
+    const [row] = await db.select({ version: contentVersion.version }).from(contentVersion);
+    currentVersion = row?.version ?? 0;
+  } catch {
+    // DB unreachable at build time — runtime requests will have the real value
+  }
 
   return (
     <ClerkProvider>
