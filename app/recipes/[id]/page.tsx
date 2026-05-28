@@ -5,6 +5,7 @@ import {
   recipeIngredient,
   recipeKitchenItem,
   recipeCookingStep,
+  cookingStepIngredient,
   recipeTldrStep,
   recipeTag,
   recipes,
@@ -109,6 +110,15 @@ export default async function RecipePage({
     .where(eq(recipeTldrStep.recipeId, id))
     .orderBy(recipeTldrStep.sortOrder);
 
+  // Step ingredients
+  const stepIngredientsData = cookingStepsData.length > 0
+    ? await db
+        .select()
+        .from(cookingStepIngredient)
+        .where(eq(cookingStepIngredient.recipeId, id))
+        .orderBy(cookingStepIngredient.sortOrder)
+    : [];
+
   // Translations for both cooking and TLDR steps
   const cookingStepIds = cookingStepsData.map((s) => s.step);
   const tldrStepIds = tldrStepsData.map((s) => s.stepId);
@@ -191,6 +201,14 @@ export default async function RecipePage({
           titleUa: getCookingStepTr(s.step, "ua", "step_title"),
           descriptionEn: getCookingStepTr(s.step, "en", "step_description"),
           descriptionUa: getCookingStepTr(s.step, "ua", "step_description"),
+          stepIngredients: stepIngredientsData
+            .filter((si) => si.step === s.step)
+            .map((si) => ({
+              ingredientId: si.ingredientId,
+              quantity: si.quantity,
+              unit: si.unit,
+              sortOrder: si.sortOrder,
+            })),
         })),
         tldrSteps: tldrStepsData.map((s) => ({
           stepId: s.stepId,

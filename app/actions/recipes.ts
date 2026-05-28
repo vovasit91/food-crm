@@ -14,6 +14,7 @@ import {
   recipeIngredientSubstitutes,
   recipeCookingStep,
   cookingStepTag,
+  cookingStepIngredient,
   recipeTldrStep,
 } from "@/db/generated/schema";
 
@@ -109,8 +110,10 @@ export async function updateRecipeCookingSteps(
     titleUa: string;
     descriptionEn: string;
     descriptionUa: string;
+    stepIngredients: { ingredientId: string; quantity: number | null; unit: string | null; sortOrder: number }[];
   }[]
 ) {
+  await db.delete(cookingStepIngredient).where(eq(cookingStepIngredient.recipeId, recipeId));
   await db.delete(cookingStepTag).where(eq(cookingStepTag.recipeId, recipeId));
   await db.delete(recipeCookingStep).where(eq(recipeCookingStep.recipeId, recipeId));
 
@@ -134,12 +137,27 @@ export async function updateRecipeCookingSteps(
       if (s.descriptionUa) translationItems.push({ locale: "ua", entityType: "step_description", entityId: s.step, value: s.descriptionUa });
     }
     if (translationItems.length > 0) await upsertTranslations(translationItems);
+
+    const allStepIngredients = steps.flatMap((s) =>
+      s.stepIngredients.map((si) => ({
+        recipeId,
+        step: s.step,
+        ingredientId: si.ingredientId,
+        quantity: si.quantity,
+        unit: si.unit,
+        sortOrder: si.sortOrder,
+      }))
+    );
+    if (allStepIngredients.length > 0) {
+      await db.insert(cookingStepIngredient).values(allStepIngredients);
+    }
   }
 
   revalidatePath(`/recipes/${recipeId}`);
 }
 
 export async function deleteRecipe(id: string) {
+  await db.delete(cookingStepIngredient).where(eq(cookingStepIngredient.recipeId, id));
   await db.delete(cookingStepTag).where(eq(cookingStepTag.recipeId, id));
   await db.delete(recipeCookingStep).where(eq(recipeCookingStep.recipeId, id));
   await db.delete(recipeTldrStep).where(eq(recipeTldrStep.recipeId, id));

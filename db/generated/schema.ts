@@ -135,6 +135,18 @@ export const cookingStepTag = sqliteTable("cooking_step_tag", {
 	primaryKey({ columns: [table.recipeId, table.step, table.tag], name: "cooking_step_tag_recipe_id_step_tag_pk"})
 ]);
 
+export const cookingStepIngredient = sqliteTable("cooking_step_ingredient", {
+	recipeId: text("recipe_id").notNull(),
+	step: text().notNull(),
+	ingredientId: text("ingredient_id").notNull(),
+	quantity: real(),
+	unit: text(),
+	sortOrder: integer("sort_order").default(0).notNull(),
+},
+(table) => [
+	primaryKey({ columns: [table.recipeId, table.step, table.ingredientId], name: "cooking_step_ingredient_pk"})
+]);
+
 export const contentVersion = sqliteTable("content_version", {
 	version: integer().notNull(),
 	updatedAt: text("updated_at").notNull(),

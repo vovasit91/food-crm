@@ -44,6 +44,14 @@ Output ONLY a valid JSON array containing a single recipe object. No explanation
         "duration": number,    // minutes
         "showTimer": boolean,
         "tags": [string],      // cooking technique hints
+        "ingredients": [
+          {
+            "ingredientId": string,  // must exist in the recipe's ingredients array
+            "quantity": number|null, // step-specific amount override, or null
+            "unit": string|null,     // step-specific unit override, or null
+            "sortOrder": number      // 0-based order within the step
+          }
+        ],
         "translations": {
           "title": { "en": string, "ua": string },
           "description": { "en": string, "ua": string }
@@ -188,5 +196,6 @@ For each step:
 
 Always include every cookingStep with:
 - image: extract the `src` (or `data-src`) of any `<img>` tag found inside that step's HTML element; set to `null` if none is present. Try to take the url with the highest resolution
+- ingredients: list the recipe ingredients (by `ingredientId`) that are actually added or used in this specific step. Only include ingredients from the recipe's `ingredients` array. Set `quantity` and `unit` to `null` unless the step uses a different amount than the total recipe quantity (e.g. "add half the butter now, the rest later" → split the quantity). Assign `sortOrder` starting from 0. Use `[]` for steps with no ingredient interaction (e.g. pure prep, resting, preheating).
 - translations.title: { "en": short imperative English phrase (e.g. "Toast the bread"), "ua": Ukrainian translation }
 - translations.description: { "en": 1-3 sentences in second person, clear and actionable, "ua": Ukrainian translation }

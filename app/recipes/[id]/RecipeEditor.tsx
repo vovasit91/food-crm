@@ -34,6 +34,13 @@ type TldrStepRow = {
   titleUa: string;
 };
 
+type StepIngredientRow = {
+  ingredientId: string;
+  quantity: number | null;
+  unit: string | null;
+  sortOrder: number;
+};
+
 type CookingStepRow = {
   step: string;
   sortOrder: number;
@@ -44,6 +51,7 @@ type CookingStepRow = {
   titleUa: string;
   descriptionEn: string;
   descriptionUa: string;
+  stepIngredients: StepIngredientRow[];
 };
 
 type RecipeProps = {
@@ -128,6 +136,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
   const [steps, setSteps] = useState<CookingStepRow[]>(recipe.cookingSteps);
   const [stepDragging, setStepDragging] = useState<number | null>(null);
   const [stepUploading, setStepUploading] = useState<number | null>(null);
+  const [newStepIngIds, setNewStepIngIds] = useState<Record<string, string>>({});
 
   const showSaved = () => {
     setSavedMsg("Saved");
@@ -745,6 +754,89 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                   )}
                 </div>
               </div>
+
+              <div className="mt-3 pt-3 border-t border-gray-100">
+                <label className={LABEL}>Step Ingredients</label>
+                {step.stepIngredients.length > 0 && (
+                  <div className="space-y-1.5 mb-2">
+                    {step.stepIngredients.map((si, j) => (
+                      <div key={si.ingredientId} className="flex items-center gap-2">
+                        <span className="text-sm text-gray-700 flex-1">
+                          {recipe.allIngredients.find((x) => x.id === si.ingredientId)?.name ?? si.ingredientId}
+                        </span>
+                        <input
+                          type="number"
+                          className="w-16 border border-gray-300 rounded px-2 py-1 text-sm"
+                          placeholder="Qty"
+                          value={si.quantity ?? ""}
+                          onChange={(e) =>
+                            updateStep(i, {
+                              stepIngredients: step.stepIngredients.map((x, k) =>
+                                k === j ? { ...x, quantity: e.target.value !== "" ? Number(e.target.value) : null } : x
+                              ),
+                            })
+                          }
+                        />
+                        <input
+                          className="w-16 border border-gray-300 rounded px-2 py-1 text-sm"
+                          placeholder="Unit"
+                          value={si.unit ?? ""}
+                          onChange={(e) =>
+                            updateStep(i, {
+                              stepIngredients: step.stepIngredients.map((x, k) =>
+                                k === j ? { ...x, unit: e.target.value || null } : x
+                              ),
+                            })
+                          }
+                        />
+                        <button
+                          onClick={() =>
+                            updateStep(i, {
+                              stepIngredients: step.stepIngredients.filter((_, k) => k !== j),
+                            })
+                          }
+                          className="text-red-400 hover:text-red-600 text-xs font-medium"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                <div className="flex gap-2">
+                  <select
+                    className="flex-1 border border-gray-300 rounded px-2 py-1 text-sm"
+                    value={newStepIngIds[step.step] ?? ""}
+                    onChange={(e) => setNewStepIngIds((prev) => ({ ...prev, [step.step]: e.target.value }))}
+                  >
+                    <option value="">Add ingredient to step...</option>
+                    {recipe.allIngredients
+                      .filter((x) => !step.stepIngredients.some((si) => si.ingredientId === x.id))
+                      .map((x) => (
+                        <option key={x.id} value={x.id}>
+                          {x.name} ({x.id})
+                        </option>
+                      ))}
+                  </select>
+                  <button
+                    onClick={() => {
+                      const ingId = newStepIngIds[step.step];
+                      if (!ingId) return;
+                      updateStep(i, {
+                        stepIngredients: [
+                          ...step.stepIngredients,
+                          { ingredientId: ingId, quantity: null, unit: null, sortOrder: step.stepIngredients.length },
+                        ],
+                      });
+                      setNewStepIngIds((prev) => ({ ...prev, [step.step]: "" }));
+                    }}
+                    disabled={!newStepIngIds[step.step]}
+                    className="px-3 py-1 bg-gray-100 border border-gray-300 text-sm rounded hover:bg-gray-200 disabled:opacity-50"
+                  >
+                    Add
+                  </button>
+                </div>
+              </div>
             </div>
           ))}
 
@@ -763,6 +855,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                     titleUa: "",
                     descriptionEn: "",
                     descriptionUa: "",
+                    stepIngredients: [],
                   },
                 ])
               }

@@ -11,6 +11,7 @@ import {
   recipeIngredientSubstitutes,
   recipeCookingStep,
   cookingStepTag,
+  cookingStepIngredient,
   translations,
 } from "@/db/generated/schema";
 
@@ -37,6 +38,7 @@ export interface CookingStep {
   duration: number;
   showTimer?: boolean;
   tags?: string[];
+  ingredients?: { ingredientId: string; quantity?: number; unit?: string; sortOrder?: number }[];
   translations?: { title?: Translations; description?: Translations };
 }
 
@@ -187,6 +189,20 @@ export async function importRecipesFromData(
 
         for (const tag of cs.tags ?? []) {
           await db.insert(cookingStepTag).values({ recipeId: r.id, step: cs.stepId, tag }).onConflictDoNothing();
+        }
+
+        for (const [j, si] of (cs.ingredients ?? []).entries()) {
+          await db
+            .insert(cookingStepIngredient)
+            .values({
+              recipeId: r.id,
+              step: cs.stepId,
+              ingredientId: si.ingredientId,
+              quantity: si.quantity ?? null,
+              unit: si.unit ?? null,
+              sortOrder: si.sortOrder ?? j,
+            })
+            .onConflictDoNothing();
         }
 
         await upsertTranslation(db, "en", "step_title", cs.stepId, cs.translations?.title?.en ?? "");
