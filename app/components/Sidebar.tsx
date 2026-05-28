@@ -12,6 +12,8 @@ const links = [
   { href: "/tags", label: "Tags" },
   { href: "/kitchen-items", label: "Kitchen Items" },
   { href: "/categories", label: "Categories" },
+  { href: "/import", label: "Import from JSON" },
+  { href: "/generate-prompt", label: "Generate prompt" },
 ];
 
 export default function Sidebar({ currentVersion }: { currentVersion: number }) {

@@ -12,6 +12,7 @@ import {
   updateRecipeTags,
   updateRecipeTldrSteps,
   upsertTranslations,
+  deleteRecipe,
 } from "@/app/actions/recipes";
 
 type IngredientRow = {
@@ -197,7 +198,18 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
         </Link>
         <span className="text-gray-300">/</span>
         <h1 className="text-lg font-semibold text-gray-900">{nameEn || recipe.id}</h1>
-        {savedMsg && <span className="ml-auto text-sm text-green-600 font-medium">{savedMsg}</span>}
+        {savedMsg && <span className="text-sm text-green-600 font-medium">{savedMsg}</span>}
+        <button
+          className="ml-auto px-3 py-1.5 text-sm font-medium text-red-600 border border-red-200 rounded hover:bg-red-50 transition-colors disabled:opacity-50"
+          disabled={isPending}
+          onClick={() => {
+            if (confirm(`Delete "${nameEn || recipe.id}"? This cannot be undone.`)) {
+              startTransition(() => deleteRecipe(recipe.id));
+            }
+          }}
+        >
+          Delete
+        </button>
       </div>
 
       {/* Tabs */}

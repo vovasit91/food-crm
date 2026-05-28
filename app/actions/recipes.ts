@@ -3,11 +3,13 @@
 import { db } from "@/db";
 import { eq } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
+import { redirect } from "next/navigation";
 import {
   recipes,
   translations,
   recipeTag,
   recipeKitchenItem,
+  recipeVariation,
   recipeIngredient,
   recipeIngredientSubstitutes,
   recipeCookingStep,
@@ -135,6 +137,20 @@ export async function updateRecipeCookingSteps(
   }
 
   revalidatePath(`/recipes/${recipeId}`);
+}
+
+export async function deleteRecipe(id: string) {
+  await db.delete(cookingStepTag).where(eq(cookingStepTag.recipeId, id));
+  await db.delete(recipeCookingStep).where(eq(recipeCookingStep.recipeId, id));
+  await db.delete(recipeTldrStep).where(eq(recipeTldrStep.recipeId, id));
+  await db.delete(recipeIngredientSubstitutes).where(eq(recipeIngredientSubstitutes.recipeId, id));
+  await db.delete(recipeIngredient).where(eq(recipeIngredient.recipeId, id));
+  await db.delete(recipeKitchenItem).where(eq(recipeKitchenItem.recipeId, id));
+  await db.delete(recipeTag).where(eq(recipeTag.recipeId, id));
+  await db.delete(recipeVariation).where(eq(recipeVariation.recipeId, id));
+  await db.delete(translations).where(eq(translations.entityId, id));
+  await db.delete(recipes).where(eq(recipes.id, id));
+  redirect("/recipes");
 }
 
 export async function updateRecipeTldrSteps(

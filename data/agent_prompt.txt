@@ -187,6 +187,6 @@ For each step:
   Do NOT add "no-heat" for prep or assembly steps — just use [].
 
 Always include every cookingStep with:
-- image: extract the `src` (or `data-src`) of any `<img>` tag found inside that step's HTML element; set to `null` if none is present
+- image: extract the `src` (or `data-src`) of any `<img>` tag found inside that step's HTML element; set to `null` if none is present. Try to take the url with the highest resolution
 - translations.title: { "en": short imperative English phrase (e.g. "Toast the bread"), "ua": Ukrainian translation }
 - translations.description: { "en": 1-3 sentences in second person, clear and actionable, "ua": Ukrainian translation }
