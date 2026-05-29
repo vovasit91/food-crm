@@ -80,7 +80,7 @@ Use the provided image URL exactly as-is.
 An object with an `en` key. Translate the Russian title into concise natural English (e.g. "Hot Toasts with Egg Salad", "Coffee Oatmeal").
 
 ### timeMinutes
-Use the provided integer value.
+Use the provided integer value. Sum of all steps
 
 ### difficulty
 Infer from step complexity:
@@ -138,14 +138,18 @@ Always include every tldr stepId with:
 - translations.title.ua: infinitive form, 2-4 words — verb + direct object only, no extra details or modifiers (e.g. "Нарізати яблука", "Запекти тісто"). NEVER use imperative (Наріжте, Запечіть).
 
 ### servings (preliminary step — do not output this field)
-Before mapping ingredients, determine how many servings the original recipe is for:
-1. Look for an explicit serving count in the raw data (e.g. "на 4 порции", "на 6 человек", "порций: 2").
-2. If not stated, infer it from ingredient quantities — large amounts (e.g. 1 kg meat, 8 eggs, 500 g pasta) typically indicate 4-6 servings; moderate amounts indicate 2-3 servings; small amounts indicate 1 serving.
-3. Divide every ingredient `quantity` value by that serving count and then multiply by amount for one person, for example 10 pancakes in recipe is 5 pancakes for one person
-4. Round to sensible cooking-friendly numbers (e.g. 1/4 tsp rather than 0.083 tsp; 50 g rather than 48 g). Keep `null` quantities as `null`.
-4. Fruits and vegetables usually counted in pieces
+Before mapping ingredients, decide whether the recipe yields **portions** or **pieces**:
 
-The final recipe **must represent a single portion (1 person)**.
+- **Portions** — the recipe feeds N people (e.g. "на 4 порции", "на 6 человек", "serves 2"). Each person eats the whole dish together. Divide all quantities by the number of portions.
+- **Pieces** — the recipe makes N discrete units (e.g. "выход: 12 печений", "20 котлет", "8 блинов", "makes 24 muffins"). Each unit is one serving. Divide all quantities by the number of pieces.
+
+Steps:
+1. Look for an explicit yield in the raw data — serving count ("на 4 порции") or piece count ("выход: 20 штук", "получится 12 блинов").
+2. If not stated, infer it: large amounts (1 kg meat, 8 eggs, 500 g pasta) → 4-6 portions; moderate → 2-3 portions; small → 1. For baked goods / patties / pancakes, estimate the piece count from the dough/batter volume.
+3. Divide every ingredient `quantity` by the yield (portions or pieces). Round to sensible cooking-friendly numbers (e.g. 1/4 tsp rather than 0.083 tsp; 50 g rather than 48 g). Keep `null` quantities as `null`.
+4. Fruits and vegetables are usually counted in pieces.
+
+The final recipe **must represent a single portion or a single piece**.
 
 ### ingredients
 Map each raw ingredient line to the closest matching ID from the available ingredient list.
@@ -178,7 +182,9 @@ For each step:
 - tags: cooking technique hints. Only add tags that apply to this specific step; use [] for steps with no special technique.
   - "high-heat", "medium-heat", "low-heat" — use when the step involves stovetop heat and the level matters
   - "preheat-oven" — oven must be preheated before this step
-  - "dont-overcook" — ingredient is fragile and easy to ruin (e.g. eggs, chocolate)
+  - "dont-overfry" — ingredient is fragile and easy to ruin (e.g. pancakes, eggs)
+  - "dont-overboil" — ingredient is fragile and easy to ruin (e.g. eggs)
+  - "dont-overheat" — ingredient is fragile and easy to ruin (e.g. butter)
   - "dont-overmix" — gluten development or deflation risk (batters, doughs)
   - "gentle-stir" — vigorous stirring would break the dish
   - "fold" — folding motion required to preserve air (meringue, soufflé)
@@ -193,6 +199,7 @@ For each step:
   - "steam-release" — caution when uncovering hot liquid
   - "salt-water" — water must be well salted before adding ingredient
   Do NOT add "no-heat" for prep or assembly steps — just use [].
+  Do NOT add more then one `dont-*` tags
 
 Always include every cookingStep with:
 - image: extract the `src` (or `data-src`) of any `<img>` tag found inside that step's HTML element; set to `null` if none is present. Try to take the url with the highest resolution
