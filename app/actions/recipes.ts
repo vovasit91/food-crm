@@ -111,6 +111,7 @@ export async function updateRecipeCookingSteps(
     descriptionEn: string;
     descriptionUa: string;
     stepIngredients: { ingredientId: string; quantity: number | null; unit: string | null; sortOrder: number }[];
+    tagIds: string[];
   }[]
 ) {
   await db.delete(cookingStepIngredient).where(eq(cookingStepIngredient.recipeId, recipeId));
@@ -150,6 +151,13 @@ export async function updateRecipeCookingSteps(
     );
     if (allStepIngredients.length > 0) {
       await db.insert(cookingStepIngredient).values(allStepIngredients);
+    }
+
+    const allStepTags = steps.flatMap((s) =>
+      s.tagIds.map((tag) => ({ recipeId, step: s.step, tag }))
+    );
+    if (allStepTags.length > 0) {
+      await db.insert(cookingStepTag).values(allStepTags);
     }
   }
 

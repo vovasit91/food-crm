@@ -6,6 +6,7 @@ import {
   recipeKitchenItem,
   recipeCookingStep,
   cookingStepIngredient,
+  cookingStepTag,
   recipeTldrStep,
   recipeTag,
   recipes,
@@ -47,7 +48,9 @@ export default async function RecipePage({
     await db.select({ tagId: recipeTag.tagId }).from(recipeTag).where(eq(recipeTag.recipeId, id))
   ).map((r) => r.tagId);
 
-  const allTagsData = await db.select({ id: tags.id, label: tags.label }).from(tags).orderBy(tags.id);
+  const allTagsData = await db.select({ id: tags.id, label: tags.label }).from(tags).where(eq(tags.type, "category")).orderBy(tags.id);
+
+  const allStepTagsData = await db.select({ id: tags.id, label: tags.label }).from(tags).where(eq(tags.type, "recipe_step")).orderBy(tags.id);
 
   // Kitchen items
   const currentKitchenItemIds = (
@@ -119,6 +122,14 @@ export default async function RecipePage({
         .orderBy(cookingStepIngredient.sortOrder)
     : [];
 
+  // Step tags
+  const stepTagsData = cookingStepsData.length > 0
+    ? await db
+        .select()
+        .from(cookingStepTag)
+        .where(eq(cookingStepTag.recipeId, id))
+    : [];
+
   // Translations for both cooking and TLDR steps
   const cookingStepIds = cookingStepsData.map((s) => s.step);
   const tldrStepIds = tldrStepsData.map((s) => s.stepId);
@@ -173,6 +184,7 @@ export default async function RecipePage({
         summaryUa: getTr("ua", "recipe_summary"),
         tagIds: currentTagIds,
         allTags: allTagsData,
+        allStepTags: allStepTagsData,
         kitchenItemIds: currentKitchenItemIds,
         allKitchenItems: allKitchenItemsData,
         ingredients: recipeIngredients.map((ri) => ({
@@ -209,6 +221,7 @@ export default async function RecipePage({
               unit: si.unit,
               sortOrder: si.sortOrder,
             })),
+          tagIds: stepTagsData.filter((st) => st.step === s.step).map((st) => st.tag),
         })),
         tldrSteps: tldrStepsData.map((s) => ({
           stepId: s.stepId,

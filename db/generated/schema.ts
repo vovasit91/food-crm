@@ -15,7 +15,8 @@ export const categories = sqliteTable("categories", {
 export const tags = sqliteTable("tags", {
 	id: text().primaryKey().notNull(),
 	label: text().notNull(),
-	icon: text().notNull(),
+	icon: text(),
+	type: text("type"),
 });
 
 export const tagCategory = sqliteTable("tag_category", {

@@ -52,6 +52,7 @@ type CookingStepRow = {
   descriptionEn: string;
   descriptionUa: string;
   stepIngredients: StepIngredientRow[];
+  tagIds: string[];
 };
 
 type RecipeProps = {
@@ -66,6 +67,7 @@ type RecipeProps = {
   summaryUa: string;
   tagIds: string[];
   allTags: { id: string; label: string }[];
+  allStepTags: { id: string; label: string }[];
   kitchenItemIds: string[];
   allKitchenItems: { id: string }[];
   ingredients: IngredientRow[];
@@ -755,6 +757,31 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                 </div>
               </div>
 
+              {recipe.allStepTags.length > 0 && (
+                <div className="mt-3 pt-3 border-t border-gray-100">
+                  <label className={LABEL}>Step Tags</label>
+                  <div className="flex flex-wrap gap-x-4 gap-y-1.5">
+                    {recipe.allStepTags.map((tag) => (
+                      <label key={tag.id} className="flex items-center gap-1.5 cursor-pointer select-none">
+                        <input
+                          type="checkbox"
+                          checked={step.tagIds.includes(tag.id)}
+                          onChange={(e) =>
+                            updateStep(i, {
+                              tagIds: e.target.checked
+                                ? [...step.tagIds, tag.id]
+                                : step.tagIds.filter((t) => t !== tag.id),
+                            })
+                          }
+                          className="rounded border-gray-300 accent-indigo-600"
+                        />
+                        <span className="text-sm text-gray-700">{tag.label}</span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               <div className="mt-3 pt-3 border-t border-gray-100">
                 <label className={LABEL}>Step Ingredients</label>
                 {step.stepIngredients.length > 0 && (
@@ -856,6 +883,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                     descriptionEn: "",
                     descriptionUa: "",
                     stepIngredients: [],
+                    tagIds: [],
                   },
                 ])
               }
