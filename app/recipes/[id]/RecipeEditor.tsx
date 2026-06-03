@@ -679,6 +679,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                       ↓
                     </button>
                   </div>
+                  <span className="text-sm font-semibold text-gray-500 w-5 text-center">{i + 1}</span>
                   <span className="text-xs font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded">
                     {step.step}
                   </span>
