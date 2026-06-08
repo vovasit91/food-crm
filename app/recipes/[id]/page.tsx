@@ -14,6 +14,7 @@ import {
   translations,
 } from "@/db/generated/schema";
 import { and, eq, inArray } from "drizzle-orm";
+import type { PortionType } from "@/app/actions/recipes";
 import { notFound } from "next/navigation";
 import RecipeEditor from "./RecipeEditor";
 
@@ -179,7 +180,7 @@ export default async function RecipePage({
         difficulty: recipe.difficulty,
         isEnabled: recipe.isEnabled === 1,
         basePortions: recipe.basePortions,
-        portionType: recipe.portionType,
+        portionType: recipe.portionType as PortionType,
         nameEn: getTr("en", "recipe_name"),
         nameUa: getTr("ua", "recipe_name"),
         summaryEn: getTr("en", "recipe_summary"),
