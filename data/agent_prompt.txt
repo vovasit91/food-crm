@@ -12,11 +12,11 @@ Output ONLY a valid JSON array containing a single recipe object. No explanation
     "id": string,           // English kebab-case slug
     "image": string,        // URL as provided
     "title": { "en": string, "ua": string },      // Recipe name
-    "recipe_summary": { "en": string, "ua": string },      // Short description
+    "recipeSummary": { "en": string, "ua": string },      // Short description
     "timeMinutes": number,  // Total time as provided
     "difficulty": string,   // "easy" | "medium" | "hard"
-    "base_portions": number,   // yield: how many portions or pieces this recipe makes
-    "portion_type": string,    // "portion" | "piece"
+    "basePortions": number,   // yield: how many portions or pieces this recipe makes
+    "portionType": string,    // "portion" | "piece"
     "tags": [string],       // IDs from available tag list only
     "kitchen": [string],    // IDs from available kitchen list only required for recipe
     "variations": [],       // Always empty array
@@ -139,16 +139,16 @@ Always include every tldr stepId with:
 - translations.title.en: short imperative phrase, 2-4 words (e.g. "Slice the apples", "Bake until golden")
 - translations.title.ua: infinitive form, 2-4 words — verb + direct object only, no extra details or modifiers (e.g. "Нарізати яблука", "Запекти тісто"). NEVER use imperative (Наріжте, Запечіть).
 
-### base_portions and portion_type
+### basePortions and portionType
 Decide whether the recipe yields **portions** or **pieces**:
 
-- **Portions** — the recipe feeds N people (e.g. "на 4 порции", "на 6 человек", "serves 2"). Set `portion_type: "portion"`.
-- **Pieces** — the recipe makes N discrete units (e.g. "выход: 12 печений", "20 котлет", "8 блинов", "makes 24 muffins"). Set `portion_type: "piece"`.
+- **Portions** — the recipe feeds N people (e.g. "на 4 порции", "на 6 человек", "serves 2"). Set `portionType: "portion"`.
+- **Pieces** — the recipe makes N discrete units (e.g. "выход: 12 печений", "20 котлет", "8 блинов", "makes 24 muffins"). Set `portionType: "piece"`.
 
 Steps:
 1. Look for an explicit yield in the raw data — serving count ("на 4 порции") or piece count ("выход: 20 штук", "получится 12 блинов").
 2. If not stated, infer it: large amounts (1 kg meat, 8 eggs, 500 g pasta) → 4-6 portions; moderate → 2-3 portions; small → 1. For baked goods / patties / pancakes, estimate the piece count from the dough/batter volume.
-3. Set `base_portions` to the yield you determined.
+3. Set `basePortions` to the yield you determined.
 4. Divide every ingredient `quantity` by the yield. Round to sensible cooking-friendly numbers (e.g. 1/4 tsp rather than 0.083 tsp; 50 g rather than 48 g). Keep `null` quantities as `null`.
 5. Fruits and vegetables are usually counted in pieces.
 

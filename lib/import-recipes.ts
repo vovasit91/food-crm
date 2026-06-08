@@ -47,7 +47,7 @@ export interface ImportRecipe {
   id: string;
   image: string;
   title?: Translations;
-  recipe_summary?: Translations;
+  recipeSummary?: Translations;
   timeMinutes: number;
   difficulty: string;
   basePortions?: number;
@@ -218,8 +218,8 @@ export async function importRecipesFromData(
 
       await upsertTranslation(db, "en", "recipe_name", r.id, r.title?.en ?? "");
       await upsertTranslation(db, "ua", "recipe_name", r.id, r.title?.ua ?? "");
-      await upsertTranslation(db, "en", "recipe_summary", r.id, r.recipe_summary?.en ?? "");
-      await upsertTranslation(db, "ua", "recipe_summary", r.id, r.recipe_summary?.ua ?? "");
+      await upsertTranslation(db, "en", "recipe_summary", r.id, r.recipeSummary?.en ?? "");
+      await upsertTranslation(db, "ua", "recipe_summary", r.id, r.recipeSummary?.ua ?? "");
 
       result.recipesInserted++;
     } catch (e) {
