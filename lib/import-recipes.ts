@@ -1,5 +1,6 @@
 import type { LibSQLDatabase } from "drizzle-orm/libsql";
 import { eq } from "drizzle-orm";
+import type { PortionType } from "@/app/actions/recipes";
 import {
   ingredients,
   recipes,
@@ -49,6 +50,8 @@ export interface ImportRecipe {
   recipe_summary?: Translations;
   timeMinutes: number;
   difficulty: string;
+  basePortions?: number;
+  portionType?: PortionType;
   tags?: string[];
   kitchen?: string[];
   variations?: string[];
@@ -129,6 +132,8 @@ export async function importRecipesFromData(
         image: r.image,
         timeMinutes: r.timeMinutes,
         difficulty: r.difficulty,
+        basePortions: r.basePortions ?? 1,
+        portionType: r.portionType ?? "portion",
       });
 
       for (const tagId of r.tags ?? []) {

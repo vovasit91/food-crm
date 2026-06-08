@@ -18,9 +18,11 @@ import {
   recipeTldrStep,
 } from "@/db/generated/schema";
 
+export type PortionType = "portion" | "piece";
+
 export async function updateRecipeBasic(
   id: string,
-  data: { image: string; timeMinutes: number; difficulty: string; isEnabled: boolean }
+  data: { image: string; timeMinutes: number; difficulty: string; isEnabled: boolean; basePortions: number; portionType: PortionType }
 ) {
   await db
     .update(recipes)
@@ -29,6 +31,8 @@ export async function updateRecipeBasic(
       timeMinutes: data.timeMinutes,
       difficulty: data.difficulty,
       isEnabled: data.isEnabled ? 1 : 0,
+      basePortions: data.basePortions,
+      portionType: data.portionType,
     })
     .where(eq(recipes.id, id));
   revalidatePath(`/recipes/${id}`);

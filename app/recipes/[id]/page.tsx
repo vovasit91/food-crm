@@ -178,6 +178,8 @@ export default async function RecipePage({
         timeMinutes: recipe.timeMinutes,
         difficulty: recipe.difficulty,
         isEnabled: recipe.isEnabled === 1,
+        basePortions: recipe.basePortions,
+        portionType: recipe.portionType,
         nameEn: getTr("en", "recipe_name"),
         nameUa: getTr("ua", "recipe_name"),
         summaryEn: getTr("en", "recipe_summary"),

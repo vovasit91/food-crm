@@ -57,6 +57,8 @@ export const recipes = sqliteTable("recipes", {
 	timeMinutes: integer("time_minutes").notNull(),
 	difficulty: text().notNull(),
 	isEnabled: integer("is_enabled").default(1).notNull(),
+	basePortions: integer("base_portions").default(1).notNull(),
+	portionType: text("portion_type").default("portion").notNull(),
 });
 
 export const recipeTag = sqliteTable("recipe_tag", {

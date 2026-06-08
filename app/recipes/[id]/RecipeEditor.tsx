@@ -13,6 +13,7 @@ import {
   updateRecipeTldrSteps,
   upsertTranslations,
   deleteRecipe,
+  type PortionType,
 } from "@/app/actions/recipes";
 
 type IngredientRow = {
@@ -61,6 +62,8 @@ type RecipeProps = {
   timeMinutes: number;
   difficulty: string;
   isEnabled: boolean;
+  basePortions: number;
+  portionType: PortionType;
   nameEn: string;
   nameUa: string;
   summaryEn: string;
@@ -116,6 +119,8 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
   const [timeMinutes, setTimeMinutes] = useState(recipe.timeMinutes);
   const [difficulty, setDifficulty] = useState(recipe.difficulty);
   const [isEnabled, setIsEnabled] = useState(recipe.isEnabled);
+  const [basePortions, setBasePortions] = useState(recipe.basePortions);
+  const [portionType, setPortionType] = useState<PortionType>(recipe.portionType);
 
   // Translations
   const [nameEn, setNameEn] = useState(recipe.nameEn);
@@ -270,6 +275,29 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
               </select>
             </div>
           </div>
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <label className={LABEL}>Base Portions</label>
+              <input
+                type="number"
+                min={1}
+                className={INPUT}
+                value={basePortions}
+                onChange={(e) => setBasePortions(Number(e.target.value))}
+              />
+            </div>
+            <div>
+              <label className={LABEL}>Portion Type</label>
+              <select
+                className={INPUT}
+                value={portionType}
+                onChange={(e) => setPortionType(e.target.value as PortionType)}
+              >
+                <option value="portion">Portion</option>
+                <option value="piece">Piece</option>
+              </select>
+            </div>
+          </div>
           <div className="flex items-center gap-3">
             <span className={LABEL + " mb-0"}>Enabled</span>
             <Toggle value={isEnabled} onChange={setIsEnabled} />
@@ -278,7 +306,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
             className={SAVE_BTN}
             disabled={isPending}
             onClick={() =>
-              save(() => updateRecipeBasic(recipe.id, { image, timeMinutes, difficulty, isEnabled }))
+              save(() => updateRecipeBasic(recipe.id, { image, timeMinutes, difficulty, isEnabled, basePortions, portionType }))
             }
           >
             {isPending ? "Saving..." : "Save"}
