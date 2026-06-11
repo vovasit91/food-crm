@@ -183,6 +183,16 @@ export async function deleteRecipe(id: string) {
   redirect("/recipes");
 }
 
+export async function updateRecipeVariations(recipeId: string, variationRecipeIds: string[]) {
+  await db.delete(recipeVariation).where(eq(recipeVariation.recipeId, recipeId));
+  if (variationRecipeIds.length > 0) {
+    await db
+      .insert(recipeVariation)
+      .values(variationRecipeIds.map((variationRecipeId) => ({ recipeId, variationRecipeId })));
+  }
+  revalidatePath(`/recipes/${recipeId}`);
+}
+
 export async function updateRecipeTldrSteps(
   recipeId: string,
   steps: { stepId: string; sortOrder: number; minutes: number; titleEn: string; titleUa: string }[]

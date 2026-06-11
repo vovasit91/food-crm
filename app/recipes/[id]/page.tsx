@@ -9,11 +9,12 @@ import {
   cookingStepTag,
   recipeTldrStep,
   recipeTag,
+  recipeVariation,
   recipes,
   tags,
   translations,
 } from "@/db/generated/schema";
-import { and, eq, inArray } from "drizzle-orm";
+import { and, eq, inArray, ne } from "drizzle-orm";
 import type { PortionType } from "@/app/actions/recipes";
 import { notFound } from "next/navigation";
 import RecipeEditor from "./RecipeEditor";
@@ -99,6 +100,28 @@ export default async function RecipePage({
     .orderBy(ingredients.id);
 
   const ingredientMap = Object.fromEntries(allIngredientsData.map((i) => [i.id, i]));
+
+  // Variations
+  const variationIds = (
+    await db
+      .select({ variationRecipeId: recipeVariation.variationRecipeId })
+      .from(recipeVariation)
+      .where(eq(recipeVariation.recipeId, id))
+  ).map((r) => r.variationRecipeId);
+
+  const allRecipesData = await db
+    .select({ id: recipes.id, name: translations.value })
+    .from(recipes)
+    .leftJoin(
+      translations,
+      and(
+        eq(translations.entityType, "recipe_name"),
+        eq(translations.entityId, recipes.id),
+        eq(translations.locale, "en")
+      )
+    )
+    .where(ne(recipes.id, id))
+    .orderBy(recipes.id);
 
   // Cooking steps
   const cookingStepsData = await db
@@ -233,6 +256,8 @@ export default async function RecipePage({
           titleEn: getTldrStepTr(s.stepId, "en"),
           titleUa: getTldrStepTr(s.stepId, "ua"),
         })),
+        variationIds,
+        allRecipes: allRecipesData.map((r) => ({ id: r.id, name: r.name ?? r.id })),
       }}
     />
   );

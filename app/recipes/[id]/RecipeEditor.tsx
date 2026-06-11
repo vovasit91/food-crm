@@ -11,6 +11,7 @@ import {
   updateRecipeKitchenItems,
   updateRecipeTags,
   updateRecipeTldrSteps,
+  updateRecipeVariations,
   upsertTranslations,
   deleteRecipe,
   type PortionType,
@@ -77,9 +78,11 @@ type RecipeProps = {
   allIngredients: { id: string; name: string; category: string; measurement: string }[];
   cookingSteps: CookingStepRow[];
   tldrSteps: TldrStepRow[];
+  variationIds: string[];
+  allRecipes: { id: string; name: string }[];
 };
 
-type Tab = "basics" | "translations" | "tags" | "ingredients" | "tldr" | "steps";
+type Tab = "basics" | "translations" | "tags" | "ingredients" | "tldr" | "steps" | "variations";
 
 const INPUT = "w-full border border-gray-300 rounded px-3 py-1.5 text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500";
 const LABEL = "block text-xs font-medium text-gray-500 mb-1";
@@ -145,6 +148,10 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
   const [stepUploading, setStepUploading] = useState<number | null>(null);
   const [newStepIngIds, setNewStepIngIds] = useState<Record<string, string>>({});
 
+  // Variations
+  const [variationIds, setVariationIds] = useState<string[]>(recipe.variationIds);
+  const [newVariationId, setNewVariationId] = useState("");
+
   const showSaved = () => {
     setSavedMsg("Saved");
     setTimeout(() => setSavedMsg(null), 2000);
@@ -203,6 +210,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
     { id: "ingredients", label: `Ingredients (${ingredients.length})` },
     { id: "tldr", label: `TLDR (${tldrSteps.length})` },
     { id: "steps", label: `Steps (${steps.length})` },
+    { id: "variations", label: `Variations (${variationIds.length})` },
   ];
 
   return (
@@ -935,6 +943,68 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
               {isPending ? "Saving..." : "Save Steps"}
             </button>
           </div>
+        </div>
+      )}
+
+      {/* --- Variations --- */}
+      {activeTab === "variations" && (
+        <div className="space-y-4">
+          {variationIds.length > 0 && (
+            <div className="space-y-2">
+              {variationIds.map((vid) => {
+                const r = recipe.allRecipes.find((x) => x.id === vid);
+                return (
+                  <div key={vid} className="flex items-center justify-between border border-gray-200 rounded-lg px-4 py-2.5 bg-white">
+                    <div>
+                      <div className="text-sm font-medium text-gray-900">{r?.name ?? vid}</div>
+                      <div className="text-xs text-gray-400 font-mono">{vid}</div>
+                    </div>
+                    <button
+                      onClick={() => setVariationIds(variationIds.filter((x) => x !== vid))}
+                      className="text-red-400 hover:text-red-600 text-xs font-medium"
+                    >
+                      Remove
+                    </button>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
+          <div className="flex gap-2">
+            <select
+              className="flex-1 border border-gray-300 rounded px-3 py-1.5 text-sm"
+              value={newVariationId}
+              onChange={(e) => setNewVariationId(e.target.value)}
+            >
+              <option value="">Add variation...</option>
+              {recipe.allRecipes
+                .filter((r) => !variationIds.includes(r.id))
+                .map((r) => (
+                  <option key={r.id} value={r.id}>
+                    {r.name} ({r.id})
+                  </option>
+                ))}
+            </select>
+            <button
+              disabled={!newVariationId}
+              onClick={() => {
+                setVariationIds([...variationIds, newVariationId]);
+                setNewVariationId("");
+              }}
+              className="px-3 py-1.5 bg-gray-100 border border-gray-300 text-sm rounded hover:bg-gray-200 disabled:opacity-50"
+            >
+              Add
+            </button>
+          </div>
+
+          <button
+            className={SAVE_BTN}
+            disabled={isPending}
+            onClick={() => save(() => updateRecipeVariations(recipe.id, variationIds))}
+          >
+            {isPending ? "Saving..." : "Save Variations"}
+          </button>
         </div>
       )}
     </div>
