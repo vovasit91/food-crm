@@ -16,6 +16,7 @@ export default async function IngredientsPage() {
       carbs: ingredients.carbs,
       fats: ingredients.fats,
       gInMeasurement: ingredients.gInMeasurement,
+      isBasic: ingredients.isBasic,
       name: translations.value,
     })
     .from(ingredients)
@@ -48,6 +49,7 @@ export default async function IngredientsPage() {
               <th className="text-right px-4 py-3 font-medium text-gray-500">Carbs</th>
               <th className="text-right px-4 py-3 font-medium text-gray-500">Fat</th>
               <th className="text-right px-4 py-3 font-medium text-gray-500">g/unit</th>
+              <th className="text-center px-4 py-3 font-medium text-gray-500">Basic</th>
             </tr>
           </thead>
           <tbody>
@@ -66,6 +68,7 @@ export default async function IngredientsPage() {
                 <td className="px-4 py-3 text-right text-gray-600">{item.carbs ?? "—"}</td>
                 <td className="px-4 py-3 text-right text-gray-600">{item.fats ?? "—"}</td>
                 <td className="px-4 py-3 text-right text-gray-600">{item.gInMeasurement ?? "—"}</td>
+                <td className="px-4 py-3 text-center text-gray-600">{item.isBasic ? "✓" : "—"}</td>
               </tr>
             ))}
           </tbody>

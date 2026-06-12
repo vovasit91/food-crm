@@ -44,6 +44,7 @@ export const ingredients = sqliteTable("ingredients", {
 	fats: integer(),
 	gInMeasurement: real("g_in_measurement"),
 	measurement: text().notNull(),
+	isBasic: integer("is_basic"),
 });
 
 export const kitchenItems = sqliteTable("kitchen_items", {
