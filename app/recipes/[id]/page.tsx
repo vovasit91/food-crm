@@ -3,6 +3,7 @@ import {
   ingredients,
   kitchenItems,
   recipeIngredient,
+  recipeIngredientSubstitutes,
   recipeKitchenItem,
   recipeCookingStep,
   cookingStepIngredient,
@@ -100,6 +101,18 @@ export default async function RecipePage({
     .orderBy(ingredients.id);
 
   const ingredientMap = Object.fromEntries(allIngredientsData.map((i) => [i.id, i]));
+
+  // Ingredient substitutes
+  const substitutesData = await db
+    .select()
+    .from(recipeIngredientSubstitutes)
+    .where(eq(recipeIngredientSubstitutes.recipeId, id));
+
+  const substitutesMap: Record<string, string[]> = {};
+  for (const s of substitutesData) {
+    if (!substitutesMap[s.ingredientId]) substitutesMap[s.ingredientId] = [];
+    substitutesMap[s.ingredientId].push(s.substituteIngredientId);
+  }
 
   // Variations
   const variationIds = (
@@ -222,6 +235,7 @@ export default async function RecipePage({
           unit: ri.unit,
           optional: ri.optional === 1,
           portionCoefficient: ri.portionCoefficient ?? 1,
+          substitutes: substitutesMap[ri.ingredientId] ?? [],
         })),
         allIngredients: allIngredientsData.map((i) => ({
           id: i.id,

@@ -80,6 +80,7 @@ export async function updateRecipeIngredients(
     unit: string | null;
     optional: boolean;
     portionCoefficient: number;
+    substitutes: string[];
   }[]
 ) {
   await db
@@ -98,6 +99,17 @@ export async function updateRecipeIngredients(
         portionCoefficient: ing.portionCoefficient,
       }))
     );
+
+    const allSubstitutes = items.flatMap((ing) =>
+      ing.substitutes.map((substituteIngredientId) => ({
+        recipeId,
+        ingredientId: ing.ingredientId,
+        substituteIngredientId,
+      }))
+    );
+    if (allSubstitutes.length > 0) {
+      await db.insert(recipeIngredientSubstitutes).values(allSubstitutes);
+    }
   }
   revalidatePath(`/recipes/${recipeId}`);
 }

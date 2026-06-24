@@ -26,6 +26,7 @@ type IngredientRow = {
   unit: string | null;
   optional: boolean;
   portionCoefficient: number;
+  substitutes: string[];
 };
 
 type TldrStepRow = {
@@ -138,6 +139,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
   // Ingredients
   const [ingredients, setIngredients] = useState<IngredientRow[]>(recipe.ingredients);
   const [newIngredientId, setNewIngredientId] = useState("");
+  const [newSubstituteIds, setNewSubstituteIds] = useState<Record<string, string>>({});
 
   // TLDR Steps
   const [tldrSteps, setTldrSteps] = useState<TldrStepRow[]>(recipe.tldrSteps);
@@ -178,6 +180,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
         unit: null,
         optional: false,
         portionCoefficient: 1,
+        substitutes: [],
       },
     ]);
     setNewIngredientId("");
@@ -453,79 +456,150 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
               </thead>
               <tbody>
                 {ingredients.map((ing, i) => (
-                  <tr key={ing.ingredientId} className="border-b border-gray-100">
-                    <td className="px-2 py-2">
-                      <div className="flex flex-col text-gray-400 text-xs leading-none gap-0.5">
+                  <>
+                    <tr key={ing.ingredientId} className="border-b border-gray-100">
+                      <td className="px-2 py-2">
+                        <div className="flex flex-col text-gray-400 text-xs leading-none gap-0.5">
+                          <button
+                            onClick={() => setIngredients(swap(ingredients, i, i - 1))}
+                            disabled={i === 0}
+                            className="disabled:opacity-20 hover:text-gray-700"
+                          >
+                            ↑
+                          </button>
+                          <button
+                            onClick={() => setIngredients(swap(ingredients, i, i + 1))}
+                            disabled={i === ingredients.length - 1}
+                            className="disabled:opacity-20 hover:text-gray-700"
+                          >
+                            ↓
+                          </button>
+                        </div>
+                      </td>
+                      <td className="px-3 py-2">
+                        <div className="font-medium text-gray-900">{ing.name}</div>
+                        <div className="text-xs text-gray-400 font-mono">{ing.ingredientId}</div>
+                      </td>
+                      <td className="px-3 py-2">
+                        <input
+                          type="number"
+                          className="w-20 border border-gray-300 rounded px-2 py-1 text-sm"
+                          value={ing.quantity ?? ""}
+                          onChange={(e) =>
+                            updateIngredient(i, {
+                              quantity: e.target.value !== "" ? Number(e.target.value) : null,
+                            })
+                          }
+                        />
+                      </td>
+                      <td className="px-3 py-2">
+                        <input
+                          className="w-20 border border-gray-300 rounded px-2 py-1 text-sm"
+                          value={ing.unit ?? ""}
+                          onChange={(e) =>
+                            updateIngredient(i, { unit: e.target.value || null })
+                          }
+                        />
+                      </td>
+                      <td className="px-3 py-2 text-center">
+                        <input
+                          type="checkbox"
+                          checked={ing.optional}
+                          onChange={(e) => updateIngredient(i, { optional: e.target.checked })}
+                          className="rounded border-gray-300 accent-indigo-600"
+                        />
+                      </td>
+                      <td className="px-3 py-2">
+                        <input
+                          type="number"
+                          className="w-16 border border-gray-300 rounded px-2 py-1 text-sm"
+                          value={ing.portionCoefficient}
+                          onChange={(e) =>
+                            updateIngredient(i, { portionCoefficient: Number(e.target.value) })
+                          }
+                        />
+                      </td>
+                      <td className="px-3 py-2">
                         <button
-                          onClick={() => setIngredients(swap(ingredients, i, i - 1))}
-                          disabled={i === 0}
-                          className="disabled:opacity-20 hover:text-gray-700"
+                          onClick={() =>
+                            setIngredients(ingredients.filter((_, j) => j !== i))
+                          }
+                          className="text-red-400 hover:text-red-600 text-xs font-medium"
                         >
-                          ↑
+                          Remove
                         </button>
-                        <button
-                          onClick={() => setIngredients(swap(ingredients, i, i + 1))}
-                          disabled={i === ingredients.length - 1}
-                          className="disabled:opacity-20 hover:text-gray-700"
-                        >
-                          ↓
-                        </button>
-                      </div>
-                    </td>
-                    <td className="px-3 py-2">
-                      <div className="font-medium text-gray-900">{ing.name}</div>
-                      <div className="text-xs text-gray-400 font-mono">{ing.ingredientId}</div>
-                    </td>
-                    <td className="px-3 py-2">
-                      <input
-                        type="number"
-                        className="w-20 border border-gray-300 rounded px-2 py-1 text-sm"
-                        value={ing.quantity ?? ""}
-                        onChange={(e) =>
-                          updateIngredient(i, {
-                            quantity: e.target.value !== "" ? Number(e.target.value) : null,
-                          })
-                        }
-                      />
-                    </td>
-                    <td className="px-3 py-2">
-                      <input
-                        className="w-20 border border-gray-300 rounded px-2 py-1 text-sm"
-                        value={ing.unit ?? ""}
-                        onChange={(e) =>
-                          updateIngredient(i, { unit: e.target.value || null })
-                        }
-                      />
-                    </td>
-                    <td className="px-3 py-2 text-center">
-                      <input
-                        type="checkbox"
-                        checked={ing.optional}
-                        onChange={(e) => updateIngredient(i, { optional: e.target.checked })}
-                        className="rounded border-gray-300 accent-indigo-600"
-                      />
-                    </td>
-                    <td className="px-3 py-2">
-                      <input
-                        type="number"
-                        className="w-16 border border-gray-300 rounded px-2 py-1 text-sm"
-                        value={ing.portionCoefficient}
-                        onChange={(e) =>
-                          updateIngredient(i, { portionCoefficient: Number(e.target.value) })
-                        }
-                      />
-                    </td>
-                    <td className="px-3 py-2">
-                      <button
-                        onClick={() =>
-                          setIngredients(ingredients.filter((_, j) => j !== i))
-                        }
-                        className="text-red-400 hover:text-red-600 text-xs font-medium"
-                      >
-                        Remove
-                      </button>
-                    </td>
-                  </tr>
+                      </td>
+                    </tr>
+                    <tr key={`${ing.ingredientId}-subs`} className="border-b border-gray-100 bg-gray-50/50">
+                      <td />
+                      <td colSpan={6} className="px-3 py-2">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="text-xs text-gray-400 shrink-0">Substitutes:</span>
+                          {ing.substitutes.map((subId) => {
+                            const sub = recipe.allIngredients.find((x) => x.id === subId);
+                            return (
+                              <span
+                                key={subId}
+                                className="inline-flex items-center gap-1 bg-amber-50 border border-amber-200 text-amber-800 text-xs rounded px-2 py-0.5"
+                              >
+                                {sub?.name ?? subId}
+                                <button
+                                  onClick={() =>
+                                    updateIngredient(i, {
+                                      substitutes: ing.substitutes.filter((s) => s !== subId),
+                                    })
+                                  }
+                                  className="text-amber-500 hover:text-amber-700 ml-0.5 leading-none"
+                                >
+                                  ×
+                                </button>
+                              </span>
+                            );
+                          })}
+                          <select
+                            className="border border-gray-200 rounded px-2 py-0.5 text-xs bg-white"
+                            value={newSubstituteIds[ing.ingredientId] ?? ""}
+                            onChange={(e) =>
+                              setNewSubstituteIds((prev) => ({
+                                ...prev,
+                                [ing.ingredientId]: e.target.value,
+                              }))
+                            }
+                          >
+                            <option value="">Add substitute...</option>
+                            {recipe.allIngredients
+                              .filter(
+                                (x) =>
+                                  x.id !== ing.ingredientId &&
+                                  !ing.substitutes.includes(x.id)
+                              )
+                              .map((x) => (
+                                <option key={x.id} value={x.id}>
+                                  {x.name} ({x.id})
+                                </option>
+                              ))}
+                          </select>
+                          <button
+                            onClick={() => {
+                              const subId = newSubstituteIds[ing.ingredientId];
+                              if (!subId) return;
+                              updateIngredient(i, {
+                                substitutes: [...ing.substitutes, subId],
+                              });
+                              setNewSubstituteIds((prev) => ({
+                                ...prev,
+                                [ing.ingredientId]: "",
+                              }));
+                            }}
+                            disabled={!newSubstituteIds[ing.ingredientId]}
+                            className="px-2 py-0.5 bg-gray-100 border border-gray-200 text-xs rounded hover:bg-gray-200 disabled:opacity-50"
+                          >
+                            Add
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                  </>
                 ))}
               </tbody>
             </table>
