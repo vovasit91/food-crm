@@ -64,6 +64,7 @@ type RecipeProps = {
   timeMinutes: number;
   difficulty: string;
   isEnabled: boolean;
+  isBatch: boolean;
   basePortions: number;
   portionType: PortionType;
   nameEn: string;
@@ -123,6 +124,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
   const [timeMinutes, setTimeMinutes] = useState(recipe.timeMinutes);
   const [difficulty, setDifficulty] = useState(recipe.difficulty);
   const [isEnabled, setIsEnabled] = useState(recipe.isEnabled);
+  const [isBatch, setIsBatch] = useState(recipe.isBatch);
   const [basePortions, setBasePortions] = useState(recipe.basePortions);
   const [portionType, setPortionType] = useState<PortionType>(recipe.portionType);
 
@@ -309,15 +311,21 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
               </select>
             </div>
           </div>
-          <div className="flex items-center gap-3">
-            <span className={LABEL + " mb-0"}>Enabled</span>
-            <Toggle value={isEnabled} onChange={setIsEnabled} />
+          <div className="flex items-center gap-6">
+            <div className="flex items-center gap-3">
+              <span className={LABEL + " mb-0"}>Enabled</span>
+              <Toggle value={isEnabled} onChange={setIsEnabled} />
+            </div>
+            <div className="flex items-center gap-3">
+              <span className={LABEL + " mb-0"}>Batch</span>
+              <Toggle value={isBatch} onChange={setIsBatch} />
+            </div>
           </div>
           <button
             className={SAVE_BTN}
             disabled={isPending}
             onClick={() =>
-              save(() => updateRecipeBasic(recipe.id, { image, timeMinutes, difficulty, isEnabled, basePortions, portionType }))
+              save(() => updateRecipeBasic(recipe.id, { image, timeMinutes, difficulty, isEnabled, isBatch, basePortions, portionType }))
             }
           >
             {isPending ? "Saving..." : "Save"}
@@ -567,6 +575,9 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                             }
                           >
                             <option value="">Add substitute...</option>
+                            {!ing.substitutes.includes("without") && (
+                              <option value="without">— without —</option>
+                            )}
                             {recipe.allIngredients
                               .filter(
                                 (x) =>

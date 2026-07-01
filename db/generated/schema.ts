@@ -6,17 +6,15 @@ export const schemaVersion = sqliteTable("schema_version", {
 	appliedAt: integer("applied_at").notNull(),
 });
 
+export const contentVersion = sqliteTable("content_version", {
+	version: integer().notNull(),
+	updatedAt: integer("updated_at").notNull(),
+});
+
 export const categories = sqliteTable("categories", {
 	id: text().primaryKey().notNull(),
 	enabled: integer().default(1).notNull(),
 	icon: text().notNull(),
-});
-
-export const tags = sqliteTable("tags", {
-	id: text().primaryKey().notNull(),
-	label: text().notNull(),
-	icon: text(),
-	type: text("type"),
 });
 
 export const tagCategory = sqliteTable("tag_category", {
@@ -44,7 +42,9 @@ export const ingredients = sqliteTable("ingredients", {
 	fats: integer(),
 	gInMeasurement: real("g_in_measurement"),
 	measurement: text().notNull(),
+	mlInMeasurement: real("ml_in_measurement"),
 	isBasic: integer("is_basic"),
+	allergy: text(),
 });
 
 export const kitchenItems = sqliteTable("kitchen_items", {
@@ -60,6 +60,7 @@ export const recipes = sqliteTable("recipes", {
 	isEnabled: integer("is_enabled").default(1).notNull(),
 	basePortions: integer("base_portions").default(1).notNull(),
 	portionType: text("portion_type").default("portion").notNull(),
+	isBatch: integer("is_batch").default(0).notNull(),
 });
 
 export const recipeTag = sqliteTable("recipe_tag", {
@@ -139,6 +140,16 @@ export const cookingStepTag = sqliteTable("cooking_step_tag", {
 	primaryKey({ columns: [table.recipeId, table.step, table.tag], name: "cooking_step_tag_recipe_id_step_tag_pk"})
 ]);
 
+export const translations = sqliteTable("translations", {
+	locale: text().notNull(),
+	entityType: text("entity_type").notNull(),
+	entityId: text("entity_id").notNull(),
+	value: text().notNull(),
+},
+(table) => [
+	primaryKey({ columns: [table.locale, table.entityType, table.entityId], name: "translations_locale_entity_type_entity_id_pk"})
+]);
+
 export const cookingStepIngredient = sqliteTable("cooking_step_ingredient", {
 	recipeId: text("recipe_id").notNull(),
 	step: text().notNull(),
@@ -148,21 +159,23 @@ export const cookingStepIngredient = sqliteTable("cooking_step_ingredient", {
 	sortOrder: integer("sort_order").default(0).notNull(),
 },
 (table) => [
-	primaryKey({ columns: [table.recipeId, table.step, table.ingredientId], name: "cooking_step_ingredient_pk"})
+	primaryKey({ columns: [table.recipeId, table.step, table.ingredientId], name: "cooking_step_ingredient_recipe_id_step_ingredient_id_pk"})
 ]);
 
-export const contentVersion = sqliteTable("content_version", {
-	version: integer().notNull(),
-	updatedAt: text("updated_at").notNull(),
+export const tags = sqliteTable("tags", {
+	id: text().primaryKey().notNull(),
+	label: text().notNull(),
+	icon: text(),
+	type: text().default("recipe").notNull(),
+	isEnabled: integer("is_enabled").default(1).notNull(),
 });
 
-export const translations = sqliteTable("translations", {
-	locale: text().notNull(),
-	entityType: text("entity_type").notNull(),
-	entityId: text("entity_id").notNull(),
-	value: text().notNull(),
+export const cookingStepKitchenItem = sqliteTable("cooking_step_kitchen_item", {
+	recipeId: text("recipe_id").notNull(),
+	step: text().notNull(),
+	kitchenItemId: text("kitchen_item_id").notNull(),
 },
 (table) => [
-	primaryKey({ columns: [table.locale, table.entityType, table.entityId], name: "translations_locale_entity_type_entity_id_pk"})
+	primaryKey({ columns: [table.recipeId, table.step, table.kitchenItemId], name: "cooking_step_kitchen_item_recipe_id_step_kitchen_item_id_pk"})
 ]);
 
