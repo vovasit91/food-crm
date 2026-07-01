@@ -21,7 +21,7 @@ export async function createTag(data: {
     id: data.id,
     label: data.label,
     icon: data.icon,
-    type: data.type,
+    type: data.type ?? undefined,
   });
 
   if (data.labelUa) {
@@ -45,7 +45,7 @@ export async function updateTag(
 ) {
   await db
     .update(tags)
-    .set({ label: data.label, icon: data.icon, type: data.type })
+    .set({ label: data.label, icon: data.icon, type: data.type ?? undefined })
     .where(eq(tags.id, id));
 
   const entityType = entityTypeForTagType(data.type);
