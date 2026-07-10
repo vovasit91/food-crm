@@ -22,7 +22,7 @@ export type PortionType = "portion" | "piece";
 
 export async function updateRecipeBasic(
   id: string,
-  data: { image: string; timeMinutes: number; difficulty: string; isEnabled: boolean; basePortions: number; portionType: PortionType; isBatch: boolean }
+  data: { image: string; timeMinutes: number; difficulty: string; isEnabled: boolean; basePortions: number; portionType: PortionType; isBatch: boolean; isModerated: boolean }
 ) {
   await db
     .update(recipes)
@@ -34,6 +34,7 @@ export async function updateRecipeBasic(
       basePortions: data.basePortions,
       portionType: data.portionType,
       isBatch: data.isBatch ? 1 : 0,
+      isModerated: data.isModerated ? 1 : 0,
     })
     .where(eq(recipes.id, id));
   revalidatePath(`/recipes/${id}`);

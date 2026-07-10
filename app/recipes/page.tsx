@@ -10,11 +10,18 @@ const PAGE_SIZE = 50;
 export default async function RecipesPage({
   searchParams,
 }: {
-  searchParams: Promise<{ page?: string }>;
+  searchParams: Promise<{ page?: string; moderated?: string }>;
 }) {
-  const { page: pageParam } = await searchParams;
+  const { page: pageParam, moderated } = await searchParams;
   const page = Math.max(1, parseInt(pageParam ?? "1", 10) || 1);
   const offset = (page - 1) * PAGE_SIZE;
+
+  const moderatedFilter =
+    moderated === "1"
+      ? eq(recipes.isModerated, 1)
+      : moderated === "0"
+        ? eq(recipes.isModerated, 0)
+        : undefined;
 
   const [data, [{ total }]] = await Promise.all([
     db
@@ -24,6 +31,7 @@ export default async function RecipesPage({
         timeMinutes: recipes.timeMinutes,
         difficulty: recipes.difficulty,
         isEnabled: recipes.isEnabled,
+        isModerated: recipes.isModerated,
         name: translations.value,
       })
       .from(recipes)
@@ -35,10 +43,11 @@ export default async function RecipesPage({
           eq(translations.locale, "en")
         )
       )
+      .where(moderatedFilter)
       .orderBy(recipes.id)
       .limit(PAGE_SIZE)
       .offset(offset),
-    db.select({ total: count() }).from(recipes),
+    db.select({ total: count() }).from(recipes).where(moderatedFilter),
   ]);
 
   const totalPages = Math.ceil(total / PAGE_SIZE);
@@ -56,6 +65,26 @@ export default async function RecipesPage({
         <span className="text-sm text-gray-400">{total} total</span>
       </div>
 
+      <div className="flex gap-2 mb-4">
+        {[
+          { label: "All", value: undefined },
+          { label: "Moderated", value: "1" },
+          { label: "Pending", value: "0" },
+        ].map((f) => (
+          <Link
+            key={f.label}
+            href={f.value ? `/recipes?moderated=${f.value}` : "/recipes"}
+            className={`px-3 py-1.5 rounded text-sm font-medium border transition-colors ${
+              (moderated ?? undefined) === f.value
+                ? "bg-indigo-600 text-white border-indigo-600"
+                : "bg-white text-gray-600 border-gray-300 hover:border-gray-400"
+            }`}
+          >
+            {f.label}
+          </Link>
+        ))}
+      </div>
+
       <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
         <table className="w-full text-sm">
           <thead className="bg-gray-50 border-b border-gray-200">
@@ -64,6 +93,7 @@ export default async function RecipesPage({
               <th className="text-left px-4 py-3 font-medium text-gray-500">Time</th>
               <th className="text-left px-4 py-3 font-medium text-gray-500">Difficulty</th>
               <th className="text-left px-4 py-3 font-medium text-gray-500">Status</th>
+              <th className="text-left px-4 py-3 font-medium text-gray-500">Moderated</th>
               <th className="px-4 py-3" />
             </tr>
           </thead>
@@ -108,6 +138,16 @@ export default async function RecipesPage({
                     {recipe.isEnabled ? "Enabled" : "Disabled"}
                   </span>
                 </td>
+                <td className="px-4 py-3">
+                  <span
+                    className={`inline-block w-2 h-2 rounded-full mr-2 ${
+                      recipe.isModerated ? "bg-green-500" : "bg-gray-300"
+                    }`}
+                  />
+                  <span className="text-gray-600">
+                    {recipe.isModerated ? "Moderated" : "Pending"}
+                  </span>
+                </td>
                 <td className="px-4 py-3 text-right">
                   <Link
                     href={`/recipes/${recipe.id}`}
@@ -130,7 +170,7 @@ export default async function RecipesPage({
           <div className="flex gap-2">
             {page > 1 && (
               <Link
-                href={`/recipes?page=${page - 1}`}
+                href={`/recipes?page=${page - 1}${moderated ? `&moderated=${moderated}` : ""}`}
                 className="px-3 py-1.5 text-sm border border-gray-200 rounded hover:bg-gray-50"
               >
                 Previous
@@ -138,7 +178,7 @@ export default async function RecipesPage({
             )}
             {page < totalPages && (
               <Link
-                href={`/recipes?page=${page + 1}`}
+                href={`/recipes?page=${page + 1}${moderated ? `&moderated=${moderated}` : ""}`}
                 className="px-3 py-1.5 text-sm border border-gray-200 rounded hover:bg-gray-50"
               >
                 Next

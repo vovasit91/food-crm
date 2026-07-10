@@ -61,6 +61,7 @@ export const recipes = sqliteTable("recipes", {
 	basePortions: integer("base_portions").default(1).notNull(),
 	portionType: text("portion_type").default("portion").notNull(),
 	isBatch: integer("is_batch").default(0).notNull(),
+	isModerated: integer("is_moderated").default(0).notNull(),
 });
 
 export const recipeTag = sqliteTable("recipe_tag", {

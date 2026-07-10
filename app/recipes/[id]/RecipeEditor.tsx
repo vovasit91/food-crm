@@ -65,6 +65,7 @@ type RecipeProps = {
   difficulty: string;
   isEnabled: boolean;
   isBatch: boolean;
+  isModerated: boolean;
   basePortions: number;
   portionType: PortionType;
   nameEn: string;
@@ -125,6 +126,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
   const [difficulty, setDifficulty] = useState(recipe.difficulty);
   const [isEnabled, setIsEnabled] = useState(recipe.isEnabled);
   const [isBatch, setIsBatch] = useState(recipe.isBatch);
+  const [isModerated, setIsModerated] = useState(recipe.isModerated);
   const [basePortions, setBasePortions] = useState(recipe.basePortions);
   const [portionType, setPortionType] = useState<PortionType>(recipe.portionType);
 
@@ -320,12 +322,16 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
               <span className={LABEL + " mb-0"}>Batch</span>
               <Toggle value={isBatch} onChange={setIsBatch} />
             </div>
+            <div className="flex items-center gap-3">
+              <span className={LABEL + " mb-0"}>Moderated</span>
+              <Toggle value={isModerated} onChange={setIsModerated} />
+            </div>
           </div>
           <button
             className={SAVE_BTN}
             disabled={isPending}
             onClick={() =>
-              save(() => updateRecipeBasic(recipe.id, { image, timeMinutes, difficulty, isEnabled, isBatch, basePortions, portionType }))
+              save(() => updateRecipeBasic(recipe.id, { image, timeMinutes, difficulty, isEnabled, isBatch, isModerated, basePortions, portionType }))
             }
           >
             {isPending ? "Saving..." : "Save"}
