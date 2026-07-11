@@ -52,6 +52,7 @@ export interface ImportRecipe {
   difficulty: string;
   basePortions?: number;
   portionType?: PortionType;
+  sourceUrl?: string;
   tags?: string[];
   kitchen?: string[];
   variations?: string[];
@@ -134,6 +135,7 @@ export async function importRecipesFromData(
         difficulty: r.difficulty,
         basePortions: r.basePortions ?? 1,
         portionType: r.portionType ?? "portion",
+        sourceUrl: r.sourceUrl ?? null,
       });
 
       for (const tagId of r.tags ?? []) {

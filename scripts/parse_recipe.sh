@@ -86,46 +86,19 @@ trap 'rm -f "$TMPHTML" "$TMPPROMPT" "$TMPOUT"' EXIT
 curl -sL "$URL" > "$TMPHTML"
 
 # ── Extract recipe fields ──────────────────────────────────────────────────────
+# Extraction uses the same regex logic as app/actions/generate-prompt.ts
+# (see scripts/extract_recipe.py) so the shell pipeline and the web server
+# action produce identical prompts.
 
-TITLE=$(htmlq '.hrecipe [itemprop="name"]' --text < "$TMPHTML" \
-  | head -n 1 | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+EXTRACT="$SCRIPT_DIR/extract_recipe.py"
 
-TIME_RAW=$(htmlq '.hrecipe [itemprop="totalTime"]' --attribute content < "$TMPHTML" \
-  | head -n 1)
-
-DESCRIPTION=$(htmlq '.hrecipe [itemprop="description"]' --text < "$TMPHTML" \
-  | head -n 1 | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
-
-CATEGORY=$(htmlq '.hrecipe [itemprop="recipeCategory"]' --attribute content < "$TMPHTML" \
-  | head -n 1 | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
-
-INGREDIENTS=$(htmlq '.hrecipe [itemprop="recipeIngredient"]' --text < "$TMPHTML")
-
-STEPS=$(htmlq '.hrecipe [itemprop="recipeInstructions"]' < "$TMPHTML")
-
-# Parse ISO 8601 duration → minutes (PT30M or PT1H30M)
-TIME_MINUTES=$(TIME_ISO="$TIME_RAW" python3 -c "
-import re, os
-s = os.environ.get('TIME_ISO', '').strip()
-h = re.search(r'(\d+)H', s)
-m = re.search(r'(\d+)M', s)
-total = (int(h.group(1)) * 60 if h else 0) + (int(m.group(1)) if m else 0)
-print(total if total > 0 else 30)
-")
-
-# Extract best cover image: fit/1200 webp (recipe cover, not fill/ which is avatars)
-IMAGE=$(python3 - "$TMPHTML" << 'PYEOF'
-import sys, re
-with open(sys.argv[1]) as f:
-    html = f.read()
-urls = re.findall(r'https://cdn\.food\.ru/unsigned/fit/\S+?\.webp(?=[ ",])', html)
-for u in urls:
-    if '/1200/' in u:
-        print(u); sys.exit(0)
-if urls:
-    print(urls[0])
-PYEOF
-)
+TITLE=$(python3 "$EXTRACT" "$TMPHTML" title)
+TIME_MINUTES=$(python3 "$EXTRACT" "$TMPHTML" time_minutes)
+DESCRIPTION=$(python3 "$EXTRACT" "$TMPHTML" description)
+CATEGORY=$(python3 "$EXTRACT" "$TMPHTML" category)
+INGREDIENTS=$(python3 "$EXTRACT" "$TMPHTML" ingredients)
+STEPS=$(python3 "$EXTRACT" "$TMPHTML" steps)
+IMAGE=$(python3 "$EXTRACT" "$TMPHTML" image)
 
 # ── Pull available IDs from DB ─────────────────────────────────────────────────
 
@@ -243,6 +216,19 @@ if m:
 print(text, file=sys.stderr)
 sys.exit(1)
 ")
+
+# ── Enrich with source link ────────────────────────────────────────────────────
+# Add the originating URL to the parsed object(s) so the recipe keeps a reference
+# back to where it was scraped from.
+
+CLEAN_JSON=$(echo "$CLEAN_JSON" | python3 -c "
+import sys, json
+url = sys.argv[1]
+data = json.load(sys.stdin)
+for obj in (data if isinstance(data, list) else [data]):
+    obj['sourceUrl'] = url
+print(json.dumps(data, ensure_ascii=False, indent=2))
+" "$URL")
 
 # ── Save output ────────────────────────────────────────────────────────────────
 

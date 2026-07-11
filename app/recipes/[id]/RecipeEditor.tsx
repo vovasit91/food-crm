@@ -66,6 +66,7 @@ type RecipeProps = {
   isEnabled: boolean;
   isBatch: boolean;
   isModerated: boolean;
+  sourceUrl: string | null;
   basePortions: number;
   portionType: PortionType;
   nameEn: string;
@@ -326,6 +327,21 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
               <span className={LABEL + " mb-0"}>Moderated</span>
               <Toggle value={isModerated} onChange={setIsModerated} />
             </div>
+          </div>
+          <div>
+            <span className={LABEL}>Source</span>
+            {recipe.sourceUrl ? (
+              <a
+                href={recipe.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-indigo-600 hover:text-indigo-800 break-all text-sm"
+              >
+                {recipe.sourceUrl}
+              </a>
+            ) : (
+              <span className="text-gray-400 text-sm">—</span>
+            )}
           </div>
           <button
             className={SAVE_BTN}
