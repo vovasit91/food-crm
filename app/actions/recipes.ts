@@ -125,9 +125,9 @@ export async function updateRecipeCookingSteps(
     showTimer: boolean;
     image: string | null;
     titleEn: string;
-    titleUa: string;
+    titleUk: string;
     descriptionEn: string;
-    descriptionUa: string;
+    descriptionUk: string;
     stepIngredients: { ingredientId: string; quantity: number | null; unit: string | null; sortOrder: number }[];
     tagIds: string[];
   }[]
@@ -151,9 +151,9 @@ export async function updateRecipeCookingSteps(
     const translationItems: { locale: string; entityType: string; entityId: string; value: string }[] = [];
     for (const s of steps) {
       if (s.titleEn) translationItems.push({ locale: "en", entityType: "step_title", entityId: s.step, value: s.titleEn });
-      if (s.titleUa) translationItems.push({ locale: "ua", entityType: "step_title", entityId: s.step, value: s.titleUa });
+      if (s.titleUk) translationItems.push({ locale: "uk", entityType: "step_title", entityId: s.step, value: s.titleUk });
       if (s.descriptionEn) translationItems.push({ locale: "en", entityType: "step_description", entityId: s.step, value: s.descriptionEn });
-      if (s.descriptionUa) translationItems.push({ locale: "ua", entityType: "step_description", entityId: s.step, value: s.descriptionUa });
+      if (s.descriptionUk) translationItems.push({ locale: "uk", entityType: "step_description", entityId: s.step, value: s.descriptionUk });
     }
     if (translationItems.length > 0) await upsertTranslations(translationItems);
 
@@ -209,7 +209,7 @@ export async function updateRecipeVariations(recipeId: string, variationRecipeId
 
 export async function updateRecipeTldrSteps(
   recipeId: string,
-  steps: { stepId: string; sortOrder: number; minutes: number; titleEn: string; titleUa: string }[]
+  steps: { stepId: string; sortOrder: number; minutes: number; titleEn: string; titleUk: string }[]
 ) {
   await db.delete(recipeTldrStep).where(eq(recipeTldrStep.recipeId, recipeId));
 
@@ -221,7 +221,7 @@ export async function updateRecipeTldrSteps(
     const translationItems: { locale: string; entityType: string; entityId: string; value: string }[] = [];
     for (const s of steps) {
       if (s.titleEn) translationItems.push({ locale: "en", entityType: "tldr_step", entityId: s.stepId, value: s.titleEn });
-      if (s.titleUa) translationItems.push({ locale: "ua", entityType: "tldr_step", entityId: s.stepId, value: s.titleUa });
+      if (s.titleUk) translationItems.push({ locale: "uk", entityType: "tldr_step", entityId: s.stepId, value: s.titleUk });
     }
     if (translationItems.length > 0) await upsertTranslations(translationItems);
   }

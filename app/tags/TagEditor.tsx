@@ -10,7 +10,7 @@ type TagEditorProps = {
   initial: {
     id: string;
     label: string;
-    labelUa: string;
+    labelUk: string;
     icon: string;
     type: string;
   };
@@ -29,7 +29,7 @@ export default function TagEditor({ mode, initial }: TagEditorProps) {
 
   const [id, setId] = useState(initial.id);
   const [label, setLabel] = useState(initial.label);
-  const [labelUa, setLabelUa] = useState(initial.labelUa);
+  const [labelUk, setLabelUk] = useState(initial.labelUk);
   const [icon, setIcon] = useState(initial.icon);
   const [type, setType] = useState(initial.type || KNOWN_TYPES[0]);
 
@@ -44,14 +44,14 @@ export default function TagEditor({ mode, initial }: TagEditorProps) {
         await createTag({
           id: id.trim(),
           label: label.trim(),
-          labelUa: labelUa.trim(),
+          labelUk: labelUk.trim(),
           icon: icon.trim() || null,
           type: type.trim() || null,
         });
       } else {
         await updateTag(initial.id, {
           label: label.trim(),
-          labelUa: labelUa.trim(),
+          labelUk: labelUk.trim(),
           icon: icon.trim() || null,
           type: type.trim() || null,
         });
@@ -109,11 +109,11 @@ export default function TagEditor({ mode, initial }: TagEditorProps) {
             />
           </div>
           <div>
-            <label className={LABEL}>Label (UA)</label>
+            <label className={LABEL}>Label (UK)</label>
             <input
               className={INPUT}
-              value={labelUa}
-              onChange={(e) => setLabelUa(e.target.value)}
+              value={labelUk}
+              onChange={(e) => setLabelUk(e.target.value)}
             />
           </div>
         </div>

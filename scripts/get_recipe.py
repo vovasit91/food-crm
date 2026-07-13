@@ -2,7 +2,7 @@
 """Print a recipe in plain text.
 
 Usage:
-  get_recipe.py <recipe-id> [--locale en|ua]
+  get_recipe.py <recipe-id> [--locale en|uk]
 """
 
 import sys
@@ -35,7 +35,7 @@ def main():
             recipe_id = arg
 
     if not recipe_id:
-        print("Usage: get_recipe.py <recipe-id> [--locale en|ua]", file=sys.stderr)
+        print("Usage: get_recipe.py <recipe-id> [--locale en|uk]", file=sys.stderr)
         sys.exit(1)
 
     conn = sqlite3.connect(DB)

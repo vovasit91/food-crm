@@ -2,7 +2,7 @@
 """Upsert a recipe summary into Turso translations table from stdin.
 
 Usage:
-  python3 get_recipe.py <id> | python3 generate_summary.py | python3 update_summary.py <recipe-id> [--locale en|ua]
+  python3 get_recipe.py <id> | python3 generate_summary.py | python3 update_summary.py <recipe-id> [--locale en|uk]
 
 Requires TURSO_URL and TURSO_AUTH_TOKEN in .env or environment.
 """
@@ -65,7 +65,7 @@ def main():
             i += 1
 
     if not recipe_id:
-        print("Usage: update_summary.py <recipe-id> [--locale en|ua]", file=sys.stderr)
+        print("Usage: update_summary.py <recipe-id> [--locale en|uk]", file=sys.stderr)
         sys.exit(1)
 
     summary = sys.stdin.read().strip()

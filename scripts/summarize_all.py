@@ -2,7 +2,7 @@
 """Run summarize.py for every recipe in the DB.
 
 Usage:
-  summarize_all.py [--locales en,ua] [--skip-existing]
+  summarize_all.py [--locales en,uk] [--skip-existing]
 """
 
 import sys
@@ -58,7 +58,7 @@ def fetch_existing_summaries(url, token, locales):
 
 
 def main():
-    locales = ["en", "ua"]
+    locales = ["en", "uk"]
     skip_existing = False
 
     for arg in sys.argv[1:]:

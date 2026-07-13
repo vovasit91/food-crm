@@ -16,7 +16,7 @@ import {
   translations,
 } from "@/db/generated/schema";
 
-type Translations = { en?: string; ua?: string };
+type Translations = { en?: string; uk?: string };
 
 export interface TldrStep {
   stepId: string;
@@ -158,7 +158,7 @@ export async function importRecipesFromData(
           minutes: s.minutes,
         });
         await upsertTranslation(db, "en", "tldr_step", s.stepId, s.translations?.title?.en ?? "");
-        await upsertTranslation(db, "ua", "tldr_step", s.stepId, s.translations?.title?.ua ?? "");
+        await upsertTranslation(db, "uk", "tldr_step", s.stepId, s.translations?.title?.uk ?? "");
       }
 
       const seenIngredientIds = new Set<string>();
@@ -213,15 +213,15 @@ export async function importRecipesFromData(
         }
 
         await upsertTranslation(db, "en", "step_title", cs.stepId, cs.translations?.title?.en ?? "");
-        await upsertTranslation(db, "ua", "step_title", cs.stepId, cs.translations?.title?.ua ?? "");
+        await upsertTranslation(db, "uk", "step_title", cs.stepId, cs.translations?.title?.uk ?? "");
         await upsertTranslation(db, "en", "step_description", cs.stepId, cs.translations?.description?.en ?? "");
-        await upsertTranslation(db, "ua", "step_description", cs.stepId, cs.translations?.description?.ua ?? "");
+        await upsertTranslation(db, "uk", "step_description", cs.stepId, cs.translations?.description?.uk ?? "");
       }
 
       await upsertTranslation(db, "en", "recipe_name", r.id, r.title?.en ?? "");
-      await upsertTranslation(db, "ua", "recipe_name", r.id, r.title?.ua ?? "");
+      await upsertTranslation(db, "uk", "recipe_name", r.id, r.title?.uk ?? "");
       await upsertTranslation(db, "en", "recipe_summary", r.id, r.recipeSummary?.en ?? "");
-      await upsertTranslation(db, "ua", "recipe_summary", r.id, r.recipeSummary?.ua ?? "");
+      await upsertTranslation(db, "uk", "recipe_summary", r.id, r.recipeSummary?.uk ?? "");
 
       result.recipesInserted++;
     } catch (e) {

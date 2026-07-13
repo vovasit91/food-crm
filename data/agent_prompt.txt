@@ -11,8 +11,8 @@ Output ONLY a valid JSON array containing a single recipe object. No explanation
   {
     "id": string,           // English kebab-case slug
     "image": string,        // URL as provided
-    "title": { "en": string, "ua": string },      // Recipe name
-    "recipeSummary": { "en": string, "ua": string },      // Short description
+    "title": { "en": string, "uk": string },      // Recipe name
+    "recipeSummary": { "en": string, "uk": string },      // Short description
     "timeMinutes": number,  // Total time as provided
     "difficulty": string,   // "easy" | "medium" | "hard"
     "basePortions": number,   // yield: how many portions or pieces this recipe makes
@@ -25,7 +25,7 @@ Output ONLY a valid JSON array containing a single recipe object. No explanation
       {
         "stepId": string,
         "minutes": number,
-        "translations": { "title": { "en": string, "ua": string } }
+        "translations": { "title": { "en": string, "uk": string } }
       }
     ],
 
@@ -55,8 +55,8 @@ Output ONLY a valid JSON array containing a single recipe object. No explanation
           }
         ],
         "translations": {
-          "title": { "en": string, "ua": string },
-          "description": { "en": string, "ua": string }
+          "title": { "en": string, "uk": string },
+          "description": { "en": string, "uk": string }
         }
       }
     ],
@@ -137,7 +137,7 @@ For each tldr step:
 
 Always include every tldr stepId with:
 - translations.title.en: short imperative phrase, 2-4 words (e.g. "Slice the apples", "Bake until golden")
-- translations.title.ua: infinitive form, 2-4 words — verb + direct object only, no extra details or modifiers (e.g. "Нарізати яблука", "Запекти тісто"). NEVER use imperative (Наріжте, Запечіть).
+- translations.title.uk: infinitive form, 2-4 words — verb + direct object only, no extra details or modifiers (e.g. "Нарізати яблука", "Запекти тісто"). NEVER use imperative (Наріжте, Запечіть).
 
 ### basePortions and portionType
 Decide whether the recipe yields **portions** or **pieces**:
@@ -207,5 +207,5 @@ For each step:
 Always include every cookingStep with:
 - image: extract the `src` (or `data-src`) of any `<img>` tag found inside that step's HTML element; set to `null` if none is present. Try to take the url with the highest resolution
 - ingredients: list the recipe ingredients (by `ingredientId`) that are actually added or used in this specific step. Only include ingredients from the recipe's `ingredients` array. Set `quantity` and `unit` to `null` unless the step uses a different amount than the total recipe quantity (e.g. "add half the butter now, the rest later" → split the quantity). Assign `sortOrder` starting from 0. Use `[]` for steps with no ingredient interaction (e.g. pure prep, resting, preheating).
-- translations.title: { "en": short imperative English phrase (e.g. "Toast the bread"), "ua": Ukrainian translation }
-- translations.description: { "en": 1-3 sentences in second person, clear and actionable, "ua": Ukrainian translation }
+- translations.title: { "en": short imperative English phrase (e.g. "Toast the bread"), "uk": Ukrainian translation }
+- translations.description: { "en": 1-3 sentences in second person, clear and actionable, "uk": Ukrainian translation }

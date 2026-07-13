@@ -21,7 +21,7 @@ export default async function TagPage({ params }: { params: Promise<{ id: string
       and(
         eq(translations.entityType, entityType),
         eq(translations.entityId, id),
-        eq(translations.locale, "ua")
+        eq(translations.locale, "uk")
       )
     );
 
@@ -31,7 +31,7 @@ export default async function TagPage({ params }: { params: Promise<{ id: string
       initial={{
         id: tag.id,
         label: tag.label,
-        labelUa: uaTranslation?.value ?? "",
+        labelUk: uaTranslation?.value ?? "",
         icon: tag.icon ?? "",
         type: tag.type ?? "",
       }}

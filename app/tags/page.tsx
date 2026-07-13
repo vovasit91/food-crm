@@ -24,7 +24,7 @@ export default async function TagsPage({
       label: tags.label,
       icon: tags.icon,
       type: tags.type,
-      nameUa: translations.value,
+      nameUk: translations.value,
     })
     .from(tags)
     .leftJoin(
@@ -32,7 +32,7 @@ export default async function TagsPage({
       and(
         inArray(translations.entityType, ["tag", "cooking_tag"]),
         eq(translations.entityId, tags.id),
-        eq(translations.locale, "ua")
+        eq(translations.locale, "uk")
       )
     )
     .orderBy(tags.id);
@@ -90,7 +90,7 @@ export default async function TagsPage({
             <tr>
               <th className="text-left px-4 py-3 font-medium text-gray-500">ID</th>
               <th className="text-left px-4 py-3 font-medium text-gray-500">Label (EN)</th>
-              <th className="text-left px-4 py-3 font-medium text-gray-500">Label (UA)</th>
+              <th className="text-left px-4 py-3 font-medium text-gray-500">Label (UK)</th>
               <th className="text-left px-4 py-3 font-medium text-gray-500">Type</th>
               <th className="text-left px-4 py-3 font-medium text-gray-500">Icon</th>
             </tr>
@@ -102,7 +102,7 @@ export default async function TagsPage({
                   <Link href={`/tags/${tag.id}`} className="hover:text-indigo-600">{tag.id}</Link>
                 </td>
                 <td className="px-4 py-3 font-medium text-gray-900">{tag.label}</td>
-                <td className="px-4 py-3 text-gray-600">{tag.nameUa ?? "—"}</td>
+                <td className="px-4 py-3 text-gray-600">{tag.nameUk ?? "—"}</td>
                 <td className="px-4 py-3 text-gray-500 font-mono text-xs">{tag.type ?? "—"}</td>
                 <td className="px-4 py-3 text-gray-600">
                   <Icon name={tag.icon} size={18} className="text-gray-600" />

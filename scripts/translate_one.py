@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Translate one untranslated UA record using DeepSeek, then upsert into Turso.
+"""Translate one untranslated UK record using DeepSeek, then upsert into Turso.
 
 Usage:
   python3 translate_one.py [--entity-type <type>] [--dry-run]
 
-Finds the first translation that exists for locale='en' but not locale='ua',
+Finds the first translation that exists for locale='en' but not locale='uk',
 calls DeepSeek to translate it, and writes the result to the Turso DB.
 
 Requires DEEPSEEK_API_KEY, TURSO_URL, and TURSO_AUTH_TOKEN in .env or environment.
@@ -51,13 +51,13 @@ def find_untranslated(entity_type_filter=None):
             """
             SELECT en.entity_type, en.entity_id, en.value
             FROM translations en
-            LEFT JOIN translations ua
-              ON ua.locale = 'ua'
-             AND ua.entity_type = en.entity_type
-             AND ua.entity_id = en.entity_id
+            LEFT JOIN translations uk
+              ON uk.locale = 'uk'
+             AND uk.entity_type = en.entity_type
+             AND uk.entity_id = en.entity_id
             WHERE en.locale = 'en'
               AND en.entity_type = ?
-              AND (ua.value IS NULL OR ua.value = en.value)
+              AND (uk.value IS NULL OR uk.value = en.value)
             ORDER BY en.entity_type, en.entity_id
             LIMIT 1
             """,
@@ -68,12 +68,12 @@ def find_untranslated(entity_type_filter=None):
             """
             SELECT en.entity_type, en.entity_id, en.value
             FROM translations en
-            LEFT JOIN translations ua
-              ON ua.locale = 'ua'
-             AND ua.entity_type = en.entity_type
-             AND ua.entity_id = en.entity_id
+            LEFT JOIN translations uk
+              ON uk.locale = 'uk'
+             AND uk.entity_type = en.entity_type
+             AND uk.entity_id = en.entity_id
             WHERE en.locale = 'en'
-              AND (ua.value IS NULL OR ua.value = en.value)
+              AND (uk.value IS NULL OR uk.value = en.value)
             ORDER BY en.entity_type, en.entity_id
             LIMIT 1
             """
@@ -115,7 +115,7 @@ def turso_upsert(url, token, entity_type, entity_id, value):
                 "stmt": {
                     "sql": "INSERT OR REPLACE INTO translations (locale, entity_type, entity_id, value) VALUES (?, ?, ?, ?)",
                     "args": [
-                        {"type": "text", "value": "ua"},
+                        {"type": "text", "value": "uk"},
                         {"type": "text", "value": entity_type},
                         {"type": "text", "value": entity_id},
                         {"type": "text", "value": value},
@@ -142,7 +142,7 @@ def turso_upsert(url, token, entity_type, entity_id, value):
 def local_upsert(entity_type, entity_id, value):
     conn = sqlite3.connect(LOCAL_DB)
     conn.execute(
-        "INSERT OR REPLACE INTO translations (locale, entity_type, entity_id, value) VALUES ('ua', ?, ?, ?)",
+        "INSERT OR REPLACE INTO translations (locale, entity_type, entity_id, value) VALUES ('uk', ?, ?, ?)",
         (entity_type, entity_id, value),
     )
     conn.commit()
@@ -182,26 +182,26 @@ def main():
 
     row = find_untranslated(entity_type_filter)
     if not row:
-        print("Nothing to translate — all UA records are up to date.")
+        print("Nothing to translate — all UK records are up to date.")
         return
 
     entity_type, entity_id, en_value = row
     print(f"Translating [{entity_type}] {entity_id}")
     print(f"  EN: {en_value}")
 
-    ua_value = translate(api_key, en_value)
-    print(f"  UA: {ua_value}")
+    uk_value = translate(api_key, en_value)
+    print(f"  UK: {uk_value}")
 
     if dry_run:
         print("  (dry-run, not written)")
         return
 
-    result = turso_upsert(turso_url, turso_token, entity_type, entity_id, ua_value)
+    result = turso_upsert(turso_url, turso_token, entity_type, entity_id, uk_value)
     if result["results"][0]["type"] == "error":
         print(f"Error writing to Turso: {result['results'][0]['error']}", file=sys.stderr)
         sys.exit(1)
 
-    local_upsert(entity_type, entity_id, ua_value)
+    local_upsert(entity_type, entity_id, uk_value)
     print(f"  OK — written to Turso + local DB")
 
 

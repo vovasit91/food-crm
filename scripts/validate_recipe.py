@@ -87,9 +87,9 @@ class Validator:
         if "title" in r:
             t = r["title"]
             if not isinstance(t, dict):
-                self.err("title: must be an object with 'en' and 'ua' keys")
+                self.err("title: must be an object with 'en' and 'uk' keys")
             else:
-                for lang in ("en", "ua"):
+                for lang in ("en", "uk"):
                     if lang not in t:
                         self.err(f"title: missing '{lang}'")
                     elif not isinstance(t[lang], str) or not t[lang].strip():
@@ -280,7 +280,7 @@ class Validator:
             else:
                 self.check_slug(s["id"], f"{prefix}.id")
                 seen_ids.append(s["id"])
-            for lang in ("en", "ua"):
+            for lang in ("en", "uk"):
                 if lang not in s:
                     self.err(f"{prefix}: missing '{lang}' translation block")
                 else:

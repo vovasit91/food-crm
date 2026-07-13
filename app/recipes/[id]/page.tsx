@@ -221,9 +221,9 @@ export default async function RecipePage({
         basePortions: recipe.basePortions,
         portionType: recipe.portionType as PortionType,
         nameEn: getTr("en", "recipe_name"),
-        nameUa: getTr("ua", "recipe_name"),
+        nameUk: getTr("uk", "recipe_name"),
         summaryEn: getTr("en", "recipe_summary"),
-        summaryUa: getTr("ua", "recipe_summary"),
+        summaryUk: getTr("uk", "recipe_summary"),
         tagIds: currentTagIds,
         allTags: allTagsData,
         allStepTags: allStepTagsData,
@@ -253,9 +253,9 @@ export default async function RecipePage({
           showTimer: s.showTimer === 1,
           image: s.image,
           titleEn: getCookingStepTr(s.step, "en", "step_title"),
-          titleUa: getCookingStepTr(s.step, "ua", "step_title"),
+          titleUk: getCookingStepTr(s.step, "uk", "step_title"),
           descriptionEn: getCookingStepTr(s.step, "en", "step_description"),
-          descriptionUa: getCookingStepTr(s.step, "ua", "step_description"),
+          descriptionUk: getCookingStepTr(s.step, "uk", "step_description"),
           stepIngredients: stepIngredientsData
             .filter((si) => si.step === s.step)
             .map((si) => ({
@@ -271,7 +271,7 @@ export default async function RecipePage({
           sortOrder: s.sortOrder,
           minutes: s.minutes,
           titleEn: getTldrStepTr(s.stepId, "en"),
-          titleUa: getTldrStepTr(s.stepId, "ua"),
+          titleUk: getTldrStepTr(s.stepId, "uk"),
         })),
         variationIds,
         allRecipes: allRecipesData.map((r) => ({ id: r.id, name: r.name ?? r.id })),

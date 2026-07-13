@@ -2,7 +2,7 @@
 """Generate and save recipe summaries for one or more locales.
 
 Usage:
-  summarize.py <recipe-id> [--locales en,ua]
+  summarize.py <recipe-id> [--locales en,uk]
 
 Defaults to --locales en.
 """
@@ -12,7 +12,7 @@ import subprocess
 from pathlib import Path
 
 SCRIPTS = Path(__file__).parent
-LANGUAGE_NAMES = {"en": "English", "ua": "Ukrainian"}
+LANGUAGE_NAMES = {"en": "English", "uk": "Ukrainian"}
 
 
 def run_pipeline(recipe_id, locale):
@@ -61,7 +61,7 @@ def main():
             i += 1
 
     if not recipe_id:
-        print("Usage: summarize.py <recipe-id> [--locales en,ua]", file=sys.stderr)
+        print("Usage: summarize.py <recipe-id> [--locales en,uk]", file=sys.stderr)
         sys.exit(1)
 
     ok = all(run_pipeline(recipe_id, locale.strip()) for locale in locales)

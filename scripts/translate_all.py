@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run translate_one.py in a loop until all UA translations are complete.
+"""Run translate_one.py in a loop until all UK translations are complete.
 
 Usage:
   python3 translate_all.py [--entity-type <type>] [--dry-run]

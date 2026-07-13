@@ -13,7 +13,7 @@ function entityTypeForTagType(type: string | null) {
 export async function createTag(data: {
   id: string;
   label: string;
-  labelUa: string;
+  labelUk: string;
   icon: string | null;
   type: string | null;
 }) {
@@ -24,14 +24,14 @@ export async function createTag(data: {
     type: data.type ?? undefined,
   });
 
-  if (data.labelUa) {
+  if (data.labelUk) {
     const entityType = entityTypeForTagType(data.type);
     await db
       .insert(translations)
-      .values({ locale: "ua", entityType, entityId: data.id, value: data.labelUa })
+      .values({ locale: "uk", entityType, entityId: data.id, value: data.labelUk })
       .onConflictDoUpdate({
         target: [translations.locale, translations.entityType, translations.entityId],
-        set: { value: data.labelUa },
+        set: { value: data.labelUk },
       });
   }
 
@@ -41,7 +41,7 @@ export async function createTag(data: {
 
 export async function updateTag(
   id: string,
-  data: { label: string; labelUa: string; icon: string | null; type: string | null }
+  data: { label: string; labelUk: string; icon: string | null; type: string | null }
 ) {
   await db
     .update(tags)
@@ -50,20 +50,20 @@ export async function updateTag(
 
   const entityType = entityTypeForTagType(data.type);
 
-  if (data.labelUa) {
+  if (data.labelUk) {
     await db
       .insert(translations)
-      .values({ locale: "ua", entityType, entityId: id, value: data.labelUa })
+      .values({ locale: "uk", entityType, entityId: id, value: data.labelUk })
       .onConflictDoUpdate({
         target: [translations.locale, translations.entityType, translations.entityId],
-        set: { value: data.labelUa },
+        set: { value: data.labelUk },
       });
   } else {
     await db
       .delete(translations)
       .where(
         and(
-          eq(translations.locale, "ua"),
+          eq(translations.locale, "uk"),
           eq(translations.entityType, entityType),
           eq(translations.entityId, id)
         )

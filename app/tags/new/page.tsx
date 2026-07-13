@@ -4,7 +4,7 @@ export default function NewTagPage() {
   return (
     <TagEditor
       mode="create"
-      initial={{ id: "", label: "", labelUa: "", icon: "", type: "" }}
+      initial={{ id: "", label: "", labelUk: "", icon: "", type: "" }}
     />
   );
 }

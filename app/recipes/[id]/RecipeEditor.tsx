@@ -34,7 +34,7 @@ type TldrStepRow = {
   sortOrder: number;
   minutes: number;
   titleEn: string;
-  titleUa: string;
+  titleUk: string;
 };
 
 type StepIngredientRow = {
@@ -51,9 +51,9 @@ type CookingStepRow = {
   showTimer: boolean;
   image: string | null;
   titleEn: string;
-  titleUa: string;
+  titleUk: string;
   descriptionEn: string;
-  descriptionUa: string;
+  descriptionUk: string;
   stepIngredients: StepIngredientRow[];
   tagIds: string[];
 };
@@ -70,9 +70,9 @@ type RecipeProps = {
   basePortions: number;
   portionType: PortionType;
   nameEn: string;
-  nameUa: string;
+  nameUk: string;
   summaryEn: string;
-  summaryUa: string;
+  summaryUk: string;
   tagIds: string[];
   allTags: { id: string; label: string }[];
   allStepTags: { id: string; label: string }[];
@@ -133,9 +133,9 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
 
   // Translations
   const [nameEn, setNameEn] = useState(recipe.nameEn);
-  const [nameUa, setNameUa] = useState(recipe.nameUa);
+  const [nameUk, setNameUk] = useState(recipe.nameUk);
   const [summaryEn, setSummaryEn] = useState(recipe.summaryEn);
-  const [summaryUa, setSummaryUa] = useState(recipe.summaryUa);
+  const [summaryUk, setSummaryUk] = useState(recipe.summaryUk);
 
   // Tags + Kitchen
   const [tagIds, setTagIds] = useState<string[]>(recipe.tagIds);
@@ -364,8 +364,8 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
               <input className={INPUT} value={nameEn} onChange={(e) => setNameEn(e.target.value)} />
             </div>
             <div>
-              <label className={LABEL}>Name (UA)</label>
-              <input className={INPUT} value={nameUa} onChange={(e) => setNameUa(e.target.value)} />
+              <label className={LABEL}>Name (UK)</label>
+              <input className={INPUT} value={nameUk} onChange={(e) => setNameUk(e.target.value)} />
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -378,11 +378,11 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
               />
             </div>
             <div>
-              <label className={LABEL}>Summary (UA)</label>
+              <label className={LABEL}>Summary (UK)</label>
               <textarea
                 className={INPUT + " h-40 resize-none"}
-                value={summaryUa}
-                onChange={(e) => setSummaryUa(e.target.value)}
+                value={summaryUk}
+                onChange={(e) => setSummaryUk(e.target.value)}
               />
             </div>
           </div>
@@ -393,9 +393,9 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
               save(() =>
                 upsertTranslations([
                   { locale: "en", entityType: "recipe_name", entityId: recipe.id, value: nameEn },
-                  { locale: "ua", entityType: "recipe_name", entityId: recipe.id, value: nameUa },
+                  { locale: "uk", entityType: "recipe_name", entityId: recipe.id, value: nameUk },
                   { locale: "en", entityType: "recipe_summary", entityId: recipe.id, value: summaryEn },
-                  { locale: "ua", entityType: "recipe_summary", entityId: recipe.id, value: summaryUa },
+                  { locale: "uk", entityType: "recipe_summary", entityId: recipe.id, value: summaryUk },
                 ])
               )
             }
@@ -726,12 +726,12 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                   />
                 </div>
                 <div>
-                  <label className={LABEL}>Title (UA)</label>
+                  <label className={LABEL}>Title (UK)</label>
                   <input
                     className={INPUT}
-                    value={step.titleUa}
+                    value={step.titleUk}
                     onChange={(e) =>
-                      setTldrSteps(tldrSteps.map((s, j) => j === i ? { ...s, titleUa: e.target.value } : s))
+                      setTldrSteps(tldrSteps.map((s, j) => j === i ? { ...s, titleUk: e.target.value } : s))
                     }
                   />
                 </div>
@@ -761,7 +761,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                     sortOrder: tldrSteps.length,
                     minutes: 1,
                     titleEn: "",
-                    titleUa: "",
+                    titleUk: "",
                   },
                 ])
               }
@@ -845,11 +845,11 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                   />
                 </div>
                 <div>
-                  <label className={LABEL}>Title (UA)</label>
+                  <label className={LABEL}>Title (UK)</label>
                   <input
                     className={INPUT}
-                    value={step.titleUa}
-                    onChange={(e) => updateStep(i, { titleUa: e.target.value })}
+                    value={step.titleUk}
+                    onChange={(e) => updateStep(i, { titleUk: e.target.value })}
                   />
                 </div>
                 <div>
@@ -861,11 +861,11 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                   />
                 </div>
                 <div>
-                  <label className={LABEL}>Description (UA)</label>
+                  <label className={LABEL}>Description (UK)</label>
                   <textarea
                     className={INPUT + " h-16 resize-none"}
-                    value={step.descriptionUa}
-                    onChange={(e) => updateStep(i, { descriptionUa: e.target.value })}
+                    value={step.descriptionUk}
+                    onChange={(e) => updateStep(i, { descriptionUk: e.target.value })}
                   />
                 </div>
               </div>
@@ -1023,9 +1023,9 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                     showTimer: false,
                     image: null,
                     titleEn: "",
-                    titleUa: "",
+                    titleUk: "",
                     descriptionEn: "",
-                    descriptionUa: "",
+                    descriptionUk: "",
                     stepIngredients: [],
                     tagIds: [],
                   },
