@@ -147,8 +147,8 @@ Decide whether the recipe yields **portions** or **pieces**:
 - **Pieces** — the recipe makes N discrete units (e.g. "выход: 12 печений", "20 котлет", "8 блинов", "makes 24 muffins"). Set `portionType: "piece"`.
 
 Steps:
-1. Look for an explicit yield in the raw data — serving count ("на 4 порции") or piece count ("выход: 20 штук", "получится 12 блинов").
-2. If not stated, infer it: large amounts (1 kg meat, 8 eggs, 500 g pasta) → 4-6 portions; moderate → 2-3 portions; small → 1. For baked goods / patties / pancakes, estimate the piece count from the dough/batter volume.
+1. Use the **Servings (yield from page)** field in the RAW RECIPE DATA as the yield (e.g. "2 порции" or "2" → yield of 2). Also check the ingredient list and steps text for a piece count ("выход: 20 штук", "получится 12 блинов").
+2. If the Servings field is empty and no count is stated, infer it: large amounts (1 kg meat, 8 eggs, 500 g pasta) → 4-6 portions; moderate → 2-3 portions; small → 1. For baked goods / patties / pancakes, estimate the piece count from the dough/batter volume.
 3. Set `basePortions` to the yield you determined.
 4. Divide every ingredient `quantity` by the yield. Round to sensible cooking-friendly numbers (e.g. 1/4 tsp rather than 0.083 tsp; 50 g rather than 48 g). Keep `null` quantities as `null`.
 5. Fruits and vegetables are usually counted in pieces.
@@ -217,3 +217,5 @@ Always include every cookingStep with:
 - ingredients: list the recipe ingredients (by `ingredientId`) that are actually added or used in this specific step. Only include ingredients from the recipe's `ingredients` array. Set `quantity` and `unit` to `null` unless the step uses a different amount than the total recipe quantity (e.g. "add half the butter now, the rest later" → split the quantity). Assign `sortOrder` starting from 0. Use `[]` for steps with no ingredient interaction (e.g. pure prep, resting, preheating).
 - translations.title: { "en": short imperative English phrase (e.g. "Toast the bread"), "uk": Ukrainian translation }
 - translations.description: { "en": 1-3 sentences in second person, clear and actionable, "uk": Ukrainian translation }
+
+**Never put specific ingredient quantities or units in step titles or descriptions.** Because every quantity is divided down to a single portion, exact amounts become awkward fractions (e.g. "add half a tablespoon of oil", "pour in 0.25 cup of milk") that read badly and ruin the recipe. Refer to ingredients generically instead — "add the oil", "pour in the milk", "stir in the flour". The exact per-portion amounts already live in the `ingredients` array and the step's `ingredients` entries; the description must not repeat them. Relative amounts are fine when the raw recipe splits an ingredient across steps ("add half the butter now, the rest later").

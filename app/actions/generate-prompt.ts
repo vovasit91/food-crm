@@ -9,8 +9,8 @@ import { eq, and } from "drizzle-orm";
 // Extract the value of `attr` from the first tag that has itemprop="prop"
 function extractAttr(html: string, prop: string, attr: string): string {
   const patterns = [
-    new RegExp(`<[^>]+itemprop="${prop}"[^>]+\\s${attr}="([^"]*)"`, "i"),
-    new RegExp(`<[^>]+\\s${attr}="([^"]*)"[^>]+itemprop="${prop}"`, "i"),
+    new RegExp(`<[^>]+itemprop="${prop}"[^>]*\\s${attr}="([^"]*)"`, "i"),
+    new RegExp(`<[^>]+\\s${attr}="([^"]*)"[^>]*itemprop="${prop}"`, "i"),
   ];
   for (const re of patterns) {
     const m = html.match(re);
@@ -60,6 +60,17 @@ function toText(html: string): string {
 // Extract text from first element with itemprop="prop"
 function extractText(html: string, prop: string): string {
   return toText(extractInnerHtml(html, prop));
+}
+
+// Recipe title: the <h1 itemprop="name"> element, not the first itemprop="name"
+// on the page (which is a breadcrumb). Falls back to the first itemprop="name".
+function extractTitle(html: string): string {
+  const m = html.match(/<h1[^>]*itemprop="name"[^>]*>([\s\S]*?)<\/h1>/i);
+  if (m) {
+    const text = toText(m[1]);
+    if (text) return text;
+  }
+  return extractText(html, "name");
 }
 
 // Extract text from ALL elements with itemprop="prop"
@@ -170,11 +181,13 @@ export async function generatePrompt(url: string): Promise<string> {
   if (!res.ok) throw new Error(`Failed to fetch URL: ${res.status} ${res.statusText}`);
   const html = await res.text();
 
-  const title = extractText(html, "name");
+  const title = extractTitle(html);
   const timeRaw = extractAttr(html, "totalTime", "content");
   const description = extractText(html, "description");
   const category = extractAttr(html, "recipeCategory", "content") || extractText(html, "recipeCategory");
   const image = extractFoodRuImage(html);
+  const servings = extractAttr(html, "recipeYield", "content")
+    || (html.match(/"recipeYield":"([^"]*)"/i)?.[1] ?? "");
   const timeMinutes = parseISODuration(timeRaw);
   const ingredientsRaw = extractAllText(html, "recipeIngredient").join("\n");
   const stepsRaw = extractAllHtml(html, "recipeInstructions").join("\n");
@@ -198,6 +211,7 @@ export async function generatePrompt(url: string): Promise<string> {
 **URL:** ${url}
 **Title (Russian):** ${title}
 **Total time (minutes):** ${timeMinutes}
+**Servings (yield from page):** ${servings}
 **Category:** ${category}
 **Description (from page):** ${description}
 **Cover image URL:** ${image}
