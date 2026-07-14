@@ -17,6 +17,7 @@ Output ONLY a valid JSON array containing a single recipe object. No explanation
     "difficulty": string,   // "easy" | "medium" | "hard"
     "basePortions": number,   // yield: how many portions or pieces this recipe makes
     "portionType": string,    // "portion" | "piece"
+    "isBatch": boolean,       // true if suited to batch cooking / meal-prep (see rules)
     "tags": [string],       // IDs from available tag list only
     "kitchen": [string],    // IDs from available kitchen list only required for recipe
     "variations": [],       // Always empty array
@@ -153,6 +154,13 @@ Steps:
 5. Fruits and vegetables are usually counted in pieces.
 
 The final recipe **must represent a single portion or a single piece**.
+
+### isBatch
+Set `true` when the dish is well suited to batch cooking / meal-prep — it can be made in bulk ahead of time, keeps well in the fridge or freezer, and reheats without losing quality (e.g. soups, stews, chili, curries, casseroles, sauces, baked goods, grains/legumes cooked in quantity).
+
+Set `false` for dishes best eaten fresh and immediately, where quality degrades on storage or reheating (e.g. fresh salads, fried/crispy items, sunny-side-up eggs, toasts, dishes served hot off the pan).
+
+When in doubt, default to `false`.
 
 ### ingredients
 Map each raw ingredient line to the closest matching ID from the available ingredient list.

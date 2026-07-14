@@ -52,6 +52,7 @@ export interface ImportRecipe {
   difficulty: string;
   basePortions?: number;
   portionType?: PortionType;
+  isBatch?: boolean;
   sourceUrl?: string;
   tags?: string[];
   kitchen?: string[];
@@ -135,6 +136,7 @@ export async function importRecipesFromData(
         difficulty: r.difficulty,
         basePortions: r.basePortions ?? 1,
         portionType: r.portionType ?? "portion",
+        isBatch: r.isBatch ? 1 : 0,
         sourceUrl: r.sourceUrl ?? null,
       });
 
