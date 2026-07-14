@@ -20,25 +20,29 @@ if (!process.env.TURSO_URL) {
   }
 }
 
-const client = createClient({
-  url: process.env.TURSO_URL!,
-  authToken: process.env.TURSO_AUTH_TOKEN!,
-});
+async function main() {
+  const client = createClient({
+    url: process.env.TURSO_URL!,
+    authToken: process.env.TURSO_AUTH_TOKEN!,
+  });
 
-const db = drizzle(client);
+  const db = drizzle(client);
 
-console.log("Reading for_import/recipes.json…\n");
+  console.log("Reading for_import/recipes.json…\n");
 
-const forImportRecipes: ImportRecipe[] = JSON.parse(
-  readFileSync(join(FOR_IMPORT, "recipes.json"), "utf-8"),
-);
+  const forImportRecipes: ImportRecipe[] = JSON.parse(
+    readFileSync(join(FOR_IMPORT, "recipes.json"), "utf-8"),
+  );
 
-const result = await importRecipesFromData(db, forImportRecipes);
+  const result = await importRecipesFromData(db, forImportRecipes);
 
-for (const err of result.errors) console.error(" error:", err);
+  for (const err of result.errors) console.error(" error:", err);
 
-client.close();
+  client.close();
 
-console.log(
-  `\nDone — ${result.recipesInserted} recipes inserted, ${result.recipesSkipped} skipped, ${result.ingredientsInserted} ingredients inserted.`,
-);
+  console.log(
+    `\nDone — ${result.recipesInserted} recipes inserted, ${result.recipesSkipped} skipped, ${result.ingredientsInserted} ingredients inserted.`,
+  );
+}
+
+main();
