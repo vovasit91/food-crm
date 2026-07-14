@@ -94,6 +94,7 @@ EXTRACT="$SCRIPT_DIR/extract_recipe.py"
 
 TITLE=$(python3 "$EXTRACT" "$TMPHTML" title)
 TIME_MINUTES=$(python3 "$EXTRACT" "$TMPHTML" time_minutes)
+SERVINGS=$(python3 "$EXTRACT" "$TMPHTML" servings)
 DESCRIPTION=$(python3 "$EXTRACT" "$TMPHTML" description)
 CATEGORY=$(python3 "$EXTRACT" "$TMPHTML" category)
 INGREDIENTS=$(python3 "$EXTRACT" "$TMPHTML" ingredients)
@@ -145,6 +146,7 @@ cat >> "$TMPPROMPT" << EOF
 **URL:** $URL
 **Title (Russian):** $TITLE
 **Total time (minutes):** $TIME_MINUTES
+**Servings (yield from page):** $SERVINGS
 **Category:** $CATEGORY
 **Description (from page):** $DESCRIPTION
 **Cover image URL:** $IMAGE
