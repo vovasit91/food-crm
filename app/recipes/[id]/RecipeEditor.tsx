@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useTransition } from "react";
+import { Fragment, useState, useTransition } from "react";
 import ImageUploader from "@/app/components/ImageUploader";
 import { uploadImage } from "@/app/lib/upload";
 import {
@@ -147,6 +147,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
   const [ingredients, setIngredients] = useState<IngredientRow[]>(recipe.ingredients);
   const [newIngredientId, setNewIngredientId] = useState("");
   const [newSubstituteIds, setNewSubstituteIds] = useState<Record<string, string>>({});
+  const [swapIndex, setSwapIndex] = useState<number | null>(null);
 
   // TLDR Steps
   const [tldrSteps, setTldrSteps] = useState<TldrStepRow[]>(recipe.tldrSteps);
@@ -195,6 +196,17 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
 
   const updateIngredient = (index: number, patch: Partial<IngredientRow>) =>
     setIngredients(ingredients.map((x, i) => (i === index ? { ...x, ...patch } : x)));
+
+  const swapIngredient = (index: number, newId: string) => {
+    const found = recipe.allIngredients.find((i) => i.id === newId);
+    if (!found || ingredients.some((x) => x.ingredientId === found.id)) return;
+    updateIngredient(index, {
+      ingredientId: found.id,
+      name: found.name,
+      category: found.category,
+    });
+    setSwapIndex(null);
+  };
 
   const updateStep = (index: number, patch: Partial<CookingStepRow>) =>
     setSteps(steps.map((x, i) => (i === index ? { ...x, ...patch } : x)));
@@ -492,8 +504,8 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
               </thead>
               <tbody>
                 {ingredients.map((ing, i) => (
-                  <>
-                    <tr key={ing.ingredientId} className="border-b border-gray-100">
+                  <Fragment key={ing.ingredientId}>
+                    <tr className="border-b border-gray-100">
                       <td className="px-2 py-2">
                         <div className="flex flex-col text-gray-400 text-xs leading-none gap-0.5">
                           <button
@@ -513,8 +525,41 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                         </div>
                       </td>
                       <td className="px-3 py-2">
-                        <div className="font-medium text-gray-900">{ing.name}</div>
-                        <div className="text-xs text-gray-400 font-mono">{ing.ingredientId}</div>
+                        {swapIndex === i ? (
+                          <div className="flex items-center gap-2">
+                            <select
+                              autoFocus
+                              className="w-48 max-w-full border border-indigo-300 rounded px-2 py-1 text-sm bg-white"
+                              value=""
+                              onChange={(e) => e.target.value && swapIngredient(i, e.target.value)}
+                            >
+                              <option value="">Swap with...</option>
+                              {recipe.allIngredients
+                                .filter(
+                                  (x) =>
+                                    x.id === ing.ingredientId ||
+                                    !ingredients.some((y) => y.ingredientId === x.id)
+                                )
+                                .filter((x) => x.id !== ing.ingredientId)
+                                .map((x) => (
+                                  <option key={x.id} value={x.id}>
+                                    {x.name} ({x.id})
+                                  </option>
+                                ))}
+                            </select>
+                            <button
+                              onClick={() => setSwapIndex(null)}
+                              className="text-gray-400 hover:text-gray-600 text-xs font-medium"
+                            >
+                              Cancel
+                            </button>
+                          </div>
+                        ) : (
+                          <>
+                            <div className="font-medium text-gray-900">{ing.name}</div>
+                            <div className="text-xs text-gray-400 font-mono">{ing.ingredientId}</div>
+                          </>
+                        )}
                       </td>
                       <td className="px-3 py-2">
                         <input
@@ -556,17 +601,25 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                         />
                       </td>
                       <td className="px-3 py-2">
-                        <button
-                          onClick={() =>
-                            setIngredients(ingredients.filter((_, j) => j !== i))
-                          }
-                          className="text-red-400 hover:text-red-600 text-xs font-medium"
-                        >
-                          Remove
-                        </button>
+                        <div className="flex items-center gap-3">
+                          <button
+                            onClick={() => setSwapIndex(swapIndex === i ? null : i)}
+                            className="text-indigo-500 hover:text-indigo-700 text-xs font-medium"
+                          >
+                            Swap
+                          </button>
+                          <button
+                            onClick={() =>
+                              setIngredients(ingredients.filter((_, j) => j !== i))
+                            }
+                            className="text-red-400 hover:text-red-600 text-xs font-medium"
+                          >
+                            Remove
+                          </button>
+                        </div>
                       </td>
                     </tr>
-                    <tr key={`${ing.ingredientId}-subs`} className="border-b border-gray-100 bg-gray-50/50">
+                    <tr className="border-b border-gray-100 bg-gray-50/50">
                       <td />
                       <td colSpan={6} className="px-3 py-2">
                         <div className="flex items-center gap-2 flex-wrap">
@@ -638,7 +691,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                         </div>
                       </td>
                     </tr>
-                  </>
+                  </Fragment>
                 ))}
               </tbody>
             </table>
