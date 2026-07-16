@@ -69,6 +69,7 @@ type RecipeProps = {
   isModerated: boolean;
   isForReparsing: boolean;
   sourceUrl: string | null;
+  sourceIngredients: string[];
   basePortions: number;
   portionType: PortionType;
   nameEn: string;
@@ -1193,6 +1194,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
           unitLabels={recipe.unitLabels}
           basePortions={basePortions}
           portionType={portionType}
+          sourceIngredients={recipe.sourceIngredients}
         />
       </aside>
     </div>

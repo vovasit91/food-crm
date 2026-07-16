@@ -24,6 +24,7 @@ type Props = {
   unitLabels: Record<string, string>;
   basePortions: number;
   portionType: "portion" | "piece";
+  sourceIngredients: string[];
 };
 
 // --- Ported verbatim from the app (Food/src/services/recipes.ts) so the
@@ -118,6 +119,7 @@ export default function RecipeAppPreview({
   unitLabels,
   basePortions,
   portionType,
+  sourceIngredients,
 }: Props) {
   const [persons, setPersons] = useState(Math.max(1, basePortions));
 
@@ -183,6 +185,21 @@ export default function RecipeAppPreview({
             </li>
           ))}
         </ul>
+      )}
+
+      {sourceIngredients.length > 0 && (
+        <div className="mt-4 border-t border-gray-200 pt-4">
+          <span className="mb-2 block text-xs font-semibold uppercase tracking-wide text-gray-400">
+            Source ingredients
+          </span>
+          <ul className="space-y-1">
+            {sourceIngredients.map((line, i) => (
+              <li key={i} className="text-sm text-gray-500">
+                {line}
+              </li>
+            ))}
+          </ul>
+        </div>
       )}
     </div>
   );

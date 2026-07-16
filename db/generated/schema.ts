@@ -64,6 +64,7 @@ export const recipes = sqliteTable("recipes", {
 	isModerated: integer("is_moderated").default(0).notNull(),
 	isForReparsing: integer("is_for_reparsing").default(0).notNull(),
 	sourceUrl: text("source_url"),
+	sourceIngredients: text("source_ingredients"),
 });
 
 export const recipeTag = sqliteTable("recipe_tag", {

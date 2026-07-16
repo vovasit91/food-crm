@@ -219,18 +219,21 @@ print(text, file=sys.stderr)
 sys.exit(1)
 ")
 
-# ── Enrich with source link ────────────────────────────────────────────────────
+# ── Enrich with source link and raw ingredients ────────────────────────────────
 # Add the originating URL to the parsed object(s) so the recipe keeps a reference
-# back to where it was scraped from.
+# back to where it was scraped from, plus sourceIngredients: the raw
+# recipeIngredient lines from the source page (before AI normalization).
 
 CLEAN_JSON=$(echo "$CLEAN_JSON" | python3 -c "
 import sys, json
 url = sys.argv[1]
+source_ingredients = [l for l in sys.argv[2].splitlines() if l.strip()]
 data = json.load(sys.stdin)
 for obj in (data if isinstance(data, list) else [data]):
     obj['sourceUrl'] = url
+    obj['sourceIngredients'] = source_ingredients
 print(json.dumps(data, ensure_ascii=False, indent=2))
-" "$URL")
+" "$URL" "$INGREDIENTS")
 
 # ── Save output ────────────────────────────────────────────────────────────────
 

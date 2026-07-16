@@ -32,6 +32,17 @@ export default async function RecipePage({
   const [recipe] = await db.select().from(recipes).where(eq(recipes.id, id));
   if (!recipe) notFound();
 
+  // Raw ingredient lines from the source page (JSON array in source_ingredients)
+  let sourceIngredients: string[] = [];
+  if (recipe.sourceIngredients) {
+    try {
+      const parsed = JSON.parse(recipe.sourceIngredients);
+      if (Array.isArray(parsed)) sourceIngredients = parsed.map(String);
+    } catch {
+      // Ignore malformed source_ingredients; fall back to empty list
+    }
+  }
+
   // Recipe-level translations (name + summary)
   const recipeTranslations = await db
     .select()
@@ -228,6 +239,7 @@ export default async function RecipePage({
         isModerated: recipe.isModerated === 1,
         isForReparsing: recipe.isForReparsing === 1,
         sourceUrl: recipe.sourceUrl,
+        sourceIngredients,
         basePortions: recipe.basePortions,
         portionType: recipe.portionType as PortionType,
         nameEn: getTr("en", "recipe_name"),

@@ -54,6 +54,7 @@ export interface ImportRecipe {
   portionType?: PortionType;
   isBatch?: boolean;
   sourceUrl?: string;
+  sourceIngredients?: string[];
   tags?: string[];
   kitchen?: string[];
   variations?: string[];
@@ -138,6 +139,9 @@ export async function importRecipesFromData(
         portionType: r.portionType ?? "portion",
         isBatch: r.isBatch ? 1 : 0,
         sourceUrl: r.sourceUrl ?? null,
+        sourceIngredients: r.sourceIngredients?.length
+          ? JSON.stringify(r.sourceIngredients)
+          : null,
       });
 
       for (const tagId of r.tags ?? []) {
