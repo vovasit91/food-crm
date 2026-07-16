@@ -10,9 +10,9 @@ const PAGE_SIZE = 50;
 export default async function RecipesPage({
   searchParams,
 }: {
-  searchParams: Promise<{ page?: string; moderated?: string }>;
+  searchParams: Promise<{ page?: string; moderated?: string; reparsing?: string }>;
 }) {
-  const { page: pageParam, moderated } = await searchParams;
+  const { page: pageParam, moderated, reparsing } = await searchParams;
   const page = Math.max(1, parseInt(pageParam ?? "1", 10) || 1);
   const offset = (page - 1) * PAGE_SIZE;
 
@@ -23,6 +23,15 @@ export default async function RecipesPage({
         ? eq(recipes.isModerated, 0)
         : undefined;
 
+  const reparsingFilter =
+    reparsing === "1"
+      ? eq(recipes.isForReparsing, 1)
+      : reparsing === "0"
+        ? eq(recipes.isForReparsing, 0)
+        : undefined;
+
+  const filter = and(moderatedFilter, reparsingFilter);
+
   const [data, [{ total }]] = await Promise.all([
     db
       .select({
@@ -32,6 +41,7 @@ export default async function RecipesPage({
         difficulty: recipes.difficulty,
         isEnabled: recipes.isEnabled,
         isModerated: recipes.isModerated,
+        isForReparsing: recipes.isForReparsing,
         name: translations.value,
       })
       .from(recipes)
@@ -43,11 +53,11 @@ export default async function RecipesPage({
           eq(translations.locale, "en")
         )
       )
-      .where(moderatedFilter)
+      .where(filter)
       .orderBy(recipes.id)
       .limit(PAGE_SIZE)
       .offset(offset),
-    db.select({ total: count() }).from(recipes).where(moderatedFilter),
+    db.select({ total: count() }).from(recipes).where(filter),
   ]);
 
   const totalPages = Math.ceil(total / PAGE_SIZE);
@@ -65,24 +75,57 @@ export default async function RecipesPage({
         <span className="text-sm text-gray-400">{total} total</span>
       </div>
 
-      <div className="flex gap-2 mb-4">
-        {[
-          { label: "All", value: undefined },
-          { label: "Moderated", value: "1" },
-          { label: "Pending", value: "0" },
-        ].map((f) => (
-          <Link
-            key={f.label}
-            href={f.value ? `/recipes?moderated=${f.value}` : "/recipes"}
-            className={`px-3 py-1.5 rounded text-sm font-medium border transition-colors ${
-              (moderated ?? undefined) === f.value
-                ? "bg-indigo-600 text-white border-indigo-600"
-                : "bg-white text-gray-600 border-gray-300 hover:border-gray-400"
-            }`}
-          >
-            {f.label}
-          </Link>
-        ))}
+      <div className="flex flex-col gap-2 mb-4">
+        <div className="flex gap-2">
+          {[
+            { label: "All", value: undefined },
+            { label: "Moderated", value: "1" },
+            { label: "Pending", value: "0" },
+          ].map((f) => {
+            const params = new URLSearchParams();
+            if (f.value) params.set("moderated", f.value);
+            if (reparsing) params.set("reparsing", reparsing);
+            const qs = params.toString();
+            return (
+              <Link
+                key={f.label}
+                href={qs ? `/recipes?${qs}` : "/recipes"}
+                className={`px-3 py-1.5 rounded text-sm font-medium border transition-colors ${
+                  (moderated ?? undefined) === f.value
+                    ? "bg-indigo-600 text-white border-indigo-600"
+                    : "bg-white text-gray-600 border-gray-300 hover:border-gray-400"
+                }`}
+              >
+                {f.label}
+              </Link>
+            );
+          })}
+        </div>
+        <div className="flex gap-2">
+          {[
+            { label: "All", value: undefined },
+            { label: "For reparsing", value: "1" },
+            { label: "Not for reparsing", value: "0" },
+          ].map((f) => {
+            const params = new URLSearchParams();
+            if (moderated) params.set("moderated", moderated);
+            if (f.value) params.set("reparsing", f.value);
+            const qs = params.toString();
+            return (
+              <Link
+                key={f.label}
+                href={qs ? `/recipes?${qs}` : "/recipes"}
+                className={`px-3 py-1.5 rounded text-sm font-medium border transition-colors ${
+                  (reparsing ?? undefined) === f.value
+                    ? "bg-indigo-600 text-white border-indigo-600"
+                    : "bg-white text-gray-600 border-gray-300 hover:border-gray-400"
+                }`}
+              >
+                {f.label}
+              </Link>
+            );
+          })}
+        </div>
       </div>
 
       <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
@@ -94,6 +137,7 @@ export default async function RecipesPage({
               <th className="text-left px-4 py-3 font-medium text-gray-500">Difficulty</th>
               <th className="text-left px-4 py-3 font-medium text-gray-500">Status</th>
               <th className="text-left px-4 py-3 font-medium text-gray-500">Moderated</th>
+              <th className="text-left px-4 py-3 font-medium text-gray-500">Reparsing</th>
               <th className="px-4 py-3" />
             </tr>
           </thead>
@@ -148,6 +192,16 @@ export default async function RecipesPage({
                     {recipe.isModerated ? "Moderated" : "Pending"}
                   </span>
                 </td>
+                <td className="px-4 py-3">
+                  <span
+                    className={`inline-block w-2 h-2 rounded-full mr-2 ${
+                      recipe.isForReparsing ? "bg-amber-500" : "bg-gray-300"
+                    }`}
+                  />
+                  <span className="text-gray-600">
+                    {recipe.isForReparsing ? "For reparsing" : "—"}
+                  </span>
+                </td>
                 <td className="px-4 py-3 text-right">
                   <Link
                     href={`/recipes/${recipe.id}`}
@@ -170,7 +224,7 @@ export default async function RecipesPage({
           <div className="flex gap-2">
             {page > 1 && (
               <Link
-                href={`/recipes?page=${page - 1}${moderated ? `&moderated=${moderated}` : ""}`}
+                href={`/recipes?page=${page - 1}${moderated ? `&moderated=${moderated}` : ""}${reparsing ? `&reparsing=${reparsing}` : ""}`}
                 className="px-3 py-1.5 text-sm border border-gray-200 rounded hover:bg-gray-50"
               >
                 Previous
@@ -178,7 +232,7 @@ export default async function RecipesPage({
             )}
             {page < totalPages && (
               <Link
-                href={`/recipes?page=${page + 1}${moderated ? `&moderated=${moderated}` : ""}`}
+                href={`/recipes?page=${page + 1}${moderated ? `&moderated=${moderated}` : ""}${reparsing ? `&reparsing=${reparsing}` : ""}`}
                 className="px-3 py-1.5 text-sm border border-gray-200 rounded hover:bg-gray-50"
               >
                 Next
