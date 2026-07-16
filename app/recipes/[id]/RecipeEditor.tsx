@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Fragment, useState, useTransition } from "react";
 import ImageUploader from "@/app/components/ImageUploader";
+import RecipeAppPreview from "./RecipeAppPreview";
 import { uploadImage } from "@/app/lib/upload";
 import {
   updateRecipeBasic,
@@ -80,7 +81,15 @@ type RecipeProps = {
   kitchenItemIds: string[];
   allKitchenItems: { id: string }[];
   ingredients: IngredientRow[];
-  allIngredients: { id: string; name: string; category: string; measurement: string }[];
+  allIngredients: {
+    id: string;
+    name: string;
+    category: string;
+    measurement: string;
+    gInMeasurement: number | null;
+    mlInMeasurement: number | null;
+  }[];
+  unitLabels: Record<string, string>;
   cookingSteps: CookingStepRow[];
   tldrSteps: TldrStepRow[];
   variationIds: string[];
@@ -236,7 +245,8 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
   ];
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
+    <div className="p-6 max-w-6xl mx-auto lg:flex lg:gap-8 lg:items-start">
+      <div className="lg:flex-1 lg:min-w-0">
       {/* Header */}
       <div className="flex items-center gap-3 mb-6">
         <Link href="/recipes" className="text-sm text-gray-400 hover:text-gray-600">
@@ -1173,6 +1183,18 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
           </button>
         </div>
       )}
+      </div>
+
+      {/* App preview — live view of how the ingredient list renders in the app */}
+      <aside className="mt-8 lg:mt-0 lg:w-80 lg:shrink-0 lg:sticky lg:top-6">
+        <RecipeAppPreview
+          ingredients={ingredients}
+          ingredientMeta={Object.fromEntries(recipe.allIngredients.map((i) => [i.id, i]))}
+          unitLabels={recipe.unitLabels}
+          basePortions={basePortions}
+          portionType={portionType}
+        />
+      </aside>
     </div>
   );
 }

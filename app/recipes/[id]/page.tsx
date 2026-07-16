@@ -87,6 +87,8 @@ export default async function RecipePage({
       id: ingredients.id,
       category: ingredients.category,
       measurement: ingredients.measurement,
+      gInMeasurement: ingredients.gInMeasurement,
+      mlInMeasurement: ingredients.mlInMeasurement,
       name: translations.value,
     })
     .from(ingredients)
@@ -101,6 +103,13 @@ export default async function RecipePage({
     .orderBy(ingredients.id);
 
   const ingredientMap = Object.fromEntries(allIngredientsData.map((i) => [i.id, i]));
+
+  // Unit labels (EN) — used by the app preview to compose ingredient lines
+  const unitTranslations = await db
+    .select({ id: translations.entityId, value: translations.value })
+    .from(translations)
+    .where(and(eq(translations.entityType, "unit"), eq(translations.locale, "en")));
+  const unitLabels = Object.fromEntries(unitTranslations.map((u) => [u.id, u.value]));
 
   // Ingredient substitutes
   const substitutesData = await db
@@ -246,7 +255,10 @@ export default async function RecipePage({
           name: i.name ?? i.id,
           category: i.category,
           measurement: i.measurement,
+          gInMeasurement: i.gInMeasurement,
+          mlInMeasurement: i.mlInMeasurement,
         })),
+        unitLabels,
         cookingSteps: cookingStepsData.map((s) => ({
           step: s.step,
           sortOrder: s.sortOrder,
