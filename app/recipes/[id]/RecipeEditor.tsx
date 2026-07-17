@@ -509,7 +509,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                   <th className="px-3 py-2 font-medium text-gray-500 text-left">Qty</th>
                   <th className="px-3 py-2 font-medium text-gray-500 text-left">Unit</th>
                   <th className="px-3 py-2 font-medium text-gray-500 text-center">Optional</th>
-                  <th className="px-3 py-2 font-medium text-gray-500 text-left">Portion</th>
+                  <th className="px-3 py-2 font-medium text-gray-500 text-left">Portion multiplier</th>
                   <th className="px-3 py-2" />
                 </tr>
               </thead>
