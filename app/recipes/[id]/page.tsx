@@ -277,6 +277,7 @@ export default async function RecipePage({
           duration: s.duration,
           showTimer: s.showTimer === 1,
           image: s.image,
+          animation: s.animation,
           titleEn: getCookingStepTr(s.step, "en", "step_title"),
           titleUk: getCookingStepTr(s.step, "uk", "step_title"),
           descriptionEn: getCookingStepTr(s.step, "en", "step_description"),

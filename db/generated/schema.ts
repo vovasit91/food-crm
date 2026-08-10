@@ -130,6 +130,7 @@ export const recipeCookingStep = sqliteTable("recipe_cooking_step", {
 	duration: integer().default(0).notNull(),
 	showTimer: integer("show_timer").default(0).notNull(),
 	image: text(),
+	animation: text(),
 },
 (table) => [
 	primaryKey({ columns: [table.recipeId, table.sortOrder], name: "recipe_cooking_step_recipe_id_sort_order_pk"})

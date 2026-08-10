@@ -125,6 +125,7 @@ export async function updateRecipeCookingSteps(
     duration: number;
     showTimer: boolean;
     image: string | null;
+    animation: string | null;
     titleEn: string;
     titleUk: string;
     descriptionEn: string;
@@ -146,6 +147,7 @@ export async function updateRecipeCookingSteps(
         duration: s.duration,
         showTimer: s.showTimer ? 1 : 0,
         image: s.image,
+        animation: s.animation,
       }))
     );
 

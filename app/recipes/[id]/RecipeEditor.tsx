@@ -18,6 +18,21 @@ import {
   type PortionType,
 } from "@/app/actions/recipes";
 
+// Bundled step animations available in the app (keys from
+// Food/src/assets/step-animations.ts). Stored bare; the app resolves them.
+const STEP_ANIMATIONS = [
+  "add",
+  "bake",
+  "boil",
+  "cut meat",
+  "cut vegetables",
+  "fry meat",
+  "fry vegetables",
+  "mix",
+  "prepare",
+  "share",
+] as const;
+
 type IngredientRow = {
   ingredientId: string;
   name: string;
@@ -51,6 +66,7 @@ type CookingStepRow = {
   duration: number;
   showTimer: boolean;
   image: string | null;
+  animation: string | null;
   titleEn: string;
   titleUk: string;
   descriptionEn: string;
@@ -957,6 +973,21 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                     onChange={(v) => updateStep(i, { showTimer: v })}
                   />
                 </div>
+                <div>
+                  <label className={LABEL}>Animation</label>
+                  <select
+                    className="border border-gray-300 rounded px-2 py-1.5 text-sm"
+                    value={step.animation ?? ""}
+                    onChange={(e) => updateStep(i, { animation: e.target.value || null })}
+                  >
+                    <option value="">None</option>
+                    {STEP_ANIMATIONS.map((a) => (
+                      <option key={a} value={a}>
+                        {a}
+                      </option>
+                    ))}
+                  </select>
+                </div>
                 <div className="flex-1">
                   <label className={LABEL}>Image</label>
                   {stepUploading === i ? (
@@ -1092,6 +1123,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                     duration: 0,
                     showTimer: false,
                     image: null,
+                    animation: null,
                     titleEn: "",
                     titleUk: "",
                     descriptionEn: "",
