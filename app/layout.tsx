@@ -25,8 +25,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
   return (
     <ClerkProvider>
-      <html lang="en" className={`${geist.variable} h-full`}>
-        <body className="h-full flex font-[var(--font-geist),Arial,sans-serif]">
+      <html lang="en" className={`${geist.variable} h-full`} suppressHydrationWarning>
+        <body className="h-full flex font-[var(--font-geist),Arial,sans-serif]" suppressHydrationWarning>
           <Sidebar currentVersion={currentVersion} />
           <main className="flex-1 overflow-auto bg-gray-50">{children}</main>
         </body>
