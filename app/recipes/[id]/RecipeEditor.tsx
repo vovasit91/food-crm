@@ -988,6 +988,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                     ))}
                   </select>
                 </div>
+                {!step.animation && (
                 <div className="flex-1">
                   <label className={LABEL}>Image</label>
                   {stepUploading === i ? (
@@ -1000,6 +1001,7 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                     />
                   )}
                 </div>
+                )}
               </div>
 
               {recipe.allStepTags.length > 0 && (
