@@ -20,6 +20,8 @@ import {
 
 // Bundled step animations available in the app (keys from
 // Food/src/assets/step-animations.ts). Stored bare; the app resolves them.
+// Preview thumbnails are static first frames of the v1 animations, generated
+// into public/animations/.
 const STEP_ANIMATIONS = [
   "add",
   "bake",
@@ -32,6 +34,9 @@ const STEP_ANIMATIONS = [
   "prepare",
   "share",
 ] as const;
+
+const stepAnimationUrl = (key: string) =>
+  `/animations/${key.replace(/ /g, "-")}.webp`;
 
 type IngredientRow = {
   ingredientId: string;
@@ -987,6 +992,14 @@ export default function RecipeEditor({ recipe }: { recipe: RecipeProps }) {
                       </option>
                     ))}
                   </select>
+                  {step.animation && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={stepAnimationUrl(step.animation)}
+                      alt={`${step.animation} animation preview`}
+                      className="mt-2 h-20 w-20 rounded-md border border-gray-200 object-cover"
+                    />
+                  )}
                 </div>
                 {!step.animation && (
                 <div className="flex-1">
