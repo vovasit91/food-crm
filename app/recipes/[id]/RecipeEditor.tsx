@@ -23,16 +23,23 @@ import {
 // Preview thumbnails are static first frames of the v1 animations, generated
 // into public/animations/.
 const STEP_ANIMATIONS = [
-  "add",
-  "bake",
-  "boil",
-  "cut meat",
-  "cut vegetables",
-  "fry meat",
-  "fry vegetables",
-  "mix",
-  "prepare",
-  "share",
+  "add v1",
+  "add v2",
+  "bake v1",
+  "bake v2",
+  "bake v3",
+  "boil v1",
+  "boil v2",
+  "cut meat v1",
+  "cut vegetables v1",
+  "fry meat v1",
+  "fry meat v2",
+  "fry vegetables v1",
+  "mix v1",
+  "mix v2",
+  "prepare v1",
+  "share v1",
+  "share v2",
 ] as const;
 
 const stepAnimationUrl = (key: string) =>
