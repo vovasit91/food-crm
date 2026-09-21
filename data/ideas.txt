@@ -1,0 +1,27 @@
+# Recipe generation queue — one brief per line:
+#   required-ingredient-ids (comma separated) | hint | hint | ...
+# Ingredient IDs must exist in the DB (see: sqlite3 food.db "SELECT id FROM ingredients")
+# Lines starting with # are ignored. Processed briefs move to processed-ideas.txt.
+
+# ── chicken ───────────────────────────────────────────────────────────────────
+chicken-thighs, mushrooms, sour-cream | dinner | pan-fried | ukrainian
+chicken-breast, tomatoes | dinner | pan-fried | mediterranean
+chicken-breast, potatoes, mushrooms | dinner | baked | creamy
+
+# ── buckwheat ─────────────────────────────────────────────────────────────────
+chicken-thighs, buckwheat | dinner | one-pot | ukrainian | meal-prep
+chicken-breast, buckwheat, tomatoes | lunch | meal-prep | light
+buckwheat, mushrooms, onion | dinner | stove | vegetarian | meal-prep
+buckwheat, mushrooms, sour-cream | dinner | creamy | stove | vegetarian
+buckwheat, eggs | breakfast | pan-fried | quick
+buckwheat, tomatoes, bell-pepper | lunch | vegan | one-pan
+buckwheat, hard-cheese, mushrooms | dinner | baked | vegetarian | hearty
+
+# ── potatoes ──────────────────────────────────────────────────────────────────
+potatoes, mushrooms, tomatoes | side | baked | vegetarian
+potatoes, mushrooms, sour-cream | dinner | stove | ukrainian | creamy
+potatoes, tomatoes, garlic | side | baked | vegan
+potatoes, eggs, onion | breakfast | pan-fried | quick
+potatoes, hard-cheese, butter | side | baked | creamy
+potatoes, streaky-bacon, dill | dinner | pan-fried | hearty
+potatoes, buckwheat, carrots | dinner | one-pot | vegan | meal-prep

@@ -16,6 +16,10 @@ VALID_UNITS = {"g", "ml", "tbsp", "tsp", "cup", "cloves", "to-taste", None}
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 URL_RE = re.compile(r"^https?://")
 
+# Set by --allow-missing-image: permits "image": null for AI-generated recipes
+# whose photo has not been produced yet.
+ALLOW_MISSING_IMAGE = False
+
 
 def load_db_ids():
     conn = sqlite3.connect(DB)
@@ -30,6 +34,10 @@ def load_db_ids():
 
 
 def load_step_ids():
+    if not TS_EN.exists():
+        # App-side translation file is optional; without it stepIds are only
+        # checked for slug shape and uniqueness, not against the global library.
+        return set()
     content = TS_EN.read_text()
     m = re.search(r"steps:\s*\{(.*?)\n  \},", content, re.DOTALL)
     if not m:
@@ -80,7 +88,9 @@ class Validator:
 
         # image
         if "image" in r:
-            if not isinstance(r["image"], str) or not URL_RE.match(r["image"]):
+            if r["image"] == "" and ALLOW_MISSING_IMAGE:
+                self.warn("image: empty — photo still pending")
+            elif not isinstance(r["image"], str) or not URL_RE.match(r["image"]):
                 self.err(f"image: not a valid URL — '{r['image']}'")
 
         # title
@@ -219,6 +229,21 @@ class Validator:
                     dupes = [x for x in set(seen_step_ids) if seen_step_ids.count(x) > 1]
                     self.err(f"cookingSteps: duplicate stepId(s): {dupes}")
 
+                # cookingSteps durations should account for timeMinutes. Steps
+                # can legitimately overlap (resting meat while a sauce reduces),
+                # so only flag a large divergence.
+                if "timeMinutes" in r and isinstance(r["timeMinutes"], int):
+                    steps_total = sum(
+                        s["duration"] for s in r["cookingSteps"]
+                        if isinstance(s.get("duration"), (int, float))
+                    )
+                    ratio = steps_total / r["timeMinutes"] if r["timeMinutes"] else 0
+                    if ratio < 0.8 or ratio > 1.25:
+                        self.warn(
+                            f"cookingSteps total duration ({steps_total} min) differs "
+                            f"from timeMinutes ({r['timeMinutes']})"
+                        )
+
         # ── tldrSteps ─────────────────────────────────────────────────────────
         if "tldrSteps" in r:
             if not isinstance(r["tldrSteps"], list):
@@ -330,12 +355,16 @@ def validate_file(path: Path, db_ids: dict, step_ids: set) -> bool:
 
 
 def main():
+    global ALLOW_MISSING_IMAGE
+    ALLOW_MISSING_IMAGE = "--allow-missing-image" in sys.argv
+
     db_ids = load_db_ids()
     step_ids = load_step_ids()
 
     # Accept file args or default to all files in results/
-    if len(sys.argv) > 1:
-        paths = [Path(p) for p in sys.argv[1:]]
+    args = [a for a in sys.argv[1:] if a != "--allow-missing-image"]
+    if args:
+        paths = [Path(p) for p in args]
     else:
         paths = sorted(RESULTS_DIR.glob("*.json"))
 
